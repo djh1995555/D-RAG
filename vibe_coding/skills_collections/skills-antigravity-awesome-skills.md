@@ -1,6 +1,14 @@
 [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills)
 # 技能目录
-
+* Architecture
+* Business
+* Data & AI
+* Development
+* General
+* Infrastructure
+* Security
+* Testing
+* Workflow
 技能总数：1259
 
 ## 架构 (82)
@@ -288,6 +296,7 @@
 | [] | `telegram-bot-builder` | 构建解决实际问题的Telegram机器人专家——从简单自动化到复杂的AI驱动机器人。涵盖机器人架构、Telegram Bot API... | telegram, bot, builder | telegram, bot, builder, building, bots, solve, real, problems, simple, automation, complex, ai |
 | [] | `travel-health-analyzer` | 分析旅行健康数据、评估目的地健康风险、提供疫苗接种建议、生成多语言紧急医疗信息卡片。支持WHO/CDC数据集成的专业级旅行健康风险评估。 | travel, health, analyzer | travel, health, analyzer, who, cdc |
 
+## data-ai (233)
 | # | Skill | Description | Tags | Triggers |
 |---|---|---|---|---|
 | [] | `advanced-evaluation` | 当用户要求"实施LLM作为评判者"、"比较模型输出"、"创建评估标准"、"缓解评估偏差"等时应使用此技能。 | advanced, evaluation | advanced, evaluation, skill, should, used, user, asks, llm, judge, compare, model, outputs |

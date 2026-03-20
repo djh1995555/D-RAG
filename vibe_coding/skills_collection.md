@@ -1,4 +1,22 @@
-# platform
+# 工作流
+* ☑️  [paperclip](https://github.com/paperclipai/paperclip)：如果 OpenClaw 是员工，那么 Paperclip 就是公司。Paperclip 是一个基于 Node.js 服务器和 React 用户界面的框架，用于协调 AI 代理团队来运营业务。您可以自带代理，分配目标，并通过一个控制面板跟踪代理的工作和成本。
+* ☑️ [openspec](https://github.com/Fission-AI/OpenSpec)
+* ☑️ [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)：多agent协作完整的工作流，很牛，但很费token，only for opencode
+* ☑️ [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode):claude code超级编排
+# 工作流备选
+* ☑️ [gstack](https://github.com/garrytan/gstack)：一套多agent协作完整的工作流，for claude code
+* ☑️ [supercent-io/skills-template：全栈](https://github.com/supercent-io/skills-template)([skills列表](skills_collections/skills-template.md))：多agent工作流，而且每个环节都有多个skill，主要是开发相关，少数其他
+* ☑️ [msitarzewski/agency-agents：全栈](https://github.com/msitarzewski/agency-agents)([skills列表](skills_collections/skills-agency-agents))：无协作工作流，但是每个环节都有一个skill，这点不如skill-template，开发和商业并重，一个公司的所有部门都有
+* ☑️ [wshobson/agents：全栈](https://github.com/wshobson/agents)([skills列表](skills_collections/skills-wshobson-agents))：无协作工作流，但是每个环节都有一个skill，这点不如skill-template，主要是开发相关，少数其他领域
+* ☑️ [VoltAgent/awesome-claude-code-subagents：全栈](https://github.com/VoltAgent/awesome-claude-code-subagents)([skills列表](skills_collections/skills-subagents-catalog.md))：无协作工作流，但是每个环节都有一个skill，这点不如skill-template，主要是开发相关，少数其他领域
+* ☑️ [obra/superpowers](https://github.com/obra/superpowers)([skills列表](skills_collections/skills-superpowers))：无协作工作流，只有跟工作流相关的skill，比如只有测试驱动开发skill，但是没有专门前端开发skill
+* ☑️ [skills-everything-claude-code](https://github.com/affaan-m/everything-claude-code)([skills列表](vibe_coding/skills_collections/skills-everything-claude-code.md))：无协作工作流，无环节具体skill，比superpower多点东西，但差不多
+* ☑️ [anthropics/skills：官方skills](https://github.com/anthropics/skills)([skills列表](skills_collections/skills-anthropics.md))：claude官方skill
+* ☑️ [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)([skills列表](skills_collections/skills-claude-plugins-official.md))：claude官方插件
+* ☑️ [github/awesome-copilot](https://github.com/github/awesome-copilot)([skills列表](skills_collections/skills-awesome-copilot.md))：很细很多的skill和agent
+* ☑️ [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills)([skills列表](skills_collections/skills-antigravity-awesome-skills.md))：分类型技能库，巨多，分的太细了，每个skill都很具体
+
+# Marketplace
 
 * ☑️ <https://skillsmp.com/>
 * ☑️ <https://lobehub.com/zh/>
@@ -12,26 +30,6 @@
 * ☑️ [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
 * ☑️ [个人教程](https://adongwanai.github.io/)
 
-# tools
-
-## [cc-switch](https://github.com/farion1231/cc-switch)
-
-* ☑️ 多 CLI 管理
-* ☑️ MCP，Skills 可视化管理
-
-## [paperclip](https://github.com/paperclipai/paperclip)
-
-如果 OpenClaw 是员工，那么 Paperclip 就是公司。
-Paperclip 是一个基于 Node.js 服务器和 React 用户界面的框架，用于协调 AI 代理团队来运营业务。您可以自带代理，分配目标，并通过一个控制面板跟踪代理的工作和成本。
-
-## [openspec](https://github.com/Fission-AI/OpenSpec)
-
-## [oh-my-openagent: only for opencode](https://github.com/code-yeongyu/oh-my-openagent)
-
-## pencil：前端设计工具，自带设计规范，直接 vscode 装插件
-
-## paper：前端设计工具
-
 # MCP
 
 * ☑️ DeepWiki：github 项目深入理解
@@ -41,29 +39,19 @@ Paperclip 是一个基于 Node.js 服务器和 React 用户界面的框架，用
 * ☑️ Blender：3d 建模
 * ☑️ github：代码托管
 * ☑️ 21st.dev Magic AI Agent：利用 AI 构建和增强 UI 组件的工具集，创建 UI 组件，搜索 Logo，用现有组件激发灵感，优化 UI 设计
-* ☑️ markitdown：所有东西转成 markdown
+* ☑️ pencil：前端设计工具，自带设计规范，直接 vscode 装插件
+* ☑️ paper：前端设计工具
 
-# Marketplace
+# Github
 
-## 全栈
-* ☑️ [anthropics/skills：官方skills](https://github.com/anthropics/skills)([skills列表](skills_collections/skills-anthropics.md))
-* ☑️ [skills-everything-claude-code](https://github.com/affaan-m/everything-claude-code)([skills列表](vibe_coding/skills_collections/skills-everything-claude-code.md))
-* ☑️ [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills)([skills列表](skills_collections/skills-antigravity-awesome-skills.md))
-* ☑️ [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)([skills列表](skills_collections/skills-claude-plugins-official.md))
-* ☑️ [supercent-io/skills-template：全栈](https://github.com/supercent-io/skills-template)([skills列表](skills_collections/skills-skills-template.md))
-* ☑️ [github/awesome-copilot](https://github.com/github/awesome-copilot)([skills列表](skills_collections/skills-awesome-copilot.md))
-* ☑️ [wshobson/agents：全栈](https://github.com/wshobson/agents/tree/main)([skills列表](skills_collections/skills-agents-wshobson.md))
-* ☑️ [obra/superpowers：更完善的开发流程，claude code可以装，如果用oh-my-opencode就不用装了](https://github.com/obra/superpowers)([skills列表](skills_collections/skills-agents-wshobson.md))
-  * ☑️ brainstorming：头脑风暴
-  * ☑️ systematic-debugging：系统性调试
-  * ☑️ executing-plans：任务拆分并执行
-  * ☑️ test-driven-development：测试驱动开发
+## 研究
+* ☑️[autoresearch](https://github.com/karpathy/autoresearch)：自动跑ai算法训练流程
 
 ## 多媒体生成
 
 * ☑️ [jimliu/baoyu-skills](https://github.com/jimliu/baoyu-skills)([skills列表](skills_collections/skills-baoyu.md))
-* ✅ [emotion-dev/skills/remotion-best-practice：一句话做3d动画](https://skills.sh/remotion-dev/skills/remotion-best-practices)
-* ☑️ [inferen-sh/skills：多媒体，一个工具生成图片，视频，声音...，**收费**](https://github.com/inference-sh/skills)
+* ✅ [emotion-dev/skills/remotion-best-practice](https://skills.sh/remotion-dev/skills/remotion-best-practices)：一句话做3d动画
+* ☑️ [inferen-sh/skills](https://github.com/inference-sh/skills)：多媒体，一个工具生成图片，视频，声音...，**收费**
 
 ## 被动
 
@@ -75,7 +63,7 @@ Paperclip 是一个基于 Node.js 服务器和 React 用户界面的框架，用
 
 ## 技能
 
-* ✅ [skill-from-masters：新建 skills，网络搜索领域专家的方法论](https://github.com/gbsoss/skill-from-masters)
+* ✅ [skill-from-masters](https://github.com/gbsoss/skill-from-masters)：新建 skills，网络搜索领域专家的方法论
 * ✅ [summarize](https://skills.sh/steipete/clawdis/summarize)：总结
 * ✅ [Humanizer-zh](https://skills.sh/op7418/humanizer-zh/humanizer-zh)：去除文本中人工智能生成的痕迹
 * ✅ [find_skills](https://skills.sh/vercel-labs/skills/find-skills)：在整个生态系统中，找到你需要的 skills
@@ -90,7 +78,7 @@ Paperclip 是一个基于 Node.js 服务器和 React 用户界面的框架，用
   * ☑️ research：深度研究
   * ☑️ extract：提取页面信息
   * ☑️ crawl：爬虫
-* ✅ [multi-search-engine：多引擎搜索](https://skills.sh/aaaaqwq/claude-code-skills/multi-search-engine)
+* ✅ [multi-search-engine](https://skills.sh/aaaaqwq/claude-code-skills/multi-search-engine)：多引擎搜索
 * ✅ [Markdown Converter](https://clawhub.ai/steipete/markdown-converter)：使用 markitdown 将文档和文件转换为 Markdown 格式。适用于将 PDF、Word (.docx)、PowerPoint (.pptx)、Excel (.xlsx、.xls)、HTML、CSV、JSON、XML、图像（带 EXIF/OCR）、音频（带转录）、ZIP 压缩包、YouTube URL 或 EPub 文件转换为 Markdown 格式，以便进行 LLM 处理或文本分析
 * [kepano/obsidian-skills：笔记](https://github.com/kepano/obsidian-skills)
   * ✅ obsidian-bases：笔记基础
@@ -102,7 +90,14 @@ Paperclip 是一个基于 Node.js 服务器和 React 用户界面的框架，用
 
 ## 工具
 
-* ✅ [vercel-labs/agent-browser:agent操作浏览器](https://github.com/vercel-labs/agent-browser)
+* ✅ [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser):agent操作浏览器
+* ☑️ [lightpanda](https://github.com/lightpanda-io/browser)：轻量化无头浏览器
+* ☑️ [CLI-Anything](https://github.com/HKUDS/CLI-Anything)：把任何有源码的项目封装成mcp
+* ✅  [cc-switch](https://github.com/farion1231/cc-switch)
+	  * 多 CLI 管理
+	  * MCP，Skills 可视化管理
+* ✅  [AionUi](https://github.com/iOfficeAI/AionUi):操作客户端
+* ☑️[vibe-kanban](https://github.com/BloopAI/vibe-kanban)：一个用于管理 AI 编码代理的可视化看板。任务按阶段流转——待办 → 进行中 → 审核 → 完成——AI 代理会自动分配并执行任务。
 
 ## 市场
 
@@ -132,6 +127,12 @@ Paperclip 是一个基于 Node.js 服务器和 React 用户界面的框架，用
 * ☑️ [taste-skill：提升ui品位](https://github.com/Leonxlnx/taste-skill)
 * ☑️ [better-icons：更好的图标](https://github.com/better-auth/better-icons)
 * ☑️ [ui-design-brain：60 多个界面组件的最佳实践、布局模式和设计系统约定](https://github.com/carmahhawwari/ui-design-brain)
+
+## 私有skill
+
+* ✅ mi-get-jira-manifest：从jira获取issue对应的版本信息
+* ✅ mi-manifest-download：从jenkins下载manifest.txt，用于下载repo
+* ✅ skill-duplicate-report：检测skills安装目录下是否存在功能重复的skill，并给出调整建议
 
 ## 开发
 

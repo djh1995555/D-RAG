@@ -129,16 +129,16 @@ background_output(task_id="bg_abc123")
 
 ## 内置分类
 
-| 分类 | 默认模型 | 使用场景 |
-| ----| ------- | ------ |
-| `ultrabrain` | `openai/gpt-5.4` (xhigh) | 深度逻辑推理，需要广泛分析的复杂架构决策 |
-| `deep` | `openai/gpt-5.3-codex` (medium) | 目标导向的自主问题解决。行动前深入研究。针对需要深度理解的有难度的问题。 |
-| `quick` | `anthropic/claude-haiku-4-5` | 简单任务——单文件修改、拼写修正、简单修改 |
-| `visual-engineering` | `google/gemini-3.1-pro` | 前端、UI/UX、设计、样式、动画 |
-| `artistry` | `google/gemini-3.1-pro` (high) | 高度创意/艺术任务，新颖想法 |
-| `writing` | `google/gemini-3-flash` | 文档、散文、技术写作 |
-| `unspecified-low` | `anthropic/claude-sonnet-4-6` | 不适合其他分类的任务，低工作量 |
-| `unspecified-high` | `anthropic/claude-opus-4-6` (max) | 不适合其他分类的任务，高工作量 |
+| 分类                   | 默认模型                              | 使用场景                                 |
+| -------------------- | --------------------------------- | ------------------------------------ |
+| `ultrabrain`         | `openai/gpt-5.4` (xhigh)          | 深度逻辑推理，需要广泛分析的复杂架构决策                 |
+| `deep`               | `openai/gpt-5.3-codex` (medium)   | 目标导向的自主问题解决。行动前深入研究。针对需要深度理解的有难度的问题。 |
+| `quick`              | `anthropic/claude-haiku-4-5`      | 简单任务——单文件修改、拼写修正、简单修改                |
+| `visual-engineering` | `google/gemini-3.1-pro`           | 前端、UI/UX、设计、样式、动画                    |
+| `artistry`           | `google/gemini-3.1-pro` (high)    | 高度创意/艺术任务，新颖想法                       |
+| `writing`            | `google/gemini-3-flash`           | 文档、散文、技术写作                           |
+| `unspecified-low`    | `anthropic/claude-sonnet-4-6`     | 不适合其他分类的任务，低工作量                      |
+| `unspecified-high`   | `anthropic/claude-opus-4-6` (max) | 不适合其他分类的任务，高工作量                      |
 
 ## 自定义分类
 
@@ -146,20 +146,20 @@ background_output(task_id="bg_abc123")
 
 ### 分类配置 Schema
 
-| 字段 | 类型 | 描述 |
-| --- | ---- | ------- |
-| `description` | string | 分类用途的人类可读描述。显示在任务提示中。 |
-| `model` | string | 要使用的 AI 模型 ID（例如 `anthropic/claude-opus-4-6`） |
-| `variant` | string | 模型变体（例如 `max`、`xhigh`） |
-| `temperature` | number | 创造力级别（0.0 ~ 2.0）。越低越确定性。 |
-| `top_p` | number | 核采样参数（0.0 ~ 1.0） |
-| `prompt_append` | string | 选择此分类时追加到系统提示的内容 |
-| `thinking` | object | 思考模型配置（`{ type: "enabled", budgetTokens: 16000 }`） |
-| `reasoningEffort` | string | 推理努力级别（`low`、`medium`、`high`） |
-| `textVerbosity` | string | 文本详细程度（`low`、`medium`、`high`） |
-| `tools` | object | 工具使用控制（使用 `{ "tool_name": false }` 禁用） |
-| `maxTokens` | number | 最大响应 token 数量 |
-| `is_unstable_agent` | boolean | 将智能体标记为不稳定——强制后台模式以进行监控 |
+| 字段                  | 类型      | 描述                                                 |
+| ------------------- | ------- | -------------------------------------------------- |
+| `description`       | string  | 分类用途的人类可读描述。显示在任务提示中。                              |
+| `model`             | string  | 要使用的 AI 模型 ID（例如 `anthropic/claude-opus-4-6`）      |
+| `variant`           | string  | 模型变体（例如 `max`、`xhigh`）                             |
+| `temperature`       | number  | 创造力级别（0.0 ~ 2.0）。越低越确定性。                           |
+| `top_p`             | number  | 核采样参数（0.0 ~ 1.0）                                   |
+| `prompt_append`     | string  | 选择此分类时追加到系统提示的内容                                   |
+| `thinking`          | object  | 思考模型配置（`{ type: "enabled", budgetTokens: 16000 }`） |
+| `reasoningEffort`   | string  | 推理努力级别（`low`、`medium`、`high`）                      |
+| `textVerbosity`     | string  | 文本详细程度（`low`、`medium`、`high`）                      |
+| `tools`             | object  | 工具使用控制（使用 `{ "tool_name": false }` 禁用）             |
+| `maxTokens`         | number  | 最大响应 token 数量                                      |
+| `is_unstable_agent` | boolean | 将智能体标记为不稳定——强制后台模式以进行监控                            |
 
 ### 配置示例
 
