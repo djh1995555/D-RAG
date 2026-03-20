@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "vibe_coding/skills_collection.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": true,
                 "backlinks": true,
                 "backlinkOpts": {
@@ -216,16 +216,17 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "b67113a6cb40ad43",
+  "active": "76db8131b5e30c9d",
   "lastOpenFiles": [
+    "vibe_coding/reference/technical_stack.md",
     "vibe_coding/模型对比.md",
+    "vibe_coding/skills_collection.md",
     "vibe_coding/skills_collections/skills-template.md",
     "vibe_coding/skills_collections/skills-subagents-catalog.md",
     "vibe_coding/skills_collections/skills-agency-agents.md",
     "vibe_coding/skills_collections/skill-all.md",
     "vibe_coding/skills_collections/skills-target.md",
     "vibe_coding/skills_collections/skills-skills-template.md",
-    "vibe_coding/skills_collection.md",
     "vibe_coding/skills_collections/skills-antigravity-awesome-skills.md",
     "vibe_coding/skills_collections/skills-awesome-copilot.md",
     "vibe_coding/skills_collections/skills-claude-plugins-official.md",

@@ -1,20 +1,20 @@
 # 工作流
-* ☑️  [paperclip](https://github.com/paperclipai/paperclip)：如果 OpenClaw 是员工，那么 Paperclip 就是公司。Paperclip 是一个基于 Node.js 服务器和 React 用户界面的框架，用于协调 AI 代理团队来运营业务。您可以自带代理，分配目标，并通过一个控制面板跟踪代理的工作和成本。
-* ☑️ [openspec](https://github.com/Fission-AI/OpenSpec)
-* ☑️ [oh-my-openagent](https://github.com/code-yeongyu/oh-my-openagent)：多agent协作完整的工作流，很牛，但很费token，only for opencode
-* ☑️ [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode):claude code超级编排
+* ☑️  [paperclip，30.3K⭐](https://github.com/paperclipai/paperclip)：如果 OpenClaw 是员工，那么 Paperclip 就是公司。Paperclip 是一个基于 Node.js 服务器和 React 用户界面的框架，用于协调 AI 代理团队来运营业务。您可以自带代理，分配目标，并通过一个控制面板跟踪代理的工作和成本。
+* ☑️ [openspec，32.6K⭐](https://github.com/Fission-AI/OpenSpec)：
+* ☑️ [oh-my-openagent，41.8K⭐](https://github.com/code-yeongyu/oh-my-openagent)：多agent协作完整的工作流，很牛，但很费token，only for opencode
+* ☑️ [oh-my-claudecode，10.6K⭐](https://github.com/Yeachan-Heo/oh-my-claudecode):claude code超级编排
 # 工作流备选
-* ☑️ [gstack](https://github.com/garrytan/gstack)：一套多agent协作完整的工作流，for claude code
-* ☑️ [supercent-io/skills-template：全栈](https://github.com/supercent-io/skills-template)([skills列表](skills_collections/skills-template.md))：多agent工作流，而且每个环节都有多个skill，主要是开发相关，少数其他
-* ☑️ [msitarzewski/agency-agents：全栈](https://github.com/msitarzewski/agency-agents)([skills列表](skills_collections/skills-agency-agents))：无协作工作流，但是每个环节都有一个skill，这点不如skill-template，开发和商业并重，一个公司的所有部门都有
-* ☑️ [wshobson/agents：全栈](https://github.com/wshobson/agents)([skills列表](skills_collections/skills-wshobson-agents))：无协作工作流，但是每个环节都有一个skill，这点不如skill-template，主要是开发相关，少数其他领域
-* ☑️ [VoltAgent/awesome-claude-code-subagents：全栈](https://github.com/VoltAgent/awesome-claude-code-subagents)([skills列表](skills_collections/skills-subagents-catalog.md))：无协作工作流，但是每个环节都有一个skill，这点不如skill-template，主要是开发相关，少数其他领域
-* ☑️ [obra/superpowers](https://github.com/obra/superpowers)([skills列表](skills_collections/skills-superpowers))：无协作工作流，只有跟工作流相关的skill，比如只有测试驱动开发skill，但是没有专门前端开发skill
-* ☑️ [skills-everything-claude-code](https://github.com/affaan-m/everything-claude-code)([skills列表](vibe_coding/skills_collections/skills-everything-claude-code.md))：无协作工作流，无环节具体skill，比superpower多点东西，但差不多
-* ☑️ [anthropics/skills：官方skills](https://github.com/anthropics/skills)([skills列表](skills_collections/skills-anthropics.md))：claude官方skill
-* ☑️ [anthropics/claude-plugins-official](https://github.com/anthropics/claude-plugins-official)([skills列表](skills_collections/skills-claude-plugins-official.md))：claude官方插件
-* ☑️ [github/awesome-copilot](https://github.com/github/awesome-copilot)([skills列表](skills_collections/skills-awesome-copilot.md))：很细很多的skill和agent
-* ☑️ [antigravity-awesome-skills](https://github.com/sickn33/antigravity-awesome-skills)([skills列表](skills_collections/skills-antigravity-awesome-skills.md))：分类型技能库，巨多，分的太细了，每个skill都很具体
+* ☑️ [gstack，30.8K⭐](https://github.com/garrytan/gstack)：一套多agent协作完整的工作流，for claude code
+* ☑️ [supercent-io/skills-template，70⭐](https://github.com/supercent-io/skills-template)([skills列表](skills_collections/skills-template.md))：多agent工作流，而且每个环节都有多个skill，主要是开发相关，少数其他
+* ☑️ [msitarzewski/agency-agents，56.2K⭐](https://github.com/msitarzewski/agency-agents)([skills列表](skills_collections/skills-agency-agents))：无协作工作流，但是每个环节都有一个skill，开发和商业并重，一个公司的所有部门都有
+* ☑️ [wshobson/agents，31.8K⭐](https://github.com/wshobson/agents)([skills列表](skills_collections/skills-wshobson-agents))：无协作工作流，但是每个环节都有一个skill，主要是开发相关，少数其他领域
+* ☑️ [VoltAgent/awesome-claude-code-subagents，14.5K⭐](https://github.com/VoltAgent/awesome-claude-code-subagents)([skills列表](skills_collections/skills-subagents-catalog.md))：无协作工作流，但是每个环节都有一个skill，主要是开发相关，少数其他领域
+* ☑️ [obra/superpowers，101K⭐](https://github.com/obra/superpowers)([skills列表](skills_collections/skills-superpowers))：无协作工作流，只有跟工作流相关的skill，比如只有测试驱动开发skill，但是没有专门前端开发skill
+* ☑️ [skills-everything-claude-code，89.5K⭐](https://github.com/affaan-m/everything-claude-code)([skills列表](vibe_coding/skills_collections/skills-everything-claude-code.md))：无协作工作流，无环节具体skill，比superpower多点东西，但差不多
+* ☑️ [anthropics/skills：官方skills，98.3K⭐](https://github.com/anthropics/skills)([skills列表](skills_collections/skills-anthropics.md))：claude官方skill
+* ☑️ [anthropics/claude-plugins-official，13.3K⭐](https://github.com/anthropics/claude-plugins-official)([skills列表](skills_collections/skills-claude-plugins-official.md))：claude官方插件
+* ☑️ [github/awesome-copilot，26.2K⭐](https://github.com/github/awesome-copilot)([skills列表](skills_collections/skills-awesome-copilot.md))：很细很多的skill和agent
+* ☑️ [antigravity-awesome-skills，26.1K⭐](https://github.com/sickn33/antigravity-awesome-skills)([skills列表](skills_collections/skills-antigravity-awesome-skills.md))：分类型技能库，巨多，分的太细了，每个skill都很具体
 
 # Marketplace
 
