@@ -1,90 +1,157 @@
-# Skills 技能表
+# [Everything Claude Code Skills & Agents Collection](https://github.com/affaan-m/everything-claude-code)
 
-| 编号 | Skill 名称 | 描述 |
-|-----|-----------|------|
-| 1 | security-scan | 使用 AgentShield 扫描 Claude Code 配置（.claude/ 目录）的安全漏洞、错误配置和注入风险。检查 CLAUDE.md、settings.json、MCP 服务器、钩子和代理定义。 |
-| 2 | jpa-patterns | JPA/Hibernate 模式，用于 Spring Boot 中的实体设计、关系映射、查询优化、事务、审计、索引、分页和连接池配置。 |
-| 3 | market-research | 进行市场研究、竞争分析、投资者尽职调查和行业情报，提供来源引用和面向决策的摘要。适用于市场规模估算、竞品对比、基金研究等。 |
-| 4 | nutrient-document-processing | 使用 Nutrient DWS API 处理、转换、OCR、提取、编辑、签名和填充文档。支持 PDF、DOCX、XLSX、PPTX、HTML 和图像格式。 |
-| 5 | springboot-verification | Spring Boot 项目的验证循环：构建、静态分析、测试覆盖率、安全扫描和差异审查，适用于发布前或 PR 前检查。 |
-| 6 | swiftui-patterns | SwiftUI 架构模式，包括 @Observable 状态管理、视图组合、导航、性能优化以及现代 iOS/macOS UI 最佳实践。 |
-| 7 | regex-vs-llm-structured-text | 在解析结构化文本时选择正则表达式还是 LLM 的决策框架——先用正则处理大部分情况，仅在低置信度边缘情况时添加 LLM。 |
-| 8 | ralphinho-rfc-pipeline | RFC 驱动的多代理 DAG 执行模式，包含质量门控、合并队列和工作单元编排。 |
-| 9 | springboot-security | Spring Security 最佳实践，包括认证授权、验证、CSRF、密钥管理、安全头、速率限制和依赖安全。 |
-| 10 | java-coding-standards | Spring Boot 服务的 Java 编码标准：命名规范、不可变性、Optional 使用、流式处理、异常处理、泛型和项目布局。 |
-| 11 | skill-stocktake | 审计 Claude 技能和命令的质量。支持快速扫描（仅变更的技能）和完整盘点两种模式，使用顺序子代理批量评估。 |
-| 12 | search-first | 编码前先研究的工作流程。在编写自定义代码之前，先搜索现有的工具、库和模式。调用研究员代理执行。 |
-| 13 | swift-protocol-di-testing | 基于协议的 Swift 依赖注入测试模式——使用小型协议和 Swift Testing 来模拟文件系统、网络和外部 API。 |
-| 14 | plankton-code-quality | 使用 Plankton 进行写入时代码质量强制执行——通过钩子在每次文件编辑时自动格式化、静态检查和 Claude 驱动的修复。 |
-| 15 | project-guidelines-example | 项目特定技能模板示例，基于真实生产应用程序。 |
-| 16 | security-review | 添加认证、处理用户输入、使用密钥、创建 API 端点或实现支付/敏感功能时使用。提供全面的安全检查清单和模式。 |
-| 17 | liquid-glass-design | iOS 26 Liquid Glass 设计系统——具有模糊、反射和交互变形效果的动态玻璃材质，适用于 SwiftUI、UIKit 和 WidgetKit。 |
-| 18 | strategic-compact | 在逻辑间隔建议手动上下文压缩，以在任务阶段间保留上下文，而非任意自动压缩。 |
-| 19 | verification-loop | Claude Code 会话的综合验证系统。 |
-| 20 | tdd-workflow | 编写新功能、修复 bug 或重构代码时使用。强制执行测试驱动开发，要求 80%+ 覆盖率，包括单元、集成和 E2E 测试。 |
-| 21 | springboot-tdd | Spring Boot 的测试驱动开发，使用 JUnit 5、Mockito、MockMvc、Testcontainers 和 JaCoCo。适用于添加功能、修复 bug 或重构。 |
-| 22 | nanoclaw-repl | 操作和扩展 NanoClaw v2，ECC 的零依赖会话感知 REPL，基于 claude -p 构建。 |
-| 23 | python-testing | 使用 pytest 的 Python 测试策略，包括 TDD 方法论、fixtures、模拟、参数化和覆盖率要求。 |
-| 24 | iterative-retrieval | 渐进式上下文检索模式，用于解决子代理上下文问题。 |
-| 25 | python-patterns | Pythonic 惯用法、PEP 8 标准、类型提示，以及构建健壮、高效、可维护 Python 应用程序的最佳实践。 |
-| 26 | postgres-patterns | PostgreSQL 数据库模式，用于查询优化、架构设计、索引和安全。基于 Supabase 最佳实践。 |
-| 27 | visa-doc-translate | 将签证申请文档（图像）翻译成英文，并创建包含原文和译文的双语 PDF。 |
-| 28 | swift-concurrency-6-2 | Swift 6.2 可接近并发——默认单线程，@concurrent 用于显式后台卸载，main actor 类型的隔离一致性。 |
-| 29 | springboot-patterns | Spring Boot 架构模式、REST API 设计、分层服务、数据访问、缓存、异步处理和日志记录。适用于 Java Spring Boot 后端工作。 |
-| 30 | swift-actor-persistence | 使用 actor 实现线程安全的 Swift 数据持久化——内存缓存加文件后端存储，编译时消除数据竞争。 |
-| 31 | foundation-models-on-device | Apple FoundationModels 框架的设备端 LLM——文本生成、@Generable 引导生成、工具调用和快照流，支持 iOS 26+。 |
-| 32 | cpp-testing | C++ 测试（代理技能），用于编写/更新/修复 C++ 测试、配置 GoogleTest/CTest、诊断失败或不稳定测试、添加覆盖率/消毒器。 |
-| 33 | continuous-agent-loop | 具有质量门控、评估和恢复控制的持续自主代理循环模式。 |
-| 34 | continuous-learning | 自动从 Claude Code 会话中提取可复用模式，并保存为学习技能供未来使用。 |
-| 35 | golang-testing | Go 测试模式，包括表驱动测试、子测试、基准测试、模糊测试和测试覆盖率。遵循 TDD 方法和惯用 Go 实践。 |
-| 36 | golang-patterns | 惯用 Go 模式、最佳实践和约定，用于构建健壮、高效、可维护的 Go 应用程序。 |
-| 37 | django-verification | Django 项目的验证循环：迁移、静态检查、测试覆盖率、安全扫描和部署就绪检查，适用于发布前或 PR 前检查。 |
-| 38 | docker-patterns | Docker 和 Docker Compose 模式，用于本地开发、容器安全、网络、卷策略和多服务编排。 |
-| 39 | django-patterns | Django 架构模式、DRF REST API 设计、ORM 最佳实践、缓存、信号、中间件和生产级 Django 应用。 |
-| 40 | clickhouse-io | ClickHouse 数据库模式、查询优化、分析和数据工程最佳实践，适用于高性能分析工作负载。 |
-| 41 | investor-materials | 创建和更新路演文稿、单页介绍、投资者备忘录、加速器申请、财务模型和融资材料。 |
-| 42 | ai-first-engineering | 适用于 AI 代理生成大量实施输出的团队的工程运营模式。 |
-| 43 | coding-standards | TypeScript、JavaScript、React 和 Node.js 开发的通用编码标准、最佳实践和模式。 |
-| 44 | investor-outreach | 为融资起草冷邮件、热介绍、跟进邮件和投资者沟通。适用于天使投资人、风投、战略投资者或加速器。 |
-| 45 | enterprise-agent-ops | 运行具有可观测性、安全边界和生命周期管理的长期代理工作负载。 |
-| 46 | content-engine | 为 X、LinkedIn、TikTok、YouTube、通讯社创建平台原生内容系统，以及多平台内容再利用。 |
-| 47 | eval-harness | Claude Code 会话的正式评估框架，实施评估驱动开发（EDD）原则。 |
-| 48 | e2e-testing | Playwright E2E 测试模式、页面对象模型、配置、CI/CD 集成、制品管理和不稳定测试策略。 |
-| 49 | agent-harness-construction | 设计和优化 AI 代理动作空间、工具定义和观察格式，以提高完成率。 |
-| 50 | article-writing | 撰写文章、指南、博客文章、教程、通讯文章和其他长篇内容，根据提供的示例或品牌指南采用独特的语调。 |
-| 51 | cost-aware-llm-pipeline | LLM API 使用成本优化模式——按任务复杂度路由模型、预算跟踪、重试逻辑和提示缓存。 |
-| 52 | frontend-slides | 从零创建或转换 PowerPoint 文件，制作精美的动画丰富 HTML 演示文稿。帮助非设计师通过视觉探索发现审美风格。 |
-| 53 | django-security | Django 安全最佳实践、认证授权、CSRF 防护、SQL 注入防护、XSS 防护和安全部署配置。 |
-| 54 | backend-patterns | 后端架构模式、API 设计、数据库优化和 Node.js、Express、Next.js API 路由的服务端最佳实践。 |
-| 55 | continuous-learning-v2 | 基于直觉的学习系统，通过钩子观察会话，创建具有置信度评分的原子直觉，并将其演进为技能/命令/代理。 |
-| 56 | autonomous-loops | 自主 Claude Code 循环的模式和架构——从简单的顺序管道到 RFC 驱动的多代理 DAG 系统。 |
-| 57 | deployment-patterns | 部署工作流、CI/CD 管道模式、Docker 容器化、健康检查、回滚策略和 Web 应用的生产就绪检查清单。 |
-| 58 | django-tdd | 使用 pytest-django 的 Django 测试策略、TDD 方法论、factory_boy、模拟、覆盖率和 Django REST Framework API 测试。 |
-| 59 | database-migrations | PostgreSQL、MySQL 和常用 ORM（Prisma、Drizzle、Django、TypeORM、golang-migrate）的数据库迁移最佳实践。 |
-| 60 | content-hash-cache-pattern | 使用 SHA-256 内容哈希缓存昂贵的文件处理结果——路径无关、自动失效、服务层分离。 |
-| 61 | cpp-coding-standards | 基于 C++ Core Guidelines 的 C++ 编码标准。用于编写、审查或重构 C++ 代码，强制执行现代、安全和惯用的实践。 |
-| 62 | api-design | REST API 设计模式，包括资源命名、状态码、分页、过滤、错误响应、版本控制和生产 API 的速率限制。 |
-| 63 | agentic-engineering | 作为代理工程师运作，使用评估优先执行、分解和成本感知模型路由。 |
-| 64 | configure-ecc | Everything Claude Code 的交互式安装程序——引导用户选择并安装技能和规则到用户级或项目级目录。 |
-| 65 | frontend-patterns | React、Next.js 的前端开发模式、状态管理、性能优化和 UI 最佳实践。 |
-
-# Agents 代理表
-
-| 编号 | Agent 名称 | 描述 |
-|-----|-----------|------|
-| 1 | tdd-guide | 测试驱动开发专家，强制执行先写测试的方法论。在编写新功能、修复 bug 或重构代码时主动使用。确保 80%+ 测试覆盖率。 |
-| 2 | planner | 复杂功能和重构的专家规划专员。在用户请求功能实现、架构变更或复杂重构时主动使用。自动激活用于规划任务。 |
-| 3 | code-reviewer | 专家代码审查专员。主动审查代码的质量、安全性和可维护性。在编写或修改代码后立即使用。所有代码变更必须使用。 |
-| 4 | refactor-cleaner | 死代码清理和整合专家。主动用于删除未使用的代码、重复代码和重构。运行分析工具识别死代码并安全删除。 |
-| 5 | go-build-resolver | Go 构建、vet 和编译错误解决专家。以最小变更修复构建错误、go vet 问题 和静态检查警告。在 Go 构建失败时使用。 |
-| 6 | security-reviewer | 安全漏洞检测和修复专家。在编写处理用户输入、认证、API 端点或敏感数据的代码后主动使用。检测密钥、SSRF、注入、不安全加密和 OWASP Top 10 漏洞。 |
-| 7 | chief-of-staff | 个人通信参谋长，分类处理邮件、Slack、LINE 和 Messenger。将消息分为 4 级（跳过/仅信息/会议信息/需操作），生成回复草稿，并通过钩子强制执行后续跟进。 |
-| 8 | build-error-resolver | 构建和 TypeScript 错误解决专家。在构建失败或类型错误发生时主动使用。仅用最小差异修复构建/类型错误，不做架构修改。专注于快速让构建变绿。 |
-| 9 | loop-operator | 操作自主代理循环，监控进度，并在循环停滞时安全干预。 |
-| 10 | database-reviewer | PostgreSQL 数据库专家，专注于查询优化、架构设计、安全和性能。在编写 SQL、创建迁移、设计架构或排查数据库性能时主动使用。整合 Supabase 最佳实践。 |
-| 11 | doc-updater | 文档和代码地图专家。主动用于更新代码地图和文档。运行 /update-codemaps 和 /update-docs，生成 docs/CODEMAPS/*，更新 README 和指南。 |
-| 12 | e2e-runner | 使用 Vercel Agent Browser（首选）和 Playwright 回退的端到端测试专家。主动用于生成、维护和运行 E2E 测试。管理测试旅程、隔离不稳定测试、上传制品。 |
-| 13 | python-reviewer | Python 代码审查专家，专注于 PEP 8 合规、Pythonic 惯用法、类型提示、安全和性能。用于所有 Python 代码变更。Python 项目必须使用。 |
-| 14 | harness-optimizer | 分析和改进本地代理线束配置的可靠性、成本和吞吐量。 |
-| 15 | architect | 软件架构专家，专注于系统设计、可扩展性和技术决策。在规划新功能、重构大型系统或做架构决策时主动使用。 |
-| 16 | go-reviewer | Go 代码审查专家，专注于惯用 Go、并发模式、错误处理和性能。用于所有 Go 代码变更。Go 项目必须使用。 |
+| 编号 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|
+| 1 | agent-eval | skills | agent-eval | 编码智能体（Claude Code、Aider、Codex等）的头部对比测试，包含通过率、成本、时间和一致性指标 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/agent-eval |
+| 2 | agent-harness-construction | skills | agent-harness-construction | 设计和优化AI智能体动作空间、工具定义和观察格式，以提高完成率 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/agent-harness-construction |
+| 3 | agentic-engineering | skills | agentic-engineering | 作为智能体工程师运行，采用评估优先执行、分解和成本感知模型路由 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/agentic-engineering |
+| 4 | ai-first-engineering | skills | ai-first-engineering | 面向AI智能体生成大部分实现输出的团队的工程运营模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/ai-first-engineering |
+| 5 | ai-regression-testing | skills | ai-regression-testing | AI辅助开发的回归测试策略。无数据库依赖的沙盒模式API测试、自动化错误检查工作流，以及捕获AI盲点的模式（同一模型编写和审查代码） | https://github.com/affaan-m/everything-claude-code/tree/main/skills/ai-regression-testing |
+| 6 | android-clean-architecture | skills | android-clean-architecture | Android和Kotlin多平台项目的Clean Architecture模式——模块结构、依赖规则、UseCases、Repositories和数据层模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/android-clean-architecture |
+| 7 | api-design | skills | api-design | REST API设计模式，包括资源命名、状态码、分页、过滤、错误响应、版本控制和生产API的速率限制 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/api-design |
+| 8 | architecture-decision-records | skills | architecture-decision-records | 将Claude Code会话中做出的架构决策捕获为结构化ADR。自动检测决策时刻，记录上下文、考虑的替代方案和理由 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/architecture-decision-records |
+| 9 | article-writing | skills | article-writing | 撰写文章、指南、博客文章、教程、通讯期刊和其他长篇内容，采用源自示例或品牌指导的独特风格 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/article-writing |
+| 10 | autonomous-loops | skills | autonomous-loops | 自主Claude Code循环的模式和架构——从简单的顺序管道到RFC驱动的多智能体DAG系统 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/autonomous-loops |
+| 11 | backend-patterns | skills | backend-patterns | 后端架构模式、API设计、数据库优化，以及Node.js、Express和Next.js API路由的服务端最佳实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/backend-patterns |
+| 12 | benchmark | skills | benchmark | 性能基线和回归检测，用于在PR前后测量页面性能和API基准 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/benchmark |
+| 13 | blueprint | skills | blueprint | 将一行目标转化为多会话、多智能体工程项目的分步建设计划。每个步骤都有独立的上下文简报 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/blueprint |
+| 14 | browser-qa | skills | browser-qa | 使用浏览器自动化MCP进行自动化视觉测试和交互，验证跨页面的UI行为 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/browser-qa |
+| 15 | bun-runtime | skills | bun-runtime | Bun作为运行时、包管理器、打包器和测试运行器。何时选择Bun vs Node、迁移说明和Vercel支持 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/bun-runtime |
+| 16 | canary-watch | skills | canary-watch | 部署后监控，在部署到生产或预发布环境后监控已部署URL的回归问题 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/canary-watch |
+| 17 | carrier-relationship-management | skills | carrier-relationship-management | 管理承运商组合、协商运费、跟踪承运商绩效、分配货运和维护战略承运商关系的编码专业知识 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/carrier-relationship-management |
+| 18 | claude-api | skills | claude-api | Python和TypeScript的Anthropic Claude API模式。涵盖Messages API、流式传输、工具使用、视觉、扩展思考、批处理、提示缓存和Claude Agent SDK | https://github.com/affaan-m/everything-claude-code/tree/main/skills/claude-api |
+| 19 | claude-devfleet | skills | claude-devfleet | 通过Claude DevFleet编排多智能体编码任务——规划项目、在隔离工作树中调度并行智能体、监控进度和读取结构化报告 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/claude-devfleet |
+| 20 | clickhouse-io | skills | clickhouse-io | ClickHouse数据库模式、查询优化、分析和数据工程最佳实践，用于高性能分析工作负载 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/clickhouse-io |
+| 21 | click-path-audit | skills | click-path-audit | 追踪每个面向用户的按钮/触点通过其完整状态变化序列，找出函数单独工作但相互抵消的bug | https://github.com/affaan-m/everything-claude-code/tree/main/skills/click-path-audit |
+| 22 | codebase-onboarding | skills | codebase-onboarding | 分析陌生代码库并生成结构化入职指南，包含架构图、关键入口点、约定和入门CLAUDE.md | https://github.com/affaan-m/everything-claude-code/tree/main/skills/codebase-onboarding |
+| 23 | coding-standards | skills | coding-standards | TypeScript、JavaScript、React和Node.js开发的通用编码标准、最佳实践和模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/coding-standards |
+| 24 | compose-multiplatform-patterns | skills | compose-multiplatform-patterns | KMP项目的Compose Multiplatform和Jetpack Compose模式——状态管理、导航、主题、性能和平台特定UI | https://github.com/affaan-m/everything-claude-code/tree/main/skills/compose-multiplatform-patterns |
+| 25 | configure-ecc | skills | configure-ecc | Everything Claude Code的交互式安装程序——引导用户选择和安装技能和规则到用户级或项目级目录 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/configure-ecc |
+| 26 | content-engine | skills | content-engine | 为X、LinkedIn、TikTok、YouTube、通讯和多平台再利用活动创建平台原生内容系统 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/content-engine |
+| 27 | content-hash-cache-pattern | skills | content-hash-cache-pattern | 使用SHA-256内容哈希缓存昂贵的文件处理结果——路径无关、自动失效，带有服务层分离 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/content-hash-cache-pattern |
+| 28 | context-budget | skills | context-budget | 审计Claude Code上下文窗口消耗，涵盖智能体、技能、MCP服务器和规则。识别臃肿、冗余组件，并生成优先级token节省建议 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/context-budget |
+| 29 | continuous-agent-loop | skills | continuous-agent-loop | 具有质量门、评估和恢复控制的持续自主智能体循环模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/continuous-agent-loop |
+| 30 | continuous-learning | skills | continuous-learning | 自动从Claude Code会话中提取可重用模式并保存为学习技能供将来使用 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/continuous-learning |
+| 31 | continuous-learning-v2 | skills | continuous-learning-v2 | 基于本能的学习系统，通过hooks观察会话，创建带有置信度评分的原子本能，并将其演化为技能/命令/智能体 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/continuous-learning-v2 |
+| 32 | cost-aware-llm-pipeline | skills | cost-aware-llm-pipeline | LLM API使用的成本优化模式——按任务复杂度路由模型、预算跟踪、重试逻辑和提示缓存 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/cost-aware-llm-pipeline |
+| 33 | cpp-coding-standards | skills | cpp-coding-standards | 基于C++核心指南（isocpp.github.io）的C++编码标准。在编写、审查或重构C++代码时使用，强制执行现代、安全和惯用的实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/cpp-coding-standards |
+| 34 | cpp-testing | skills | cpp-testing | 仅在编写/更新/修复C++测试、配置GoogleTest/CTest、诊断失败或不稳定测试或添加覆盖率/消毒器时使用 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/cpp-testing |
+| 35 | crosspost | skills | crosspost | 跨X、LinkedIn、Threads和Bluesky的多平台内容分发。使用content-engine模式为每个平台适配内容 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/crosspost |
+| 36 | customs-trade-compliance | skills | customs-trade-compliance | 海关文件、关税分类、关税优化、限制方筛查和跨多个司法管辖区的监管合规编码专业知识 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/customs-trade-compliance |
+| 37 | database-migrations | skills | database-migrations | PostgreSQL、MySQL和常见ORM的数据库迁移最佳实践，涵盖模式更改、数据迁移、回滚和零停机部署 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/database-migrations |
+| 38 | data-scraper-agent | skills | data-scraper-agent | 为任何公共来源构建完全自动化的AI驱动数据收集智能体——招聘网站、价格、新闻、GitHub、体育等任何内容 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/data-scraper-agent |
+| 39 | deep-research | skills | deep-research | 使用firecrawl和exa MCP进行多源深度研究。搜索网络、综合发现并提供带来源引用的报告 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/deep-research |
+| 40 | deployment-patterns | skills | deployment-patterns | Web应用的部署工作流、CI/CD管道模式、Docker容器化、健康检查、回滚策略和生产就绪清单 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/deployment-patterns |
+| 41 | design-system | skills | design-system | 为需要设计系统的新项目生成和审计视觉系统，或审计现有代码库的视觉一致性 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/design-system |
+| 42 | django-patterns | skills | django-patterns | Django架构模式、使用DRF的REST API设计、ORM最佳实践、缓存、信号、中间件和生产级Django应用 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/django-patterns |
+| 43 | django-security | skills | django-security | Django安全最佳实践、认证、授权、CSRF保护、SQL注入防护、XSS防护和安全部署配置 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/django-security |
+| 44 | django-tdd | skills | django-tdd | 使用pytest-django的Django测试策略、TDD方法论、factory_boy、mocking、覆盖率和测试Django REST Framework API | https://github.com/affaan-m/everything-claude-code/tree/main/skills/django-tdd |
+| 45 | django-verification | skills | django-verification | Django项目的验证循环：迁移、linting、带覆盖率的测试、安全扫描和发布或PR前的部署就绪检查 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/django-verification |
+| 46 | dmux-workflows | skills | dmux-workflows | 使用dmux（AI智能体的tmux窗格管理器）进行多智能体编排。支持Claude Code、Codex、OpenCode和其他工具的并行智能体工作流模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/dmux-workflows |
+| 47 | docker-patterns | skills | docker-patterns | Docker和Docker Compose模式，用于本地开发、容器安全、网络、卷策略和多服务编排 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/docker-patterns |
+| 48 | documentation-lookup | skills | documentation-lookup | 通过Context7 MCP使用最新的库和框架文档而非训练数据。在设置问题、API参考、代码示例时激活 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/documentation-lookup |
+| 49 | e2e-testing | skills | e2e-testing | Playwright E2E测试模式、页面对象模型、配置、CI/CD集成、工件管理和不稳定测试策略 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/e2e-testing |
+| 50 | energy-procurement | skills | energy-procurement | 电力和天然气采购、关税优化、需求费用管理、可再生PPA评估和多设施能源成本管理编码专业知识 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/energy-procurement |
+| 51 | enterprise-agent-ops | skills | enterprise-agent-ops | 运行具有可观察性、安全边界和生命周期管理的长期智能体工作负载 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/enterprise-agent-ops |
+| 52 | eval-harness | skills | eval-harness | 实现评估驱动开发（EDD）原则的Claude Code会话正式评估框架 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/eval-harness |
+| 53 | exa-search | skills | exa-search | 通过Exa MCP进行神经网络搜索，用于网络、代码和公司研究。当用户需要网络搜索、代码示例、公司情报、人员查询时使用 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/exa-search |
+| 54 | fal-ai-media | skills | fal-ai-media | 通过fal.ai MCP统一媒体生成——图像、视频和音频。涵盖文本到图像、文本/图像到视频、文本到语音和视频到音频 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/fal-ai-media |
+| 55 | flutter-dart-code-review | skills | flutter-dart-code-review | 库无关的Flutter/Dart代码审查清单，涵盖widget最佳实践、状态管理模式、Dart惯用语、性能、可访问性、安全和清洁架构 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/flutter-dart-code-review |
+| 56 | foundation-models-on-device | skills | foundation-models-on-device | Apple FoundationModels框架用于设备端LLM——文本生成、使用@Generable的引导生成、工具调用和iOS 26+中的快照流 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/foundation-models-on-device |
+| 57 | frontend-patterns | skills | frontend-patterns | React、Next.js的前端开发模式、状态管理、性能优化和UI最佳实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/frontend-patterns |
+| 58 | frontend-slides | skills | frontend-slides | 从头创建或通过转换PowerPoint文件创建令人惊艳、动画丰富的HTML演示文稿 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/frontend-slides |
+| 59 | golang-patterns | skills | golang-patterns | 用于构建健壮、高效和可维护Go应用的惯用Go模式、最佳实践和约定 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/golang-patterns |
+| 60 | golang-testing | skills | golang-testing | Go测试模式，包括表驱动测试、子测试、基准测试、模糊测试和测试覆盖率。遵循TDD方法论和惯用Go实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/golang-testing |
+| 61 | inventory-demand-planning | skills | inventory-demand-planning | 多地点零售商的需求预测、安全库存优化、补货计划和促销提升估计编码专业知识 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/inventory-demand-planning |
+| 62 | investor-materials | skills | investor-materials | 创建和更新路演PPT、一页纸、投资者备忘录、加速器申请、财务模型和融资材料 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/investor-materials |
+| 63 | investor-outreach | skills | investor-outreach | 为融资起草冷邮件、热介绍简介、跟进邮件、更新邮件和投资者沟通 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/investor-outreach |
+| 64 | iterative-retrieval | skills | iterative-retrieval | 逐步精炼上下文检索以解决子智能体上下文问题的模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/iterative-retrieval |
+| 65 | java-coding-standards | skills | java-coding-standards | Spring Boot服务的Java编码标准：命名、不可变性、Optional使用、流、异常、泛型和项目布局 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/java-coding-standards |
+| 66 | jpa-patterns | skills | jpa-patterns | Spring Boot中JPA/Hibernate的实体设计、关系、查询优化、事务、审计、索引、分页和连接池模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/jpa-patterns |
+| 67 | kotlin-coroutines-flows | skills | kotlin-coroutines-flows | Android和KMP的Kotlin协程和Flow模式——结构化并发、Flow操作符、StateFlow、错误处理和测试 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/kotlin-coroutines-flows |
+| 68 | kotlin-exposed-patterns | skills | kotlin-exposed-patterns | JetBrains Exposed ORM模式，包括DSL查询、DAO模式、事务、HikariCP连接池、Flyway迁移和仓储模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/kotlin-exposed-patterns |
+| 69 | kotlin-ktor-patterns | skills | kotlin-ktor-patterns | Ktor服务器模式，包括路由DSL、插件、认证、Koin DI、kotlinx.serialization、WebSocket和testApplication测试 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/kotlin-ktor-patterns |
+| 70 | kotlin-patterns | skills | kotlin-patterns | 用于构建健壮、高效和可维护Kotlin应用的惯用Kotlin模式、最佳实践和约定，包含协程、空安全和DSL构建器 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/kotlin-patterns |
+| 71 | kotlin-testing | skills | kotlin-testing | 使用Kotest、MockK、协程测试、基于属性的测试和Kover覆盖率的Kotlin测试模式。遵循TDD方法论 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/kotlin-testing |
+| 72 | laravel-patterns | skills | laravel-patterns | Laravel架构模式、路由/控制器、Eloquent ORM、服务层、队列、事件、缓存和生产应用的API资源 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/laravel-patterns |
+| 73 | laravel-security | skills | laravel-security | Laravel安全最佳实践，涵盖认证/授权、验证、CSRF、批量赋值、文件上传、密钥、速率限制和安全部署 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/laravel-security |
+| 74 | laravel-tdd | skills | laravel-tdd | 使用PHPUnit和Pest的Laravel测试驱动开发、工厂、数据库测试、fake和覆盖率目标 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/laravel-tdd |
+| 75 | laravel-verification | skills | laravel-verification | Laravel项目的验证循环：环境检查、linting、静态分析、带覆盖率的测试、安全扫描和部署就绪 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/laravel-verification |
+| 76 | liquid-glass-design | skills | liquid-glass-design | iOS 26 Liquid Glass设计系统——具有模糊、反射和交互变形的动态玻璃材质，用于SwiftUI、UIKit和WidgetKit | https://github.com/affaan-m/everything-claude-code/tree/main/skills/liquid-glass-design |
+| 77 | logistics-exception-management | skills | logistics-exception-management | 处理货运异常、发货延误、损坏、丢失和承运商纠纷编码专业知识 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/logistics-exception-management |
+| 78 | market-research | skills | market-research | 进行市场研究、竞争分析、投资者尽职调查和行业情报，带来源引用和决策导向的摘要 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/market-research |
+| 79 | mcp-server-patterns | skills | mcp-server-patterns | 使用Node/TypeScript SDK构建MCP服务器——工具、资源、提示、Zod验证、stdio vs Streamable HTTP | https://github.com/affaan-m/everything-claude-code/tree/main/skills/mcp-server-patterns |
+| 80 | nanoclaw-repl | skills | nanoclaw-repl | 运行和扩展NanoClaw v2，ECC基于claude -p构建的零依赖会话感知REPL | https://github.com/affaan-m/everything-claude-code/tree/main/skills/nanoclaw-repl |
+| 81 | nextjs-turbopack | skills | nextjs-turbopack | Next.js 16+和Turbopack——增量打包、FS缓存、开发速度，以及何时使用Turbopack vs webpack | https://github.com/affaan-m/everything-claude-code/tree/main/skills/nextjs-turbopack |
+| 82 | nutrient-document-processing | skills | nutrient-document-processing | 使用Nutrient DWS API处理、转换、OCR、提取、编辑、签署和填充文档。支持PDF、DOCX、XLSX、PPTX、HTML和图像 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/nutrient-document-processing |
+| 83 | nuxt4-patterns | skills | nuxt4-patterns | Nuxt 4应用模式，用于hydration安全、性能、路由规则、延迟加载和使用useFetch和useAsyncData的SSR安全数据获取 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/nuxt4-patterns |
+| 84 | perl-patterns | skills | perl-patterns | 现代Perl 5.36+惯用语、最佳实践和约定，用于构建健壮、可维护的Perl应用 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/perl-patterns |
+| 85 | perl-security | skills | perl-security | 全面的Perl安全，涵盖污点模式、输入验证、安全进程执行、DBI参数化查询、Web安全（XSS/SQLi/CSRF） | https://github.com/affaan-m/everything-claude-code/tree/main/skills/perl-security |
+| 86 | perl-testing | skills | perl-testing | 使用Test2::V0、Test::More、prove runner、mocking、Devel::Cover覆盖率和TDD方法论的Perl测试模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/perl-testing |
+| 87 | plankton-code-quality | skills | plankton-code-quality | 使用Plankton进行写入时代码质量强制——通过hooks在每次文件编辑时自动格式化、linting和Claude驱动的修复 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/plankton-code-quality |
+| 88 | postgres-patterns | skills | postgres-patterns | PostgreSQL数据库模式，用于查询优化、模式设计、索引和安全。基于Supabase最佳实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/postgres-patterns |
+| 89 | production-scheduling | skills | production-scheduling | 离散和批量制造中的生产调度、作业排序、产线平衡、换型优化和瓶颈解决编码专业知识 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/production-scheduling |
+| 90 | product-lens | skills | product-lens | 先思考后构建——产品诊断和功能验证，采用YC办公时间风格的提问方式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/product-lens |
+| 91 | project-guidelines-example | skills | project-guidelines-example | 基于真实生产应用的项目特定技能模板示例 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/project-guidelines-example |
+| 92 | prompt-optimizer | skills | prompt-optimizer | 分析原始提示、识别意图和差距、匹配ECC组件（技能/命令/智能体/hooks），并输出可直接粘贴的优化提示 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/prompt-optimizer |
+| 93 | python-patterns | skills | python-patterns | 用于构建健壮、高效和可维护Python应用的Pythonic惯用语、PEP 8标准、类型提示和最佳实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/python-patterns |
+| 94 | python-testing | skills | python-testing | 使用pytest的Python测试策略、TDD方法论、fixtures、mocking、参数化和覆盖率要求 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/python-testing |
+| 95 | pytorch-patterns | skills | pytorch-patterns | PyTorch深度学习模式和最佳实践，用于构建健壮、高效和可复现的训练管道、模型架构和数据加载 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/pytorch-patterns |
+| 96 | quality-nonconformance | skills | quality-nonconformance | 受监管制造中的质量控制、不合格调查、根本原因分析、纠正措施和供应商质量管理编码专业知识 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/quality-nonconformance |
+| 97 | ralphinho-rfc-pipeline | skills | ralphinho-rfc-pipeline | RFC驱动的多智能体DAG执行模式，具有质量门、合并队列和工作单元编排 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/ralphinho-rfc-pipeline |
+| 98 | regex-vs-llm-structured-text | skills | regex-vs-llm-structured-text | 在解析结构化文本时选择正则表达式还是LLM的决策框架——从正则开始，仅对低置信度边缘情况添加LLM | https://github.com/affaan-m/everything-claude-code/tree/main/skills/regex-vs-llm-structured-text |
+| 99 | returns-reverse-logistics | skills | returns-reverse-logistics | 退货授权、收货检验、处置决策、退款处理、欺诈检测和保修索赔管理编码专业知识 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/returns-reverse-logistics |
+| 100 | rules-distill | skills | rules-distill | 扫描技能以提取跨领域原则并将其提炼为规则——追加、修改或创建新规则文件 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/rules-distill |
+| 101 | rust-patterns | skills | rust-patterns | 用于构建安全、高性能应用的惯用Rust模式、所有权、错误处理、trait、并发和最佳实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/rust-patterns |
+| 102 | rust-testing | skills | rust-testing | Rust测试模式，包括单元测试、集成测试、异步测试、基于属性的测试、mocking和覆盖率。遵循TDD方法论 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/rust-testing |
+| 103 | safety-guard | skills | safety-guard | 在生产系统上工作或智能体自主运行时防止破坏性操作 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/safety-guard |
+| 104 | santa-method | skills | santa-method | 多智能体对抗验证与收敛循环。两个独立的审查智能体必须都通过后才能发布输出 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/santa-method |
+| 105 | search-first | skills | search-first | 编码前研究工作流。在编写自定义代码之前搜索现有工具、库和模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/search-first |
+| 106 | security-review | skills | security-review | 在添加认证、处理用户输入、处理密钥、创建API端点或实现支付/敏感功能时使用 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/security-review |
+| 107 | security-scan | skills | security-scan | 使用AgentShield扫描Claude Code配置（.claude/目录）中的安全漏洞、配置错误和注入风险 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/security-scan |
+| 108 | skill-comply | skills | skill-comply | 可视化技能、规则和智能体定义是否被实际遵循——在3个提示严格级别自动生成场景 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/skill-comply |
+| 109 | skill-stocktake | skills | skill-stocktake | 在审计Claude技能和命令质量时使用。支持快速扫描和全面盘点模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/skill-stocktake |
+| 110 | springboot-patterns | skills | springboot-patterns | Spring Boot架构模式、REST API设计、分层服务、数据访问、缓存、异步处理和日志 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/springboot-patterns |
+| 111 | springboot-security | skills | springboot-security | Java Spring Boot服务中Spring Security的认证/授权、验证、CSRF、密钥、头部、速率限制和依赖安全最佳实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/springboot-security |
+| 112 | springboot-tdd | skills | springboot-tdd | 使用JUnit 5、Mockito、MockMvc、Testcontainers和JaCoCo的Spring Boot测试驱动开发 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/springboot-tdd |
+| 113 | springboot-verification | skills | springboot-verification | Spring Boot项目的验证循环：构建、静态分析、带覆盖率的测试、安全扫描和发布或PR前的差异审查 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/springboot-verification |
+| 114 | strategic-compact | skills | strategic-compact | 在逻辑间隔建议手动上下文压缩，以通过任务阶段而非任意自动压缩来保留上下文 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/strategic-compact |
+| 115 | swift-actor-persistence | skills | swift-actor-persistence | 使用actor在Swift中实现线程安全数据持久化——内存缓存带文件后备存储，设计上消除数据竞争 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/swift-actor-persistence |
+| 116 | swift-concurrency-6-2 | skills | swift-concurrency-6-2 | Swift 6.2平易并发——默认单线程，@concurrent用于显式后台卸载，main actor类型的隔离一致性 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/swift-concurrency-6-2 |
+| 117 | swift-protocol-di-testing | skills | swift-protocol-di-testing | 基于协议的依赖注入用于可测试Swift代码——使用聚焦协议和Swift Testing模拟文件系统、网络和外部API | https://github.com/affaan-m/everything-claude-code/tree/main/skills/swift-protocol-di-testing |
+| 118 | swiftui-patterns | skills | swiftui-patterns | SwiftUI架构模式、使用@Observable的状态管理、视图组合、导航、性能优化和现代iOS/macOS UI最佳实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/swiftui-patterns |
+| 119 | tdd-workflow | skills | tdd-workflow | 在编写新功能、修复bug、重构代码时使用。强制执行80%+覆盖率的测试驱动开发 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/tdd-workflow |
+| 120 | team-builder | skills | team-builder | 用于组合和调度并行团队的交互式智能体选择器 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/team-builder |
+| 121 | verification-loop | skills | verification-loop | Claude Code会话的综合验证系统 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/verification-loop |
+| 122 | videodb | skills | videodb | 查看、理解和处理视频和音频——摄取、提取帧、构建索引、搜索时刻、转码、执行时间线编辑、生成媒体资产 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/videodb |
+| 123 | video-editing | skills | video-editing | AI辅助视频编辑工作流，用于剪辑、构建和增强真实素材 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/video-editing |
+| 124 | visa-doc-translate | skills | visa-doc-translate | 翻译签证申请文件（图像）为英文，并创建包含原文和译文的双语PDF | https://github.com/affaan-m/everything-claude-code/tree/main/skills/visa-doc-translate |
+| 125 | x-api | skills | x-api | X/Twitter API集成，用于发布推文、线程、阅读时间线、搜索和分析。涵盖OAuth认证模式、速率限制和平台原生内容发布 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/x-api |
+| 126 | architect | agents | architect | 软件架构专家，负责系统设计、可扩展性和技术决策。在规划新功能、重构大型系统或做出架构决策时主动使用 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/architect.md |
+| 127 | build-error-resolver | agents | build-error-resolver | 构建和TypeScript错误解决专家。在构建失败或类型错误发生时主动使用。仅用最小差异修复构建/类型错误 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/build-error-resolver.md |
+| 128 | chief-of-staff | agents | chief-of-staff | 个人通信参谋长，分类处理邮件、Slack、LINE和Messenger。将消息分为4个层级，生成草稿回复，并强制执行发送后跟进 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/chief-of-staff.md |
+| 129 | code-reviewer | agents | code-reviewer | 专家级代码审查专家。主动审查代码的质量、安全性和可维护性。在编写或修改代码后立即使用 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/code-reviewer.md |
+| 130 | cpp-build-resolver | agents | cpp-build-resolver | C++构建、CMake和编译错误解决专家。用最小更改修复构建错误、链接器问题和模板错误 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/cpp-build-resolver.md |
+| 131 | cpp-reviewer | agents | cpp-reviewer | 专家级C++代码审查员，专注于内存安全、现代C++惯用语、并发和性能。用于所有C++代码更改 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/cpp-reviewer.md |
+| 132 | database-reviewer | agents | database-reviewer | PostgreSQL数据库专家，负责查询优化、模式设计、安全和性能。在编写SQL、创建迁移、设计模式时主动使用 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/database-reviewer.md |
+| 133 | docs-lookup | agents | docs-lookup | 当用户询问如何使用库、框架或API或需要最新代码示例时，使用Context7 MCP获取当前文档 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/docs-lookup.md |
+| 134 | doc-updater | agents | doc-updater | 文档和codemap专家。主动用于更新codemap和文档。运行/update-codemaps和/update-docs | https://github.com/affaan-m/everything-claude-code/tree/main/agents/doc-updater.md |
+| 135 | e2e-runner | agents | e2e-runner | 使用Vercel Agent Browser（首选）和Playwright后备的端到端测试专家。主动用于生成、维护和运行E2E测试 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/e2e-runner.md |
+| 136 | flutter-reviewer | agents | flutter-reviewer | Flutter和Dart代码审查员。审查Flutter代码的widget最佳实践、状态管理模式、Dart惯用语、性能陷阱、可访问性 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/flutter-reviewer.md |
+| 137 | go-build-resolver | agents | go-build-resolver | Go构建、vet和编译错误解决专家。用最小更改修复构建错误、go vet问题和linter警告 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/go-build-resolver.md |
+| 138 | go-reviewer | agents | go-reviewer | 专家级Go代码审查员，专注于惯用Go、并发模式、错误处理和性能。用于所有Go代码更改 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/go-reviewer.md |
+| 139 | harness-optimizer | agents | harness-optimizer | 分析和改进本地智能体工具配置以提高可靠性、成本和吞吐量 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/harness-optimizer.md |
+| 140 | java-build-resolver | agents | java-build-resolver | Java/Maven/Gradle构建、编译和依赖错误解决专家。修复构建错误、Java编译器错误和Maven/Gradle问题 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/java-build-resolver.md |
+| 141 | java-reviewer | agents | java-reviewer | 专家级Java和Spring Boot代码审查员，专注于分层架构、JPA模式、安全和并发。用于所有Java代码更改 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/java-reviewer.md |
+| 142 | kotlin-build-resolver | agents | kotlin-build-resolver | Kotlin/Gradle构建、编译和依赖错误解决专家。修复构建错误、Kotlin编译器错误和Gradle问题 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/kotlin-build-resolver.md |
+| 143 | kotlin-reviewer | agents | kotlin-reviewer | Kotlin和Android/KMP代码审查员。审查Kotlin代码的惯用模式、协程安全、Compose最佳实践、清洁架构违规 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/kotlin-reviewer.md |
+| 144 | loop-operator | agents | loop-operator | 运行自主智能体循环、监控进度并在循环停滞时安全干预 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/loop-operator.md |
+| 145 | planner | agents | planner | 复杂功能和重构的专家规划员。在用户请求功能实现、架构更改或复杂重构时主动使用 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/planner.md |
+| 146 | python-reviewer | agents | python-reviewer | 专家级Python代码审查员，专注于PEP 8合规性、Pythonic惯用语、类型提示、安全和性能。用于所有Python代码更改 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/python-reviewer.md |
+| 147 | pytorch-build-resolver | agents | pytorch-build-resolver | PyTorch运行时、CUDA和训练错误解决专家。修复张量形状不匹配、设备错误、梯度问题、DataLoader问题 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/pytorch-build-resolver.md |
+| 148 | refactor-cleaner | agents | refactor-cleaner | 死代码清理和整合专家。主动用于删除未使用代码、重复项和重构 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/refactor-cleaner.md |
+| 149 | rust-build-resolver | agents | rust-build-resolver | Rust构建、编译和依赖错误解决专家。修复cargo构建错误、借用检查器问题和Cargo.toml问题 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/rust-build-resolver.md |
+| 150 | rust-reviewer | agents | rust-reviewer | 专家级Rust代码审查员，专注于所有权、生命周期、错误处理、unsafe使用和惯用模式。用于所有Rust代码更改 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/rust-reviewer.md |
+| 151 | security-reviewer | agents | security-reviewer | 安全漏洞检测和修复专家。在编写处理用户输入、认证、API端点的代码后主动使用 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/security-reviewer.md |
+| 152 | tdd-guide | agents | tdd-guide | 测试驱动开发专家，强制执行先写测试的方法论。在编写新功能、修复bug、重构代码时主动使用 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/tdd-guide.md |
+| 153 | typescript-reviewer | agents | typescript-reviewer | 专家级TypeScript/JavaScript代码审查员，专注于类型安全、异步正确性、Node/web安全和惯用模式。用于所有TypeScript和JavaScript代码更改 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/typescript-reviewer.md |

@@ -1,105 +1,105 @@
-[pm-skills：生成项目计划](https://github.com/phuryn/pm-skills)
+# [PM Skills Collection](https://github.com/phuryn/pm-skills)
 
-| 序号 | 功能 | 类型 | 名称 | 描述 |
-| ---- | ---- | ---- | ---- | ---- |
-| 1 | pm-product-strategy | skills | product-vision | 头脑风暴一个鼓舞人心、可达成且有情感共鸣的产品愿景，激励团队并统一利益相关者方向 |
-| 2 | pm-product-strategy | skills | startup-canvas | 生成新产品的创业画布，结合产品战略（9部分）和商业模式（成本+收入），是BMC和精益画布的替代方案 |
-| 3 | pm-product-strategy | skills | swot-analysis | 进行详细的SWOT分析——优势、劣势、机会和威胁，并提供可执行的建议 |
-| 4 | pm-product-strategy | skills | value-proposition | 使用6部分JTBD模板设计详细的价值主张——谁、为什么、之前如何、如何做、之后如何、替代方案 |
-| 5 | pm-product-strategy | skills | product-strategy | 使用9部分产品战略画布创建全面的产品战略——从愿景到防御性 |
-| 6 | pm-product-strategy | skills | business-model | 生成包含所有9个构建模块的商业模式画布 |
-| 7 | pm-product-strategy | skills | ansoff-matrix | 生成安索夫矩阵分析，绘制市场渗透、市场开发、产品开发和多元化的增长策略 |
-| 8 | pm-product-strategy | skills | porters-five-forces | 进行波特五力分析——竞争对抗、供应商议价能力、买方议价能力、替代品威胁、新进入者威胁 |
-| 9 | pm-product-strategy | skills | monetization-strategy | 头脑风暴3-5种变现策略，包含受众匹配度、风险和验证实验 |
-| 10 | pm-product-strategy | skills | pricing-strategy | 分析和设计定价策略，包括定价模型、竞争定价分析、支付意愿估算和价格弹性考量 |
-| 11 | pm-product-strategy | skills | lean-canvas | 生成精益画布，包含问题、解决方案、指标、成本结构、独特价值主张、不公平优势、渠道、细分市场和收入 |
-| 12 | pm-product-strategy | skills | pestle-analysis | 进行PESTLE分析，覆盖政治、经济、社会、技术、法律和环境因素 |
-| 13 | pm-product-strategy | commands | strategy | 使用9部分战略画布创建全面的产品战略——从愿景到防御性 |
-| 14 | pm-product-strategy | commands | business-model | 使用精益画布、商业模式画布、创业画布或价值主张框架探索商业模式 |
-| 15 | pm-product-strategy | commands | value-proposition | 使用6部分JTBD模板设计价值主张——谁、为什么、之前如何、如何做、之后如何、替代方案 |
-| 16 | pm-product-strategy | commands | market-scan | 全面的宏观环境分析——SWOT、PESTLE、波特五力和安索夫矩阵一站式扫描 |
-| 17 | pm-product-strategy | commands | pricing | 设计定价策略——定价模型、竞争分析、支付意愿估算和定价实验 |
-| 18 | pm-toolkit | skills | review-resume | 全面PM简历审查和优化，基于10项最佳实践包括XYZ+S公式、关键词优化、岗位定制和结构优化 |
-| 19 | pm-toolkit | skills | draft-nda | 起草两方之间的详细保密协议，涵盖信息类型、管辖权和需法律审查的条款 |
-| 20 | pm-toolkit | skills | privacy-policy | 起草详细隐私政策，涵盖数据类型、管辖权、GDPR和合规考量，以及需法律审查的条款 |
-| 21 | pm-toolkit | skills | grammar-check | 识别文本中的语法、逻辑和流程错误，提供针对性修复建议而不重写全文 |
-| 22 | pm-toolkit | commands | privacy-policy | 起草隐私政策，涵盖数据收集、使用、存储和合规要求 |
-| 23 | pm-toolkit | commands | draft-nda | 起草两方保密协议，包含适合管辖区的条款 |
-| 24 | pm-toolkit | commands | review-resume | 全面PM简历审查，基于10项最佳实践——结构、影响力指标、关键词和可执行反馈 |
-| 25 | pm-toolkit | commands | tailor-resume | 将PM简历定制到特定职位描述——关键词对齐、经验重构和战略优化 |
-| 26 | pm-toolkit | commands | proofread | 检查文本语法、逻辑和流程——针对性修复而不重写 |
-| 27 | pm-product-discovery | skills | prioritize-features | 基于影响力、工作量、风险和战略一致性对功能创意积压进行优先级排序，提供前5推荐 |
-| 28 | pm-product-discovery | skills | identify-assumptions-existing | 识别现有产品功能创意在价值、可用性、可行性和可行性方面的风险假设，使用多视角逆向思维 |
-| 29 | pm-product-discovery | skills | interview-script | 创建结构化客户访谈脚本，包含JTBD深入提问、热身、核心探索和收尾环节 |
-| 30 | pm-product-discovery | skills | summarize-interview | 将客户访谈转录总结为结构化模板，包含JTBD、满意度信号和行动项 |
-| 31 | pm-product-discovery | skills | metrics-dashboard | 定义和设计产品指标仪表板，包含关键指标、数据源、可视化类型和告警阈值 |
-| 32 | pm-product-discovery | skills | opportunity-solution-tree | 构建机会解决方案树（OST）来结构化产品发现——将期望结果映射到机会、解决方案和实验 |
-| 33 | pm-product-discovery | skills | prioritize-assumptions | 使用影响力×风险矩阵对假设进行优先级排序，并为每个假设建议实验 |
-| 34 | pm-product-discovery | skills | identify-assumptions-new | 识别新产品创意在8个风险类别中的风险假设，包括上市、战略和团队风险 |
-| 35 | pm-product-discovery | skills | brainstorm-ideas-new | 从PM、设计师和工程师视角头脑风暴新产品的功能创意 |
-| 36 | pm-product-discovery | skills | brainstorm-experiments-existing | 为现有产品设计验证假设的实验——原型、A/B测试、技术验证和其他低成本验证方法 |
-| 37 | pm-product-discovery | skills | analyze-feature-requests | 按主题、战略一致性、影响力、工作量和风险分析和优先级排序功能请求列表 |
-| 38 | pm-product-discovery | skills | brainstorm-ideas-existing | 使用PM、设计师和工程师多视角头脑风暴现有产品的创意 |
-| 39 | pm-product-discovery | skills | brainstorm-experiments-new | 为新产品设计精益创业实验（预原型），创建XYZ假设并建议低工作量验证方法 |
-| 40 | pm-product-discovery | commands | discover | 运行完整的产品发现周期——从创意到假设映射再到实验设计 |
-| 41 | pm-product-discovery | commands | brainstorm | 从PM、设计师和工程师视角头脑风暴产品创意或实验——适用于现有或新产品 |
-| 42 | pm-product-discovery | commands | triage-requests | 分析、分类和优先级排序来自客户或利益相关者的功能请求批次 |
-| 43 | pm-product-discovery | commands | interview | 准备客户访谈脚本或将访谈转录总结为结构化洞察 |
-| 44 | pm-product-discovery | commands | setup-metrics | 设计产品指标仪表板，包含北极星指标、输入指标、健康指标和告警阈值 |
-| 45 | pm-market-research | skills | user-segmentation | 基于行为、JTBD和需求从反馈数据中细分用户，识别至少3个不同用户细分群体 |
-| 46 | pm-market-research | skills | market-sizing | 使用自上而下和自下而上方法估算TAM、SAM、SOM市场规模 |
-| 47 | pm-market-research | skills | market-segments | 识别3-5个潜在客户细分群体，包含人口统计、JTBD和产品匹配分析 |
-| 48 | pm-market-research | skills | customer-journey-map | 创建端到端客户旅程地图，包含阶段、触点、情绪、痛点和机会 |
-| 49 | pm-market-research | skills | sentiment-analysis | 分析用户反馈数据，识别带有情绪评分、JTBD和产品满意度洞察的细分群体 |
-| 50 | pm-market-research | skills | user-personas | 从研究数据创建精细用户画像——3个人物画像包含JTBD、痛点、收益和意外洞察 |
-| 51 | pm-market-research | skills | competitor-analysis | 分析竞争对手的优势、劣势和差异化机会，识别直接竞争对手并绘制竞争格局 |
-| 52 | pm-market-research | commands | analyze-feedback | 大规模分析用户反馈——情感分析、主题提取和细分级别洞察 |
-| 53 | pm-market-research | commands | research-users | 全面用户研究——从研究数据构建画像、细分用户和绘制客户旅程 |
-| 54 | pm-market-research | commands | competitive-analysis | 分析竞争格局——识别竞争对手、比较优劣势、发现差异化机会 |
-| 55 | pm-marketing-growth | skills | marketing-ideas | 生成5个创意、低成本营销创意，包含渠道、信息和参与理由 |
-| 56 | pm-marketing-growth | skills | positioning-ideas | 头脑风暴与竞争对手差异化的产品定位创意，识别顶级竞争对手并生成定位声明 |
-| 57 | pm-marketing-growth | skills | product-name | 头脑风暴5个独特、难忘的产品名称，包含与品牌价值观和目标受众对齐的理由 |
-| 58 | pm-marketing-growth | skills | value-prop-statements | 从现有价值主张生成用于营销、销售和引导的价值主张声明 |
-| 59 | pm-marketing-growth | skills | north-star-metric | 定义北极星指标和3-5个支撑输入指标，分类业务游戏并验证7项有效北极星标准 |
-| 60 | pm-marketing-growth | commands | north-star | 定义北极星指标和支持输入指标——分类业务游戏并验证最佳实践 |
-| 61 | pm-marketing-growth | commands | market-product | 头脑风暴营销创意、定位、价值主张声明和产品名称——创意营销工具包 |
-| 62 | pm-go-to-market | skills | gtm-strategy | 创建上市战略，涵盖营销渠道、信息传递、成功指标和发布时间表 |
-| 63 | pm-go-to-market | skills | growth-loops | 识别可持续增长的飞轮循环，评估5种循环类型：病毒式、使用式、协作式、用户生成式和推荐式 |
-| 64 | pm-go-to-market | skills | gtm-motions | 识别最佳上市模式和工具，涵盖7种模式类型：入站、出站、付费数字、社区、合作伙伴、ABM和PLG |
-| 65 | pm-go-to-market | skills | beachhead-segment | 识别产品发布的首个滩头市场细分，根据紧迫痛点、支付意愿、可赢取市场份额和推荐潜力评估细分 |
-| 66 | pm-go-to-market | skills | ideal-customer-profile | 从研究数据识别理想客户画像（ICP），包含人口统计、行为、JTBD和需求 |
-| 67 | pm-go-to-market | skills | competitive-battlecard | 创建销售就绪的竞争战卡，比较产品与特定竞争对手——定位、功能比较、异议处理和赢/输模式 |
-| 68 | pm-go-to-market | commands | growth-strategy | 设计可持续增长机制——产品主导和销售主导策略的增长飞轮和上市模式 |
-| 69 | pm-go-to-market | commands | plan-launch | 创建完整上市战略——滩头细分、ICP、信息传递、渠道和发布计划 |
-| 70 | pm-go-to-market | commands | battlecard | 创建销售就绪的竞争战卡——定位、功能比较、异议处理和赢单策略 |
-| 71 | pm-data-analytics | skills | cohort-analysis | 对用户参与数据进行队列分析——留存曲线、功能采用趋势和细分级别洞察 |
-| 72 | pm-data-analytics | skills | sql-queries | 从自然语言描述生成SQL查询，支持BigQuery、PostgreSQL、MySQL等方言 |
-| 73 | pm-data-analytics | skills | ab-test-analysis | 分析A/B测试结果，包含统计显著性、样本量验证、置信区间和发布/扩展/停止建议 |
-| 74 | pm-data-analytics | commands | analyze-cohorts | 对用户数据进行队列分析——留存曲线、功能采用和参与趋势 |
-| 75 | pm-data-analytics | commands | write-query | 从自然语言生成SQL查询——支持BigQuery、PostgreSQL、MySQL等 |
-| 76 | pm-data-analytics | commands | analyze-test | 分析A/B测试结果——统计显著性、样本量验证和发布/扩展/停止建议 |
-| 77 | pm-execution | skills | release-notes | 从工单、PRD或变更日志生成面向用户的发布说明，按类别组织（新功能、改进、修复） |
-| 78 | pm-execution | skills | stakeholder-map | 使用权力/利益网格构建利益相关者地图，识别每个象限的沟通策略并生成沟通计划 |
-| 79 | pm-execution | skills | sprint-plan | 规划冲刺，包含容量估算、故事选择、依赖映射和风险识别 |
-| 80 | pm-execution | skills | test-scenarios | 从用户故事创建全面的测试场景，包含测试目标、起始条件、用户角色、分步操作和预期结果 |
-| 81 | pm-execution | skills | retro | 促进结构化冲刺回顾——哪些顺利、哪些不顺，以及带负责人和截止日期的优先行动项 |
-| 82 | pm-execution | skills | summarize-meeting | 将会议转录总结为结构化笔记，包含日期、参与者、主题、决策、摘要要点和行动项 |
-| 83 | pm-execution | skills | user-stories | 遵循3C原则（卡片、对话、确认）和INVEST标准创建用户故事，包含描述、设计链接和验收标准 |
-| 84 | pm-execution | skills | wwas | 以Why-What-Acceptance格式创建产品积压项——独立、有价值、可测试的项目，带有战略背景 |
-| 85 | pm-execution | skills | brainstorm-okrs | 头脑风暴与公司目标对齐的团队级OKR——定性目标配可量化关键结果 |
-| 86 | pm-execution | skills | pre-mortem | 对PRD或发布计划运行事前复盘风险分析，将风险分类为老虎（真问题）、纸老虎（过度担忧）和大象（未说出口的担忧） |
-| 87 | pm-execution | skills | job-stories | 使用"When [情境], I want to [动机], so I can [结果]"格式创建工作故事，带有详细验收标准 |
-| 88 | pm-execution | skills | create-prd | 使用全面的8部分模板创建产品需求文档，涵盖问题、目标、细分、价值主张、解决方案和发布规划 |
-| 89 | pm-execution | skills | prioritization-frameworks | 9种优先级框架参考指南，包含公式、使用场景和模板——RICE、ICE、Kano、MoSCoW、机会评分等 |
-| 90 | pm-execution | skills | outcome-roadmap | 将输出导向路线图转换为结果导向路线图，传达战略意图 |
-| 91 | pm-execution | skills | dummy-dataset | 生成逼真的测试虚拟数据集，支持自定义列、约束和输出格式（CSV、JSON、SQL、Python脚本） |
-| 92 | pm-execution | commands | write-prd | 从功能创意或问题陈述创建全面的产品需求文档 |
-| 93 | pm-execution | commands | plan-okrs | 头脑风暴与公司目标对齐的团队级OKR——定性目标配可量化关键结果 |
-| 94 | pm-execution | commands | transform-roadmap | 将功能导向路线图转换为结果导向路线图，传达战略意图 |
-| 95 | pm-execution | commands | sprint | 冲刺生命周期——规划冲刺、运行回顾或生成发布说明 |
-| 96 | pm-execution | commands | pre-mortem | 对PRD、发布计划或功能运行事前复盘风险分析——在问题发生前识别可能出现的问题 |
-| 97 | pm-execution | commands | meeting-notes | 将会议转录总结为结构化笔记，包含决策、行动项和后续跟进 |
-| 98 | pm-execution | commands | stakeholder-map | 在权力×利益网格上映射利益相关者并创建定制沟通计划 |
-| 99 | pm-execution | commands | write-stories | 将功能拆解为积压项——用户故事、工作故事或WWA格式，带验收标准 |
-| 100 | pm-execution | commands | test-scenarios | 从用户故事或功能规格生成全面测试场景——正常路径、边界情况和错误处理 |
-| 101 | pm-execution | commands | generate-data | 生成逼真的测试虚拟数据集——CSV、JSON、SQL插入或Python脚本 |
+| 编号 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|
+| 1 | pm-data-analytics | command | analyze-cohorts | 对用户数据进行队列分析——留存曲线、功能采用和参与趋势 | https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/commands/analyze-cohorts.md |
+| 2 | pm-data-analytics | command | analyze-test | 分析A/B测试结果——统计显著性、样本量验证和发布/延长/停止建议 | https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/commands/analyze-test.md |
+| 3 | pm-data-analytics | command | write-query | 从自然语言生成SQL查询——支持BigQuery、PostgreSQL、MySQL等 | https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/commands/write-query.md |
+| 4 | pm-data-analytics | skill | ab-test-analysis | 使用统计显著性、样本量验证、置信区间和发布建议分析A/B测试结果 | https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/ab-test-analysis |
+| 5 | pm-data-analytics | skill | cohort-analysis | 对用户参与数据进行队列分析——留存曲线、功能采用趋势和细分洞察 | https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/cohort-analysis |
+| 6 | pm-data-analytics | skill | sql-queries | 从自然语言描述生成SQL查询，支持BigQuery、PostgreSQL、MySQL等数据库 | https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/sql-queries |
+| 7 | pm-execution | command | generate-data | 生成用于测试的真实模拟数据集——CSV、JSON、SQL插入或Python脚本 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/generate-data.md |
+| 8 | pm-execution | command | meeting-notes | 将会议记录总结为结构化笔记，包含决策、行动项和后续事项 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/meeting-notes.md |
+| 9 | pm-execution | command | plan-okrs | 构思与公司目标一致的团队级OKR——定性目标与可衡量关键结果 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/plan-okrs.md |
+| 10 | pm-execution | command | pre-mortem | 对PRD、发布计划或功能进行事前风险分析——在问题发生前识别可能出错的环节 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/pre-mortem.md |
+| 11 | pm-execution | command | sprint | 冲刺生命周期——规划冲刺、进行回顾或生成发布说明 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/sprint.md |
+| 12 | pm-execution | command | stakeholder-map | 在权力×兴趣网格上映射利益相关者并创建定制沟通计划 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/stakeholder-map.md |
+| 13 | pm-execution | command | test-scenarios | 从用户故事或功能规格生成全面的测试场景——正常路径、边界情况和错误处理 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/test-scenarios.md |
+| 14 | pm-execution | command | transform-roadmap | 将基于功能的路线图转换为以结果为导向的路线图，传达战略意图 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/transform-roadmap.md |
+| 15 | pm-execution | command | write-prd | 从功能想法或问题陈述创建全面的产品需求文档 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/write-prd.md |
+| 16 | pm-execution | command | write-stories | 将功能分解为待办事项——用户故事、工作任务或WWA格式，包含验收标准 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/write-stories.md |
+| 17 | pm-execution | skill | brainstorm-okrs | 构思与公司目标一致的团队级OKR——定性目标与可衡量关键结果 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/brainstorm-okrs |
+| 18 | pm-execution | skill | create-prd | 使用全面的8节模板创建产品需求文档，涵盖问题、目标、细分、价值主张、解决方案和发布规划 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/create-prd |
+| 19 | pm-execution | skill | dummy-dataset | 生成具有可自定义列、约束和输出格式的真实模拟数据集用于测试 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/dummy-dataset |
+| 20 | pm-execution | skill | job-stories | 使用"当[情境]，我想要[动机]，以便[结果]"格式创建工作任务，包含详细验收标准 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/job-stories |
+| 21 | pm-execution | skill | outcome-roadmap | 将以输出为导向的路线图转换为以结果为导向的路线图，传达战略意图 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/outcome-roadmap |
+| 22 | pm-execution | skill | pre-mortem | 对PRD或发布计划进行事前风险分析，将风险分类为老虎、纸老虎和大象 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/pre-mortem |
+| 23 | pm-execution | skill | prioritization-frameworks | 9种优先级框架参考指南，包含公式、使用场景和模板——RICE、ICE、Kano、MoSCoW等 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/prioritization-frameworks |
+| 24 | pm-execution | skill | release-notes | 从工单、PRD或变更日志生成面向用户的发布说明 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/release-notes |
+| 25 | pm-execution | skill | retro | 主持结构化冲刺回顾——顺利之处、问题所在、优先行动项及其负责人和截止日期 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/retro |
+| 26 | pm-execution | skill | sprint-plan | 规划冲刺，包括容量估算、故事选择、依赖映射和风险识别 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/sprint-plan |
+| 27 | pm-execution | skill | stakeholder-map | 使用权力/兴趣网格构建利益相关者地图，识别各象限的沟通策略 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/stakeholder-map |
+| 28 | pm-execution | skill | summarize-meeting | 将会议记录总结为结构化笔记，包含日期、参与者、主题、关键决策和行动项 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/summarize-meeting |
+| 29 | pm-execution | skill | test-scenarios | 从用户故事创建全面的测试场景，包含测试目标、起始条件、用户角色和预期结果 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/test-scenarios |
+| 30 | pm-execution | skill | user-stories | 遵循3C原则和INVEST标准创建用户故事，包含描述、设计链接和验收标准 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/user-stories |
+| 31 | pm-execution | skill | wwas | 以为什么-什么-验收格式创建产品待办事项——独立、有价值、可测试的项目 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/wwas |
+| 32 | pm-go-to-market | command | battlecard | 创建面向销售的竞争战斗卡——定位、功能比较、异议处理和获胜策略 | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/commands/battlecard.md |
+| 33 | pm-go-to-market | command | growth-strategy | 设计可持续增长机制——增长飞轮和GTM动效，用于产品驱动和销售驱动策略 | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/commands/growth-strategy.md |
+| 34 | pm-go-to-market | command | plan-launch | 创建完整的上市策略——滩头市场细分、ICP、信息传递、渠道和发布计划 | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/commands/plan-launch.md |
+| 35 | pm-go-to-market | skill | beachhead-segment | 识别产品发布的首个滩头市场细分，评估细分市场的痛点、支付意愿等 | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/beachhead-segment |
+| 36 | pm-go-to-market | skill | competitive-battlecard | 创建面向销售的竞争战斗卡，比较你的产品与特定竞争对手 | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/competitive-battlecard |
+| 37 | pm-go-to-market | skill | growth-loops | 识别可持续增长的飞轮——病毒式、使用式、协作式、用户生成式和推荐式循环 | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/growth-loops |
+| 38 | pm-go-to-market | skill | gtm-motions | 识别7种GTM动效的最佳上市方式和工具：入站、出站、付费数字、社区、合作伙伴、ABM和PLG | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/gtm-motions |
+| 39 | pm-go-to-market | skill | gtm-strategy | 创建涵盖营销渠道、信息传递、成功指标和发布时间表的上市策略 | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/gtm-strategy |
+| 40 | pm-go-to-market | skill | ideal-customer-profile | 从研究数据中识别理想客户画像，包含人口统计、行为、JTBD和需求 | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/ideal-customer-profile |
+| 41 | pm-marketing-growth | command | market-product | 构思营销创意、定位、价值主张声明和产品名称——创意营销工具包 | https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/commands/market-product.md |
+| 42 | pm-marketing-growth | command | north-star | 定义你的北极星指标和支持性输入指标——分类业务游戏并验证最佳实践 | https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/commands/north-star.md |
+| 43 | pm-marketing-growth | skill | marketing-ideas | 生成5个创意、具有成本效益的营销创意，包含渠道、信息传递和参与理由 | https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/marketing-ideas |
+| 44 | pm-marketing-growth | skill | north-star-metric | 定义北极星指标和3-5个支持性输入指标，形成指标星座 | https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/north-star-metric |
+| 45 | pm-marketing-growth | skill | positioning-ideas | 构思与竞争对手差异化的产品定位创意 | https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/positioning-ideas |
+| 46 | pm-marketing-growth | skill | product-name | 构思5个独特、令人难忘的产品名称，与品牌价值和目标受众保持一致 | https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/product-name |
+| 47 | pm-marketing-growth | skill | value-prop-statements | 从现有价值主张生成营销、销售和入门培训用的价值主张声明 | https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/value-prop-statements |
+| 48 | pm-market-research | command | analyze-feedback | 大规模分析用户反馈——情感分析、主题提取和细分级别洞察 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/commands/analyze-feedback.md |
+| 49 | pm-market-research | command | competitive-analysis | 分析竞争格局——识别竞争对手、比较优势和劣势、寻找差异化机会 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/commands/competitive-analysis.md |
+| 50 | pm-market-research | command | research-users | 全面用户研究——从研究数据构建人物画像、细分用户和映射客户旅程 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/commands/research-users.md |
+| 51 | pm-market-research | skill | competitor-analysis | 分析竞争对手的优势、劣势和差异化机会，识别直接竞争对手并映射竞争格局 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/competitor-analysis |
+| 52 | pm-market-research | skill | customer-journey-map | 创建端到端客户旅程地图，包含阶段、触点、情绪、痛点和机会 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/customer-journey-map |
+| 53 | pm-market-research | skill | market-segments | 识别3-5个潜在客户细分市场，包含人口统计、JTBD和产品匹配分析 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-segments |
+| 54 | pm-market-research | skill | market-sizing | 使用TAM、SAM和SOM估算市场规模，采用自上而下和自下而上的方法 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-sizing |
+| 55 | pm-market-research | skill | sentiment-analysis | 分析用户反馈数据，识别带有情感分数、JTBD和产品满意度的细分群体 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/sentiment-analysis |
+| 56 | pm-market-research | skill | user-personas | 从研究数据创建精细的用户画像——3个画像，包含JTBD、痛点、收益和意外洞察 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/user-personas |
+| 57 | pm-market-research | skill | user-segmentation | 根据行为、JTBD和需求从反馈数据中细分用户，识别至少3个不同的用户细分 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/user-segmentation |
+| 58 | pm-product-discovery | command | brainstorm | 从PM、设计师和工程师角度构思产品创意或实验——适用于现有或新产品 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/commands/brainstorm.md |
+| 59 | pm-product-discovery | command | discover | 运行完整的产品发现周期——从构思到假设映射再到实验设计 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/commands/discover.md |
+| 60 | pm-product-discovery | command | interview | 准备客户访谈脚本或将访谈记录总结为结构化洞察 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/commands/interview.md |
+| 61 | pm-product-discovery | command | setup-metrics | 设计产品指标仪表板，包含北极星指标、输入指标、健康指标和警报阈值 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/commands/setup-metrics.md |
+| 62 | pm-product-discovery | command | triage-requests | 分析、分类和优先处理来自客户或利益相关者的功能请求批次 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/commands/triage-requests.md |
+| 63 | pm-product-discovery | skill | analyze-feature-requests | 按主题、战略一致性、影响、工作量和风险分析并优先处理功能请求列表 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/analyze-feature-requests |
+| 64 | pm-product-discovery | skill | brainstorm-experiments-existing | 为现有产品设计测试假设的实验——原型、A/B测试、探索和其他低工作量验证方法 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-experiments-existing |
+| 65 | pm-product-discovery | skill | brainstorm-experiments-new | 为新产品设计精益创业实验（预原型），创建XYZ假设并建议低工作量验证方法 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-experiments-new |
+| 66 | pm-product-discovery | skill | brainstorm-ideas-existing | 使用PM、设计师和工程师多角度构思为现有产品构思产品创意 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-ideas-existing |
+| 67 | pm-product-discovery | skill | brainstorm-ideas-new | 从PM、设计师和工程师角度为新产品的初始发现构思功能创意 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-ideas-new |
+| 68 | pm-product-discovery | skill | identify-assumptions-existing | 从价值、可用性、可行性和可行性方面识别现有产品功能创意的风险假设 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/identify-assumptions-existing |
+| 69 | pm-product-discovery | skill | identify-assumptions-new | 跨8个风险类别识别新产品创意的风险假设，包括GTM、战略和团队 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/identify-assumptions-new |
+| 70 | pm-product-discovery | skill | interview-script | 创建结构化客户访谈脚本，包含JTBD探索问题、热身、核心探索和总结部分 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/interview-script |
+| 71 | pm-product-discovery | skill | metrics-dashboard | 定义和设计产品指标仪表板，包含关键指标、数据源、可视化类型和警报阈值 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/metrics-dashboard |
+| 72 | pm-product-discovery | skill | opportunity-solution-tree | 构建机会解决方案树来组织产品发现——将期望结果映射到机会、解决方案和实验 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/opportunity-solution-tree |
+| 73 | pm-product-discovery | skill | prioritize-assumptions | 使用影响×风险矩阵优先处理假设，并为每个假设建议实验 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/prioritize-assumptions |
+| 74 | pm-product-discovery | skill | prioritize-features | 根据影响、工作量、风险和战略一致性优先处理功能创意待办事项，推荐前5名 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/prioritize-features |
+| 75 | pm-product-discovery | skill | summarize-interview | 将客户访谈记录总结为结构化模板，包含JTBD、满意度和行动项 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/summarize-interview |
+| 76 | pm-product-strategy | command | business-model | 使用精益画布、商业模式画布、创业画布或价值主张框架探索商业模式 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/commands/business-model.md |
+| 77 | pm-product-strategy | command | market-scan | 全面的宏观环境分析——SWOT、PESTLE、波特五力和安索夫矩阵一站式扫描 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/commands/market-scan.md |
+| 78 | pm-product-strategy | command | pricing | 设计定价策略——模型、竞争分析、支付意愿估算和定价实验 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/commands/pricing.md |
+| 79 | pm-product-strategy | command | strategy | 使用9节策略画布创建全面的产品策略——从愿景到防御性 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/commands/strategy.md |
+| 80 | pm-product-strategy | command | value-proposition | 使用6部分JTBD模板设计价值主张——谁、为什么、之前什么、如何、之后什么、替代品 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/commands/value-proposition.md |
+| 81 | pm-product-strategy | skill | ansoff-matrix | 生成安索夫矩阵分析，映射市场渗透、市场开发、产品开发和多元化的增长策略 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/ansoff-matrix |
+| 82 | pm-product-strategy | skill | business-model | 生成包含所有9个构建块的商业模式画布 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/business-model |
+| 83 | pm-product-strategy | skill | lean-canvas | 生成精益画布，包含问题、解决方案、指标、成本结构、UVP、不公平优势、渠道、细分和收入 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/lean-canvas |
+| 84 | pm-product-strategy | skill | monetization-strategy | 构思3-5个变现策略，包含受众匹配、风险和验证实验 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/monetization-strategy |
+| 85 | pm-product-strategy | skill | pestle-analysis | 执行PESTLE分析，涵盖政治、经济、社会、技术、法律和环境因素 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/pestle-analysis |
+| 86 | pm-product-strategy | skill | porters-five-forces | 执行波特五力分析——竞争激烈程度、供应商议价能力、买方议价能力、替代品威胁和新进入者威胁 | pm-product-strategy/skills/porters-five-forces |
+| 87 | pm-product-strategy | skill | pricing-strategy | 分析和设计定价策略，包括定价模型、竞争定价分析、支付意愿估算和价格弹性 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/pricing-strategy |
+| 88 | pm-product-strategy | skill | product-strategy | 使用9节产品策略画布创建全面的产品策略 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/product-strategy |
+| 89 | pm-product-strategy | skill | product-vision | 构思激励人心、可达成且富有情感的产品愿景，激励团队并统一利益相关者 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/product-vision |
+| 90 | pm-product-strategy | skill | startup-canvas | 为新产品生成结合产品策略和商业模式的创业画布 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/startup-canvas |
+| 91 | pm-product-strategy | skill | swot-analysis | 执行详细的SWOT分析——优势、劣势、机会和威胁，并提供可操作建议 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/swot-analysis |
+| 92 | pm-product-strategy | skill | value-proposition | 使用6部分JTBD模板设计详细的价值主张 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/value-proposition |
+| 93 | pm-toolkit | command | draft-nda | 起草双方之间的保密协议，包含适用司法管辖区的条款 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/commands/draft-nda.md |
+| 94 | pm-toolkit | command | privacy-policy | 起草隐私政策，涵盖数据收集、使用、存储和合规要求 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/commands/privacy-policy.md |
+| 95 | pm-toolkit | command | proofread | 检查任何文本的语法、逻辑和流畅度——针对性修复而不重写 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/commands/proofread.md |
+| 96 | pm-toolkit | command | review-resume | 根据10项最佳实践全面审查PM简历——结构、影响力指标、关键词和可操作反馈 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/commands/review-resume.md |
+| 97 | pm-toolkit | command | tailor-resume | 根据特定职位描述定制PM简历——关键词对齐、经验重新框架和战略优化 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/commands/tailor-resume.md |
+| 98 | pm-toolkit | skill | draft-nda | 起草详细的保密协议，涵盖信息类型、司法管辖区和需要法律审查的条款 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/draft-nda |
+| 99 | pm-toolkit | skill | grammar-check | 识别文本中的语法、逻辑和流畅错误，并建议针对性修复而不重写整篇文本 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/grammar-check |
+| 100 | pm-toolkit | skill | privacy-policy | 起草详细的隐私政策，涵盖数据类型、司法管辖区、GDPR和合规考虑 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/privacy-policy |
+| 101 | pm-toolkit | skill | review-resume | 全面的PM简历审查和定制，包含XYZ+S公式、关键词优化、职位特定定制和结构等10项最佳实践 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/review-resume |
