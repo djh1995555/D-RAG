@@ -5,6 +5,120 @@
 
 ---
 
+# 零、工具
+
+## 0.1 学术与研究
+
+|来源|类型|名称|描述|
+|---|---|---|---|
+|skills-agency-agents|agent|Anthropologist (人类学家)|文化系统、仪式、亲属关系、信仰体系和民族志方法专家|
+|skills-agency-agents|agent|Geographer (地理学家)|自然地理与人文地理、气候系统、制图学和空间分析专家|
+|skills-agency-agents|agent|Historian (历史学家)|历史分析、分期、物质文化和史学专家|
+|skills-agency-agents|agent|Narratologist (叙事学家)|叙事理论、故事结构、角色弧线和文学分析专家|
+|skills-agency-agents|agent|Psychologist (心理学家)|人类行为、人格理论、动机和认知模式专家|
+|skills-agency-agents|agent|Study Abroad Advisor (留学顾问)|全谱系留学规划专家，覆盖美国、英国、加拿大、澳洲、欧洲等|
+|skills-awesome-copilot|agent|Microsoft Study and Learn|激活您的个人Microsoft/Azure导师 - 通过引导式发现学习|
+|skills-awesome-copilot|agent|Mentor mode|通过提供指导和支持帮助工程师成长|
+|skills-awesome-copilot|agent|Sensei - Junior Mentor|初级开发者的苏格拉底式导师。通过问题引导，从不给出直接答案|
+
+## 0.2 视频与媒体
+
+|来源|类型|名称|描述|
+|---|---|---|---|
+|skills-antigravity-awesome-skills|skill|video-production|视频制作工作流。用于创建演示视频、教程和营销内容|
+|skills-antigravity-awesome-skills|skill|fal-generate|使用fal.ai AI模型生成图像和视频|
+|skills-antigravity-awesome-skills|skill|fal-audio|使用fal.ai音频模型进行文本转语音和语音转文本|
+|skills-antigravity-awesome-skills|skill|vizcom|AI驱动的产品设计工具，将草图转换为高保真3D渲染图|
+|skills-antigravity-awesome-skills|skill|videodb-skills|使用VideoDB SDK上传、流媒体、搜索、编辑、转录并生成AI视频和音频|
+
+## 0.3 文档处理
+
+|来源|类型|名称|描述|
+|---|---|---|---|
+|skills-anthropics|skill|pdf|从PDF文件提取文本和内容，或创建新的PDF|
+|skills-anthropics|skill|pptx|创建和编辑Microsoft PowerPoint演示文稿（.pptx）|
+|skills-anthropics|skill|docx|创建和编辑Microsoft Word文档（.docx）|
+|skills-anthropics|skill|xlsx|创建和编辑Microsoft Excel电子表格（.xlsx）|
+|skills-agency-agents|agent|Document Generator (文档生成器)|文档创建专家，使用基于代码的方法生成专业的PDF、PPTX、DOCX和XLSX文件|
+|skills-baoyu|skill|baoyu-compress-image|将图片压缩为WebP（默认）或PNG，自动选择工具|
+|skills-baoyu|skill|baoyu-image-gen|支持OpenAI、Google、DashScope、Jimeng、Seedream和Replicate等API的AI图像生成工具|
+|skills-baoyu|skill|baoyu-slide-deck|从内容生成专业幻灯片图像|
+|skills-everything-claude-code|skill|nutrient-document-processing|使用Nutrient DWS API处理、转换、OCR、提取、编辑、签名和填充文档|
+|skills-awesome-copilot|skill|markdown-to-html|将Markdown文档转换为HTML|
+|skills-awesome-copilot|skill|pdftk-server|使用PDFtk Server命令行工具处理PDF|
+|skills-awesome-copilot|skill|image-manipulation-image-magick|使用ImageMagick处理和操作图像|
+|skills-awesome-copilot|skill|transloadit-media-processing|使用Transloadit处理媒体文件|
+|skills-awesome-copilot|skill|msstore-cli|Microsoft Store开发者CLI发布应用|
+|skills-antigravity-awesome-skills|skill|xlsx-official|全面的电子表格创建、编辑和分析，支持公式、格式化、数据分析和可视化|
+|skills-antigravity-awesome-skills|skill|web-artifacts-builder|使用现代前端Web技术创建复杂的claude.ai HTML构件|
+|skills-antigravity-awesome-skills|skill|presentation-builder|构建演示文稿和幻灯片|
+|skills-antigravity-awesome-skills|skill|screenshots|使用Playwright生成应用营销截图|
+
+## 0.4 文本处理
+
+|来源|类型|名称|描述|
+|---|---|---|---|
+|skills-baoyu|skill|baoyu-format-markdown|格式化纯文本或Markdown文件，添加前置内容、标题、摘要|
+|skills-baoyu|skill|baoyu-markdown-to-html|将Markdown转换为带样式的HTML，支持微信兼容主题|
+|skills-baoyu|skill|baoyu-translate|在语言间翻译文章和文档，提供三种模式|
+|skills-baoyu|skill|baoyu-url-to-markdown|通过Chrome CDP获取任意URL并转换为Markdown|
+
+## 0.5 信息收集记录
+## 0.6 被动技能
+## 0.7 主动技能
+## 0.8 私有技能
+## 0.9 投资
+
+## 0.10 法律专业
+|来源|类型|名称|描述|
+|---|---|---|---|
+|skills-antigravity-awesome-skills|skill|advogado-criminal|刑事律师，专门处理巴西刑法相关案件|
+|skills-antigravity-awesome-skills|skill|advogado-especialista|巴西法律各领域专业律师|
+|skills-antigravity-awesome-skills|skill|leiloeiro-juridico|拍卖法律分析|
+
+## 0.11 名人模拟
+|来源|类型|名称|描述|
+|---|---|---|---|
+|skills-antigravity-awesome-skills|skill|steve-jobs|模拟Steve Jobs的代理——苹果联合创始人、皮克斯CEO|
+|skills-antigravity-awesome-skills|skill|warren-buffett|模拟Warren Buffett的代理——最伟大的投资者|
+|skills-antigravity-awesome-skills|skill|yann-lecun|模拟Yann LeCun的代理——卷积神经网络发明者、Meta首席AI科学家|
+
+## 0.12 XR/VR开发
+|来源|类型|名称|描述|
+|---|---|---|---|
+|skills-agency-agents|agent|visionOS Spatial Engineer (visionOS空间工程师)|原生visionOS空间计算、SwiftUI体积界面和Liquid Glass设计实现|
+|skills-agency-agents|agent|macOS Spatial/Metal Engineer (macOS空间/Metal工程师)|原生Swift和Metal专家，为macOS和Vision Pro构建高性能3D渲染系统|
+|skills-agency-agents|agent|XR Immersive Developer (XR沉浸式开发者)|WebXR和沉浸式技术专家，专注于基于浏览器的AR/VR/XR应用|
+|skills-agency-agents|agent|XR Interface Architect (XR界面架构师)|沉浸式AR/VR/XR环境的空间交互设计师和界面策略师|
+|skills-agency-agents|agent|XR Cockpit Interaction Specialist (XR座舱交互专家)|设计和开发XR环境沉浸式座舱控制系统的专家|
+|skills-antigravity-awesome-skills|skill|threejs-loaders|Three.js资源加载——GLTF、纹理、图像、模型、异步模式|
+
+## 0.13 自动化集成
+|来源|类型|名称|描述|
+|---|---|---|---|
+|skills-antigravity-awesome-skills|skill|n8n-mcp-tools-expert|有效使用n8n-mcp MCP工具的专家指南|
+|skills-antigravity-awesome-skills|skill|google-calendar-automation|与Google Calendar交互|
+|skills-antigravity-awesome-skills|skill|calendly-automation|通过Rube MCP (Composio)自动化Calendly日程安排|
+|skills-antigravity-awesome-skills|skill|whatsapp-automation|通过Rube MCP (Composio)自动化WhatsApp Business任务|
+|skills-antigravity-awesome-skills|skill|youtube-automation|通过Rube MCP (Composio)自动化YouTube任务|
+|skills-antigravity-awesome-skills|skill|linkedin-cli|通过CLI自动化LinkedIn操作|
+
+## 0.14 区块链安全审计
+|来源|类型|名称|描述|
+|---|---|---|---|
+|skills-agency-agents|agent|Blockchain Security Auditor (区块链安全审计师)|智能合约安全审计专家，专注于漏洞检测、形式化验证、漏洞利用分析|
+
+## 0.15 其他工具
+
+|来源|类型|名称|描述|
+|---|---|---|---|
+|skills-awesome-copilot|agent|Arm Migration Agent|Arm云迁移助手，加速将x86工作负载迁移到Arm基础设施|
+|skills-awesome-copilot|agent|WinUI 3 Expert|WinUI 3和Windows App SDK开发专家代理|
+|skills-awesome-copilot|agent|WinForms Expert|支持.NET（OOP）WinForms设计器兼容应用程序开发|
+|skills-wshobson-agents|skill|data-analysis|分析数据集以提取洞察、识别模式并生成报告|
+|skills-skills-template|skill|data-analysis|分析数据集以提取洞察、识别模式并生成报告|
+|skills-antigravity-awesome-skills|skill|notion-template-business|构建和销售Notion模板的专家|
+
 # 一、开发前 (Pre-Development)
 
 ## 1.1 产品管理
@@ -908,22 +1022,22 @@
 ## 2.18 开发者工具
 
 ### 开发者体验
-|来源|类型|名称|描述|
-|---|---|---|---|
-|skills-subagents-catalog|agent|dx-optimizer|在优化包括构建时间、反馈循环、测试效率的完整开发者工作流时使用|
-|skills-subagents-catalog|agent|tooling-engineer|在需要构建或增强开发者工具（包括CLI、代码生成器、构建工具和IDE扩展）时使用|
-|skills-subagents-catalog|agent|refactoring-specialist|在需要将结构不良、复杂或重复的代码转换为干净、可维护的系统时使用|
-|skills-subagents-catalog|agent|legacy-modernizer|在现代化需要增量迁移策略、技术债务减少的遗留系统时使用|
-|skills-everything-claude-code|skill|developer-essentials|开发者必备技能|
-|skills-awesome-copilot|skill|copilot-instructions-blueprint-generator|生成copilot-instructions.md文件蓝图|
-|skills-awesome-copilot|skill|copilot-spaces|使用Copilot Spaces提供项目特定上下文|
-|skills-awesome-copilot|skill|copilot-cli-quickstart|GitHub Copilot CLI初学者教程|
-|skills-awesome-copilot|skill|cli-mastery|GitHub Copilot CLI交互式培训教程|
-|skills-awesome-copilot|skill|mentoring-juniors|苏格拉底式初级开发者指导|
-|skills-awesome-copilot|agent|Developer Advocate|开发者倡导者专家，专注于构建开发者社区、创建技术内容、优化开发者体验|
-|skills-wshobson-agents|agent|dx-optimizer|开发者体验优化专家|
-|skills-wshobson-agents|skill|developer-essentials|开发者必备技能（认证模式、代码审查、调试、E2E测试、错误处理、Git高级工作流等）|
-|skills-skills-template|skill|developer-experience|优化开发者体验|
+| 来源                            | 类型    | 名称                                       | 描述                                         |
+| ----------------------------- | ----- | ---------------------------------------- | ------------------------------------------ |
+| skills-subagents-catalog      | agent | dx-optimizer                             | 在优化包括构建时间、反馈循环、测试效率的完整开发者工作流时使用            |
+| skills-subagents-catalog      | agent | tooling-engineer                         | 在需要构建或增强开发者工具（包括CLI、代码生成器、构建工具和IDE扩展）时使用   |
+| skills-subagents-catalog      | agent | refactoring-specialist                   | 在需要将结构不良、复杂或重复的代码转换为干净、可维护的系统时使用           |
+| skills-subagents-catalog      | agent | legacy-modernizer                        | 在现代化需要增量迁移策略、技术债务减少的遗留系统时使用                |
+| skills-everything-claude-code | skill | developer-essentials                     | 开发者必备技能                                    |
+| skills-awesome-copilot        | skill | copilot-instructions-blueprint-generator | 生成copilot-instructions.md文件蓝图              |
+| skills-awesome-copilot        | skill | copilot-spaces                           | 使用Copilot Spaces提供项目特定上下文                  |
+| skills-awesome-copilot        | skill | copilot-cli-quickstart                   | GitHub Copilot CLI初学者教程                    |
+| skills-awesome-copilot        | skill | cli-mastery                              | GitHub Copilot CLI交互式培训教程                  |
+| skills-awesome-copilot        | skill | mentoring-juniors                        | 苏格拉底式初级开发者指导                               |
+| skills-awesome-copilot        | agent | Developer Advocate                       | 开发者倡导者专家，专注于构建开发者社区、创建技术内容、优化开发者体验         |
+| skills-wshobson-agents        | agent | dx-optimizer                             | 开发者体验优化专家                                  |
+| skills-wshobson-agents        | skill | developer-essentials                     | 开发者必备技能（认证模式、代码审查、调试、E2E测试、错误处理、Git高级工作流等） |
+| skills-skills-template        | skill | developer-experience                     | 优化开发者体验                                    |
 
 ### 设置与初始化
 |来源|类型|名称|描述|
@@ -1132,118 +1246,6 @@
 
 ---
 
-# 四、其他 (Others)
-
-## 4.1 学术与研究
-
-|来源|类型|名称|描述|
-|---|---|---|---|
-|skills-agency-agents|agent|Anthropologist (人类学家)|文化系统、仪式、亲属关系、信仰体系和民族志方法专家|
-|skills-agency-agents|agent|Geographer (地理学家)|自然地理与人文地理、气候系统、制图学和空间分析专家|
-|skills-agency-agents|agent|Historian (历史学家)|历史分析、分期、物质文化和史学专家|
-|skills-agency-agents|agent|Narratologist (叙事学家)|叙事理论、故事结构、角色弧线和文学分析专家|
-|skills-agency-agents|agent|Psychologist (心理学家)|人类行为、人格理论、动机和认知模式专家|
-|skills-agency-agents|agent|Study Abroad Advisor (留学顾问)|全谱系留学规划专家，覆盖美国、英国、加拿大、澳洲、欧洲等|
-|skills-awesome-copilot|agent|Microsoft Study and Learn|激活您的个人Microsoft/Azure导师 - 通过引导式发现学习|
-|skills-awesome-copilot|agent|Mentor mode|通过提供指导和支持帮助工程师成长|
-|skills-awesome-copilot|agent|Sensei - Junior Mentor|初级开发者的苏格拉底式导师。通过问题引导，从不给出直接答案|
-
-## 4.2 文档处理
-
-|来源|类型|名称|描述|
-|---|---|---|---|
-|skills-anthropics|skill|pdf|从PDF文件提取文本和内容，或创建新的PDF|
-|skills-anthropics|skill|pptx|创建和编辑Microsoft PowerPoint演示文稿（.pptx）|
-|skills-anthropics|skill|docx|创建和编辑Microsoft Word文档（.docx）|
-|skills-anthropics|skill|xlsx|创建和编辑Microsoft Excel电子表格（.xlsx）|
-|skills-agency-agents|agent|Document Generator (文档生成器)|文档创建专家，使用基于代码的方法生成专业的PDF、PPTX、DOCX和XLSX文件|
-|skills-baoyu|skill|baoyu-compress-image|将图片压缩为WebP（默认）或PNG，自动选择工具|
-|skills-baoyu|skill|baoyu-image-gen|支持OpenAI、Google、DashScope、Jimeng、Seedream和Replicate等API的AI图像生成工具|
-|skills-baoyu|skill|baoyu-slide-deck|从内容生成专业幻灯片图像|
-|skills-everything-claude-code|skill|nutrient-document-processing|使用Nutrient DWS API处理、转换、OCR、提取、编辑、签名和填充文档|
-|skills-awesome-copilot|skill|markdown-to-html|将Markdown文档转换为HTML|
-|skills-awesome-copilot|skill|pdftk-server|使用PDFtk Server命令行工具处理PDF|
-|skills-awesome-copilot|skill|image-manipulation-image-magick|使用ImageMagick处理和操作图像|
-|skills-awesome-copilot|skill|transloadit-media-processing|使用Transloadit处理媒体文件|
-|skills-awesome-copilot|skill|msstore-cli|Microsoft Store开发者CLI发布应用|
-|skills-antigravity-awesome-skills|skill|xlsx-official|全面的电子表格创建、编辑和分析，支持公式、格式化、数据分析和可视化|
-|skills-antigravity-awesome-skills|skill|web-artifacts-builder|使用现代前端Web技术创建复杂的claude.ai HTML构件|
-|skills-antigravity-awesome-skills|skill|presentation-builder|构建演示文稿和幻灯片|
-|skills-antigravity-awesome-skills|skill|screenshots|使用Playwright生成应用营销截图|
-
-## 4.3 视频与媒体
-
-|来源|类型|名称|描述|
-|---|---|---|---|
-|skills-antigravity-awesome-skills|skill|video-production|视频制作工作流。用于创建演示视频、教程和营销内容|
-|skills-antigravity-awesome-skills|skill|fal-generate|使用fal.ai AI模型生成图像和视频|
-|skills-antigravity-awesome-skills|skill|fal-audio|使用fal.ai音频模型进行文本转语音和语音转文本|
-|skills-antigravity-awesome-skills|skill|vizcom|AI驱动的产品设计工具，将草图转换为高保真3D渲染图|
-|skills-antigravity-awesome-skills|skill|videodb-skills|使用VideoDB SDK上传、流媒体、搜索、编辑、转录并生成AI视频和音频|
-
-## 4.4 文本处理
-
-|来源|类型|名称|描述|
-|---|---|---|---|
-|skills-baoyu|skill|baoyu-format-markdown|格式化纯文本或Markdown文件，添加前置内容、标题、摘要|
-|skills-baoyu|skill|baoyu-markdown-to-html|将Markdown转换为带样式的HTML，支持微信兼容主题|
-|skills-baoyu|skill|baoyu-translate|在语言间翻译文章和文档，提供三种模式|
-|skills-baoyu|skill|baoyu-url-to-markdown|通过Chrome CDP获取任意URL并转换为Markdown|
-
-## 4.5 法律专业
-
-|来源|类型|名称|描述|
-|---|---|---|---|
-|skills-antigravity-awesome-skills|skill|advogado-criminal|刑事律师，专门处理巴西刑法相关案件|
-|skills-antigravity-awesome-skills|skill|advogado-especialista|巴西法律各领域专业律师|
-|skills-antigravity-awesome-skills|skill|leiloeiro-juridico|拍卖法律分析|
-
-## 4.6 名人模拟
-
-|来源|类型|名称|描述|
-|---|---|---|---|
-|skills-antigravity-awesome-skills|skill|steve-jobs|模拟Steve Jobs的代理——苹果联合创始人、皮克斯CEO|
-|skills-antigravity-awesome-skills|skill|warren-buffett|模拟Warren Buffett的代理——最伟大的投资者|
-|skills-antigravity-awesome-skills|skill|yann-lecun|模拟Yann LeCun的代理——卷积神经网络发明者、Meta首席AI科学家|
-
-## 4.7 XR/VR开发
-
-|来源|类型|名称|描述|
-|---|---|---|---|
-|skills-agency-agents|agent|visionOS Spatial Engineer (visionOS空间工程师)|原生visionOS空间计算、SwiftUI体积界面和Liquid Glass设计实现|
-|skills-agency-agents|agent|macOS Spatial/Metal Engineer (macOS空间/Metal工程师)|原生Swift和Metal专家，为macOS和Vision Pro构建高性能3D渲染系统|
-|skills-agency-agents|agent|XR Immersive Developer (XR沉浸式开发者)|WebXR和沉浸式技术专家，专注于基于浏览器的AR/VR/XR应用|
-|skills-agency-agents|agent|XR Interface Architect (XR界面架构师)|沉浸式AR/VR/XR环境的空间交互设计师和界面策略师|
-|skills-agency-agents|agent|XR Cockpit Interaction Specialist (XR座舱交互专家)|设计和开发XR环境沉浸式座舱控制系统的专家|
-|skills-antigravity-awesome-skills|skill|threejs-loaders|Three.js资源加载——GLTF、纹理、图像、模型、异步模式|
-
-## 4.8 自动化集成
-
-|来源|类型|名称|描述|
-|---|---|---|---|
-|skills-antigravity-awesome-skills|skill|n8n-mcp-tools-expert|有效使用n8n-mcp MCP工具的专家指南|
-|skills-antigravity-awesome-skills|skill|google-calendar-automation|与Google Calendar交互|
-|skills-antigravity-awesome-skills|skill|calendly-automation|通过Rube MCP (Composio)自动化Calendly日程安排|
-|skills-antigravity-awesome-skills|skill|whatsapp-automation|通过Rube MCP (Composio)自动化WhatsApp Business任务|
-|skills-antigravity-awesome-skills|skill|youtube-automation|通过Rube MCP (Composio)自动化YouTube任务|
-|skills-antigravity-awesome-skills|skill|linkedin-cli|通过CLI自动化LinkedIn操作|
-
-## 4.9 区块链安全审计
-
-|来源|类型|名称|描述|
-|---|---|---|---|
-|skills-agency-agents|agent|Blockchain Security Auditor (区块链安全审计师)|智能合约安全审计专家，专注于漏洞检测、形式化验证、漏洞利用分析|
-
-## 4.10 其他工具
-
-|来源|类型|名称|描述|
-|---|---|---|---|
-|skills-awesome-copilot|agent|Arm Migration Agent|Arm云迁移助手，加速将x86工作负载迁移到Arm基础设施|
-|skills-awesome-copilot|agent|WinUI 3 Expert|WinUI 3和Windows App SDK开发专家代理|
-|skills-awesome-copilot|agent|WinForms Expert|支持.NET（OOP）WinForms设计器兼容应用程序开发|
-|skills-wshobson-agents|skill|data-analysis|分析数据集以提取洞察、识别模式并生成报告|
-|skills-skills-template|skill|data-analysis|分析数据集以提取洞察、识别模式并生成报告|
-|skills-antigravity-awesome-skills|skill|notion-template-business|构建和销售Notion模板的专家|
 
 ---
 

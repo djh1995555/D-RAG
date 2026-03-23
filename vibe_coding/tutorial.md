@@ -196,101 +196,16 @@ model: sonnet
 - 极光渐变
 ### 交互和动效
 - 视差滚动（滚动时，背景动得慢，文字动得快）
-- 
 
-## UI设计提示词
-```
-	1.视觉风格：
-	-背景色：背景使用深色，边框采用极细的半透明
-	白色。
-	一品牌色：核心品牌色为荧光绿（a7f069)。请将其
-	用于图标颜色、边框的高亮态，以及悬停时的渐变
-	光晕。
-	-文字色：标题文字使用纯白，描述文字使用略带
-	透明度的灰色以形成层级感。
-	-圆角：卡片采用24px的大圆角。
-	2.内容布局：
-	一垂直结构：由上至下依次为图标、标题、描述。
-	一图标容器：图标需包裹在一个带1px细边框的深
-	色圆角方块内。
-	3.交互动效(重点）：
-	-荧光弥散光晕：当鼠标Hover时，卡片背后需出
-	现一层以荧光绿为主色的弥散光晕（Blur效果），
-	模拟霓虹背光的感觉。
-	一微位移反馈：悬停时卡片平滑上浮4px，同时内
-	部的图标容器微调放大（Scale 110%）。
-	-平滑过渡：所有颜色和位移的变化均需设定为
-	0.3s-0.5s的过渡时间。
-```
-
-
-
-# 全栈项目
-## 项目结构
-### 1. Monorepo 结构（推荐）
-```
-my-project/
-├── apps/                        # 应用目录（按业务维度拆分）
-│   ├── web/                     # 前端应用（React/Vue 等）
-│   │   ├── src/
-│   │   │   ├── components/      # 业务 UI 组件
-│   │   │   ├── pages/           # 页面/路由组件
-│   │   │   ├── hooks/           # 自定义 React Hooks
-│   │   │   ├── stores/          # 状态管理（Pinia/Redux 等）
-│   │   │   └── utils/           # 前端工具函数
-│   │   ├── package.json         # 前端依赖配置
-│   │   └── vite.config.ts       # 前端构建配置
-│   │
-│   └── api/                     # 后端应用（Node.js/Java 等）
-│       ├── src/
-│       │   ├── controllers/     # 接口控制器（处理请求/响应）
-│       │   ├── services/        # 核心业务逻辑层
-│       │   ├── models/          # 数据模型/实体
-│       │   ├── routes/          # 路由定义
-│       │   ├── middleware/      # 中间件（鉴权/日志等）
-│       │   ├── config/          # 环境配置/常量
-│       │   └── utils/           # 后端工具函数
-│       ├── package.json         # 后端依赖配置
-│       └── tsconfig.json        # TypeScript 配置
-│
-├── packages/                    # 跨应用共享包（可独立发布）
-│   ├── shared-types/            # 前后端共享 TypeScript 类型
-│   ├── database/                # 数据库公共逻辑（ORM/迁移/连接）
-│   └── ui/                      # 跨项目共享 UI 组件库
-│
-├── docker-compose.yml           # 基础设施编排（数据库/缓存等）
-├── package.json                 # 根级依赖/脚本（如 turbo 命令）
-└── turbo.json                   # Monorepo 任务调度配置（TurboRepo）
-```
-
-### 2. 分离式结构（传统拆分）
-```
-my-project/
-├── frontend/                    # 前端项目（独立仓库等价物）
-│   ├── public/                  # 静态资源
-│   ├── src/                     # 前端源码
-│   ├── package.json             # 前端依赖
-│   └── Dockerfile               # 前端容器构建
-│
-├── backend/                     # 后端项目（独立仓库等价物）
-│   ├── src/                     # 后端源码
-│   ├── tests/                   # 后端单元/集成测试
-│   ├── package.json             # 后端依赖
-│   └── Dockerfile               # 后端容器构建
-│
-├── database/                    # 数据库独立管理
-│   ├── migrations/              # 数据库迁移脚本
-│   ├── seeds/                   # 测试数据/初始化数据
-│   └── docker-compose.yml       # 数据库单机部署配置
-│
-├── nginx/                       # Nginx 反向代理/静态资源配置
-│   ├── nginx.conf               # 核心配置
-│   └── default.conf             # 站点配置
-│
-├── docker-compose.yml           # 整体服务编排（前端+后端+数据库+Nginx）
-└── README.md                    # 项目整体说明
-```
 
 # 优秀项目
 - https://github.com/t3-oss/create-t3-app
 - https://github.com/bytefer/awesome-nextjs
+
+
+
+# 实战案例
+
+* ☑️ [openclaw cases](https://github.com/hesamsheikh/awesome-openclaw-usecases)
+* ☑️ [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps)
+* ☑️ [个人教程](https://adongwanai.github.io/)
