@@ -1,3 +1,22 @@
+
+* 🤍 [msitarzewski/agency-agents，56.2K⭐](https://github.com/msitarzewski/agency-agents)
+* 🤍 [anthropics/skills：官方skills，98.3K⭐](https://github.com/anthropics/skills)
+* 🤍 [antigravity-awesome-skills，26.1K⭐](https://github.com/sickn33/antigravity-awesome-skills)
+* 🤍 [github/awesome-copilot，26.2K⭐](https://github.com/github/awesome-copilot)
+* 🤍 [JimLiu/baoyu-skills，10.9K⭐](https://github.com/JimLiu/baoyu-skills)
+* 🤍 [anthropics/claude-plugins-official，13.3K⭐](https://github.com/anthropics/claude-plugins-official)
+* 🤍 [skills-everything-claude-code，89.5K⭐](https://github.com/affaan-m/everything-claude-code)
+* 🤍 [coreyhaines31/marketingskills：marketing相关](https://github.com/coreyhaines31/marketingskills)
+* 🤍 [pm-skills：生成项目计划](https://github.com/phuryn/pm-skills)
+* 🤍 [VoltAgent/awesome-claude-code-subagents，14.5K⭐](https://github.com/VoltAgent/awesome-claude-code-subagents)
+	| 编号 | 功能 | 类型 | 名称 | 描述 | 链接 |
+* 🤍 [obra/superpowers，101K⭐](https://github.com/obra/superpowers)
+	| 编号 | 功能 | 类型 | 名称 | 描述 | 链接 |
+* 🤍 [wshobson/agents，31.8K⭐](https://github.com/wshobson/agents)
+	| 编号 | 功能 | 类型 | 名称 | 描述 | 路径 |
+
+
+
 # Marketplace
 * https://skillsmp.com
 * https://lobehub.com/zh
@@ -30,13 +49,12 @@
 * 🤍 [oh-my-claudecode，10.6K⭐](https://github.com/Yeachan-Heo/oh-my-claudecode):claude code超级编排
 ## 工作流备选
 * 🤍 [gstack，30.8K⭐](https://github.com/garrytan/gstack)：一套多agent协作完整的工作流，for claude code
-* 🤍 [supercent-io/skills-template，70⭐](https://github.com/supercent-io/skills-template)([skills列表](skills_collections/skills-template.md))：多agent工作流，而且每个环节都有多个skill，主要是开发相关，少数其他
-* 🤍 [msitarzewski/agency-agents，56.2K⭐](https://github.com/msitarzewski/agency-agents)([skills列表](skills_collections/skills-agency-agents))：无协作工作流，但是每个环节都有一个skill，开发和商业并重，一个公司的所有部门都有
-* 🤍 [wshobson/agents，31.8K⭐](https://github.com/wshobson/agents)([skills列表](skills_collections/skills-wshobson-agents))：无协作工作流，但是每个环节都有一个skill，主要是开发相关，少数其他领域
-* 🤍 [VoltAgent/awesome-claude-code-subagents，14.5K⭐](https://github.com/VoltAgent/awesome-claude-code-subagents)([skills列表](skills_collections/skills-subagents-catalog.md))：无协作工作流，但是每个环节都有一个skill，主要是开发相关，少数其他领域
-* 🤍 [obra/superpowers，101K⭐](https://github.com/obra/superpowers)([skills列表](skills_collections/skills-superpowers))：无协作工作流，只有跟工作流相关的skill，比如只有测试驱动开发skill，但是没有专门前端开发skill
-* 🤍 [skills-everything-claude-code，89.5K⭐](https://github.com/affaan-m/everything-claude-code)([skills列表](vibe_coding/skills_collections/skills-everything-claude-code.md))：无协作工作流，无环节具体skill，比superpower多点东西，但差不多
-* 🤍 [anthropics/skills：官方skills，98.3K⭐](https://github.com/anthropics/skills)([skills列表](skills_collections/skills-anthropics.md))：claude官方skill
+* 🤍 [msitarzewski/agency-agents，56.2K⭐](https://github.com/msitarzewski/agency-agents)([skills列表](skills_collections/skills-agency-agents.md))：无协作工作流，但是每个环节都有一个skill，开发和商业并重，一个公司的所有部门都有
+* 🤍 [wshobson/agents，31.8K⭐](https://github.com/wshobson/agents)([skills列表](skills_collections/skills-agents.md))：无协作工作流，但是每个环节都有一个skill，主要是开发相关，少数其他领域
+* 🤍 [VoltAgent/awesome-claude-code-subagents，14.5K⭐](https://github.com/VoltAgent/awesome-claude-code-subagents)([skills列表](skills_collections/skills-awesome-claude-code-subagents.md))：无协作工作流，但是每个环节都有一个skill，主要是开发相关，少数其他领域
+* 🤍 [obra/superpowers，101K⭐](https://github.com/obra/superpowers)([skills列表](skills_collections/skills-superpowers.md))：无协作工作流，只有跟工作流相关的skill，比如只有测试驱动开发skill，但是没有专门前端开发skill
+* 🤍 [skills-everything-claude-code，89.5K⭐](https://github.com/affaan-m/everything-claude-code)([skills列表](skills_collections/skills-everything-claude-code.md))：无协作工作流，无环节具体skill，比superpower多点东西，但差不多
+* 🤍 [anthropics/skills：官方skills，98.3K⭐](https://github.com/anthropics/skills)([skills列表](skills_collections/skills-anthropics-skills.md))：claude官方skill
 * 🤍 [anthropics/claude-plugins-official，13.3K⭐](https://github.com/anthropics/claude-plugins-official)([skills列表](skills_collections/skills-claude-plugins-official.md))：claude官方插件
 * 🤍 [github/awesome-copilot，26.2K⭐](https://github.com/github/awesome-copilot)([skills列表](skills_collections/skills-awesome-copilot.md))：很细很多的skill和agent
 * 🤍 [antigravity-awesome-skills，26.1K⭐](https://github.com/sickn33/antigravity-awesome-skills)([skills列表](skills_collections/skills-antigravity-awesome-skills.md))：分类型技能库，巨多，分的太细了，每个skill都很具体
@@ -51,10 +69,11 @@
 * ☑️ [inferen-sh/skills](https://github.com/inference-sh/skills)：多媒体，一个工具生成图片，视频，声音...，**收费**
 ## 0.3 文档处理
 ## 0.4 文本处理
-* ✅ baoyu-format-markdown:格式化纯文本或 Markdown 文件，添加前置内容、标题、摘要、标题、加粗、列表和代码块。用于"格式化 markdown"、"美化文章"、"添加格式"或改进文章布局。输出到 {filename}-formatted.md
-* ✅ baoyu-markdown-to-html：将 Markdown 转换为带样式的 HTML，支持微信兼容主题（default、grace、simple、modern）。支持代码高亮、数学公式、PlantUML、脚注、提示框、信息图，以及可选的外链底部引用。用于"markdown 转 html"、"转换 md 为 html"、"md转html"、"微信外链转底部引用"或需要从 Markdown 输出带样式的 HTML。
-* ✅ baoyu-translate：在语言间翻译文章和文档，提供三种模式——快速（直接翻译）、普通（分析后翻译）、精细（分析、翻译、审查、润色）。通过 EXTEND.md 支持自定义术语表和术语一致性。用于"translate"、"翻译"、"精翻"、"translate article"、"translate to Chinese/English"、"改成中文"、"改成英文"或任何文档翻译需求。
-* ✅ baoyu-url-to-markdown：通过 Chrome CDP 获取任意 URL 并转换为 Markdown。保存渲染后的 HTML 快照和 Markdown，使用升级版 Defuddle 流程（更好的 Web 组件处理和 YouTube 字幕提取），必要时自动回退到旧版 HTML-to-Markdown 流程。支持自动捕获和等待用户信号两种模式。用于将网页保存为 Markdown。
+* ☑️ [baoyu-skills](https://github.com/JimLiu/baoyu-skills)([skills列表](skills_collections/skills-baoyu-skills.md))
+	* ✅ baoyu-format-markdown:格式化纯文本或 Markdown 文件，添加前置内容、标题、摘要、标题、加粗、列表和代码块。用于"格式化 markdown"、"美化文章"、"添加格式"或改进文章布局。输出到 {filename}-formatted.md
+	* ✅ baoyu-markdown-to-html：将 Markdown 转换为带样式的 HTML，支持微信兼容主题（default、grace、simple、modern）。支持代码高亮、数学公式、PlantUML、脚注、提示框、信息图，以及可选的外链底部引用。用于"markdown 转 html"、"转换 md 为 html"、"md转html"、"微信外链转底部引用"或需要从 Markdown 输出带样式的 HTML。
+	* ✅ baoyu-translate：在语言间翻译文章和文档，提供三种模式——快速（直接翻译）、普通（分析后翻译）、精细（分析、翻译、审查、润色）。通过 EXTEND.md 支持自定义术语表和术语一致性。用于"translate"、"翻译"、"精翻"、"translate article"、"translate to Chinese/English"、"改成中文"、"改成英文"或任何文档翻译需求。
+	* ✅ baoyu-url-to-markdown：通过 Chrome CDP 获取任意 URL 并转换为 Markdown。保存渲染后的 HTML 快照和 Markdown，使用升级版 Defuddle 流程（更好的 Web 组件处理和 YouTube 字幕提取），必要时自动回退到旧版 HTML-to-Markdown 流程。支持自动捕获和等待用户信号两种模式。用于将网页保存为 Markdown。
 * ✅ [summarize](https://skills.sh/steipete/clawdis/summarize)：总结
 * ✅ [Humanizer-zh](https://skills.sh/op7418/humanizer-zh/humanizer-zh)：去除文本中人工智能生成的痕迹
 
@@ -184,15 +203,18 @@
 
 ### TypeScript/JavaScript
 ### Python
+|skills-everything-claude-code|skill|python-patterns|Pythonic惯用法、PEP 8标准、类型提示，以及构建健壮Python应用的最佳实践|
 ### Go
 ### Rust
 ### Java
 ### C#/.NET
 ### C/C++
+|skills-everything-claude-code|skill|cpp-coding-standards|基于C++ Core Guidelines的C++编码标准|
 ### PHP
 ### Ruby
 ### 其他语言
 ### 通用编码规范
+|skills-antigravity-awesome-skills|skill|bash-scripting|创建生产级shell脚本的Bash脚本工作流，包含防御性模式、错误处理和测试|
 
 ## 2.4 数据库
 * ☑️ [supabase/agent-skills：后端数据库](https://github.com/supabase/agent-skills)
