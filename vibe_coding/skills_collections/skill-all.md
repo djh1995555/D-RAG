@@ -13,17 +13,41 @@
 
 ## 0.2 视频与媒体
 
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
+| 575 | skills-anthropics-skills | algorithmic-art | skills | algorithmic-art | 使用 p5.js 创建算法艺术，支持种子随机性和交互式参数探索。当用户请求使用代码创作艺术、生成艺术、算法艺术、流场或粒子系统时使用此技能。创建原创算法艺术而非复制现有艺术家的作品以避免版权侵权。 | https://github.com/anthropics/skills/tree/main/skills/algorithmic-art |
+| 587 | skills-anthropics-skills | slack-gif-creator | skills | slack-gif-creator | 为创建针对 Slack 优化的动画 GIF 提供知识和实用工具。提供约束、验证工具和动画概念。当用户请求为 Slack 创建动画 GIF 时使用，例如"为 Slack 制作一个 X 做 Y 的 GIF"。 | https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator |
+| 606 | skills-baoyu-skills | baoyu-article-illustrator | skills | baoyu-article-illustrator | 分析文章结构，识别需要视觉辅助的位置，使用 Type × Style 双维度方法生成插图。用于"为文章配图"、"添加图片"、"为文章生成图片"或"illustrate article"等请求。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-article-illustrator |
+| 607 | skills-baoyu-skills | baoyu-comic | skills | baoyu-comic | 知识漫画创建器，支持多种画风和基调。创建原创教育漫画，包含详细的分镜布局和连续图像生成。用于创建"知识漫画"、"教育漫画"、"biography comic"、"tutorial comic"或"Logicomix-style comic"。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-comic |
+| 608 | skills-baoyu-skills | baoyu-compress-image | skills | baoyu-compress-image | 使用最佳可用工具将图片压缩为 WebP（默认）或 PNG。用于"压缩图片"、"优化图片"、"转换为 webp"或减小图片文件大小。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-compress-image |
+| 609 | skills-baoyu-skills | baoyu-cover-image | skills | baoyu-cover-image | 生成文章封面图片，支持 5 个维度（类型、调色板、渲染、文本、情绪），组合 10 种调色板和 7 种渲染风格。支持电影比例、宽屏和方形比例。用于"生成封面图片"、"创建文章封面"或"制作封面"。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-cover-image |
+| 613 | skills-baoyu-skills | baoyu-image-gen | skills | baoyu-image-gen | 支持 OpenAI、Google、OpenRouter、DashScope、Jimeng、Seedream 和 Replicate API 的 AI 图像生成工具。提供文本转图像、参考图像、宽高比以及从保存的提示文件批量生成功能。用于请求生成、创建或绘制图像。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-image-gen |
+| 614 | skills-baoyu-skills | baoyu-infographic | skills | baoyu-infographic | 生成专业信息图表，支持 21 种布局类型和 20 种视觉风格。分析内容，推荐布局×风格组合，并生成可发布的信息图表。用于创建"信息图"、"视觉摘要"、"可视化"或"高密度信息大图"。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-infographic |
+| 619 | skills-baoyu-skills | baoyu-slide-deck | skills | baoyu-slide-deck | 从内容生成专业的幻灯片图像。创建带风格说明的大纲，然后生成单独的幻灯片图像。用于"创建幻灯片"、"制作演示文稿"、"生成演示文档"、"幻灯片"或"PPT"。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-slide-deck |
+| 623 | skills-baoyu-skills | baoyu-youtube-transcript | skills | baoyu-youtube-transcript | 通过 URL 或视频 ID 下载 YouTube 视频字幕/字幕和封面图片。支持多种语言、翻译、章节和说话人识别。缓存原始数据以快速重新格式化。用于获取 YouTube 字幕、下载字幕、获取字幕文本或封面图片。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-youtube-transcript |
+
 ## 0.3 文档处理
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 6 | skills-agency-agents | specialized | agents | Document Generator | 文档创建专家，使用代码方法生成专业PDF、PPTX、DOCX和XLSX文件，包含正确格式、图表和数据可视化 | https://github.com/msitarzewski/agency-agents/tree/main/specialized/specialized-document-generator.md |
+| 579 | skills-anthropics-skills | doc-coauthoring | skills | doc-coauthoring | 指导用户完成协作文档创作的结构化工作流程。当用户想要编写文档、提案、技术规格、决策文档或类似的结构化内容时使用。此工作流程帮助用户高效传递上下文、通过迭代完善内容，并验证文档对读者有效。当用户提到编写文档、创建提案、起草规格或类似文档任务时触发。 | https://github.com/anthropics/skills/tree/main/skills/doc-coauthoring |
+| 580 | skills-anthropics-skills | docx | skills | docx | 当用户想要创建、读取、编辑或操作 Word 文档（.docx 文件）时使用此技能。触发条件包括：任何提及"Word 文档"、".docx"或请求生成带有目录、标题、页码或信头等专业格式文档。也用于从 .docx 文件提取或重组内容、在文档中插入或替换图片、在 Word 文件中执行查找和替换、处理修订或批注，或将内容转换为精美的 Word 文档。如果用户要求将"报告"、"备忘录"、"信函"、"模板"或类似交付物作为 Word 或 .docx 文件，请使用此技能。不适用于 PDF、电子表格、Google Docs 或与文档生成无关的一般编码任务。 | https://github.com/anthropics/skills/tree/main/skills/docx |
+| 584 | skills-anthropics-skills | pdf | skills | pdf | 当用户想要对 PDF 文件执行任何操作时使用此技能。这包括从 PDF 读取或提取文本/表格、将多个 PDF 合并为一个、拆分 PDF、旋转页面、添加水印、创建新 PDF、填写 PDF 表单、加密/解密 PDF、提取图像，以及对扫描 PDF 进行 OCR 使其可搜索。如果用户提到 .pdf 文件或要求生成一个，请使用此技能。 | https://github.com/anthropics/skills/tree/main/skills/pdf |
+| 585 | skills-anthropics-skills | pptx | skills | pptx | 任何时候涉及 .pptx 文件时使用此技能——作为输入、输出或两者。这包括：创建幻灯片、演示文稿或简报；从任何 .pptx 文件读取、解析或提取文本（即使提取的内容将用于其他地方，如电子邮件或摘要）；编辑、修改或更新现有演示文稿；组合或拆分幻灯片文件；处理模板、布局、演讲者备注或评论。当用户提到"幻灯片"、"演示文稿"或引用 .pptx 文件名时触发，无论他们之后打算如何处理内容。如果需要打开、创建或触摸 .pptx 文件，请使用此技能。 | https://github.com/anthropics/skills/tree/main/skills/pptx |
+| 591 | skills-anthropics-skills | xlsx | skills | xlsx | 当电子表格文件是主要输入或输出时使用此技能。这意味着用户想要：打开、读取、编辑或修复现有的 .xlsx、.xlsm、.csv 或 .tsv 文件（例如，添加列、计算公式、格式化、图表化、清理混乱数据）；从头或从其他数据源创建新电子表格；或在表格文件格式之间转换。当用户通过名称或路径引用电子表格文件时特别触发——即使是随意的（如"我下载中的 xlsx"）——并希望对其做些处理或从中产生结果。也用于将混乱的表格数据文件（格式错误的行、位置错误的标题、垃圾数据）清理或重组为正确的电子表格。交付物必须是电子表格文件。当主要交付物是 Word 文档、HTML 报告、独立 Python 脚本、数据库管道或 Google Sheets API 集成时不触发，即使涉及表格数据。 | https://github.com/anthropics/skills/tree/main/skills/xlsx |
+| 611 | skills-baoyu-skills | baoyu-danger-x-to-markdown | skills | baoyu-danger-x-to-markdown | 将 X（Twitter）推文和文章转换为带 YAML 前置信息的 markdown 格式。使用逆向工程 API，需要用户同意。用于"X 转 markdown"、"推文转 markdown"、"保存推文"，或处理 x.com/twitter.com URL 进行转换。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-danger-x-to-markdown |
+| 612 | skills-baoyu-skills | baoyu-format-markdown | skills | baoyu-format-markdown | 对纯文本或 markdown 文件进行格式化，包括前置信息、标题、摘要、标题、粗体、列表和代码块。用于"格式化 markdown"、"美化文章"、"添加格式"或改进文章布局。输出到 {filename}-formatted.md。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-format-markdown |
+| 615 | skills-baoyu-skills | baoyu-markdown-to-html | skills | baoyu-markdown-to-html | 将 Markdown 转换为带样式的 HTML，支持微信兼容主题。支持代码高亮、数学公式、PlantUML、脚注、提示框、信息图以及外部链接的底部引用功能。用于"markdown 转 html"、"md转html"、"微信外链转底部引用"或需要从 markdown 输出带样式的 HTML。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-markdown-to-html |
+| 621 | skills-baoyu-skills | baoyu-url-to-markdown | skills | baoyu-url-to-markdown | 使用 Chrome CDP 获取任意 URL 并转换为 markdown。保存渲染的 HTML 快照和 markdown，使用升级的 Defuddle 流程处理 web 组件和 YouTube 字幕提取，在需要时自动回退到预 Defuddle HTML 转 Markdown 流程。如果本地浏览器捕获完全失败，可以回退到托管的 defuddle.md API。支持自动捕获和等待用户信号两种模式（适用于需要登录的页面）。用于用户想要将网页保存为 markdown。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-url-to-markdown |
 
 ## 0.4 文本处理
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 7 | skills-agency-agents | support | agents | Executive Summary Generator | 顾问级AI专家，像高级战略顾问一样思考和沟通，使用McKinsey SCQA、BCG金字塔原理和Bain框架将复杂商业输入转化为简洁可执行的执行摘要 | https://github.com/msitarzewski/agency-agents/tree/main/support/support-executive-summary-generator.md |
+| 582 | skills-anthropics-skills | internal-comms | skills | internal-comms | 一组帮助编写各种内部沟通的资源，使用公司喜欢的格式。每当被要求编写某种内部沟通（状态报告、领导更新、3P 更新、公司通讯、常见问题解答、事件报告、项目更新等）时，Claude 应使用此技能。 | https://github.com/anthropics/skills/tree/main/skills/internal-comms |
+| 620 | skills-baoyu-skills | baoyu-translate | skills | baoyu-translate | 支持快速（直接）、普通（先分析后翻译）和精细（分析、翻译、审查、润色）三种模式在语言间翻译文章和文档。支持通过 EXTEND.md 自定义术语表和术语一致性。用于翻译、本地化或需要文档翻译。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-translate |
 
 ## 0.5 信息收集记录
 
@@ -35,15 +59,22 @@
 
 ## 0.7 主动技能
 
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
+| 586 | skills-anthropics-skills | skill-creator | skills | skill-creator | 创建新技能、修改和改进现有技能，并测量技能性能。当用户想要从头创建技能、编辑或优化现有技能、运行评估测试技能、使用方差分析进行技能性能基准测试，或优化技能描述以提高触发准确性时使用。 | https://github.com/anthropics/skills/tree/main/skills/skill-creator |
+| 603 | skills-superpowers | using-superpowers | skills | using-superpowers | 开始任何对话时使用 - 确立如何查找和使用技能，在ANY响应（包括澄清问题）之前需要调用Skill工具。 | https://github.com/obra/superpowers/tree/main/skills/using-superpowers |
+| 605 | skills-superpowers | writing-skills | skills | writing-skills | 创建新技能、编辑现有技能或在部署前验证技能工作时使用。 | https://github.com/obra/superpowers/tree/main/skills/writing-skills |
+| 624 | skills-everything-claude-code | skill-comply | skills | skill-comply | 可视化技能、规则和智能体定义是否被实际遵循——在3个提示严格级别自动生成场景 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/skill-comply |
+| 625 | skills-everything-claude-code | skill-stocktake | skills | skill-stocktake | 在审计Claude技能和命令质量时使用。支持快速扫描和全面盘点模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/skill-stocktake |
+
 ## 0.8 私有技能
 
 ## 0.9 投资
 
 
-| 490 | skills-agents | quantitative-trading | agents | quant-analyst | 构建金融模型、回测交易策略和分析市场数据。实现风险指标、投资组合优化和统计套利。主动用于量化金融、交易算法或风险分析。 | https://github.com/wshobson/agents/tree/main/plugins/quantitative-trading/agents/quant-analyst.md |
-| 491 | skills-agents | quantitative-trading | agents | risk-manager | 监控投资组合风险、R倍数和仓位限制。创建对冲策略、计算期望值并实施止损。主动用于风险评估、交易跟踪或投资组合保护。 | https://github.com/wshobson/agents/tree/main/plugins/quantitative-trading/agents/risk-manager.md |
-| 492 | skills-agents | quantitative-trading | skills | backtesting-frameworks | 构建健壮的交易策略回测系统，正确处理前视偏差、幸存者偏差和交易成本。用于开发交易算法、验证策略或构建回测基础设施。 | https://github.com/wshobson/agents/tree/main/plugins/quantitative-trading/skills/backtesting-frameworks/SKILL.md |
-| 493 | skills-agents | quantitative-trading | skills | risk-metrics-calculation | 计算投资组合风险指标，包括VaR、CVaR、夏普比率、索提诺比率和回撤分析。用于衡量投资组合风险、实施风险限制或构建风险监控系统。 | https://github.com/wshobson/agents/tree/main/plugins/quantitative-trading/skills/risk-metrics-calculation/SKILL.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
+
 ## 0.10 法律专业
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
@@ -52,11 +83,6 @@
 | 10 | skills-agency-agents | specialized | agents | Healthcare Marketing Compliance Specialist | 中国医疗营销合规专家，精通广告法、医疗广告管理办法、药品管理法及相关法规，覆盖医药、医疗器械、医美、保健品和互联网医疗 | https://github.com/msitarzewski/agency-agents/tree/main/specialized/healthcare-marketing-compliance.md |
 | 11 | skills-agency-agents | support | agents | Legal Compliance Checker | 法律合规专家，确保业务运营、数据处理和内容创作符合多个司法管辖区的相关法律、法规和行业标准 | https://github.com/msitarzewski/agency-agents/tree/main/support/support-legal-compliance-checker.md |
 
-
-| 389 | skills-agents | hr-legal-compliance | agents | hr-pro | 专业、道德的HR合作伙伴，负责招聘、入职/离职、PTO和休假、绩效、合规政策和员工关系。提供建议前询问管辖权和公司背景；生成结构化、减少偏见、合法的模板。 | https://github.com/wshobson/agents/tree/main/plugins/hr-legal-compliance/agents/hr-pro.md |
-| 390 | skills-agents | hr-legal-compliance | agents | legal-advisor | 起草隐私政策、服务条款、免责声明和法律声明。创建符合GDPR的文本、Cookie政策和数据处理协议。主动用于法律文档、合规文本或监管要求。 | https://github.com/wshobson/agents/tree/main/plugins/hr-legal-compliance/agents/legal-advisor.md |
-| 391 | skills-agents | hr-legal-compliance | skills | employment-contract-templates | 按照法律最佳实践创建雇佣合同、录用通知和HR政策文档。用于起草雇佣协议、创建HR政策或标准化雇佣文档。 | https://github.com/wshobson/agents/tree/main/plugins/hr-legal-compliance/skills/employment-contract-templates/SKILL.md |
-| 392 | skills-agents | hr-legal-compliance | skills | gdpr-data-handling | 实现符合GDPR的数据处理，包括同意管理、数据主体权利和隐私设计。用于构建处理欧盟个人数据的系统、实施隐私控制或进行GDPR合规审查。 | https://github.com/wshobson/agents/tree/main/plugins/hr-legal-compliance/skills/gdpr-data-handling/SKILL.md |
 ## 0.11 名人模拟
 
 ## 0.12 XR/VR开发
@@ -102,33 +128,19 @@
 | 33 | skills-agency-agents | support | agents | Finance Tracker | 财务分析师和控制器，专注于财务规划、预算管理和业务绩效分析，维护财务健康、优化现金流并提供业务增长的战略财务洞察 | https://github.com/msitarzewski/agency-agents/tree/main/support/support-finance-tracker.md |
 | 34 | skills-agency-agents | support | agents | Support Responder | 客户支持专家，提供卓越的客户服务、问题解决和用户体验优化，专注于多渠道支持、主动客户关怀和将支持互动转化为正面品牌体验 | https://github.com/msitarzewski/agency-agents/tree/main/support/support-support-responder.md |
 
----
-
-
-| 461 | skills-agents | payment-processing | agents | payment-integration | 集成Stripe、PayPal和支付处理器。处理结账流程、订阅、Webhook和PCI合规。主动用于实现支付、账单或订阅功能。 | https://github.com/wshobson/agents/tree/main/plugins/payment-processing/agents/payment-integration.md |
-| 462 | skills-agents | payment-processing | skills | billing-automation | 为经常性支付、发票、订阅生命周期和催款管理构建自动化账单系统。用于实现订阅账单、自动化发票或管理经常性支付系统。 | https://github.com/wshobson/agents/tree/main/plugins/payment-processing/skills/billing-automation/SKILL.md |
-| 463 | skills-agents | payment-processing | skills | paypal-integration | 集成PayPal支付处理，支持快速结账、订阅和退款管理。用于实现PayPal支付、处理在线交易或构建电子商务结账流程。 | https://github.com/wshobson/agents/tree/main/plugins/payment-processing/skills/paypal-integration/SKILL.md |
-| 464 | skills-agents | payment-processing | skills | pci-compliance | 实现PCI DSS合规要求，安全处理支付卡数据和支付系统。用于保护支付处理、实现PCI合规或实施支付卡安全措施。 | https://github.com/wshobson/agents/tree/main/plugins/payment-processing/skills/pci-compliance/SKILL.md |
-| 465 | skills-agents | payment-processing | skills | stripe-integration | 实现Stripe支付处理，用于健壮、符合PCI的支付流程，包括结账、订阅和Webhook。用于集成Stripe支付、构建订阅系统或实现安全结账流程。 | https://github.com/wshobson/agents/tree/main/plugins/payment-processing/skills/stripe-integration/SKILL.md |
 # 一、开发前 (Pre-Development)
 
 ## 1.1 产品管理
 ### 产品经理/战略
 
-| 528 | skills-agents | startup-business-analyst | agents | startup-analyst | 创业商业分析专家，专注于早期公司的市场规模、财务建模、竞争分析和战略规划。主动用于用户询问市场机会、TAM/SAM/SOM、财务预测、单位经济、竞争格局、团队规划、创业指标或种子轮到A轮创业公司的商业策略。 | https://github.com/wshobson/agents/tree/main/plugins/startup-business-analyst/agents/startup-analyst.md |
-| 534 | skills-agents | startup-business-analyst | commands | business-case | 生成全面的投资者就绪商业案例文档，包括市场、解决方案、财务和战略 | https://github.com/wshobson/agents/tree/main/plugins/startup-business-analyst/commands/business-case.md |
-| 535 | skills-agents | startup-business-analyst | commands | financial-projections | 创建详细的3-5年财务模型，包括收入、成本、现金流和情景 | https://github.com/wshobson/agents/tree/main/plugins/startup-business-analyst/commands/financial-projections.md |
-| 536 | skills-agents | startup-business-analyst | commands | market-opportunity | 生成全面的市场机会分析，包括TAM/SAM/SOM计算 | https://github.com/wshobson/agents/tree/main/plugins/startup-business-analyst/commands/market-opportunity.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### 需求文档 (PRD)
 ### 目标与指标
 
-| 218 | skills-agents | business-analytics | agents | business-analyst | 精通现代商业分析，包括AI驱动的分析、实时仪表板和数据驱动的洞察。构建全面的KPI框架、预测模型和战略建议。主动用于商业智能或战略分析。 | https://github.com/wshobson/agents/tree/main/plugins/business-analytics/agents/business-analyst.md |
-| 219 | skills-agents | business-analytics | skills | data-storytelling | 使用可视化、上下文和有说服力的结构将数据转化为引人入胜的叙述。用于向利益相关者展示分析结果、创建数据报告或构建高管演示。 | https://github.com/wshobson/agents/tree/main/plugins/business-analytics/skills/data-storytelling/SKILL.md |
-| 220 | skills-agents | business-analytics | skills | kpi-dashboard-design | 设计有效的KPI仪表板，包括指标选择、可视化最佳实践和实时监控模式。用于构建商业仪表板、选择指标或设计数据可视化布局。 | https://github.com/wshobson/agents/tree/main/plugins/business-analytics/skills/kpi-dashboard-design/SKILL.md |
-| 530 | skills-agents | startup-business-analyst | skills | market-sizing-analysis | 当用户要求"计算TAM"、"确定SAM"、"估算SOM"、"市场规模"、"计算市场机会"、"总可寻址市场是多少"或请求创业公司或商业机会的市场规模分析时使用此技能。 | https://github.com/wshobson/agents/tree/main/plugins/startup-business-analyst/skills/market-sizing-analysis/SKILL.md |
-| 531 | skills-agents | startup-business-analyst | skills | startup-financial-modeling | 当用户要求"创建财务预测"、"构建财务模型"、"预测收入"、"计算烧钱率"、"估算跑道"、"建模现金流"或请求创业公司的3-5年财务规划时使用此技能。 | https://github.com/wshobson/agents/tree/main/plugins/startup-business-analyst/skills/startup-financial-modeling/SKILL.md |
-| 532 | skills-agents | startup-business-analyst | skills | startup-metrics-framework | 当用户询问"关键创业指标"、"SaaS指标"、"CAC和LTV"、"单位经济"、"烧钱倍数"、"40法则"、"市场指标"或请求跟踪和优化业务绩效指标的指导时使用此技能。 | https://github.com/wshobson/agents/tree/main/plugins/startup-business-analyst/skills/startup-metrics-framework/SKILL.md |
-| 533 | skills-agents | startup-business-analyst | skills | team-composition-analysis | 当用户要求"规划团队结构"、"确定招聘需求"、"设计组织图"、"计算薪酬"、"规划股权分配"或请求创业公司的组织设计和人员规划时使用此技能。 | https://github.com/wshobson/agents/tree/main/plugins/startup-business-analyst/skills/team-composition-analysis/SKILL.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
+
 ### 功能规划
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
@@ -137,6 +149,7 @@
 | 36 | skills-agency-agents | product | agents | Feedback Synthesizer | 用户反馈收集、分析和综合专家，从多渠道提取可执行的产品洞察，将定性反馈转化为量化优先级和战略建议 | https://github.com/msitarzewski/agency-agents/tree/main/product/product-feedback-synthesizer.md |
 | 37 | skills-agency-agents | product | agents | Product Manager | 整体产品负责人，掌控完整产品生命周期——从发现和战略到路线图、利益相关者对齐、上市和结果衡量 | https://github.com/msitarzewski/agency-agents/tree/main/product/product-manager.md |
 | 38 | skills-agency-agents | product | agents | Sprint Prioritizer | 产品经理专家，专注于敏捷冲刺规划、功能优先级和资源分配，通过数据驱动的优先级框架最大化团队速度和业务价值交付 | https://github.com/msitarzewski/agency-agents/tree/main/product/product-sprint-prioritizer.md |
+| 592 | skills-superpowers | brainstorming | skills | brainstorming | 在任何创建性工作之前必须使用 - 创建功能、构建组件、添加功能或修改行为。在实现之前探索用户意图、需求和设计。 | https://github.com/obra/superpowers/tree/main/skills/brainstorming |
 
 ## 1.2 项目管理
 
@@ -148,20 +161,39 @@
 | 42 | skills-agency-agents | project-management | agents | Studio Operations | 运营管理专家，专注于日常工作室效率、流程优化和资源协调，确保运营顺畅并支持团队所需的工具和流程 | https://github.com/msitarzewski/agency-agents/tree/main/project-management/project-management-studio-operations.md |
 | 43 | skills-agency-agents | project-management | agents | Studio Producer | 高级战略领导者，专注于高级创意和技术项目协调、资源分配和多项目组合管理，将创意愿景与业务目标对齐 | https://github.com/msitarzewski/agency-agents/tree/main/project-management/project-management-studio-producer.md |
 | 44 | skills-agency-agents | project-management | agents | Senior Project Manager | 将规格转化为任务并记忆过往项目，专注于现实的范围、无后台进程、精确的规格要求 | https://github.com/msitarzewski/agency-agents/tree/main/project-management/project-manager-senior.md |
-
-
-| 271 | skills-agents | conductor | agents | conductor-validator | 验证Conductor项目构件的完整性、一致性和正确性。用于设置后、诊断问题时或实现前验证项目上下文。 | https://github.com/wshobson/agents/tree/main/plugins/conductor/agents/conductor-validator.md |
-| 272 | skills-agents | conductor | skills | context-driven-development | （待完善）- | https://github.com/wshobson/agents/tree/main/plugins/conductor/skills/context-driven-development/SKILL.md |
-| 273 | skills-agents | conductor | skills | track-management | 用于创建、管理或使用Conductor轨道时——功能、错误和重构的逻辑工作单元。适用于spec.md、plan.md和轨道生命周期操作。 | https://github.com/wshobson/agents/tree/main/plugins/conductor/skills/track-management/SKILL.md |
-| 274 | skills-agents | conductor | skills | workflow-patterns | 用于根据Conductor的TDD工作流实现任务、处理阶段检查点、管理任务的git提交或理解验证协议。 | https://github.com/wshobson/agents/tree/main/plugins/conductor/skills/workflow-patterns/SKILL.md |
-| 275 | skills-agents | conductor | commands | implement | 按照TDD工作流执行轨道实现计划中的任务 | https://github.com/wshobson/agents/tree/main/plugins/conductor/commands/implement.md |
-| 276 | skills-agents | conductor | commands | manage | 管理轨道生命周期：归档、恢复、删除、重命名和清理 | https://github.com/wshobson/agents/tree/main/plugins/conductor/commands/manage.md |
-| 277 | skills-agents | conductor | commands | new-track | 创建具有规范和分阶段实现计划的新轨道 | https://github.com/wshobson/agents/tree/main/plugins/conductor/commands/new-track.md |
-| 278 | skills-agents | conductor | commands | revert | 按逻辑工作单元（轨道、阶段或任务）进行Git感知的撤销 | https://github.com/wshobson/agents/tree/main/plugins/conductor/commands/revert.md |
-| 279 | skills-agents | conductor | commands | setup | 使用Conductor构件（产品定义、技术栈、工作流、风格指南）初始化项目 | https://github.com/wshobson/agents/tree/main/plugins/conductor/commands/setup.md |
-| 280 | skills-agents | conductor | commands | status | 显示项目状态、活动轨道和下一步操作 | https://github.com/wshobson/agents/tree/main/plugins/conductor/commands/status.md |
-| 552 | skills-agents | team-collaboration | commands | issue | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/team-collaboration/commands/issue.md |
-| 553 | skills-agents | team-collaboration | commands | standup-notes | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/team-collaboration/commands/standup-notes.md |
+| 1 | skills-pm-skills | pm-data-analytics | commands | analyze-cohorts | 对用户数据进行队列分析——留存曲线、功能采用和参与趋势 | https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/commands/analyze-cohorts.md |
+| 2 | skills-pm-skills | pm-data-analytics | commands | analyze-test | 分析A/B测试结果——统计显著性、样本量验证和发布/延长/停止建议 | https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/commands/analyze-test.md |
+| 3 | skills-pm-skills | pm-data-analytics | commands | write-query | 从自然语言生成SQL查询——支持BigQuery、PostgreSQL、MySQL等 | https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/commands/write-query.md |
+| 4 | skills-pm-skills | pm-data-analytics | skills | ab-test-analysis | 使用统计显著性、样本量验证、置信区间和发布建议分析A/B测试结果 | https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/ab-test-analysis |
+| 5 | skills-pm-skills | pm-data-analytics | skills | cohort-analysis | 对用户参与数据进行队列分析——留存曲线、功能采用趋势和细分洞察 | https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/cohort-analysis |
+| 6 | skills-pm-skills | pm-data-analytics | skills | sql-queries | 从自然语言描述生成SQL查询，支持BigQuery、PostgreSQL、MySQL等数据库 | https://github.com/phuryn/pm-skills/tree/main/pm-data-analytics/skills/sql-queries |
+| 7 | skills-pm-skills | pm-execution | commands | generate-data | 生成用于测试的真实模拟数据集——CSV、JSON、SQL插入或Python脚本 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/generate-data.md |
+| 8 | skills-pm-skills | pm-execution | commands | meeting-notes | 将会议记录总结为结构化笔记，包含决策、行动项和后续事项 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/meeting-notes.md |
+| 9 | skills-pm-skills | pm-execution | commands | plan-okrs | 构思与公司目标一致的团队级OKR——定性目标与可衡量关键结果 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/plan-okrs.md |
+| 10 | skills-pm-skills | pm-execution | commands | pre-mortem | 对PRD、发布计划或功能进行事前风险分析——在问题发生前识别可能出错的环节 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/pre-mortem.md |
+| 22 |skills-pm-skills | pm-execution | skill | pre-mortem | 对PRD或发布计划进行事前风险分析，将风险分类为老虎、纸老虎和大象 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/pre-mortem |
+| 11 | skills-pm-skills | pm-execution | commands | sprint | 冲刺生命周期——规划冲刺、进行回顾或生成发布说明 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/sprint.md |
+| 12 | skills-pm-skills | pm-execution | commands | stakeholder-map | 在权力×兴趣网格上映射利益相关者并创建定制沟通计划 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/stakeholder-map.md |
+| 27 | skills-pm-skills |pm-execution | skill | stakeholder-map | 使用权力/兴趣网格构建利益相关者地图，识别各象限的沟通策略 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/stakeholder-map |
+| 13 | skills-pm-skills | pm-execution | commands | test-scenarios | 从用户故事或功能规格生成全面的测试场景——正常路径、边界情况和错误处理 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/test-scenarios.md |
+| 29 | skills-pm-skills |pm-execution | skill | test-scenarios | 从用户故事创建全面的测试场景，包含测试目标、起始条件、用户角色和预期结果 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/test-scenarios |
+| 14 | skills-pm-skills | pm-execution | commands | transform-roadmap | 将基于功能的路线图转换为以结果为导向的路线图，传达战略意图 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/transform-roadmap.md |
+| 15 | skills-pm-skills | pm-execution | commands | write-prd | 从功能想法或问题陈述创建全面的产品需求文档 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/write-prd.md |
+| 16 | skills-pm-skills | pm-execution | commands | write-stories | 将功能分解为待办事项——用户故事、工作任务或WWA格式，包含验收标准 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/commands/write-stories.md |
+| 17 | skills-pm-skills | pm-execution | skills | brainstorm-okrs | 构思与公司目标一致的团队级OKR——定性目标与可衡量关键结果 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/brainstorm-okrs |
+| 18 | skills-pm-skills | pm-execution | skills | create-prd | 使用全面的8节模板创建产品需求文档，涵盖问题、目标、细分、价值主张、解决方案和发布规划 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/create-prd |
+| 19 | skills-pm-skills | pm-execution | skills | dummy-dataset | 生成具有可自定义列、约束和输出格式的真实模拟数据集用于测试 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/dummy-dataset |
+| 20 | skills-pm-skills | pm-execution | skills | job-stories | 使用"当[情境]，我想要[动机]，以便[结果]"格式创建工作任务，包含详细验收标准 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/job-stories |
+| 21 | skills-pm-skills | pm-execution | skills | outcome-roadmap | 将以输出为导向的路线图转换为以结果为导向的路线图，传达战略意图 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/outcome-roadmap |
+| 23 | skills-pm-skills | pm-execution | skills | prioritization-frameworks | 9种优先级框架参考指南，包含公式、使用场景和模板——RICE、ICE、Kano、MoSCoW等 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/prioritization-frameworks |
+| 24 | skills-pm-skills | pm-execution | skills | release-notes | 从工单、PRD或变更日志生成面向用户的发布说明 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/release-notes |
+| 25 | skills-pm-skills | pm-execution | skills | retro | 主持结构化冲刺回顾——顺利之处、问题所在、优先行动项及其负责人和截止日期 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/retro |
+| 26 | skills-pm-skills | pm-execution | skills | sprint-plan | 规划冲刺，包括容量估算、故事选择、依赖映射和风险识别 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/sprint-plan |
+| 28 | skills-pm-skills | pm-execution | skills | summarize-meeting | 将会议记录总结为结构化笔记，包含日期、参与者、主题、关键决策和行动项 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/summarize-meeting |
+| 30 | skills-pm-skills | pm-execution | skills | user-stories | 遵循3C原则和INVEST标准创建用户故事，包含描述、设计链接和验收标准 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/user-stories |
+| 31 | skills-pm-skills | pm-execution | skills | wwas | 以为什么-什么-验收格式创建产品待办事项——独立、有价值、可测试的项目 | https://github.com/phuryn/pm-skills/tree/main/pm-execution/skills/wwas |
+| 595 | skills-superpowers | executing-plans | skills | executing-plans | 当你有书面实现计划需要在单独会话中执行并带有审查检查点时使用。 | https://github.com/obra/superpowers/tree/main/skills/executing-plans |
+| 604 | skills-superpowers | writing-plans | skills | writing-plans | 当你有规范或多步骤任务的需求时，在接触代码之前使用。 | https://github.com/obra/superpowers/tree/main/skills/writing-plans |
 ## 1.3 用户研究
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
@@ -173,34 +205,83 @@
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 46 | skills-agency-agents | product | agents | Trend Researcher | 市场情报分析师，专注于识别新兴趋势、竞争分析和机会评估，提供推动产品战略和创新决策的可执行洞察 | https://github.com/msitarzewski/agency-agents/tree/main/product/product-trend-researcher.md |
-
-
-| 529 | skills-agents | startup-business-analyst | skills | competitive-landscape | 当用户要求"分析竞争对手"、"评估竞争格局"、"识别差异化"、"评估市场定位"、"应用波特五力"或请求竞争策略分析时使用此技能。 | https://github.com/wshobson/agents/tree/main/plugins/startup-business-analyst/skills/competitive-landscape/SKILL.md |
+| 32 | skills-pm-skills | pm-go-to-market | commands | battlecard | 创建面向销售的竞争战斗卡——定位、功能比较、异议处理和获胜策略 | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/commands/battlecard.md |
+| 33 | skills-pm-skills | pm-go-to-market | commands | growth-strategy | 设计可持续增长机制——增长飞轮和GTM动效，用于产品驱动和销售驱动策略 | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/commands/growth-strategy.md |
+| 34 | skills-pm-skills | pm-go-to-market | commands | plan-launch | 创建完整的上市策略——滩头市场细分、ICP、信息传递、渠道和发布计划 | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/commands/plan-launch.md |
+| 35 | skills-pm-skills | pm-go-to-market | skills | beachhead-segment | 识别产品发布的首个滩头市场细分，评估细分市场的痛点、支付意愿等 | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/beachhead-segment |
+| 36 | skills-pm-skills | pm-go-to-market | skills | competitive-battlecard | 创建面向销售的竞争战斗卡，比较你的产品与特定竞争对手 | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/competitive-battlecard |
+| 37 | skills-pm-skills | pm-go-to-market | skills | growth-loops | 识别可持续增长的飞轮——病毒式、使用式、协作式、用户生成式和推荐式循环 | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/growth-loops |
+| 38 | skills-pm-skills | pm-go-to-market | skills | gtm-motions | 识别7种GTM动效的最佳上市方式和工具：入站、出站、付费数字、社区、合作伙伴、ABM和PLG | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/gtm-motions |
+| 39 | skills-pm-skills | pm-go-to-market | skills | gtm-strategy | 创建涵盖营销渠道、信息传递、成功指标和发布时间表的上市策略 | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/gtm-strategy |
+| 40 | skills-pm-skills | pm-go-to-market | skills | ideal-customer-profile | 从研究数据中识别理想客户画像，包含人口统计、行为、JTBD和需求 | https://github.com/phuryn/pm-skills/tree/main/pm-go-to-market/skills/ideal-customer-profile |
+| 41 | skills-pm-skills | pm-marketing-growth | commands | market-product | 构思营销创意、定位、价值主张声明和产品名称——创意营销工具包 | https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/commands/market-product.md |
+| 42 | skills-pm-skills | pm-marketing-growth | commands | north-star | 定义你的北极星指标和支持性输入指标——分类业务游戏并验证最佳实践 | https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/commands/north-star.md |
+| 43 | skills-pm-skills | pm-marketing-growth | skills | marketing-ideas | 生成5个创意、具有成本效益的营销创意，包含渠道、信息传递和参与理由 | https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/marketing-ideas |
+| 44 | skills-pm-skills | pm-marketing-growth | skills | north-star-metric | 定义北极星指标和3-5个支持性输入指标，形成指标星座 | https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/north-star-metric |
+| 45 | skills-pm-skills | pm-marketing-growth | skills | positioning-ideas | 构思与竞争对手差异化的产品定位创意 | https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/positioning-ideas |
+| 46 | skills-pm-skills | pm-marketing-growth | skills | product-name | 构思5个独特、令人难忘的产品名称，与品牌价值和目标受众保持一致 | https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/product-name |
+| 47 | skills-pm-skills | pm-marketing-growth | skills | value-prop-statements | 从现有价值主张生成营销、销售和入门培训用的价值主张声明 | https://github.com/phuryn/pm-skills/tree/main/pm-marketing-growth/skills/value-prop-statements |
+| 48 | skills-pm-skills | pm-market-research | commands | analyze-feedback | 大规模分析用户反馈——情感分析、主题提取和细分级别洞察 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/commands/analyze-feedback.md |
+| 49 | skills-pm-skills | pm-market-research | commands | competitive-analysis | 分析竞争格局——识别竞争对手、比较优势和劣势、寻找差异化机会 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/commands/competitive-analysis.md |
+| 50 | skills-pm-skills | pm-market-research | commands | research-users | 全面用户研究——从研究数据构建人物画像、细分用户和映射客户旅程 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/commands/research-users.md |
+| 51 | skills-pm-skills | pm-market-research | skills | competitor-analysis | 分析竞争对手的优势、劣势和差异化机会，识别直接竞争对手并映射竞争格局 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/competitor-analysis |
+| 52 | skills-pm-skills | pm-market-research | skills | customer-journey-map | 创建端到端客户旅程地图，包含阶段、触点、情绪、痛点和机会 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/customer-journey-map |
+| 53 | skills-pm-skills | pm-market-research | skills | market-segments | 识别3-5个潜在客户细分市场，包含人口统计、JTBD和产品匹配分析 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-segments |
+| 54 | skills-pm-skills | pm-market-research | skills | market-sizing | 使用TAM、SAM和SOM估算市场规模，采用自上而下和自下而上的方法 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/market-sizing |
+| 55 | skills-pm-skills | pm-market-research | skills | sentiment-analysis | 分析用户反馈数据，识别带有情感分数、JTBD和产品满意度的细分群体 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/sentiment-analysis |
+| 56 | skills-pm-skills | pm-market-research | skills | user-personas | 从研究数据创建精细的用户画像——3个画像，包含JTBD、痛点、收益和意外洞察 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/user-personas |
+| 57 | skills-pm-skills | pm-market-research | skills | user-segmentation | 根据行为、JTBD和需求从反馈数据中细分用户，识别至少3个不同的用户细分 | https://github.com/phuryn/pm-skills/tree/main/pm-market-research/skills/user-segmentation |
+| 58 | skills-pm-skills | pm-product-discovery | commands | brainstorm | 从PM、设计师和工程师角度构思产品创意或实验——适用于现有或新产品 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/commands/brainstorm.md |
+| 59 | skills-pm-skills | pm-product-discovery | commands | discover | 运行完整的产品发现周期——从构思到假设映射再到实验设计 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/commands/discover.md |
+| 60 | skills-pm-skills | pm-product-discovery | commands | interview | 准备客户访谈脚本或将访谈记录总结为结构化洞察 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/commands/interview.md |
+| 61 | skills-pm-skills | pm-product-discovery | commands | setup-metrics | 设计产品指标仪表板，包含北极星指标、输入指标、健康指标和警报阈值 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/commands/setup-metrics.md |
+| 62 | skills-pm-skills | pm-product-discovery | commands | triage-requests | 分析、分类和优先处理来自客户或利益相关者的功能请求批次 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/commands/triage-requests.md |
+| 63 | skills-pm-skills | pm-product-discovery | skills | analyze-feature-requests | 按主题、战略一致性、影响、工作量和风险分析并优先处理功能请求列表 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/analyze-feature-requests |
+| 64 | skills-pm-skills | pm-product-discovery | skills | brainstorm-experiments-existing | 为现有产品设计测试假设的实验——原型、A/B测试、探索和其他低工作量验证方法 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-experiments-existing |
+| 65 | skills-pm-skills | pm-product-discovery | skills | brainstorm-experiments-new | 为新产品设计精益创业实验（预原型），创建XYZ假设并建议低工作量验证方法 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-experiments-new |
+| 66 | skills-pm-skills | pm-product-discovery | skills | brainstorm-ideas-existing | 使用PM、设计师和工程师多角度构思为现有产品构思产品创意 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-ideas-existing |
+| 67 | skills-pm-skills | pm-product-discovery | skills | brainstorm-ideas-new | 从PM、设计师和工程师角度为新产品的初始发现构思功能创意 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/brainstorm-ideas-new |
+| 68 | skills-pm-skills | pm-product-discovery | skills | identify-assumptions-existing | 从价值、可用性、可行性和可行性方面识别现有产品功能创意的风险假设 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/identify-assumptions-existing |
+| 69 | skills-pm-skills | pm-product-discovery | skills | identify-assumptions-new | 跨8个风险类别识别新产品创意的风险假设，包括GTM、战略和团队 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/identify-assumptions-new |
+| 70 | skills-pm-skills | pm-product-discovery | skills | interview-script | 创建结构化客户访谈脚本，包含JTBD探索问题、热身、核心探索和总结部分 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/interview-script |
+| 71 | skills-pm-skills | pm-product-discovery | skills | metrics-dashboard | 定义和设计产品指标仪表板，包含关键指标、数据源、可视化类型和警报阈值 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/metrics-dashboard |
+| 72 | skills-pm-skills | pm-product-discovery | skills | opportunity-solution-tree | 构建机会解决方案树来组织产品发现——将期望结果映射到机会、解决方案和实验 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/opportunity-solution-tree |
+| 73 | skills-pm-skills | pm-product-discovery | skills | prioritize-assumptions | 使用影响×风险矩阵优先处理假设，并为每个假设建议实验 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/prioritize-assumptions |
+| 74 | skills-pm-skills | pm-product-discovery | skills | prioritize-features | 根据影响、工作量、风险和战略一致性优先处理功能创意待办事项，推荐前5名 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/prioritize-features |
+| 75 | skills-pm-skills | pm-product-discovery | skills | summarize-interview | 将客户访谈记录总结为结构化模板，包含JTBD、满意度和行动项 | https://github.com/phuryn/pm-skills/tree/main/pm-product-discovery/skills/summarize-interview |
+| 76 | skills-pm-skills | pm-product-strategy | commands | business-model | 使用精益画布、商业模式画布、创业画布或价值主张框架探索商业模式 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/commands/business-model.md |
+| 82 | skills-pm-skills |pm-product-strategy | skill | business-model | 生成包含所有9个构建块的商业模式画布 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/business-model |
+| 77 | skills-pm-skills | pm-product-strategy | commands | market-scan | 全面的宏观环境分析——SWOT、PESTLE、波特五力和安索夫矩阵一站式扫描 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/commands/market-scan.md |
+| 78 | skills-pm-skills | pm-product-strategy | commands | pricing | 设计定价策略——模型、竞争分析、支付意愿估算和定价实验 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/commands/pricing.md |
+| 79 | skills-pm-skills | pm-product-strategy | commands | strategy | 使用9节策略画布创建全面的产品策略——从愿景到防御性 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/commands/strategy.md |
+| 80 | skills-pm-skills | pm-product-strategy | commands | value-proposition | 使用6部分JTBD模板设计价值主张——谁、为什么、之前什么、如何、之后什么、替代品 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/commands/value-proposition.md |
+| 92 |skills-pm-skills | pm-product-strategy | skill | value-proposition | 使用6部分JTBD模板设计详细的价值主张 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/value-proposition |
+| 81 | skills-pm-skills | pm-product-strategy | skills | ansoff-matrix | 生成安索夫矩阵分析，映射市场渗透、市场开发、产品开发和多元化的增长策略 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/ansoff-matrix |
+| 83 | skills-pm-skills | pm-product-strategy | skills | lean-canvas | 生成精益画布，包含问题、解决方案、指标、成本结构、UVP、不公平优势、渠道、细分和收入 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/lean-canvas |
+| 84 | skills-pm-skills | pm-product-strategy | skills | monetization-strategy | 构思3-5个变现策略，包含受众匹配、风险和验证实验 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/monetization-strategy |
+| 85 | skills-pm-skills | pm-product-strategy | skills | pestle-analysis | 执行PESTLE分析，涵盖政治、经济、社会、技术、法律和环境因素 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/pestle-analysis |
+| 86 | skills-pm-skills | pm-product-strategy | skills | porters-five-forces | 执行波特五力分析——竞争激烈程度、供应商议价能力、买方议价能力、替代品威胁和新进入者威胁 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/porters-five-forces |
+| 87 | skills-pm-skills | pm-product-strategy | skills | pricing-strategy | 分析和设计定价策略，包括定价模型、竞争定价分析、支付意愿估算和价格弹性 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/pricing-strategy |
+| 88 | skills-pm-skills | pm-product-strategy | skills | product-strategy | 使用9节产品策略画布创建全面的产品策略 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/product-strategy |
+| 89 | skills-pm-skills | pm-product-strategy | skills | product-vision | 构思激励人心、可达成且富有情感的产品愿景，激励团队并统一利益相关者 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/product-vision |
+| 90 | skills-pm-skills | pm-product-strategy | skills | startup-canvas | 为新产品生成结合产品策略和商业模式的创业画布 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/startup-canvas |
+| 91 | skills-pm-skills | pm-product-strategy | skills | swot-analysis | 执行详细的SWOT分析——优势、劣势、机会和威胁，并提供可操作建议 | https://github.com/phuryn/pm-skills/tree/main/pm-product-strategy/skills/swot-analysis |
+| 93 | skills-pm-skills | pm-toolkit | commands | draft-nda | 起草双方之间的保密协议，包含适用司法管辖区的条款 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/commands/draft-nda.md |
+| 98 | skills-pm-skills |pm-toolkit | skill | draft-nda | 起草详细的保密协议，涵盖信息类型、司法管辖区和需要法律审查的条款 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/draft-nda |
+| 94 | skills-pm-skills | pm-toolkit | commands | privacy-policy | 起草隐私政策，涵盖数据收集、使用、存储和合规要求 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/commands/privacy-policy.md |
+| 100 |skills-pm-skills |pm-toolkit | skill | privacy-policy | 起草详细的隐私政策，涵盖数据类型、司法管辖区、GDPR和合规考虑 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/privacy-policy |
+| 95 | skills-pm-skills | pm-toolkit | commands | proofread | 检查任何文本的语法、逻辑和流畅度——针对性修复而不重写 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/commands/proofread.md |
+| 96 | skills-pm-skills | pm-toolkit | commands | review-resume | 根据10项最佳实践全面审查PM简历——结构、影响力指标、关键词和可操作反馈 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/commands/review-resume.md |
+| 101 | skills-pm-skills |pm-toolkit | skill | review-resume | 全面的PM简历审查和定制，包含XYZ+S公式、关键词优化、职位特定定制和结构等10项最佳实践 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/review-resume |
+| 97 | skills-pm-skills | pm-toolkit | commands | tailor-resume | 根据特定职位描述定制PM简历——关键词对齐、经验重新框架和战略优化 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/commands/tailor-resume.md |
+| 99 | skills-pm-skills | pm-toolkit | skills | grammar-check | 识别文本中的语法、逻辑和流畅错误，并建议针对性修复而不重写整篇文本 | https://github.com/phuryn/pm-skills/tree/main/pm-toolkit/skills/grammar-check |
 ## 1.5 UI/UX 设计
 ### UI设计
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 47 | skills-agency-agents | design | agents | UI Designer | UI设计专家，专注于视觉设计系统、组件库和像素级完美界面创建，打造美观、一致、无障碍的用户界面 | https://github.com/msitarzewski/agency-agents/tree/main/design/design-ui-designer.md |
-
-
-| 554 | skills-agents | ui-design | agents | accessibility-expert | 无障碍专家，确保WCAG合规、包容性设计和辅助技术兼容性。精通屏幕阅读器优化、键盘导航和无障碍测试方法论。主动用于审计无障碍、修复无障碍问题、构建无障碍组件或确保包容性用户体验。 | https://github.com/wshobson/agents/tree/main/plugins/ui-design/agents/accessibility-expert.md |
-| 555 | skills-agents | ui-design | agents | design-system-architect | 设计系统架构专家，专注于设计令牌、组件库、主题基础设施和可扩展的设计运营。精通令牌架构、多品牌系统和设计-开发协作。主动用于构建设计系统、创建令牌架构、实现主题或建立组件库。 | https://github.com/wshobson/agents/tree/main/plugins/ui-design/agents/design-system-architect.md |
-| 556 | skills-agents | ui-design | agents | ui-designer | UI设计专家，专注于组件创建、布局系统和视觉设计实现。精通现代设计模式、响应式布局和设计到代码的工作流。主动用于构建UI组件、设计布局、创建模型或实现视觉设计。 | https://github.com/wshobson/agents/tree/main/plugins/ui-design/agents/ui-designer.md |
-| 557 | skills-agents | ui-design | skills | accessibility-compliance | 实现符合WCAG 2.2的界面，包括移动无障碍、包容性设计模式和辅助技术支持。用于审计无障碍、实现ARIA模式、为屏幕阅读器构建或确保包容性用户体验。 | https://github.com/wshobson/agents/tree/main/plugins/ui-design/skills/accessibility-compliance/SKILL.md |
-| 558 | skills-agents | ui-design | skills | design-system-patterns | 使用设计令牌、主题基础设施和组件架构模式构建可扩展的设计系统。用于创建设计令牌、实现主题切换、构建组件库或建立设计系统基础。 | https://github.com/wshobson/agents/tree/main/plugins/ui-design/skills/design-system-patterns/SKILL.md |
-| 559 | skills-agents | ui-design | skills | interaction-design | 设计和实现微交互、动效设计、过渡和用户反馈模式。用于润色UI交互、实现加载状态或创建愉悦的用户体验。 | https://github.com/wshobson/agents/tree/main/plugins/ui-design/skills/interaction-design/SKILL.md |
-| 560 | skills-agents | ui-design | skills | mobile-android-design | 精通Material Design 3和Jetpack Compose模式，构建原生Android应用。用于设计Android界面、实现Compose UI或遵循Google的Material Design指南。 | https://github.com/wshobson/agents/tree/main/plugins/ui-design/skills/mobile-android-design/SKILL.md |
-| 561 | skills-agents | ui-design | skills | mobile-ios-design | 精通iOS人机界面指南和SwiftUI模式，构建原生iOS应用。用于设计iOS界面、实现SwiftUI视图或确保应用遵循Apple的设计原则。 | https://github.com/wshobson/agents/tree/main/plugins/ui-design/skills/mobile-ios-design/SKILL.md |
-| 562 | skills-agents | ui-design | skills | react-native-design | 精通React Native样式、导航和Reanimated动画，用于跨平台移动开发。用于构建React Native应用、实现导航模式或创建高性能动画。 | https://github.com/wshobson/agents/tree/main/plugins/ui-design/skills/react-native-design/SKILL.md |
-| 563 | skills-agents | ui-design | skills | responsive-design | 使用容器查询、流式排版、CSS Grid和移动优先断点策略实现现代响应式布局。用于构建自适应界面、实现流式布局或创建组件级响应行为。 | https://github.com/wshobson/agents/tree/main/plugins/ui-design/skills/responsive-design/SKILL.md |
-| 564 | skills-agents | ui-design | skills | visual-design-foundations | 应用排版、色彩理论、间距系统和图标原则创建一致的视觉设计。用于建立设计令牌、构建风格指南或改进视觉层次和一致性。 | https://github.com/wshobson/agents/tree/main/plugins/ui-design/skills/visual-design-foundations/SKILL.md |
-| 565 | skills-agents | ui-design | skills | web-component-design | 精通React、Vue和Svelte组件模式，包括CSS-in-JS、组合策略和可重用组件架构。用于构建UI组件库、设计组件API或实现前端设计系统。 | https://github.com/wshobson/agents/tree/main/plugins/ui-design/skills/web-component-design/SKILL.md |
-| 566 | skills-agents | ui-design | commands | accessibility-audit | 审计UI代码的WCAG合规性 | https://github.com/wshobson/agents/tree/main/plugins/ui-design/commands/accessibility-audit.md |
-| 567 | skills-agents | ui-design | commands | create-component | 使用正确模式的引导式组件创建 | https://github.com/wshobson/agents/tree/main/plugins/ui-design/commands/create-component.md |
-| 568 | skills-agents | ui-design | commands | design-review | 审查现有UI的问题和改进 | https://github.com/wshobson/agents/tree/main/plugins/ui-design/commands/design-review.md |
-| 569 | skills-agents | ui-design | commands | design-system-setup | 使用令牌初始化设计系统 | https://github.com/wshobson/agents/tree/main/plugins/ui-design/commands/design-system-setup.md |
-| 449 | skills-agents | multi-platform-apps | agents | ui-ux-designer | 创建界面设计、线框图和设计系统。精通用户研究、无障碍标准和现代设计工具。专注于设计令牌、组件库和包容性设计。主动用于设计系统、用户流程或界面优化。 | https://github.com/wshobson/agents/tree/main/plugins/multi-platform-apps/agents/ui-ux-designer.md |
+| 581 | skills-anthropics-skills | frontend-design | skills | frontend-design | 创建具有高设计质量的独特、生产级前端界面。当用户要求构建 Web 组件、页面、作品、海报或应用程序时使用此技能（示例包括网站、落地页、仪表板、React 组件、HTML/CSS 布局，或任何 Web UI 的样式/美化）。生成创意、精美的代码和 UI 设计，避免通用的 AI 审美。 | https://github.com/anthropics/skills/tree/main/skills/frontend-design |
 ### UX设计
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
@@ -215,29 +296,19 @@
 | 50 | skills-agency-agents | design | agents | Inclusive Visuals Specialist | 表现力专家，对抗系统性AI偏见，生成文化准确、肯定性和非刻板印象的图像与视频 | https://github.com/msitarzewski/agency-agents/tree/main/design/design-inclusive-visuals-specialist.md |
 | 51 | skills-agency-agents | design | agents | Visual Storyteller | 视觉传播专家，专注于创建引人入胜的视觉叙事、多媒体内容和品牌故事设计，将复杂信息转化为打动人心的视觉故事 | https://github.com/msitarzewski/agency-agents/tree/main/design/design-visual-storyteller.md |
 | 52 | skills-agency-agents | design | agents | Whimsy Injector | 创意专家，专注于为品牌体验增添个性、愉悦和趣味元素，创造令人难忘、充满惊喜的品牌互动时刻 | https://github.com/msitarzewski/agency-agents/tree/main/design/design-whimsy-injector.md |
+| 576 | skills-anthropics-skills | brand-guidelines | skills | brand-guidelines | 将 Anthropic 官方品牌颜色和排版应用于任何可能需要 Anthropic 外观风格的作品。当需要品牌颜色或样式指南、视觉格式或公司设计标准时使用。 | https://github.com/anthropics/skills/tree/main/skills/brand-guidelines |
+| 588 | skills-anthropics-skills | theme-factory | skills | theme-factory | 用于为作品设置主题样式的工具包。这些作品可以是幻灯片、文档、报告、HTML 落地页等。有 10 个预设主题，包含颜色/字体，可以应用于任何已创建的作品，也可以即时生成新主题。 | https://github.com/anthropics/skills/tree/main/skills/theme-factory |
 
 ### 设计工具
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 53 | skills-agency-agents | design | agents | Image Prompt Engineer | 专业摄影提示词工程专家，精通为AI图像生成打造详细、富有感染力的提示词，将视觉概念转化为精准的语言以生成惊艳的专业级摄影作品 | https://github.com/msitarzewski/agency-agents/tree/main/design/design-image-prompt-engineer.md |
-
-
-| 439 | skills-agents | meigen-ai-design | agents | gallery-researcher | （待完善）- | https://github.com/wshobson/agents/tree/main/plugins/meigen-ai-design/agents/gallery-researcher.md |
-| 440 | skills-agents | meigen-ai-design | agents | image-generator | （待完善）- | https://github.com/wshobson/agents/tree/main/plugins/meigen-ai-design/agents/image-generator.md |
-| 441 | skills-agents | meigen-ai-design | agents | prompt-crafter | （待完善）- | https://github.com/wshobson/agents/tree/main/plugins/meigen-ai-design/agents/prompt-crafter.md |
-| 442 | skills-agents | meigen-ai-design | commands | find | （待完善）- | https://github.com/wshobson/agents/tree/main/plugins/meigen-ai-design/commands/find.md |
-| 443 | skills-agents | meigen-ai-design | commands | gen | （待完善）- | https://github.com/wshobson/agents/tree/main/plugins/meigen-ai-design/commands/gen.md |
+| 577 | skills-anthropics-skills | canvas-design | skills | canvas-design | 使用设计理念在 .png 和 .pdf 文档中创建精美的视觉艺术。当用户要求创建海报、艺术作品、设计或其他静态作品时应使用此技能。创建原创视觉设计，不复制现有艺术家的作品以避免版权侵权。 | https://github.com/anthropics/skills/tree/main/skills/canvas-design |
 ## 1.6 其他开发前技能
 
----
-
-
-| 221 | skills-agents | c4-architecture | agents | c4-code | C4代码级文档专家。分析代码目录以创建全面的C4代码级文档，包括函数签名、参数、依赖项和代码结构。用于在最低C4级别为单个目录和代码模块记录文档。 | https://github.com/wshobson/agents/tree/main/plugins/c4-architecture/agents/c4-code.md |
-| 222 | skills-agents | c4-architecture | agents | c4-component | C4组件级文档专家。将C4代码级文档综合为组件级架构，定义组件边界、接口和关系。创建组件图和文档。用于将代码级文档综合为逻辑组件。 | https://github.com/wshobson/agents/tree/main/plugins/c4-architecture/agents/c4-component.md |
-| 223 | skills-agents | c4-architecture | agents | c4-container | C4容器级文档专家。将组件级文档综合为容器级架构，将组件映射到部署单元，将容器接口记录为API，并创建容器图。用于将组件综合为部署容器并记录系统部署架构。 | https://github.com/wshobson/agents/tree/main/plugins/c4-architecture/agents/c4-container.md |
-| 224 | skills-agents | c4-architecture | agents | c4-context | C4上下文级文档专家。创建高级系统上下文图，记录角色、用户旅程、系统功能和外部依赖。将容器和组件文档与系统文档综合，创建全面的上下文级架构。用于创建最高级别的C4系统上下文文档。 | https://github.com/wshobson/agents/tree/main/plugins/c4-architecture/agents/c4-context.md |
-| 225 | skills-agents | c4-architecture | commands | c4-architecture | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/c4-architecture/commands/c4-architecture.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 # 二、开发 (Development)
 
 ## 2.1 前端开发
@@ -247,201 +318,108 @@
 |------|------|------|------|------|------|------|
 | 54 | skills-agency-agents | engineering | agents | Frontend Developer | 前端开发专家，专注于现代Web技术、React/Vue/Angular框架、UI实现和性能优化 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-frontend-developer.md |
 | 55 | skills-agency-agents | engineering | agents | Rapid Prototyper | 超快速概念验证开发和MVP创建专家，使用高效工具和框架 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-rapid-prototyper.md |
-
-
-| 188 | skills-agents | application-performance | agents | frontend-developer | 构建React组件，实现响应式布局，处理客户端状态管理。精通React 19、Next.js 15和现代前端架构。优化性能并确保无障碍。主动用于创建UI组件或修复前端问题。 | https://github.com/wshobson/agents/tree/main/plugins/application-performance/agents/frontend-developer.md |
-| 363 | skills-agents | frontend-mobile-development | agents | frontend-developer | 构建React组件，实现响应式布局，处理客户端状态管理。精通React 19、Next.js 15和现代前端架构。优化性能并确保无障碍。主动用于创建UI组件或修复前端问题。 | https://github.com/wshobson/agents/tree/main/plugins/frontend-mobile-development/agents/frontend-developer.md |
-| 370 | skills-agents | frontend-mobile-security | agents | frontend-developer | 构建React组件，实现响应式布局，处理客户端状态管理。精通React 19、Next.js 15和现代前端架构。优化性能并确保无障碍。主动用于创建UI组件或修复前端问题。 | https://github.com/wshobson/agents/tree/main/plugins/frontend-mobile-security/agents/frontend-developer.md |
-| 446 | skills-agents | multi-platform-apps | agents | frontend-developer | 构建React组件，实现响应式布局，处理客户端状态管理。精通React 19、Next.js 15和现代前端架构。优化性能并确保无障碍。主动用于创建UI组件或修复前端问题。 | https://github.com/wshobson/agents/tree/main/plugins/multi-platform-apps/agents/frontend-developer.md |
-| 368 | skills-agents | frontend-mobile-development | skills | tailwind-design-system | 使用Tailwind CSS v4、设计令牌、组件库和响应式模式构建可扩展的设计系统。用于创建组件库、实现设计系统或标准化UI模式。 | https://github.com/wshobson/agents/tree/main/plugins/frontend-mobile-development/skills/tailwind-design-system/SKILL.md |
-| 369 | skills-agents | frontend-mobile-development | commands | component-scaffold | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/frontend-mobile-development/commands/component-scaffold.md |
+| 590 | skills-anthropics-skills | web-artifacts-builder | skills | web-artifacts-builder | 使用现代前端 Web 技术（React、Tailwind CSS、shadcn/ui）创建复杂、多组件 claude.ai HTML 作品的工具套件。用于需要状态管理、路由或 shadcn/ui 组件的复杂作品——不适用于简单的单文件 HTML/JSX 作品。 | https://github.com/anthropics/skills/tree/main/skills/web-artifacts-builder |
 ### React
 
-| 367 | skills-agents | frontend-mobile-development | skills | react-state-management | 精通使用Redux Toolkit、Zustand、Jotai和React Query进行现代React状态管理。用于设置全局状态、管理服务器状态或在状态管理解决方案之间选择。 | https://github.com/wshobson/agents/tree/main/plugins/frontend-mobile-development/skills/react-state-management/SKILL.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### Vue
+
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### Angular
+
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### Next.js / Nuxt
 
-| 365 | skills-agents | frontend-mobile-development | skills | nextjs-app-router-patterns | 精通Next.js 14+ App Router，包括服务器组件、流式传输、并行路由和高级数据获取。用于构建Next.js应用程序、实现SSR/SSG或优化React服务器组件。 | https://github.com/wshobson/agents/tree/main/plugins/frontend-mobile-development/skills/nextjs-app-router-patterns/SKILL.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### 移动端开发
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 56 | skills-agency-agents | engineering | agents | Mobile App Builder | 移动应用开发专家，精通原生iOS/Android开发和跨平台框架 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-mobile-app-builder.md |
 | 57 | skills-agency-agents | engineering | agents | WeChat Mini Program Developer | 微信小程序开发专家，精通WXML/WXSS/WXS、微信API集成、支付系统、订阅消息和完整的微信生态系统 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-wechat-mini-program-developer.md |
-
-
-| 364 | skills-agents | frontend-mobile-development | agents | mobile-developer | 使用现代架构模式开发React Native、Flutter或原生移动应用。精通跨平台开发、原生集成、离线同步和应用商店优化。主动用于移动功能、跨平台代码或应用优化。 | https://github.com/wshobson/agents/tree/main/plugins/frontend-mobile-development/agents/mobile-developer.md |
-| 366 | skills-agents | frontend-mobile-development | skills | react-native-architecture | 使用Expo、导航、原生模块、离线同步和跨平台模式构建生产React Native应用。用于开发移动应用、实现原生集成或架构React Native项目。 | https://github.com/wshobson/agents/tree/main/plugins/frontend-mobile-development/skills/react-native-architecture/SKILL.md |
-| 445 | skills-agents | multi-platform-apps | agents | flutter-expert | 精通Flutter开发，包括Dart 3、高级小部件和多平台部署。处理移动、Web、桌面和嵌入式平台的状态管理、动画、测试和性能优化。主动用于Flutter架构、UI实现或跨平台功能。 | https://github.com/wshobson/agents/tree/main/plugins/multi-platform-apps/agents/flutter-expert.md |
-| 447 | skills-agents | multi-platform-apps | agents | ios-developer | 使用Swift/SwiftUI开发原生iOS应用程序。精通iOS 18、SwiftUI、UIKit集成、Core Data、网络和App Store优化。主动用于iOS特定功能、App Store优化或原生iOS开发。 | https://github.com/wshobson/agents/tree/main/plugins/multi-platform-apps/agents/ios-developer.md |
-| 448 | skills-agents | multi-platform-apps | agents | mobile-developer | 使用现代架构模式开发React Native、Flutter或原生移动应用。精通跨平台开发、原生集成、离线同步和应用商店优化。主动用于移动功能、跨平台代码或应用优化。 | https://github.com/wshobson/agents/tree/main/plugins/multi-platform-apps/agents/mobile-developer.md |
-| 450 | skills-agents | multi-platform-apps | commands | multi-platform | 使用API优先架构跨Web、移动和桌面编排跨平台功能开发 | https://github.com/wshobson/agents/tree/main/plugins/multi-platform-apps/commands/multi-platform.md |
+| 638 | skills-everything-claude-code | android-clean-architecture | skills | android-clean-architecture | Android和Kotlin多平台项目的Clean Architecture模式——模块结构、依赖规则、UseCases、Repositories和数据层模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/android-clean-architecture |
+| 639 | skills-everything-claude-code | compose-multiplatform-patterns | skills | compose-multiplatform-patterns | KMP项目的Compose Multiplatform和Jetpack Compose模式——状态管理、导航、主题、性能和平台特定UI | https://github.com/affaan-m/everything-claude-code/tree/main/skills/compose-multiplatform-patterns |
 ## 2.2 后端开发
+
+
 ### 架构设计
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 58 | skills-agency-agents | engineering | agents | Backend Architect | 后端架构专家，专注于可扩展系统设计、数据库架构、API开发和云基础设施，构建健壮、安全、高性能的服务端应用和微服务 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-backend-architect.md |
 | 59 | skills-agency-agents | engineering | agents | Software Architect | 软件架构专家，专注于系统设计、领域驱动设计、架构模式和技术决策，构建可扩展、可维护的系统 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-software-architect.md |
-
-
-| 181 | skills-agents | api-scaffolding | agents | backend-architect | 后端架构专家，专注于可扩展API设计、微服务架构和分布式系统。精通REST/GraphQL/gRPC API、事件驱动架构、服务网格模式和现代后端框架。处理服务边界定义、服务间通信、弹性模式和可观测性。主动用于创建新的后端服务或API。 | https://github.com/wshobson/agents/tree/main/plugins/api-scaffolding/agents/backend-architect.md |
-| 184 | skills-agents | api-scaffolding | agents | graphql-architect | 精通现代GraphQL，包括联邦、性能优化和企业安全。构建可扩展模式，实现高级缓存，设计实时系统。主动用于GraphQL架构或性能优化。 | https://github.com/wshobson/agents/tree/main/plugins/api-scaffolding/agents/graphql-architect.md |
-| 193 | skills-agents | backend-api-security | agents | backend-architect | 后端架构专家，专注于可扩展API设计、微服务架构和分布式系统。精通REST/GraphQL/gRPC API、事件驱动架构、服务网格模式和现代后端框架。处理服务边界定义、服务间通信、弹性模式和可观测性。主动用于创建新的后端服务或API。 | https://github.com/wshobson/agents/tree/main/plugins/backend-api-security/agents/backend-architect.md |
-| 195 | skills-agents | backend-development | agents | backend-architect | 后端架构专家，专注于可扩展API设计、微服务架构和分布式系统。精通REST/GraphQL/gRPC API、事件驱动架构、服务网格模式和现代后端框架。处理服务边界定义、服务间通信、弹性模式和可观测性。主动用于创建新的后端服务或API。 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/agents/backend-architect.md |
-| 196 | skills-agents | backend-development | agents | event-sourcing-architect | 事件溯源、CQRS和事件驱动架构模式专家。精通事件存储设计、投影构建、saga编排和最终一致性模式。主动用于事件溯源系统、审计跟踪需求或具有时间查询的复杂领域建模。 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/agents/event-sourcing-architect.md |
-| 197 | skills-agents | backend-development | agents | graphql-architect | 精通现代GraphQL，包括联邦、性能优化和企业安全。构建可扩展模式，实现高级缓存，设计实时系统。主动用于GraphQL架构或性能优化。 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/agents/graphql-architect.md |
-| 266 | skills-agents | comprehensive-review | agents | architect-review | 软件架构大师，专注于现代架构模式、整洁架构、微服务、事件驱动系统和DDD。审查系统设计和代码更改的架构完整性、可扩展性和可维护性。主动用于架构决策。 | https://github.com/wshobson/agents/tree/main/plugins/comprehensive-review/agents/architect-review.md |
-| 288 | skills-agents | data-engineering | agents | backend-architect | 后端架构专家，专注于可扩展API设计、微服务架构和分布式系统。精通REST/GraphQL/gRPC API、事件驱动架构、服务网格模式和现代后端框架。处理服务边界定义、服务间通信、弹性模式和可观测性。主动用于创建新的后端服务或API。 | https://github.com/wshobson/agents/tree/main/plugins/data-engineering/agents/backend-architect.md |
-| 297 | skills-agents | database-cloud-optimization | agents | backend-architect | 后端架构专家，专注于可扩展API设计、微服务架构和分布式系统。精通REST/GraphQL/gRPC API、事件驱动架构、服务网格模式和现代后端框架。处理服务边界定义、服务间通信、弹性模式和可观测性。主动用于创建新的后端服务或API。 | https://github.com/wshobson/agents/tree/main/plugins/database-cloud-optimization/agents/backend-architect.md |
-| 354 | skills-agents | framework-migration | agents | architect-review | 软件架构大师，专注于现代架构模式、整洁架构、微服务、事件驱动系统和DDD。审查系统设计和代码更改的架构完整性、可扩展性和可维护性。主动用于架构决策。 | https://github.com/wshobson/agents/tree/main/plugins/framework-migration/agents/architect-review.md |
-| 444 | skills-agents | multi-platform-apps | agents | backend-architect | 后端架构专家，专注于可扩展API设计、微服务架构和分布式系统。精通REST/GraphQL/gRPC API、事件驱动架构、服务网格模式和现代后端框架。处理服务边界定义、服务间通信、弹性模式和可观测性。主动用于创建新的后端服务或API。 | https://github.com/wshobson/agents/tree/main/plugins/multi-platform-apps/agents/backend-architect.md |
 ### API设计
 
-| 185 | skills-agents | api-scaffolding | skills | fastapi-templates | 创建具有异步模式、依赖注入和全面错误处理的生产就绪FastAPI项目。用于构建新的FastAPI应用程序或设置后端API项目。 | https://github.com/wshobson/agents/tree/main/plugins/api-scaffolding/skills/fastapi-templates/SKILL.md |
-| 186 | skills-agents | api-testing-observability | agents | api-documenter | 精通OpenAPI 3.1、AI驱动工具和现代开发者体验实践的API文档。创建交互式文档、生成SDK并构建全面的开发者门户。主动用于API文档或开发者门户创建。 | https://github.com/wshobson/agents/tree/main/plugins/api-testing-observability/agents/api-documenter.md |
-| 187 | skills-agents | api-testing-observability | commands | api-mock | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/api-testing-observability/commands/api-mock.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### 后端框架
 ### 后端开发
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 60 | skills-agency-agents | engineering | agents | Senior Developer | 高级实现专家，精通Laravel/Livewire/FluxUI、高级CSS和Three.js集成 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-senior-developer.md |
-
-
-| 198 | skills-agents | backend-development | agents | performance-engineer | 分析和优化应用程序性能，包括响应时间、内存使用、查询效率和可扩展性。用于功能开发期间的性能审查。 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/agents/performance-engineer.md |
-| 201 | skills-agents | backend-development | agents | temporal-python-pro | 精通Python SDK的Temporal工作流编排。实现持久工作流、saga模式和分布式事务。涵盖async/await、测试策略和生产部署。主动用于工作流设计、微服务编排或长时间运行的进程。 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/agents/temporal-python-pro.md |
-| 203 | skills-agents | backend-development | skills | api-design-principles | 精通REST和GraphQL API设计原则，构建直观、可扩展且易于维护的API。用于设计新API、审查API规范或建立API设计标准。 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/skills/api-design-principles/SKILL.md |
-| 204 | skills-agents | backend-development | skills | architecture-patterns | 实现经过验证的后端架构模式，包括整洁架构、六边形架构和领域驱动设计。用于架构复杂后端系统或重构现有应用程序以提高可维护性。 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/skills/architecture-patterns/SKILL.md |
-| 205 | skills-agents | backend-development | skills | cqrs-implementation | 实现命令查询职责分离（CQRS）以构建可扩展架构。用于分离读写模型、优化查询性能或构建事件溯源系统。 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/skills/cqrs-implementation/SKILL.md |
-| 206 | skills-agents | backend-development | skills | event-store-design | 设计和实现事件溯源系统的事件存储。用于构建事件溯源基础设施、选择事件存储技术或实现事件持久化模式。 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/skills/event-store-design/SKILL.md |
-| 207 | skills-agents | backend-development | skills | microservices-patterns | 设计具有服务边界、事件驱动通信和弹性模式的微服务架构。用于构建分布式系统、分解单体应用或实现微服务。 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/skills/microservices-patterns/SKILL.md |
-| 208 | skills-agents | backend-development | skills | projection-patterns | 从事件流构建读取模型和投影。用于实现CQRS读取端、构建物化视图或优化事件溯源系统中的查询性能。 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/skills/projection-patterns/SKILL.md |
-| 209 | skills-agents | backend-development | skills | saga-orchestration | 实现分布式事务和跨聚合工作流的saga模式。用于协调多步骤业务流程、处理补偿事务或管理长时间运行的工作流。 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/skills/saga-orchestration/SKILL.md |
-| 210 | skills-agents | backend-development | skills | temporal-python-testing | 使用pytest、时间跳过和模拟策略测试Temporal工作流。涵盖单元测试、集成测试、回放测试和本地开发设置。用于实现Temporal工作流测试或调试测试失败。 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/skills/temporal-python-testing/SKILL.md |
-| 211 | skills-agents | backend-development | skills | workflow-orchestration-patterns | 使用Temporal为分布式系统设计持久工作流。涵盖工作流与活动分离、saga模式、状态管理和确定性约束。用于构建长时间运行的进程、分布式事务或微服务编排。 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/skills/workflow-orchestration-patterns/SKILL.md |
-| 212 | skills-agents | backend-development | commands | feature-development | 从需求到部署编排端到端的功能开发 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/commands/feature-development.md |
 ## 2.3 编程语言
 ### TypeScript/JavaScript
 
-| 404 | skills-agents | javascript-typescript | agents | javascript-pro | 精通现代JavaScript，包括ES6+、异步模式和Node.js API。处理Promise、事件循环和浏览器/Node兼容性。主动用于JavaScript优化、异步调试或复杂的JS模式。 | https://github.com/wshobson/agents/tree/main/plugins/javascript-typescript/agents/javascript-pro.md |
-| 405 | skills-agents | javascript-typescript | agents | typescript-pro | 精通TypeScript，包括高级类型、泛型和严格类型安全。处理复杂类型系统、装饰器和企业级模式。主动用于TypeScript架构、类型推断优化或高级类型模式。 | https://github.com/wshobson/agents/tree/main/plugins/javascript-typescript/agents/typescript-pro.md |
-| 406 | skills-agents | javascript-typescript | skills | javascript-testing-patterns | 使用Jest、Vitest和Testing Library实现全面的测试策略，包括单元测试、集成测试和端到端测试，具有模拟、固件和测试驱动开发。用于编写JavaScript/TypeScript测试、设置测试基础设施或实现TDD/BDD工作流。 | https://github.com/wshobson/agents/tree/main/plugins/javascript-typescript/skills/javascript-testing-patterns/SKILL.md |
-| 407 | skills-agents | javascript-typescript | skills | modern-javascript-patterns | 精通ES6+功能，包括async/await、解构、展开运算符、箭头函数、Promise、模块、迭代器、生成器和函数式编程模式，编写干净、高效的JavaScript代码。用于重构遗留代码、实现现代模式或优化JavaScript应用程序。 | https://github.com/wshobson/agents/tree/main/plugins/javascript-typescript/skills/modern-javascript-patterns/SKILL.md |
-| 408 | skills-agents | javascript-typescript | skills | nodejs-backend-patterns | 使用Express/Fastify构建生产就绪的Node.js后端服务，实现中间件模式、错误处理、身份验证、数据库集成和API设计最佳实践。用于创建Node.js服务器、REST API、GraphQL后端或微服务架构。 | https://github.com/wshobson/agents/tree/main/plugins/javascript-typescript/skills/nodejs-backend-patterns/SKILL.md |
-| 409 | skills-agents | javascript-typescript | skills | typescript-advanced-types | 精通TypeScript的高级类型系统，包括泛型、条件类型、映射类型、模板字面量和实用类型，构建类型安全的应用程序。用于实现复杂类型逻辑、创建可重用类型实用程序或确保TypeScript项目中的编译时类型安全。 | https://github.com/wshobson/agents/tree/main/plugins/javascript-typescript/skills/typescript-advanced-types/SKILL.md |
-| 410 | skills-agents | javascript-typescript | commands | typescript-scaffold | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/javascript-typescript/commands/typescript-scaffold.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### Python
 
-| 182 | skills-agents | api-scaffolding | agents | django-pro | 精通Django 5.x，包括异步视图、DRF、Celery和Django Channels。构建具有正确架构、测试和部署的可扩展Web应用程序。主动用于Django开发、ORM优化或复杂的Django模式。 | https://github.com/wshobson/agents/tree/main/plugins/api-scaffolding/agents/django-pro.md |
-| 183 | skills-agents | api-scaffolding | agents | fastapi-pro | 使用FastAPI、SQLAlchemy 2.0和Pydantic V2构建高性能异步API。精通微服务、WebSockets和现代Python异步模式。主动用于FastAPI开发、异步优化或API架构。 | https://github.com/wshobson/agents/tree/main/plugins/api-scaffolding/agents/fastapi-pro.md |
-| 470 | skills-agents | python-development | agents | django-pro | 精通Django 5.x，包括异步视图、DRF、Celery和Django Channels。构建具有正确架构、测试和部署的可扩展Web应用程序。主动用于Django开发、ORM优化或复杂的Django模式。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/agents/django-pro.md |
-| 471 | skills-agents | python-development | agents | fastapi-pro | 使用FastAPI、SQLAlchemy 2.0和Pydantic V2构建高性能异步API。精通微服务、WebSockets和现代Python异步模式。主动用于FastAPI开发、异步优化或API架构。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/agents/fastapi-pro.md |
-| 472 | skills-agents | python-development | agents | python-pro | 精通Python 3.12+，包括现代功能、异步编程、性能优化和生产就绪实践。最新Python生态系统专家，包括uv、ruff、pydantic和FastAPI。主动用于Python开发、优化或高级Python模式。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/agents/python-pro.md |
-| 473 | skills-agents | python-development | skills | async-python-patterns | 精通Python asyncio、并发编程和async/await模式，构建高性能应用程序。用于构建异步API、并发系统或需要非阻塞操作的I/O密集型应用程序。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/async-python-patterns/SKILL.md |
-| 474 | skills-agents | python-development | skills | python-anti-patterns | 要避免的常见Python反模式。用作审查代码、最终确定实现或调试可能源于已知不良实践的问题时的检查清单。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-anti-patterns/SKILL.md |
-| 475 | skills-agents | python-development | skills | python-background-jobs | Python后台作业模式，包括任务队列、工作线程和事件驱动架构。用于实现异步任务处理、作业队列、长时间运行的操作或将工作与请求/响应周期解耦。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-background-jobs/SKILL.md |
-| 476 | skills-agents | python-development | skills | python-code-style | Python代码风格、代码检查、格式化、命名约定和文档标准。用于编写新代码、审查风格、配置代码检查器、编写文档字符串或建立项目标准。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-code-style/SKILL.md |
-| 477 | skills-agents | python-development | skills | python-configuration | 通过环境变量和类型化设置进行Python配置管理。用于外部化配置、设置pydantic-settings、管理秘密或实现环境特定行为。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-configuration/SKILL.md |
-| 478 | skills-agents | python-development | skills | python-design-patterns | Python设计模式，包括KISS、关注点分离、单一职责和组合优于继承。用于做出架构决策、重构代码结构或评估何时适合抽象。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-design-patterns/SKILL.md |
-| 479 | skills-agents | python-development | skills | python-error-handling | Python错误处理模式，包括输入验证、异常层次结构和部分失败处理。用于实现验证逻辑、设计异常策略、处理批处理失败或构建健壮的API。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-error-handling/SKILL.md |
-| 480 | skills-agents | python-development | skills | python-observability | Python可观测性模式，包括结构化日志、指标和分布式追踪。用于添加日志、实现指标收集、设置追踪或调试生产系统。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-observability/SKILL.md |
-| 481 | skills-agents | python-development | skills | python-packaging | 创建具有正确项目结构、setup.py/pyproject.toml的可分发Python包，并发布到PyPI。用于打包Python库、创建CLI工具或分发Python代码。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-packaging/SKILL.md |
-| 482 | skills-agents | python-development | skills | python-performance-optimization | 使用cProfile、内存分析器和性能最佳实践分析和优化Python代码。用于调试慢Python代码、优化瓶颈或提高应用程序性能。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-performance-optimization/SKILL.md |
-| 483 | skills-agents | python-development | skills | python-project-structure | Python项目组织、模块架构和公共API设计。用于设置新项目、组织模块、使用__all__定义公共接口或规划目录布局。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-project-structure/SKILL.md |
-| 484 | skills-agents | python-development | skills | python-resilience | Python弹性模式，包括自动重试、指数退避、超时和容错装饰器。用于添加重试逻辑、实现超时、构建容错服务或处理瞬态故障。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-resilience/SKILL.md |
-| 485 | skills-agents | python-development | skills | python-resource-management | Python资源管理，包括上下文管理器、清理模式和流式传输。用于管理连接、文件句柄、实现清理逻辑或构建具有累积状态的流式响应。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-resource-management/SKILL.md |
-| 486 | skills-agents | python-development | skills | python-testing-patterns | 使用pytest、固件、模拟和测试驱动开发实现全面的测试策略。用于编写Python测试、设置测试套件或实现测试最佳实践。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-testing-patterns/SKILL.md |
-| 487 | skills-agents | python-development | skills | python-type-safety | Python类型安全，包括类型提示、泛型、协议和严格类型检查。用于添加类型注释、实现泛型类、定义结构接口或配置mypy/pyright。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-type-safety/SKILL.md |
-| 488 | skills-agents | python-development | skills | uv-package-manager | 精通uv包管理器，用于快速Python依赖管理、虚拟环境和现代Python项目工作流。用于设置Python项目、管理依赖或使用uv优化Python开发工作流。 | https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/uv-package-manager/SKILL.md |
-| 489 | skills-agents | python-development | commands | python-scaffold | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/python-development/commands/python-scaffold.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### Go
 
-| 539 | skills-agents | systems-programming | agents | golang-pro | 精通Go 1.21+，包括现代模式、高级并发、性能优化和生产就绪的微服务。最新Go生态系统专家，包括泛型、工作区和前沿框架。主动用于Go开发、架构设计或性能优化。 | https://github.com/wshobson/agents/tree/main/plugins/systems-programming/agents/golang-pro.md |
-| 541 | skills-agents | systems-programming | skills | go-concurrency-patterns | 精通Go并发，包括goroutine、channel、sync原语和context。用于构建并发Go应用程序、实现工作池或调试竞态条件。 | https://github.com/wshobson/agents/tree/main/plugins/systems-programming/skills/go-concurrency-patterns/SKILL.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### Rust
 
-| 540 | skills-agents | systems-programming | agents | rust-pro | 精通Rust 1.75+，包括现代异步模式、高级类型系统功能和生产就绪的系统编程。最新Rust生态系统专家，包括Tokio、axum和前沿crate。主动用于Rust开发、性能优化或系统编程。 | https://github.com/wshobson/agents/tree/main/plugins/systems-programming/agents/rust-pro.md |
-| 543 | skills-agents | systems-programming | skills | rust-async-patterns | 精通Rust异步编程，包括Tokio、async trait、错误处理和并发模式。用于构建异步Rust应用程序、实现并发系统或调试异步代码。 | https://github.com/wshobson/agents/tree/main/plugins/systems-programming/skills/rust-async-patterns/SKILL.md |
-| 544 | skills-agents | systems-programming | commands | rust-project | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/systems-programming/commands/rust-project.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
+| 617 | skills-everything-claude-code | rust-patterns | skills | rust-patterns | 用于构建安全、高性能应用的惯用Rust模式、所有权、错误处理、trait、并发和最佳实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/rust-patterns |
+| 618 | skills-everything-claude-code | rust-testing | skills | rust-testing | Rust测试模式，包括单元测试、集成测试、异步测试、基于属性的测试、mocking和覆盖率。遵循TDD方法论 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/rust-testing |
 ### Java
 
-| 413 | skills-agents | jvm-languages | agents | java-pro | 精通Java 21+，包括虚拟线程、模式匹配和Spring Boot 3.x等现代功能。最新Java生态系统专家，包括GraalVM、Project Loom和云原生模式。主动用于Java开发、微服务架构或性能优化。 | https://github.com/wshobson/agents/tree/main/plugins/jvm-languages/agents/java-pro.md |
-| 414 | skills-agents | jvm-languages | agents | scala-pro | 精通企业级Scala开发，包括函数式编程、分布式系统和大数据处理。Apache Pekko、Akka、Spark、ZIO/Cats Effect和响应式架构专家。主动用于Scala系统设计、性能优化或企业集成。 | https://github.com/wshobson/agents/tree/main/plugins/jvm-languages/agents/scala-pro.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### C#/.NET
 
-| 342 | skills-agents | dotnet-contribution | agents | dotnet-architect | .NET后端架构专家，专注于C#、ASP.NET Core、Entity Framework、Dapper和企业应用模式。精通async/await、依赖注入、缓存策略和性能优化。主动用于.NET API开发、代码审查或架构决策。 | https://github.com/wshobson/agents/tree/main/plugins/dotnet-contribution/agents/dotnet-architect.md |
-| 343 | skills-agents | dotnet-contribution | skills | dotnet-backend-patterns | 精通C#/.NET后端开发模式，构建健壮的API、MCP服务器和企业应用。涵盖async/await、依赖注入、Entity Framework Core、Dapper、配置、缓存和使用xUnit测试。用于开发.NET后端、审查C#代码或设计API架构。 | https://github.com/wshobson/agents/tree/main/plugins/dotnet-contribution/skills/dotnet-backend-patterns/SKILL.md |
-| 412 | skills-agents | jvm-languages | agents | csharp-pro | 编写具有记录、模式匹配和async/await等高级功能的现代C#代码。优化.NET应用程序，实现企业模式并确保全面测试。主动用于C#重构、性能优化或复杂的.NET解决方案。 | https://github.com/wshobson/agents/tree/main/plugins/jvm-languages/agents/csharp-pro.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### C/C++
 
-| 537 | skills-agents | systems-programming | agents | c-pro | 编写高效的C代码，具有适当的内存管理、指针运算和系统调用。处理嵌入式系统、内核模块和性能关键代码。主动用于C优化、内存问题或系统编程。 | https://github.com/wshobson/agents/tree/main/plugins/systems-programming/agents/c-pro.md |
-| 538 | skills-agents | systems-programming | agents | cpp-pro | 编写符合习惯的C++代码，具有现代功能、RAII、智能指针和STL算法。处理模板、移动语义和性能优化。主动用于C++重构、内存安全或复杂的C++模式。 | https://github.com/wshobson/agents/tree/main/plugins/systems-programming/agents/cpp-pro.md |
-| 542 | skills-agents | systems-programming | skills | memory-safety-patterns | 跨Rust、C++和C实现内存安全编程，包括RAII、所有权、智能指针和资源管理。用于编写安全的系统代码、管理资源或防止内存错误。 | https://github.com/wshobson/agents/tree/main/plugins/systems-programming/skills/memory-safety-patterns/SKILL.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### PHP
 
-| 573 | skills-agents | web-scripting | agents | php-pro | 编写符合习惯的PHP代码，包括生成器、迭代器、SPL数据结构和现代OOP功能。主动用于高性能PHP应用程序。 | https://github.com/wshobson/agents/tree/main/plugins/web-scripting/agents/php-pro.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### Ruby
 
-| 574 | skills-agents | web-scripting | agents | ruby-pro | 编写符合习惯的Ruby代码，包括元编程、Rails模式和性能优化。专注于Ruby on Rails、gem开发和测试框架。主动用于Ruby重构、优化或复杂的Ruby功能。 | https://github.com/wshobson/agents/tree/main/plugins/web-scripting/agents/ruby-pro.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### 其他语言
 
-| 379 | skills-agents | functional-programming | agents | elixir-pro | 编写符合习惯的Elixir代码，包括OTP模式、监督树和Phoenix LiveView。精通并发、容错和分布式系统。主动用于Elixir重构、OTP设计或复杂的BEAM优化。 | https://github.com/wshobson/agents/tree/main/plugins/functional-programming/agents/elixir-pro.md |
-| 380 | skills-agents | functional-programming | agents | haskell-pro | Haskell工程专家，专注于高级类型系统、纯函数式设计和高可靠性软件。主动用于类型级编程、并发和架构指导。 | https://github.com/wshobson/agents/tree/main/plugins/functional-programming/agents/haskell-pro.md |
-| 411 | skills-agents | julia-development | agents | julia-pro | 精通Julia 1.10+，包括现代功能、性能优化、多重派发和生产就绪实践。Julia生态系统专家，包括包管理、科学计算和高性能数值代码。主动用于Julia开发、优化或高级Julia模式。 | https://github.com/wshobson/agents/tree/main/plugins/julia-development/agents/julia-pro.md |
-| 523 | skills-agents | shell-scripting | agents | bash-pro | 防御性Bash脚本编写大师，用于生产自动化、CI/CD流水线和系统实用程序。安全、可移植和可测试的shell脚本专家。 | https://github.com/wshobson/agents/tree/main/plugins/shell-scripting/agents/bash-pro.md |
-| 524 | skills-agents | shell-scripting | agents | posix-shell-pro | 严格POSIX sh脚本编写专家，用于跨类Unix系统的最大可移植性。专注于可在任何符合POSIX的shell（dash、ash、sh、bash --posix）上运行的shell脚本。 | https://github.com/wshobson/agents/tree/main/plugins/shell-scripting/agents/posix-shell-pro.md |
-| 525 | skills-agents | shell-scripting | skills | bash-defensive-patterns | 精通生产级脚本的防御性Bash编程技术。用于编写健壮的shell脚本、CI/CD流水线或需要容错和安全性的系统实用程序。 | https://github.com/wshobson/agents/tree/main/plugins/shell-scripting/skills/bash-defensive-patterns/SKILL.md |
-| 526 | skills-agents | shell-scripting | skills | bats-testing-patterns | 精通Bash自动化测试系统（Bats），用于全面的shell脚本测试。用于为shell脚本编写测试、CI/CD流水线或需要shell实用程序的测试驱动开发。 | https://github.com/wshobson/agents/tree/main/plugins/shell-scripting/skills/bats-testing-patterns/SKILL.md |
-| 527 | skills-agents | shell-scripting | skills | shellcheck-configuration | 精通ShellCheck静态分析配置和使用，用于shell脚本质量。用于设置代码检查基础设施、修复代码问题或确保脚本可移植性。 | https://github.com/wshobson/agents/tree/main/plugins/shell-scripting/skills/shellcheck-configuration/SKILL.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### 通用编码规范
 
 
-| 318 | skills-agents | developer-essentials | agents | monorepo-architect | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/agents/monorepo-architect.md |
-| 319 | skills-agents | developer-essentials | skills | auth-implementation-patterns | 精通身份验证和授权模式，包括JWT、OAuth2、会话管理和RBAC，构建安全、可扩展的访问控制系统。用于实现认证系统、保护API或调试安全问题。 | https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/skills/auth-implementation-patterns/SKILL.md |
-| 320 | skills-agents | developer-essentials | skills | bazel-build-optimization | 优化大型单体仓库的Bazel构建。用于配置Bazel、实现远程执行或优化企业代码库的构建性能。 | https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/skills/bazel-build-optimization/SKILL.md |
-| 321 | skills-agents | developer-essentials | skills | code-review-excellence | 精通有效的代码审查实践，提供建设性反馈、早期发现错误并促进知识共享，同时保持团队士气。用于审查拉取请求、建立审查标准或指导开发人员。 | https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/skills/code-review-excellence/SKILL.md |
-| 322 | skills-agents | developer-essentials | skills | debugging-strategies | 精通系统调试技术、性能分析工具和根本原因分析，高效追踪任何代码库或技术栈中的错误。用于调查错误、性能问题或意外行为。 | https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/skills/debugging-strategies/SKILL.md |
-| 323 | skills-agents | developer-essentials | skills | e2e-testing-patterns | 精通使用Playwright和Cypress进行端到端测试，构建可靠的测试套件，捕获错误、提高信心并实现快速部署。用于实现E2E测试、调试不稳定测试或建立测试标准。 | https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/skills/e2e-testing-patterns/SKILL.md |
-| 324 | skills-agents | developer-essentials | skills | error-handling-patterns | 精通跨语言的错误处理模式，包括异常、Result类型、错误传播和优雅降级，构建弹性应用程序。用于实现错误处理、设计API或提高应用程序可靠性。 | https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/skills/error-handling-patterns/SKILL.md |
-| 325 | skills-agents | developer-essentials | skills | git-advanced-workflows | 精通高级Git工作流，包括rebase、cherry-pick、bisect、worktree和reflog，维护干净的历史记录并从任何情况中恢复。用于管理复杂的Git历史、在功能分支上协作或故障排除存储库问题。 | https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/skills/git-advanced-workflows/SKILL.md |
-| 326 | skills-agents | developer-essentials | skills | monorepo-management | 精通使用Turborepo、Nx和pnpm工作区进行单体仓库管理，构建高效、可扩展的多包仓库，具有优化的构建和依赖管理。用于设置单体仓库、优化构建或管理共享依赖。 | https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/skills/monorepo-management/SKILL.md |
-| 327 | skills-agents | developer-essentials | skills | nx-workspace-patterns | 配置和优化Nx单体仓库工作区。用于设置Nx、配置项目边界、优化构建缓存或实现affected命令。 | https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/skills/nx-workspace-patterns/SKILL.md |
-| 328 | skills-agents | developer-essentials | skills | sql-optimization-patterns | 精通SQL查询优化、索引策略和EXPLAIN分析，大幅提高数据库性能并消除慢查询。用于调试慢查询、设计数据库模式或优化应用程序性能。 | https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/skills/sql-optimization-patterns/SKILL.md |
-| 329 | skills-agents | developer-essentials | skills | turborepo-caching | 配置Turborepo以进行高效的单体仓库构建，具有本地和远程缓存。用于设置Turborepo、优化构建流水线或实现分布式缓存。 | https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/skills/turborepo-caching/SKILL.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ## 2.4 数据库
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 61 | skills-agency-agents | engineering | agents | Database Optimizer | 数据库专家，专注于PostgreSQL、MySQL、Supabase和PlanetScale等现代数据库的架构设计、查询优化、索引策略和性能调优 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-database-optimizer.md |
-
-
-| 299 | skills-agents | database-cloud-optimization | agents | database-architect | Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures. Masters SQL/NoSQL/TimeSeries database selection, normalization strategies, migration planning, and performance-first design. Handles both greenfield architectures and re-architecture of existing systems. Use PROACTIVELY for database architecture, technology selection, or data modeling decisions. | https://github.com/wshobson/agents/tree/main/plugins/database-cloud-optimization/agents/database-architect.md |
-| 300 | skills-agents | database-cloud-optimization | agents | database-optimizer | Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures. Masters advanced indexing, N+1 resolution, multi-tier caching, partitioning strategies, and cloud database optimization. Handles complex query analysis, migration strategies, and performance monitoring. Use PROACTIVELY for database optimization, performance issues, or scalability challenges. | https://github.com/wshobson/agents/tree/main/plugins/database-cloud-optimization/agents/database-optimizer.md |
-| 301 | skills-agents | database-cloud-optimization | commands | cost-optimize | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/database-cloud-optimization/commands/cost-optimize.md |
-| 302 | skills-agents | database-design | agents | database-architect | Expert database architect specializing in data layer design from scratch, technology selection, schema modeling, and scalable database architectures. Masters SQL/NoSQL/TimeSeries database selection, normalization strategies, migration planning, and performance-first design. Handles both greenfield architectures and re-architecture of existing systems. Use PROACTIVELY for database architecture, technology selection, or data modeling decisions. | https://github.com/wshobson/agents/tree/main/plugins/database-design/agents/database-architect.md |
-| 303 | skills-agents | database-design | agents | sql-pro | 精通现代SQL，包括云原生数据库、OLTP/OLAP优化和高级查询技术。性能调优、数据建模和混合分析系统专家。主动用于数据库优化或复杂分析。 | https://github.com/wshobson/agents/tree/main/plugins/database-design/agents/sql-pro.md |
-| 304 | skills-agents | database-design | skills | postgresql-table-design | 设计PostgreSQL特定模式。涵盖最佳实践、数据类型、索引、约束、性能模式和高级功能 | https://github.com/wshobson/agents/tree/main/plugins/database-design/skills/postgresql/SKILL.md |
-| 305 | skills-agents | database-migrations | agents | database-admin | 数据库管理专家，专注于现代云数据库、自动化和可靠性工程。精通AWS/Azure/GCP/OCI数据库服务、基础设施即代码、高可用性、灾难恢复、性能优化和合规。处理多云策略、容器数据库和成本优化。主动用于数据库架构、运营或可靠性工程。 | https://github.com/wshobson/agents/tree/main/plugins/database-migrations/agents/database-admin.md |
-| 306 | skills-agents | database-migrations | agents | database-optimizer | Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures. Masters advanced indexing, N+1 resolution, multi-tier caching, partitioning strategies, and cloud database optimization. Handles complex query analysis, migration strategies, and performance monitoring. Use PROACTIVELY for database optimization, performance issues, or scalability challenges. | https://github.com/wshobson/agents/tree/main/plugins/database-migrations/agents/database-optimizer.md |
-| 307 | skills-agents | database-migrations | commands | migration-observability | 迁移监控、CDC和可观测性基础设施 | https://github.com/wshobson/agents/tree/main/plugins/database-migrations/commands/migration-observability.md |
-| 308 | skills-agents | database-migrations | commands | sql-migrations | 使用零停机策略进行PostgreSQL、MySQL、SQL Server的SQL数据库迁移 | https://github.com/wshobson/agents/tree/main/plugins/database-migrations/commands/sql-migrations.md |
-| 451 | skills-agents | observability-monitoring | agents | database-optimizer | Expert database optimizer specializing in modern performance tuning, query optimization, and scalable architectures. Masters advanced indexing, N+1 resolution, multi-tier caching, partitioning strategies, and cloud database optimization. Handles complex query analysis, migration strategies, and performance monitoring. Use PROACTIVELY for database optimization, performance issues, or scalability challenges. | https://github.com/wshobson/agents/tree/main/plugins/observability-monitoring/agents/database-optimizer.md |
 ## 2.5 数据工程
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 62 | skills-agency-agents | engineering | agents | Data Engineer | 数据工程师，专注于构建可靠的数据管道、湖仓架构和可扩展数据基础设施，精通ETL/ELT、Spark、dbt、流系统和云数据平台 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-data-engineer.md |
-
-
-| 289 | skills-agents | data-engineering | agents | data-engineer | 构建可扩展的数据管道、现代数据仓库和实时流架构。实现Apache Spark、dbt、Airflow和云原生数据平台。主动用于数据管道设计、分析基础设施或现代数据栈实现。 | https://github.com/wshobson/agents/tree/main/plugins/data-engineering/agents/data-engineer.md |
-| 290 | skills-agents | data-engineering | skills | airflow-dag-patterns | 使用操作符、传感器、测试和部署的最佳实践构建生产Apache Airflow DAG。用于创建数据管道、编排工作流或调度批处理作业。 | https://github.com/wshobson/agents/tree/main/plugins/data-engineering/skills/airflow-dag-patterns/SKILL.md |
-| 291 | skills-agents | data-engineering | skills | data-quality-frameworks | 使用Great Expectations、dbt测试和数据契约实现数据质量验证。用于构建数据质量管道、实现验证规则或建立数据契约。 | https://github.com/wshobson/agents/tree/main/plugins/data-engineering/skills/data-quality-frameworks/SKILL.md |
-| 292 | skills-agents | data-engineering | skills | dbt-transformation-patterns | 精通dbt（data build tool）进行分析工程，包括模型组织、测试、文档和增量策略。用于构建数据转换、创建数据模型或实现分析工程最佳实践。 | https://github.com/wshobson/agents/tree/main/plugins/data-engineering/skills/dbt-transformation-patterns/SKILL.md |
-| 293 | skills-agents | data-engineering | skills | spark-optimization | 通过分区、缓存、shuffle优化和内存调优优化Apache Spark作业。用于提高Spark性能、调试慢作业或扩展数据处理管道。 | https://github.com/wshobson/agents/tree/main/plugins/data-engineering/skills/spark-optimization/SKILL.md |
-| 294 | skills-agents | data-engineering | commands | data-driven-feature | 通过数据洞察、A/B测试和持续测量指导功能构建 | https://github.com/wshobson/agents/tree/main/plugins/data-engineering/commands/data-driven-feature.md |
-| 295 | skills-agents | data-engineering | commands | data-pipeline | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/data-engineering/commands/data-pipeline.md |
 ## 2.6 AI/ML 开发
 ### AI工程师
 
@@ -449,35 +427,18 @@
 |------|------|------|------|------|------|------|
 | 63 | skills-agency-agents | engineering | agents | AI Engineer | AI/ML工程师，专注于机器学习模型开发、部署和生产系统集成，构建智能功能、数据管道和可扩展的AI应用 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-ai-engineer.md |
 | 64 | skills-agency-agents | specialized | agents | Model QA Specialist | 独立模型QA专家，端到端审计ML和统计模型——从文档审查和数据重建到复制、校准测试、可解释性分析、性能监控和审计级报告 | https://github.com/msitarzewski/agency-agents/tree/main/specialized/specialized-model-qa.md |
-
-
-| 420 | skills-agents | llm-application-dev | agents | ai-engineer | 构建生产就绪的LLM应用程序、高级RAG系统和智能代理。实现向量搜索、多模态AI、代理编排和企业AI集成。主动用于LLM功能、聊天机器人、AI代理或AI驱动的应用程序。 | https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/agents/ai-engineer.md |
-| 421 | skills-agents | llm-application-dev | agents | prompt-engineer | 提示工程专家，专注于高级提示技术、LLM优化和AI系统设计。精通思维链、宪法AI和生产提示策略。用于构建AI功能、改进代理性能或制作系统提示。 | https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/agents/prompt-engineer.md |
-| 422 | skills-agents | llm-application-dev | agents | vector-database-engineer | 向量数据库、嵌入策略和语义搜索实现专家。精通Pinecone、Weaviate、Qdrant、Milvus和pgvector，用于RAG应用、推荐系统和相似性搜索。主动用于向量搜索实现、嵌入优化或语义检索系统。 | https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/agents/vector-database-engineer.md |
-| 434 | skills-agents | machine-learning-ops | agents | data-scientist | 数据科学专家，负责高级分析、机器学习和统计建模。处理复杂数据分析、预测建模和商业智能。主动用于数据分析任务、ML建模、统计分析和数据驱动洞察。 | https://github.com/wshobson/agents/tree/main/plugins/machine-learning-ops/agents/data-scientist.md |
-| 435 | skills-agents | machine-learning-ops | agents | ml-engineer | 使用PyTorch 2.x、TensorFlow和现代ML框架构建生产ML系统。实现模型服务、特征工程、A/B测试和监控。主动用于ML模型部署、推理优化或生产ML基础设施。 | https://github.com/wshobson/agents/tree/main/plugins/machine-learning-ops/agents/ml-engineer.md |
-| 436 | skills-agents | machine-learning-ops | agents | mlops-engineer | 使用MLflow、Kubeflow和现代MLOps工具构建全面的ML流水线、实验跟踪和模型注册表。实现跨云平台的自动化训练、部署和监控。主动用于ML基础设施、实验管理或流水线自动化。 | https://github.com/wshobson/agents/tree/main/plugins/machine-learning-ops/agents/mlops-engineer.md |
-| 437 | skills-agents | machine-learning-ops | skills | ml-pipeline-workflow | 构建从数据准备到模型训练、验证和生产部署的端到端MLOps流水线。用于创建ML流水线、实现MLOps实践或自动化模型训练和部署工作流。 | https://github.com/wshobson/agents/tree/main/plugins/machine-learning-ops/skills/ml-pipeline-workflow/SKILL.md |
-| 438 | skills-agents | machine-learning-ops | commands | ml-pipeline | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/machine-learning-ops/commands/ml-pipeline.md |
 ### LLM应用
 
-| 423 | skills-agents | llm-application-dev | skills | embedding-strategies | 为语义搜索和RAG应用选择和优化嵌入模型。用于选择嵌入模型、实现分块策略或优化特定领域的嵌入质量。 | https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/skills/embedding-strategies/SKILL.md |
-| 424 | skills-agents | llm-application-dev | skills | hybrid-search-implementation | 结合向量和关键词搜索以提高检索效果。用于实现RAG系统、构建搜索引擎或当单独使用任一方法无法提供足够的召回率时。 | https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/skills/hybrid-search-implementation/SKILL.md |
-| 425 | skills-agents | llm-application-dev | skills | langchain-architecture | 使用LangChain 1.x和LangGraph设计LLM应用程序，用于代理、记忆和工具集成。用于构建LangChain应用程序、实现AI代理或创建复杂的LLM工作流。 | https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/skills/langchain-architecture/SKILL.md |
-| 426 | skills-agents | llm-application-dev | skills | llm-evaluation | 使用自动化指标、人工反馈和基准测试为LLM应用程序实现全面的评估策略。用于测试LLM性能、衡量AI应用质量或建立评估框架。 | https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/skills/llm-evaluation/SKILL.md |
-| 427 | skills-agents | llm-application-dev | skills | prompt-engineering-patterns | 精通高级提示工程技术，最大化生产中的LLM性能、可靠性和可控性。用于优化提示、改进LLM输出或设计生产提示模板。 | https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/skills/prompt-engineering-patterns/SKILL.md |
-| 428 | skills-agents | llm-application-dev | skills | rag-implementation | 使用向量数据库和语义搜索为LLM应用程序构建检索增强生成（RAG）系统。用于实现知识落地AI、构建文档问答系统或将LLM与外部知识库集成。 | https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/skills/rag-implementation/SKILL.md |
-| 429 | skills-agents | llm-application-dev | skills | similarity-search-patterns | 使用向量数据库实现高效的相似性搜索。用于构建语义搜索、实现最近邻查询或优化检索性能。 | https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/skills/similarity-search-patterns/SKILL.md |
-| 430 | skills-agents | llm-application-dev | skills | vector-index-tuning | 优化向量索引性能，包括延迟、召回率和内存。用于调整HNSW参数、选择量化策略或扩展向量搜索基础设施。 | https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/skills/vector-index-tuning/SKILL.md |
-| 431 | skills-agents | llm-application-dev | commands | ai-assistant | 构建具有NLU、对话管理和集成的AI助手应用 | https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/commands/ai-assistant.md |
-| 432 | skills-agents | llm-application-dev | commands | langchain-agent | 使用现代模式创建基于LangGraph的代理 | https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/commands/langchain-agent.md |
-| 433 | skills-agents | llm-application-dev | commands | prompt-optimize | 使用CoT、few-shot和宪法AI模式优化生产提示 | https://github.com/wshobson/agents/tree/main/plugins/llm-application-dev/commands/prompt-optimize.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
+| 578 | skills-anthropics-skills | claude-api | skills | claude-api | 使用 Claude API 或 Anthropic SDK 构建应用程序。当代码导入 `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`，或用户要求使用 Claude API、Anthropic SDK 或 Agent SDK 时触发。当代码导入 `openai`/其他 AI SDK、一般编程或机器学习/数据科学任务时不触发。 | https://github.com/anthropics/skills/tree/main/skills/claude-api |
 ### RAG与向量数据库
 ### AI数据修复
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 65 | skills-agency-agents | engineering | agents | AI Data Remediation Engineer | 自愈数据管道专家，使用隔离本地SLM和语义聚类自动检测、分类和修复大规模数据异常，专注于修复层而非通用数据工程 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-ai-data-remediation-engineer.md |
+| 610 | skills-baoyu-skills | baoyu-danger-gemini-web | skills | baoyu-danger-gemini-web | 通过逆向工程 Gemini Web API 生成图像和文本。支持文本生成、从提示词生成图像、参考图像视觉输入和多轮对话。当其他技能需要图像生成后端，或用户请求"用 Gemini 生成图像"、"Gemini 文本生成"或需要视觉 AI 生成时使用。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-danger-gemini-web |
 
 ## 2.7 DevOps
 ### DevOps通用
@@ -487,24 +448,6 @@
 | 66 | skills-agency-agents | engineering | agents | Autonomous Optimization Architect | 智能系统治理者，持续对API进行影子性能测试，同时执行严格的财务和安全约束以防止成本失控 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-autonomous-optimization-architect.md |
 | 67 | skills-agency-agents | engineering | agents | DevOps Automator | DevOps工程师，专注于基础设施自动化、CI/CD管道开发和云运维 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-devops-automator.md |
 | 68 | skills-agency-agents | support | agents | Infrastructure Maintainer | 基础设施专家，专注于系统可靠性、性能优化和技术运营管理，维护健壮、可扩展的基础设施以支持业务运营 | https://github.com/msitarzewski/agency-agents/tree/main/support/support-infrastructure-maintainer.md |
-
-
-| 226 | skills-agents | cicd-automation | agents | cloud-architect | 云架构专家，专注于AWS/Azure/GCP/OCI多云基础设施设计、高级IaC（Terraform/OpenTofu/CDK）、FinOps成本优化和现代架构模式。精通无服务器、微服务、安全、合规和灾难恢复。主动用于云架构、成本优化、迁移规划或多云策略。 | https://github.com/wshobson/agents/tree/main/plugins/cicd-automation/agents/cloud-architect.md |
-| 228 | skills-agents | cicd-automation | agents | devops-troubleshooter | DevOps故障排除专家，专注于快速事件响应、高级调试和现代可观测性。精通日志分析、分布式追踪、Kubernetes调试、性能优化和根本原因分析。处理生产中断、系统可靠性和预防性监控。主动用于调试、事件响应或系统故障排除。 | https://github.com/wshobson/agents/tree/main/plugins/cicd-automation/agents/devops-troubleshooter.md |
-| 231 | skills-agents | cicd-automation | skills | deployment-pipeline-design | 设计具有审批门、安全检查和部署编排的多阶段CI/CD流水线。用于架构部署工作流、设置持续交付或实现GitOps实践。 | https://github.com/wshobson/agents/tree/main/plugins/cicd-automation/skills/deployment-pipeline-design/SKILL.md |
-| 232 | skills-agents | cicd-automation | skills | github-actions-templates | 创建生产就绪的GitHub Actions工作流，用于自动化测试、构建和部署应用程序。用于使用GitHub Actions设置CI/CD、自动化开发工作流或创建可重用工作流模板。 | https://github.com/wshobson/agents/tree/main/plugins/cicd-automation/skills/github-actions-templates/SKILL.md |
-| 233 | skills-agents | cicd-automation | skills | gitlab-ci-patterns | 构建具有多阶段工作流、缓存和分布式运行器的GitLab CI/CD流水线，实现可扩展自动化。用于实现GitLab CI/CD、优化流水线性能或设置自动化测试和部署。 | https://github.com/wshobson/agents/tree/main/plugins/cicd-automation/skills/gitlab-ci-patterns/SKILL.md |
-| 234 | skills-agents | cicd-automation | skills | secrets-management | 使用Vault、AWS Secrets Manager或本机平台解决方案为CI/CD流水线实现安全的密钥管理。用于处理敏感凭据、轮换密钥或保护CI/CD环境。 | https://github.com/wshobson/agents/tree/main/plugins/cicd-automation/skills/secrets-management/SKILL.md |
-| 235 | skills-agents | cicd-automation | commands | workflow-automate | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/cicd-automation/commands/workflow-automate.md |
-| 236 | skills-agents | cloud-infrastructure | agents | cloud-architect | 云架构专家，专注于AWS/Azure/GCP/OCI多云基础设施设计、高级IaC（Terraform/OpenTofu/CDK）、FinOps成本优化和现代架构模式。精通无服务器、微服务、安全、合规和灾难恢复。主动用于云架构、成本优化、迁移规划或多云策略。 | https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/agents/cloud-architect.md |
-| 238 | skills-agents | cloud-infrastructure | agents | hybrid-cloud-architect | 混合云架构专家，专注于跨AWS/Azure/GCP/OCI和私有云（OpenStack/VMware）的复杂多云解决方案。精通混合连接、工作负载放置优化、边缘计算和跨云自动化。处理合规、成本优化、灾难恢复和迁移策略。主动用于混合架构、多云策略或复杂基础设施集成。 | https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/agents/hybrid-cloud-architect.md |
-| 243 | skills-agents | cloud-infrastructure | skills | cost-optimization | 通过资源调整大小、标签策略、预留实例和支出分析优化AWS、Azure、GCP和OCI的云成本。用于减少云支出、分析基础设施成本或实施成本治理策略。 | https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/skills/cost-optimization/SKILL.md |
-| 244 | skills-agents | cloud-infrastructure | skills | hybrid-cloud-networking | 使用VPN和专用连接配置本地基础设施与云平台之间的安全、高性能连接。用于构建混合云架构、将数据中心连接到云或实现安全的跨场所网络。 | https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/skills/hybrid-cloud-networking/SKILL.md |
-| 248 | skills-agents | cloud-infrastructure | skills | multi-cloud-architecture | 使用决策框架设计多云架构，以选择和集成AWS、Azure、GCP和OCI的服务。用于构建多云系统、避免供应商锁定或利用多个提供商的最佳服务。 | https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/skills/multi-cloud-architecture/SKILL.md |
-| 250 | skills-agents | cloud-infrastructure | skills | terraform-module-library | 遵循基础设施即代码最佳实践，为AWS、Azure、GCP和OCI基础设施构建可重用的Terraform模块。用于创建基础设施模块、标准化云供应或实现可重用的IaC组件。 | https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/skills/terraform-module-library/SKILL.md |
-| 298 | skills-agents | database-cloud-optimization | agents | cloud-architect | 云架构专家，专注于AWS/Azure/GCP/OCI多云基础设施设计、高级IaC（Terraform/OpenTofu/CDK）、FinOps成本优化和现代架构模式。精通无服务器、微服务、安全、合规和灾难恢复。主动用于云架构、成本优化、迁移规划或多云策略。 | https://github.com/wshobson/agents/tree/main/plugins/database-cloud-optimization/agents/cloud-architect.md |
-| 316 | skills-agents | deployment-validation | agents | cloud-architect | 云架构专家，专注于AWS/Azure/GCP/OCI多云基础设施设计、高级IaC（Terraform/OpenTofu/CDK）、FinOps成本优化和现代架构模式。精通无服务器、微服务、安全、合规和灾难恢复。主动用于云架构、成本优化、迁移规划或多云策略。 | https://github.com/wshobson/agents/tree/main/plugins/deployment-validation/agents/cloud-architect.md |
-| 330 | skills-agents | distributed-debugging | agents | devops-troubleshooter | DevOps故障排除专家，专注于快速事件响应、高级调试和现代可观测性。精通日志分析、分布式追踪、Kubernetes调试、性能优化和根本原因分析。处理生产中断、系统可靠性和预防性监控。主动用于调试、事件响应或系统故障排除。 | https://github.com/wshobson/agents/tree/main/plugins/distributed-debugging/agents/devops-troubleshooter.md |
 ### SRE
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
@@ -516,46 +459,170 @@
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 70 | skills-agency-agents | engineering | agents | Incident Response Commander | 事故响应指挥专家，专注于生产事故管理、结构化响应协调、事后复盘、SLO/SLI追踪和值班流程设计 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-incident-response-commander.md |
-
-
-| 397 | skills-agents | incident-response | agents | incident-responder | SRE事件响应专家，专注于快速问题解决、现代可观测性和全面的事件管理。精通事件指挥、无责事后分析、错误预算管理和系统可靠性模式。处理关键中断、沟通策略和持续改进。立即用于生产事件或SRE实践。 | https://github.com/wshobson/agents/tree/main/plugins/incident-response/agents/incident-responder.md |
-| 399 | skills-agents | incident-response | skills | incident-runbook-templates | 创建结构化的事件响应运行手册，包括分步程序、升级路径和恢复操作。用于构建运行手册、响应事件或建立事件响应程序。 | https://github.com/wshobson/agents/tree/main/plugins/incident-response/skills/incident-runbook-templates/SKILL.md |
-| 400 | skills-agents | incident-response | skills | on-call-handoff-patterns | 精通值班交接，包括上下文转移、升级程序和文档。用于转移值班责任、记录值班摘要或改进值班流程。 | https://github.com/wshobson/agents/tree/main/plugins/incident-response/skills/on-call-handoff-patterns/SKILL.md |
-| 401 | skills-agents | incident-response | skills | postmortem-writing | 编写有效的无责事后分析，包括根本原因分析、时间线和行动项。用于进行事件审查、编写事后分析文档或改进事件响应流程。 | https://github.com/wshobson/agents/tree/main/plugins/incident-response/skills/postmortem-writing/SKILL.md |
-| 395 | skills-agents | incident-response | agents | devops-troubleshooter | DevOps故障排除专家，专注于快速事件响应、高级调试和现代可观测性。精通日志分析、分布式追踪、Kubernetes调试、性能优化和根本原因分析。处理生产中断、系统可靠性和预防性监控。主动用于调试、事件响应或系统故障排除。 | https://github.com/wshobson/agents/tree/main/plugins/incident-response/agents/devops-troubleshooter.md |
-| 402 | skills-agents | incident-response | commands | incident-response | 使用现代SRE实践编排多智能体事件响应，实现快速解决和学习 | https://github.com/wshobson/agents/tree/main/plugins/incident-response/commands/incident-response.md |
-| 403 | skills-agents | incident-response | commands | smart-fix | 智能问题解决，包括多智能体调试、根本原因分析和验证修复实现 | https://github.com/wshobson/agents/tree/main/plugins/incident-response/commands/smart-fix.md |
+| 1 | skills-everything-claude-code | agent-eval | skills | agent-eval | 编码智能体（Claude Code、Aider、Codex等）的头部对比测试，包含通过率、成本、时间和一致性指标 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/agent-eval |
+| 2 | skills-everything-claude-code | agent-harness-construction | skills | agent-harness-construction | 设计和优化AI智能体动作空间、工具定义和观察格式，以提高完成率 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/agent-harness-construction |
+| 3 | skills-everything-claude-code | agentic-engineering | skills | agentic-engineering | 作为智能体工程师运行，采用评估优先执行、分解和成本感知模型路由 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/agentic-engineering |
+| 4 | skills-everything-claude-code | ai-first-engineering | skills | ai-first-engineering | 面向AI智能体生成大部分实现输出的团队的工程运营模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/ai-first-engineering |
+| 5 | skills-everything-claude-code | ai-regression-testing | skills | ai-regression-testing | AI辅助开发的回归测试策略。无数据库依赖的沙盒模式API测试、自动化错误检查工作流，以及捕获AI盲点的模式（同一模型编写和审查代码） | https://github.com/affaan-m/everything-claude-code/tree/main/skills/ai-regression-testing |
+| 7 | skills-everything-claude-code | api-design | skills | api-design | REST API设计模式，包括资源命名、状态码、分页、过滤、错误响应、版本控制和生产API的速率限制 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/api-design |
+| 8 | skills-everything-claude-code | architecture-decision-records | skills | architecture-decision-records | 将Claude Code会话中做出的架构决策捕获为结构化ADR。自动检测决策时刻，记录上下文、考虑的替代方案和理由 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/architecture-decision-records |
+| 9 | skills-everything-claude-code | article-writing | skills | article-writing | 撰写文章、指南、博客文章、教程、通讯期刊和其他长篇内容，采用源自示例或品牌指导的独特风格 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/article-writing |
+| 10 | skills-everything-claude-code | autonomous-loops | skills | autonomous-loops | 自主Claude Code循环的模式和架构——从简单的顺序管道到RFC驱动的多智能体DAG系统 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/autonomous-loops |
+| 11 | skills-everything-claude-code | backend-patterns | skills | backend-patterns | 后端架构模式、API设计、数据库优化，以及Node.js、Express和Next.js API路由的服务端最佳实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/backend-patterns |
+| 12 | skills-everything-claude-code | benchmark | skills | benchmark | 性能基线和回归检测，用于在PR前后测量页面性能和API基准 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/benchmark |
+| 13 | skills-everything-claude-code | blueprint | skills | blueprint | 将一行目标转化为多会话、多智能体工程项目的分步建设计划。每个步骤都有独立的上下文简报 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/blueprint |
+| 14 | skills-everything-claude-code | browser-qa | skills | browser-qa | 使用浏览器自动化MCP进行自动化视觉测试和交互，验证跨页面的UI行为 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/browser-qa |
+| 15 | skills-everything-claude-code | bun-runtime | skills | bun-runtime | Bun作为运行时、包管理器、打包器和测试运行器。何时选择Bun vs Node、迁移说明和Vercel支持 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/bun-runtime |
+| 16 | skills-everything-claude-code | canary-watch | skills | canary-watch | 部署后监控，在部署到生产或预发布环境后监控已部署URL的回归问题 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/canary-watch |
+| 17 | skills-everything-claude-code | carrier-relationship-management | skills | carrier-relationship-management | 管理承运商组合、协商运费、跟踪承运商绩效、分配货运和维护战略承运商关系的编码专业知识 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/carrier-relationship-management |
+| 18 | skills-everything-claude-code | claude-api | skills | claude-api | Python和TypeScript的Anthropic Claude API模式。涵盖Messages API、流式传输、工具使用、视觉、扩展思考、批处理、提示缓存和Claude Agent SDK | https://github.com/affaan-m/everything-claude-code/tree/main/skills/claude-api |
+| 19 | skills-everything-claude-code | claude-devfleet | skills | claude-devfleet | 通过Claude DevFleet编排多智能体编码任务——规划项目、在隔离工作树中调度并行智能体、监控进度和读取结构化报告 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/claude-devfleet |
+| 20 | skills-everything-claude-code | clickhouse-io | skills | clickhouse-io | ClickHouse数据库模式、查询优化、分析和数据工程最佳实践，用于高性能分析工作负载 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/clickhouse-io |
+| 21 | skills-everything-claude-code | click-path-audit | skills | click-path-audit | 追踪每个面向用户的按钮/触点通过其完整状态变化序列，找出函数单独工作但相互抵消的bug | https://github.com/affaan-m/everything-claude-code/tree/main/skills/click-path-audit |
+| 22 | skills-everything-claude-code | codebase-onboarding | skills | codebase-onboarding | 分析陌生代码库并生成结构化入职指南，包含架构图、关键入口点、约定和入门CLAUDE.md | https://github.com/affaan-m/everything-claude-code/tree/main/skills/codebase-onboarding |
+| 23 | skills-everything-claude-code | coding-standards | skills | coding-standards | TypeScript、JavaScript、React和Node.js开发的通用编码标准、最佳实践和模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/coding-standards |
+| 25 | skills-everything-claude-code | configure-ecc | skills | configure-ecc | Everything Claude Code的交互式安装程序——引导用户选择和安装技能和规则到用户级或项目级目录 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/configure-ecc |
+| 26 | skills-everything-claude-code | content-engine | skills | content-engine | 为X、LinkedIn、TikTok、YouTube、通讯和多平台再利用活动创建平台原生内容系统 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/content-engine |
+| 27 | skills-everything-claude-code | content-hash-cache-pattern | skills | content-hash-cache-pattern | 使用SHA-256内容哈希缓存昂贵的文件处理结果——路径无关、自动失效，带有服务层分离 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/content-hash-cache-pattern |
+| 28 | skills-everything-claude-code | context-budget | skills | context-budget | 审计Claude Code上下文窗口消耗，涵盖智能体、技能、MCP服务器和规则。识别臃肿、冗余组件，并生成优先级token节省建议 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/context-budget |
+| 29 | skills-everything-claude-code | continuous-agent-loop | skills | continuous-agent-loop | 具有质量门、评估和恢复控制的持续自主智能体循环模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/continuous-agent-loop |
+| 30 | skills-everything-claude-code | continuous-learning | skills | continuous-learning | 自动从Claude Code会话中提取可重用模式并保存为学习技能供将来使用 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/continuous-learning |
+| 31 | skills-everything-claude-code | continuous-learning-v2 | skills | continuous-learning-v2 | 基于本能的学习系统，通过hooks观察会话，创建带有置信度评分的原子本能，并将其演化为技能/命令/智能体 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/continuous-learning-v2 |
+| 32 | skills-everything-claude-code | cost-aware-llm-pipeline | skills | cost-aware-llm-pipeline | LLM API使用的成本优化模式——按任务复杂度路由模型、预算跟踪、重试逻辑和提示缓存 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/cost-aware-llm-pipeline |
+| 33 | skills-everything-claude-code | cpp-coding-standards | skills | cpp-coding-standards | 基于C++核心指南（isocpp.github.io）的C++编码标准。在编写、审查或重构C++代码时使用，强制执行现代、安全和惯用的实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/cpp-coding-standards |
+| 34 | skills-everything-claude-code | cpp-testing | skills | cpp-testing | 仅在编写/更新/修复C++测试、配置GoogleTest/CTest、诊断失败或不稳定测试或添加覆盖率/消毒器时使用 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/cpp-testing |
+| 35 | skills-everything-claude-code | crosspost | skills | crosspost | 跨X、LinkedIn、Threads和Bluesky的多平台内容分发。使用content-engine模式为每个平台适配内容 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/crosspost |
+| 36 | skills-everything-claude-code | customs-trade-compliance | skills | customs-trade-compliance | 海关文件、关税分类、关税优化、限制方筛查和跨多个司法管辖区的监管合规编码专业知识 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/customs-trade-compliance |
+| 37 | skills-everything-claude-code | database-migrations | skills | database-migrations | PostgreSQL、MySQL和常见ORM的数据库迁移最佳实践，涵盖模式更改、数据迁移、回滚和零停机部署 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/database-migrations |
+| 38 | skills-everything-claude-code | data-scraper-agent | skills | data-scraper-agent | 为任何公共来源构建完全自动化的AI驱动数据收集智能体——招聘网站、价格、新闻、GitHub、体育等任何内容 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/data-scraper-agent |
+| 39 | skills-everything-claude-code | deep-research | skills | deep-research | 使用firecrawl和exa MCP进行多源深度研究。搜索网络、综合发现并提供带来源引用的报告 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/deep-research |
+| 40 | skills-everything-claude-code | deployment-patterns | skills | deployment-patterns | Web应用的部署工作流、CI/CD管道模式、Docker容器化、健康检查、回滚策略和生产就绪清单 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/deployment-patterns |
+| 41 | skills-everything-claude-code | design-system | skills | design-system | 为需要设计系统的新项目生成和审计视觉系统，或审计现有代码库的视觉一致性 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/design-system |
+| 42 | skills-everything-claude-code | django-patterns | skills | django-patterns | Django架构模式、使用DRF的REST API设计、ORM最佳实践、缓存、信号、中间件和生产级Django应用 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/django-patterns |
+| 43 | skills-everything-claude-code | django-security | skills | django-security | Django安全最佳实践、认证、授权、CSRF保护、SQL注入防护、XSS防护和安全部署配置 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/django-security |
+| 44 | skills-everything-claude-code | django-tdd | skills | django-tdd | 使用pytest-django的Django测试策略、TDD方法论、factory_boy、mocking、覆盖率和测试Django REST Framework API | https://github.com/affaan-m/everything-claude-code/tree/main/skills/django-tdd |
+| 45 | skills-everything-claude-code | django-verification | skills | django-verification | Django项目的验证循环：迁移、linting、带覆盖率的测试、安全扫描和发布或PR前的部署就绪检查 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/django-verification |
+| 46 | skills-everything-claude-code | dmux-workflows | skills | dmux-workflows | 使用dmux（AI智能体的tmux窗格管理器）进行多智能体编排。支持Claude Code、Codex、OpenCode和其他工具的并行智能体工作流模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/dmux-workflows |
+| 47 | skills-everything-claude-code | docker-patterns | skills | docker-patterns | Docker和Docker Compose模式，用于本地开发、容器安全、网络、卷策略和多服务编排 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/docker-patterns |
+| 48 | skills-everything-claude-code | documentation-lookup | skills | documentation-lookup | 通过Context7 MCP使用最新的库和框架文档而非训练数据。在设置问题、API参考、代码示例时激活 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/documentation-lookup |
+| 49 | skills-everything-claude-code | e2e-testing | skills | e2e-testing | Playwright E2E测试模式、页面对象模型、配置、CI/CD集成、工件管理和不稳定测试策略 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/e2e-testing |
+| 50 | skills-everything-claude-code | energy-procurement | skills | energy-procurement | 电力和天然气采购、关税优化、需求费用管理、可再生PPA评估和多设施能源成本管理编码专业知识 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/energy-procurement |
+| 51 | skills-everything-claude-code | enterprise-agent-ops | skills | enterprise-agent-ops | 运行具有可观察性、安全边界和生命周期管理的长期智能体工作负载 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/enterprise-agent-ops |
+| 52 | skills-everything-claude-code | eval-harness | skills | eval-harness | 实现评估驱动开发（EDD）原则的Claude Code会话正式评估框架 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/eval-harness |
+| 53 | skills-everything-claude-code | exa-search | skills | exa-search | 通过Exa MCP进行神经网络搜索，用于网络、代码和公司研究。当用户需要网络搜索、代码示例、公司情报、人员查询时使用 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/exa-search |
+| 54 | skills-everything-claude-code | fal-ai-media | skills | fal-ai-media | 通过fal.ai MCP统一媒体生成——图像、视频和音频。涵盖文本到图像、文本/图像到视频、文本到语音和视频到音频 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/fal-ai-media |
+| 55 | skills-everything-claude-code | flutter-dart-code-review | skills | flutter-dart-code-review | 库无关的Flutter/Dart代码审查清单，涵盖widget最佳实践、状态管理模式、Dart惯用语、性能、可访问性、安全和清洁架构 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/flutter-dart-code-review |
+| 56 | skills-everything-claude-code | foundation-models-on-device | skills | foundation-models-on-device | Apple FoundationModels框架用于设备端LLM——文本生成、使用@Generable的引导生成、工具调用和iOS 26+中的快照流 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/foundation-models-on-device |
+| 57 | skills-everything-claude-code | frontend-patterns | skills | frontend-patterns | React、Next.js的前端开发模式、状态管理、性能优化和UI最佳实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/frontend-patterns |
+| 58 | skills-everything-claude-code | frontend-slides | skills | frontend-slides | 从头创建或通过转换PowerPoint文件创建令人惊艳、动画丰富的HTML演示文稿 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/frontend-slides |
+| 59 | skills-everything-claude-code | golang-patterns | skills | golang-patterns | 用于构建健壮、高效和可维护Go应用的惯用Go模式、最佳实践和约定 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/golang-patterns |
+| 60 | skills-everything-claude-code | golang-testing | skills | golang-testing | Go测试模式，包括表驱动测试、子测试、基准测试、模糊测试和测试覆盖率。遵循TDD方法论和惯用Go实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/golang-testing |
+| 61 | skills-everything-claude-code | inventory-demand-planning | skills | inventory-demand-planning | 多地点零售商的需求预测、安全库存优化、补货计划和促销提升估计编码专业知识 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/inventory-demand-planning |
+| 62 | skills-everything-claude-code | investor-materials | skills | investor-materials | 创建和更新路演PPT、一页纸、投资者备忘录、加速器申请、财务模型和融资材料 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/investor-materials |
+| 63 | skills-everything-claude-code | investor-outreach | skills | investor-outreach | 为融资起草冷邮件、热介绍简介、跟进邮件、更新邮件和投资者沟通 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/investor-outreach |
+| 64 | skills-everything-claude-code | iterative-retrieval | skills | iterative-retrieval | 逐步精炼上下文检索以解决子智能体上下文问题的模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/iterative-retrieval |
+| 65 | skills-everything-claude-code | java-coding-standards | skills | java-coding-standards | Spring Boot服务的Java编码标准：命名、不可变性、Optional使用、流、异常、泛型和项目布局 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/java-coding-standards |
+| 66 | skills-everything-claude-code | jpa-patterns | skills | jpa-patterns | Spring Boot中JPA/Hibernate的实体设计、关系、查询优化、事务、审计、索引、分页和连接池模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/jpa-patterns |
+| 67 | skills-everything-claude-code | kotlin-coroutines-flows | skills | kotlin-coroutines-flows | Android和KMP的Kotlin协程和Flow模式——结构化并发、Flow操作符、StateFlow、错误处理和测试 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/kotlin-coroutines-flows |
+| 68 | skills-everything-claude-code | kotlin-exposed-patterns | skills | kotlin-exposed-patterns | JetBrains Exposed ORM模式，包括DSL查询、DAO模式、事务、HikariCP连接池、Flyway迁移和仓储模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/kotlin-exposed-patterns |
+| 69 | skills-everything-claude-code | kotlin-ktor-patterns | skills | kotlin-ktor-patterns | Ktor服务器模式，包括路由DSL、插件、认证、Koin DI、kotlinx.serialization、WebSocket和testApplication测试 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/kotlin-ktor-patterns |
+| 70 | skills-everything-claude-code | kotlin-patterns | skills | kotlin-patterns | 用于构建健壮、高效和可维护Kotlin应用的惯用Kotlin模式、最佳实践和约定，包含协程、空安全和DSL构建器 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/kotlin-patterns |
+| 71 | skills-everything-claude-code | kotlin-testing | skills | kotlin-testing | 使用Kotest、MockK、协程测试、基于属性的测试和Kover覆盖率的Kotlin测试模式。遵循TDD方法论 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/kotlin-testing |
+| 72 | skills-everything-claude-code | laravel-patterns | skills | laravel-patterns | Laravel架构模式、路由/控制器、Eloquent ORM、服务层、队列、事件、缓存和生产应用的API资源 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/laravel-patterns |
+| 73 | skills-everything-claude-code | laravel-security | skills | laravel-security | Laravel安全最佳实践，涵盖认证/授权、验证、CSRF、批量赋值、文件上传、密钥、速率限制和安全部署 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/laravel-security |
+| 74 | skills-everything-claude-code | laravel-tdd | skills | laravel-tdd | 使用PHPUnit和Pest的Laravel测试驱动开发、工厂、数据库测试、fake和覆盖率目标 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/laravel-tdd |
+| 75 | skills-everything-claude-code | laravel-verification | skills | laravel-verification | Laravel项目的验证循环：环境检查、linting、静态分析、带覆盖率的测试、安全扫描和部署就绪 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/laravel-verification |
+| 76 | skills-everything-claude-code | liquid-glass-design | skills | liquid-glass-design | iOS 26 Liquid Glass设计系统——具有模糊、反射和交互变形的动态玻璃材质，用于SwiftUI、UIKit和WidgetKit | https://github.com/affaan-m/everything-claude-code/tree/main/skills/liquid-glass-design |
+| 77 | skills-everything-claude-code | logistics-exception-management | skills | logistics-exception-management | 处理货运异常、发货延误、损坏、丢失和承运商纠纷编码专业知识 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/logistics-exception-management |
+| 78 | skills-everything-claude-code | market-research | skills | market-research | 进行市场研究、竞争分析、投资者尽职调查和行业情报，带来源引用和决策导向的摘要 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/market-research |
+| 79 | skills-everything-claude-code | mcp-server-patterns | skills | mcp-server-patterns | 使用Node/TypeScript SDK构建MCP服务器——工具、资源、提示、Zod验证、stdio vs Streamable HTTP | https://github.com/affaan-m/everything-claude-code/tree/main/skills/mcp-server-patterns |
+| 80 | skills-everything-claude-code | nanoclaw-repl | skills | nanoclaw-repl | 运行和扩展NanoClaw v2，ECC基于claude -p构建的零依赖会话感知REPL | https://github.com/affaan-m/everything-claude-code/tree/main/skills/nanoclaw-repl |
+| 81 | skills-everything-claude-code | nextjs-turbopack | skills | nextjs-turbopack | Next.js 16+和Turbopack——增量打包、FS缓存、开发速度，以及何时使用Turbopack vs webpack | https://github.com/affaan-m/everything-claude-code/tree/main/skills/nextjs-turbopack |
+| 82 | skills-everything-claude-code | nutrient-document-processing | skills | nutrient-document-processing | 使用Nutrient DWS API处理、转换、OCR、提取、编辑、签署和填充文档。支持PDF、DOCX、XLSX、PPTX、HTML和图像 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/nutrient-document-processing |
+| 83 | skills-everything-claude-code | nuxt4-patterns | skills | nuxt4-patterns | Nuxt 4应用模式，用于hydration安全、性能、路由规则、延迟加载和使用useFetch和useAsyncData的SSR安全数据获取 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/nuxt4-patterns |
+| 84 | skills-everything-claude-code | perl-patterns | skills | perl-patterns | 现代Perl 5.36+惯用语、最佳实践和约定，用于构建健壮、可维护的Perl应用 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/perl-patterns |
+| 85 | skills-everything-claude-code | perl-security | skills | perl-security | 全面的Perl安全，涵盖污点模式、输入验证、安全进程执行、DBI参数化查询、Web安全（XSS/SQLi/CSRF） | https://github.com/affaan-m/everything-claude-code/tree/main/skills/perl-security |
+| 86 | skills-everything-claude-code | perl-testing | skills | perl-testing | 使用Test2::V0、Test::More、prove runner、mocking、Devel::Cover覆盖率和TDD方法论的Perl测试模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/perl-testing |
+| 87 | skills-everything-claude-code | plankton-code-quality | skills | plankton-code-quality | 使用Plankton进行写入时代码质量强制——通过hooks在每次文件编辑时自动格式化、linting和Claude驱动的修复 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/plankton-code-quality |
+| 88 | skills-everything-claude-code | postgres-patterns | skills | postgres-patterns | PostgreSQL数据库模式，用于查询优化、模式设计、索引和安全。基于Supabase最佳实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/postgres-patterns |
+| 89 | skills-everything-claude-code | production-scheduling | skills | production-scheduling | 离散和批量制造中的生产调度、作业排序、产线平衡、换型优化和瓶颈解决编码专业知识 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/production-scheduling |
+| 90 | skills-everything-claude-code | product-lens | skills | product-lens | 先思考后构建——产品诊断和功能验证，采用YC办公时间风格的提问方式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/product-lens |
+| 91 | skills-everything-claude-code | project-guidelines-example | skills | project-guidelines-example | 基于真实生产应用的项目特定技能模板示例 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/project-guidelines-example |
+| 92 | skills-everything-claude-code | prompt-optimizer | skills | prompt-optimizer | 分析原始提示、识别意图和差距、匹配ECC组件（技能/命令/智能体/hooks），并输出可直接粘贴的优化提示 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/prompt-optimizer |
+| 93 | skills-everything-claude-code | python-patterns | skills | python-patterns | 用于构建健壮、高效和可维护Python应用的Pythonic惯用语、PEP 8标准、类型提示和最佳实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/python-patterns |
+| 94 | skills-everything-claude-code | python-testing | skills | python-testing | 使用pytest的Python测试策略、TDD方法论、fixtures、mocking、参数化和覆盖率要求 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/python-testing |
+| 95 | skills-everything-claude-code | pytorch-patterns | skills | pytorch-patterns | PyTorch深度学习模式和最佳实践，用于构建健壮、高效和可复现的训练管道、模型架构和数据加载 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/pytorch-patterns |
+| 96 | skills-everything-claude-code | quality-nonconformance | skills | quality-nonconformance | 受监管制造中的质量控制、不合格调查、根本原因分析、纠正措施和供应商质量管理编码专业知识 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/quality-nonconformance |
+| 97 | skills-everything-claude-code | ralphinho-rfc-pipeline | skills | ralphinho-rfc-pipeline | RFC驱动的多智能体DAG执行模式，具有质量门、合并队列和工作单元编排 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/ralphinho-rfc-pipeline |
+| 98 | skills-everything-claude-code | regex-vs-llm-structured-text | skills | regex-vs-llm-structured-text | 在解析结构化文本时选择正则表达式还是LLM的决策框架——从正则开始，仅对低置信度边缘情况添加LLM | https://github.com/affaan-m/everything-claude-code/tree/main/skills/regex-vs-llm-structured-text |
+| 99 | skills-everything-claude-code | returns-reverse-logistics | skills | returns-reverse-logistics | 退货授权、收货检验、处置决策、退款处理、欺诈检测和保修索赔管理编码专业知识 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/returns-reverse-logistics |
+| 100 | skills-everything-claude-code | rules-distill | skills | rules-distill | 扫描技能以提取跨领域原则并将其提炼为规则——追加、修改或创建新规则文件 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/rules-distill |
+| 103 | skills-everything-claude-code | safety-guard | skills | safety-guard | 在生产系统上工作或智能体自主运行时防止破坏性操作 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/safety-guard |
+| 104 | skills-everything-claude-code | santa-method | skills | santa-method | 多智能体对抗验证与收敛循环。两个独立的审查智能体必须都通过后才能发布输出 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/santa-method |
+| 105 | skills-everything-claude-code | search-first | skills | search-first | 编码前研究工作流。在编写自定义代码之前搜索现有工具、库和模式 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/search-first |
+| 106 | skills-everything-claude-code | security-review | skills | security-review | 在添加认证、处理用户输入、处理密钥、创建API端点或实现支付/敏感功能时使用 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/security-review |
+| 107 | skills-everything-claude-code | security-scan | skills | security-scan | 使用AgentShield扫描Claude Code配置（.claude/目录）中的安全漏洞、配置错误和注入风险 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/security-scan |
+| 110 | skills-everything-claude-code | springboot-patterns | skills | springboot-patterns | Spring Boot应用的模式——包括结构、配置、模块化、健壮性和测试 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/springboot-patterns |
+| 111 | skills-everything-claude-code | springboot-security | skills | springboot-security | Spring Boot安全最佳实践，涵盖认证/授权、验证、CSRF、密钥、头部、速率限制和依赖安全最佳实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/springboot-security |
+| 112 | skills-everything-claude-code | springboot-tdd | skills | springboot-tdd | 使用JUnit 5、Mockito、MockMvc、Testcontainers和JaCoCo的Spring Boot测试驱动开发 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/springboot-tdd |
+| 113 | skills-everything-claude-code | springboot-verification | skills | springboot-verification | Spring Boot项目的验证循环：构建、静态分析、带覆盖率的测试、安全扫描和部署就绪检查 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/springboot-verification |
+| 114 | skills-everything-claude-code | strategic-compact | skills | strategic-compact | 在逻辑间隔建议手动上下文压缩，以通过任务阶段而非任意自动压缩来保留上下文 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/strategic-compact |
+| 115 | skills-everything-claude-code | swift-actor-persistence | skills | swift-actor-persistence | 使用actor在Swift中实现线程安全数据持久化——内存缓存带文件后备存储，设计上消除数据竞争 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/swift-actor-persistence |
+| 116 | skills-everything-claude-code | swift-concurrency-6-2 | skills | swift-concurrency-6-2 | Swift 6.2平易并发——默认单线程，@concurrent用于显式后台卸载，main actor类型的隔离一致性 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/swift-concurrency-6-2 |
+| 117 | skills-everything-claude-code | swift-protocol-di-testing | skills | swift-protocol-di-testing | 基于协议的依赖注入用于可测试Swift代码——使用聚焦协议和Swift Testing模拟文件系统、网络和外部API | https://github.com/affaan-m/everything-claude-code/tree/main/skills/swift-protocol-di-testing |
+| 118 | skills-everything-claude-code | swiftui-patterns | skills | swiftui-patterns | SwiftUI架构模式、使用@Observable的状态管理、视图组合、导航、性能优化和现代iOS/macOS UI最佳实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/swiftui-patterns |
+| 119 | skills-everything-claude-code | tdd-workflow | skills | tdd-workflow | 在编写新功能、修复bug、重构代码时使用。强制执行80%+覆盖率的测试驱动开发 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/tdd-workflow |
+| 120 | skills-everything-claude-code | team-builder | skills | team-builder | 用于组合和调度并行团队的交互式智能体选择器 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/team-builder |
+| 121 | skills-everything-claude-code | verification-loop | skills | verification-loop | Claude Code会话的综合验证系统 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/verification-loop |
+| 122 | skills-everything-claude-code | videodb | skills | videodb | 查看、理解和处理视频和音频——摄取、提取帧、构建索引、搜索时刻、转码、执行时间线编辑、生成媒体资产 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/videodb |
+| 123 | skills-everything-claude-code | video-editing | skills | video-editing | AI辅助视频编辑工作流，用于剪辑、构建和增强真实素材 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/video-editing |
+| 124 | skills-everything-claude-code | visa-doc-translate | skills | visa-doc-translate | 翻译签证申请文件（图像）为英文，并创建包含原文和译文的双语PDF | https://github.com/affaan-m/everything-claude-code/tree/main/skills/visa-doc-translate |
+| 125 | skills-everything-claude-code | x-api | skills | x-api | X/Twitter API集成，用于发布推文、线程、阅读时间线、搜索和分析。涵盖OAuth认证模式、速率限制和平台原生内容发布 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/x-api |
+| 126 | skills-everything-claude-code | architect | agents | architect | 软件架构专家，负责系统设计、可扩展性和技术决策。在规划新功能、重构大型系统或做出架构决策时主动使用 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/architect.md |
+| 127 | skills-everything-claude-code | build-error-resolver | agents | build-error-resolver | 构建和TypeScript错误解决专家。在构建失败或类型错误发生时主动使用。仅用最小差异修复构建/类型错误 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/build-error-resolver.md |
+| 128 | skills-everything-claude-code | chief-of-staff | agents | chief-of-staff | 个人通信参谋长，分类处理邮件、Slack、LINE和Messenger。将消息分为4个层级，生成草稿回复，并强制执行发送后跟进 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/chief-of-staff.md |
+| 129 | skills-everything-claude-code | code-reviewer | agents | code-reviewer | 专家级代码审查专家。主动审查代码的质量、安全性和可维护性。在编写或修改代码后立即使用 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/code-reviewer.md |
+| 130 | skills-everything-claude-code | cpp-build-resolver | agents | cpp-build-resolver | C++构建、CMake和编译错误解决专家。用最小更改修复构建错误、链接器问题和模板错误 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/cpp-build-resolver.md |
+| 131 | skills-everything-claude-code | cpp-reviewer | agents | cpp-reviewer | 专家级C++代码审查员，专注于内存安全、现代C++惯用语、并发和性能。用于所有C++代码更改 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/cpp-reviewer.md |
+| 132 | skills-everything-claude-code | database-reviewer | agents | database-reviewer | PostgreSQL数据库专家，负责查询优化、模式设计、安全和性能。在编写SQL、创建迁移、设计模式时主动使用 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/database-reviewer.md |
+| 133 | skills-everything-claude-code | docs-lookup | agents | docs-lookup | 当用户询问如何使用库、框架或API或需要最新代码示例时，使用Context7 MCP获取当前文档 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/docs-lookup.md |
+| 134 | skills-everything-claude-code | doc-updater | agents | doc-updater | 文档和codemap专家。主动用于更新codemap和文档。运行/update-codemaps和/update-docs | https://github.com/affaan-m/everything-claude-code/tree/main/agents/doc-updater.md |
+| 135 | skills-everything-claude-code | e2e-runner | agents | e2e-runner | 使用Vercel Agent Browser（首选）和Playwright后备的端到端测试专家。主动用于生成、维护和运行E2E测试 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/e2e-runner.md |
+| 136 | skills-everything-claude-code | flutter-reviewer | agents | flutter-reviewer | Flutter和Dart代码审查员。审查Flutter代码的widget最佳实践、状态管理模式、Dart惯用语、性能陷阱、可访问性 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/flutter-reviewer.md |
+| 137 | skills-everything-claude-code | go-build-resolver | agents | go-build-resolver | Go构建、vet和编译错误解决专家。修复构建错误、go vet问题和linter警告 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/go-build-resolver.md |
+| 138 | skills-everything-claude-code | go-reviewer | agents | go-reviewer | 专家级Go代码审查员，专注于惯用Go、并发模式、错误处理和性能。用于所有Go代码更改 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/go-reviewer.md |
+| 139 | skills-everything-claude-code | harness-optimizer | agents | harness-optimizer | 分析和改进本地智能体工具配置以提高可靠性、成本和吞吐量 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/harness-optimizer.md |
+| 140 | skills-everything-claude-code | java-build-resolver | agents | java-build-resolver | Java/Maven/Gradle构建、编译和依赖错误解决专家。修复构建错误、Java编译器错误和Maven/Gradle问题 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/java-build-resolver.md |
+| 141 | skills-everything-claude-code | java-reviewer | agents | java-reviewer | 专家级Java和Spring Boot代码审查员，专注于分层架构、JPA模式、安全和并发。用于所有Java代码更改 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/java-reviewer.md |
+| 142 | skills-everything-claude-code | kotlin-build-resolver | agents | kotlin-build-resolver | Kotlin/Gradle构建、编译和依赖错误解决专家。修复构建错误、Kotlin编译器错误和Gradle问题 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/kotlin-build-resolver.md |
+| 143 | skills-everything-claude-code | kotlin-reviewer | agents | kotlin-reviewer | Kotlin和Android/KMP代码审查员。审查Kotlin代码的惯用模式、协程安全、Compose最佳实践、清洁架构违规 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/kotlin-reviewer.md |
+| 144 | skills-everything-claude-code | loop-operator | agents | loop-operator | 运行自主智能体循环、监控进度并在循环停滞时安全干预 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/loop-operator.md |
+| 145 | skills-everything-claude-code | planner | agents | planner | 复杂功能和重构的专家规划员。在用户请求功能实现、架构更改或复杂重构时主动使用 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/planner.md |
+| 146 | skills-everything-claude-code | python-reviewer | agents | python-reviewer | 专家级Python代码审查员，专注于PEP 8合规性、Pythonic惯用语、类型提示、安全和性能。用于所有Python代码更改 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/python-reviewer.md |
+| 147 | skills-everything-claude-code | pytorch-build-resolver | agents | pytorch-build-resolver | PyTorch运行时、CUDA和训练错误解决专家。修复张量形状不匹配、设备错误、梯度问题、DataLoader问题 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/pytorch-build-resolver.md |
+| 148 | skills-everything-claude-code | refactor-cleaner | agents | refactor-cleaner | 死代码清理和整合专家。主动用于删除未使用代码、重复项和重构 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/refactor-cleaner.md |
+| 149 | skills-everything-claude-code | rust-build-resolver | agents | rust-build-resolver | Rust构建、编译和依赖错误解决专家。修复cargo构建错误、借用检查器问题和Cargo.toml问题 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/rust-build-resolver.md |
+| 150 | skills-everything-claude-code | rust-reviewer | agents | rust-reviewer | 专家级Rust代码审查员，专注于所有权、生命周期、错误处理、unsafe使用和惯用模式。用于所有Rust代码更改 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/rust-reviewer.md |
+| 151 | skills-everything-claude-code | security-reviewer | agents | security-reviewer | 安全漏洞检测和修复专家。在编写处理用户输入、认证、API端点的代码后主动使用 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/security-reviewer.md |
+| 152 | skills-everything-claude-code | tdd-guide | agents | tdd-guide | 测试驱动开发专家，强制执行先写测试的方法论。在编写新功能、修复bug、重构代码时主动使用 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/tdd-guide.md |
+| 153 | skills-everything-claude-code | typescript-reviewer | agents | typescript-reviewer | 专家级TypeScript/JavaScript代码审查员，专注于类型安全、异步正确性、Node/web安全和惯用模式。用于所有TypeScript和JavaScript代码更改 | https://github.com/affaan-m/everything-claude-code/tree/main/agents/typescript-reviewer.md |
 ### Kubernetes
 
-| 229 | skills-agents | cicd-automation | agents | kubernetes-architect | Kubernetes架构专家，专注于云原生基础设施、高级GitOps工作流（ArgoCD/Flux）和企业容器编排。精通EKS/AKS/GKE/OKE、服务网格（Istio/Linkerd）、渐进式交付、多租户和平台工程。处理安全、可观测性、成本优化和开发者体验。主动用于K8s架构、GitOps实现或云原生平台设计。 | https://github.com/wshobson/agents/tree/main/plugins/cicd-automation/agents/kubernetes-architect.md |
-| 239 | skills-agents | cloud-infrastructure | agents | kubernetes-architect | Kubernetes架构专家，专注于云原生基础设施、高级GitOps工作流（ArgoCD/Flux）和企业容器编排。精通EKS/AKS/GKE/OKE、服务网格（Istio/Linkerd）、渐进式交付、多租户和平台工程。处理安全、可观测性、成本优化和开发者体验。主动用于K8s架构、GitOps实现或云原生平台设计。 | https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/agents/kubernetes-architect.md |
-| 415 | skills-agents | kubernetes-operations | agents | kubernetes-architect | Kubernetes架构专家，专注于云原生基础设施、高级GitOps工作流（ArgoCD/Flux）和企业容器编排。精通EKS/AKS/GKE/OKE、服务网格（Istio/Linkerd）、渐进式交付、多租户和平台工程。处理安全、可观测性、成本优化和开发者体验。主动用于K8s架构、GitOps实现或云原生平台设计。 | https://github.com/wshobson/agents/tree/main/plugins/kubernetes-operations/agents/kubernetes-architect.md |
-| 416 | skills-agents | kubernetes-operations | skills | gitops-workflow | 使用ArgoCD和Flux实现GitOps工作流，进行自动化、声明式的Kubernetes部署和持续协调。用于实现GitOps实践、自动化Kubernetes部署或设置声明式基础设施管理。 | https://github.com/wshobson/agents/tree/main/plugins/kubernetes-operations/skills/gitops-workflow/SKILL.md |
-| 417 | skills-agents | kubernetes-operations | skills | helm-chart-scaffolding | 设计、组织和管理Helm图表，用于模板化和打包具有可重用配置的Kubernetes应用程序。用于创建Helm图表、打包Kubernetes应用程序或实现模板化部署。 | https://github.com/wshobson/agents/tree/main/plugins/kubernetes-operations/skills/helm-chart-scaffolding/SKILL.md |
-| 418 | skills-agents | kubernetes-operations | skills | k8s-manifest-generator | 按照最佳实践和安全标准创建生产就绪的Kubernetes清单，包括Deployments、Services、ConfigMaps和Secrets。用于生成Kubernetes YAML清单、创建K8s资源或实现生产级Kubernetes配置。 | https://github.com/wshobson/agents/tree/main/plugins/kubernetes-operations/skills/k8s-manifest-generator/SKILL.md |
-| 419 | skills-agents | kubernetes-operations | skills | k8s-security-policies | 实现Kubernetes安全策略，包括NetworkPolicy、PodSecurityPolicy和RBAC，实现生产级安全。用于保护Kubernetes集群、实现网络隔离或强制执行Pod安全标准。 | https://github.com/wshobson/agents/tree/main/plugins/kubernetes-operations/skills/k8s-security-policies/SKILL.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### Terraform
 
-| 230 | skills-agents | cicd-automation | agents | terraform-specialist | Terraform/OpenTofu专家，精通高级IaC自动化、状态管理和企业基础设施模式。处理复杂模块设计、多云部署、GitOps工作流、策略即代码和CI/CD集成。涵盖迁移策略、安全最佳实践和现代IaC生态系统。主动用于高级IaC、状态管理或基础设施自动化。 | https://github.com/wshobson/agents/tree/main/plugins/cicd-automation/agents/terraform-specialist.md |
-| 242 | skills-agents | cloud-infrastructure | agents | terraform-specialist | Terraform/OpenTofu专家，精通高级IaC自动化、状态管理和企业基础设施模式。处理复杂模块设计、多云部署、GitOps工作流、策略即代码和CI/CD集成。涵盖迁移策略、安全最佳实践和现代IaC生态系统。主动用于高级IaC、状态管理或基础设施自动化。 | https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/agents/terraform-specialist.md |
-| 315 | skills-agents | deployment-strategies | agents | terraform-specialist | Terraform/OpenTofu专家，精通高级IaC自动化、状态管理和企业基础设施模式。处理复杂模块设计、多云部署、GitOps工作流、策略即代码和CI/CD集成。涵盖迁移策略、安全最佳实践和现代IaC生态系统。主动用于高级IaC、状态管理或基础设施自动化。 | https://github.com/wshobson/agents/tree/main/plugins/deployment-strategies/agents/terraform-specialist.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### 部署
 
-| 227 | skills-agents | cicd-automation | agents | deployment-engineer | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/cicd-automation/agents/deployment-engineer.md |
-| 237 | skills-agents | cloud-infrastructure | agents | deployment-engineer | 部署工程专家，专注于现代CI/CD流水线、GitOps工作流和高级部署自动化。精通GitHub Actions、ArgoCD/Flux、渐进式交付、容器安全和平台工程。处理零停机部署、安全扫描和开发者体验优化。主动用于CI/CD设计、GitOps实现或部署自动化。 | https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/agents/deployment-engineer.md |
-| 314 | skills-agents | deployment-strategies | agents | deployment-engineer | 部署工程专家，专注于现代CI/CD流水线、GitOps工作流和高级部署自动化。精通GitHub Actions、ArgoCD/Flux、渐进式交付、容器安全和平台工程。处理零停机部署、安全扫描和开发者体验优化。主动用于CI/CD设计、GitOps实现或部署自动化。 | https://github.com/wshobson/agents/tree/main/plugins/deployment-strategies/agents/deployment-engineer.md |
-| 317 | skills-agents | deployment-validation | commands | config-validate | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/deployment-validation/commands/config-validate.md |
-| 374 | skills-agents | full-stack-orchestration | agents | deployment-engineer | 部署工程专家，专注于现代CI/CD流水线、GitOps工作流和高级部署自动化。精通GitHub Actions、ArgoCD/Flux、渐进式交付、容器安全和平台工程。处理零停机部署、安全扫描和开发者体验优化。主动用于CI/CD设计、GitOps实现或部署自动化。 | https://github.com/wshobson/agents/tree/main/plugins/full-stack-orchestration/agents/deployment-engineer.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### Docker
 ### 网络
 
-| 240 | skills-agents | cloud-infrastructure | agents | network-engineer | 网络工程专家，专注于现代云网络、安全架构和性能优化。精通多云连接、服务网格、零信任网络、SSL/TLS、全局负载均衡和高级故障排除。处理CDN优化、网络自动化和合规。主动用于网络设计、连接问题或性能优化。 | https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/agents/network-engineer.md |
-| 241 | skills-agents | cloud-infrastructure | agents | service-mesh-expert | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/agents/service-mesh-expert.md |
-| 245 | skills-agents | cloud-infrastructure | skills | istio-traffic-management | 配置Istio流量管理，包括路由、负载均衡、熔断器和金丝雀部署。用于实现服务网格流量策略、渐进式交付或弹性模式。 | https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/skills/istio-traffic-management/SKILL.md |
-| 246 | skills-agents | cloud-infrastructure | skills | linkerd-patterns | 实现Linkerd服务网格模式，用于轻量级、安全聚焦的服务网格部署。用于设置Linkerd、配置流量策略或以最小开销实现零信任网络。 | https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/skills/linkerd-patterns/SKILL.md |
-| 247 | skills-agents | cloud-infrastructure | skills | mtls-configuration | 配置双向TLS（mTLS）以实现零信任的服务间通信。用于实现零信任网络、证书管理或保护内部服务通信。 | https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/skills/mtls-configuration/SKILL.md |
-| 249 | skills-agents | cloud-infrastructure | skills | service-mesh-observability | 为服务网格实现全面的可观测性，包括分布式追踪、指标和可视化。用于设置网格监控、调试延迟问题或为服务通信实现SLO。 | https://github.com/wshobson/agents/tree/main/plugins/cloud-infrastructure/skills/service-mesh-observability/SKILL.md |
-| 452 | skills-agents | observability-monitoring | agents | network-engineer | 网络工程专家，专注于现代云网络、安全架构和性能优化。精通多云连接、服务网格、零信任网络、SSL/TLS、全局负载均衡和高级故障排除。处理CDN优化、网络自动化和合规。主动用于网络设计、连接问题或性能优化。 | https://github.com/wshobson/agents/tree/main/plugins/observability-monitoring/agents/network-engineer.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### 部署模式
 
 ## 2.8 安全
@@ -564,21 +631,6 @@
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 71 | skills-agency-agents | engineering | agents | Security Engineer | 应用安全工程师，专注于威胁建模、漏洞评估、安全代码审查和现代Web及云原生应用的安全架构设计 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-security-engineer.md |
-
-
-| 194 | skills-agents | backend-api-security | agents | backend-security-coder | 安全后端编码实践专家，专注于输入验证、身份验证和API安全。主动用于后端安全实现或安全代码审查。 | https://github.com/wshobson/agents/tree/main/plugins/backend-api-security/agents/backend-security-coder.md |
-| 199 | skills-agents | backend-development | agents | security-auditor | 审查代码和架构的安全漏洞、OWASP Top 10、身份验证缺陷和合规问题。用于功能开发期间的安全审查。 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/agents/security-auditor.md |
-| 268 | skills-agents | comprehensive-review | agents | security-auditor | 安全审计专家，专注于DevSecOps、全面网络安全和合规框架。精通漏洞评估、威胁建模、安全身份验证（OAuth2/OIDC）、OWASP标准、云安全和安全自动化。处理DevSecOps集成、合规（GDPR/HIPAA/SOC2）和事件响应。主动用于安全审计、DevSecOps或合规实施。 | https://github.com/wshobson/agents/tree/main/plugins/comprehensive-review/agents/security-auditor.md |
-| 296 | skills-agents | data-validation-suite | agents | backend-security-coder | 安全后端编码实践专家，专注于输入验证、身份验证和API安全。主动用于后端安全实现或安全代码审查。 | https://github.com/wshobson/agents/tree/main/plugins/data-validation-suite/agents/backend-security-coder.md |
-| 371 | skills-agents | frontend-mobile-security | agents | frontend-security-coder | 安全前端编码实践专家，专注于XSS预防、输出清理和客户端安全模式。主动用于前端安全实现或客户端安全代码审查。 | https://github.com/wshobson/agents/tree/main/plugins/frontend-mobile-security/agents/frontend-security-coder.md |
-| 372 | skills-agents | frontend-mobile-security | agents | mobile-security-coder | 安全移动编码实践专家，专注于输入验证、WebView安全和移动特定安全模式。主动用于移动安全实现或移动安全代码审查。 | https://github.com/wshobson/agents/tree/main/plugins/frontend-mobile-security/agents/mobile-security-coder.md |
-| 376 | skills-agents | full-stack-orchestration | agents | security-auditor | 安全审计专家，专注于DevSecOps、全面网络安全和合规框架。精通漏洞评估、威胁建模、安全身份验证（OAuth2/OIDC）、OWASP标准、云安全和安全自动化。处理DevSecOps集成、合规（GDPR/HIPAA/SOC2）和事件响应。主动用于安全审计、DevSecOps或合规实施。 | https://github.com/wshobson/agents/tree/main/plugins/full-stack-orchestration/agents/security-auditor.md |
-| 501 | skills-agents | security-compliance | agents | security-auditor | 安全审计专家，专注于DevSecOps、全面网络安全和合规框架。精通漏洞评估、威胁建模、安全身份验证（OAuth2/OIDC）、OWASP标准、云安全和安全自动化。处理DevSecOps集成、合规（GDPR/HIPAA/SOC2）和事件响应。主动用于安全审计、DevSecOps或合规实施。 | https://github.com/wshobson/agents/tree/main/plugins/security-compliance/agents/security-auditor.md |
-| 503 | skills-agents | security-scanning | agents | security-auditor | 安全审计专家，专注于DevSecOps、全面网络安全和合规框架。精通漏洞评估、威胁建模、安全身份验证（OAuth2/OIDC）、OWASP标准、云安全和安全自动化。处理DevSecOps集成、合规（GDPR/HIPAA/SOC2）和事件响应。主动用于安全审计、DevSecOps或合规实施。 | https://github.com/wshobson/agents/tree/main/plugins/security-scanning/agents/security-auditor.md |
-| 504 | skills-agents | security-scanning | agents | threat-modeling-expert | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/security-scanning/agents/threat-modeling-expert.md |
-| 494 | skills-agents | reverse-engineering | agents | firmware-analyst | 固件分析专家，专注于嵌入式系统、IoT安全和硬件逆向工程。精通路由器、IoT设备、汽车系统和工业控制器的固件提取、分析和漏洞研究。主动用于固件安全审计、IoT渗透测试或嵌入式系统研究。 | https://github.com/wshobson/agents/tree/main/plugins/reverse-engineering/agents/firmware-analyst.md |
-| 495 | skills-agents | reverse-engineering | agents | malware-analyst | 恶意软件分析专家，专注于防御性恶意软件研究、威胁情报和事件响应。精通沙箱分析、行为分析和恶意软件家族识别。处理静态/动态分析、脱壳和IOC提取。主动用于恶意软件分类、威胁狩猎、事件响应或安全研究。 | https://github.com/wshobson/agents/tree/main/plugins/reverse-engineering/agents/malware-analyst.md |
-| 496 | skills-agents | reverse-engineering | agents | reverse-engineer | 逆向工程专家，专注于二进制分析、反汇编、反编译和软件分析。精通IDA Pro、Ghidra、radare2、x64dbg和现代RE工具链。处理可执行文件分析、库检查、协议提取和漏洞研究。主动用于二进制分析、CTF挑战、安全研究或理解未记录的软件。 | https://github.com/wshobson/agents/tree/main/plugins/reverse-engineering/agents/reverse-engineer.md |
 ### 威胁检测
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
@@ -588,20 +640,8 @@
 ### 安全技能
 
 
-| 373 | skills-agents | frontend-mobile-security | commands | xss-scan | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/frontend-mobile-security/commands/xss-scan.md |
-| 497 | skills-agents | reverse-engineering | skills | anti-reversing-techniques | 了解软件分析过程中遇到的反逆向、混淆和保护技术。用于分析受保护的二进制文件、绕过反调试进行授权分析或了解软件保护机制。 | https://github.com/wshobson/agents/tree/main/plugins/reverse-engineering/skills/anti-reversing-techniques/SKILL.md |
-| 498 | skills-agents | reverse-engineering | skills | binary-analysis-patterns | 精通二进制分析模式，包括反汇编、反编译、控制流分析和代码模式识别。用于分析可执行文件、理解编译代码或对二进制文件执行静态分析。 | https://github.com/wshobson/agents/tree/main/plugins/reverse-engineering/skills/binary-analysis-patterns/SKILL.md |
-| 499 | skills-agents | reverse-engineering | skills | memory-forensics | 精通内存取证技术，包括使用Volatility和相关工具进行内存获取、进程分析和工件提取。用于分析内存转储、调查事件或从RAM捕获中进行恶意软件分析。 | https://github.com/wshobson/agents/tree/main/plugins/reverse-engineering/skills/memory-forensics/SKILL.md |
-| 500 | skills-agents | reverse-engineering | skills | protocol-reverse-engineering | 精通网络协议逆向工程，包括数据包分析、协议解剖和自定义协议文档。用于分析网络流量、理解专有协议或调试网络通信。 | https://github.com/wshobson/agents/tree/main/plugins/reverse-engineering/skills/protocol-reverse-engineering/SKILL.md |
-| 502 | skills-agents | security-compliance | commands | compliance-check | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/security-compliance/commands/compliance-check.md |
-| 505 | skills-agents | security-scanning | skills | attack-tree-construction | 构建全面的攻击树以可视化威胁路径。用于映射攻击场景、识别防御缺口或向利益相关者传达安全风险。 | https://github.com/wshobson/agents/tree/main/plugins/security-scanning/skills/attack-tree-construction/SKILL.md |
-| 506 | skills-agents | security-scanning | skills | sast-configuration | 配置静态应用程序安全测试（SAST）工具，自动检测应用程序代码中的漏洞。用于设置安全扫描、实现DevSecOps实践或自动化代码漏洞检测。 | https://github.com/wshobson/agents/tree/main/plugins/security-scanning/skills/sast-configuration/SKILL.md |
-| 507 | skills-agents | security-scanning | skills | security-requirement-extraction | 从威胁模型和业务上下文中推导安全需求。用于将威胁转化为可操作的需求、创建安全用户故事或构建安全测试用例。 | https://github.com/wshobson/agents/tree/main/plugins/security-scanning/skills/security-requirement-extraction/SKILL.md |
-| 508 | skills-agents | security-scanning | skills | stride-analysis-patterns | 应用STRIDE方法论系统地识别威胁。用于分析系统安全、进行威胁建模会话或创建安全文档。 | https://github.com/wshobson/agents/tree/main/plugins/security-scanning/skills/stride-analysis-patterns/SKILL.md |
-| 509 | skills-agents | security-scanning | skills | threat-mitigation-mapping | 将识别的威胁映射到适当的安全控制和缓解措施。用于优先考虑安全投资、创建补救计划或验证控制有效性。 | https://github.com/wshobson/agents/tree/main/plugins/security-scanning/skills/threat-mitigation-mapping/SKILL.md |
-| 510 | skills-agents | security-scanning | commands | security-dependencies | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/security-scanning/commands/security-dependencies.md |
-| 511 | skills-agents | security-scanning | commands | security-hardening | 使用纵深防御策略跨所有应用层编排全面的安全加固 | https://github.com/wshobson/agents/tree/main/plugins/security-scanning/commands/security-hardening.md |
-| 512 | skills-agents | security-scanning | commands | security-sast | 跨多种语言和框架进行代码漏洞分析的静态应用程序安全测试（SAST） | https://github.com/wshobson/agents/tree/main/plugins/security-scanning/commands/security-sast.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ## 2.9 测试
 ### 测试专家
 
@@ -615,22 +655,14 @@
 | 78 | skills-agency-agents | testing | agents | Test Results Analyzer | 测试分析专家，专注于全面的测试结果评估、质量指标分析和从测试活动中生成可执行洞察 | https://github.com/msitarzewski/agency-agents/tree/main/testing/testing-test-results-analyzer.md |
 | 79 | skills-agency-agents | testing | agents | Tool Evaluator | 技术评估专家，专注于评估、测试和推荐业务使用和生产力优化的工具、软件和平台 | https://github.com/msitarzewski/agency-agents/tree/main/testing/testing-tool-evaluator.md |
 | 80 | skills-agency-agents | testing | agents | Workflow Optimizer | 流程改进专家，专注于分析、优化和自动化所有业务功能的工作流程以实现最大生产力和效率 | https://github.com/msitarzewski/agency-agents/tree/main/testing/testing-workflow-optimizer.md |
-
-
-| 157 | skills-agents | accessibility-compliance | agents | ui-visual-validator | 严谨的视觉验证专家，专注于UI测试、设计系统合规和无障碍验证。精通截图分析、视觉回归测试和组件验证。主动用于通过全面的视觉分析验证UI修改是否达到预期目标。 | https://github.com/wshobson/agents/tree/main/plugins/accessibility-compliance/agents/ui-visual-validator.md |
-| 160 | skills-agents | accessibility-compliance | commands | accessibility-audit | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/accessibility-compliance/commands/accessibility-audit.md |
-| 202 | skills-agents | backend-development | agents | test-automator | 创建全面的测试套件，包括单元测试、集成测试和端到端测试。支持TDD/BDD工作流。用于功能开发期间的测试创建。 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/agents/test-automator.md |
-| 262 | skills-agents | codebase-cleanup | agents | test-automator | 精通AI驱动的测试自动化，包括现代框架、自愈测试和全面的质量工程。构建具有高级CI/CD集成的可扩展测试策略。主动用于测试自动化或质量保证。 | https://github.com/wshobson/agents/tree/main/plugins/codebase-cleanup/agents/test-automator.md |
-| 377 | skills-agents | full-stack-orchestration | agents | test-automator | 精通AI驱动的测试自动化，包括现代框架、自愈测试和全面的质量工程。构建具有高级CI/CD集成的可扩展测试策略。主动用于测试自动化或质量保证。 | https://github.com/wshobson/agents/tree/main/plugins/full-stack-orchestration/agents/test-automator.md |
-| 398 | skills-agents | incident-response | agents | test-automator | 创建全面的测试套件，包括单元测试、集成测试、回归测试和安全测试。通过全面覆盖和跨环境测试验证修复。 | https://github.com/wshobson/agents/tree/main/plugins/incident-response/agents/test-automator.md |
-| 467 | skills-agents | performance-testing-review | agents | test-automator | 精通AI驱动的测试自动化，包括现代框架、自愈测试和全面的质量工程。构建具有高级CI/CD集成的可扩展测试策略。主动用于测试自动化或质量保证。 | https://github.com/wshobson/agents/tree/main/plugins/performance-testing-review/agents/test-automator.md |
-| 571 | skills-agents | unit-testing | agents | test-automator | 精通AI驱动的测试自动化，包括现代框架、自愈测试和全面的质量工程。构建具有高级CI/CD集成的可扩展测试策略。主动用于测试自动化或质量保证。 | https://github.com/wshobson/agents/tree/main/plugins/unit-testing/agents/test-automator.md |
-| 572 | skills-agents | unit-testing | commands | test-generate | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/unit-testing/commands/test-generate.md |
 ### 测试技能
 
 
-| 158 | skills-agents | accessibility-compliance | skills | screen-reader-testing | 使用屏幕阅读器（包括VoiceOver、NVDA和JAWS）测试Web应用程序。用于验证屏幕阅读器兼容性、调试无障碍问题或确保辅助技术支持。 | https://github.com/wshobson/agents/tree/main/plugins/accessibility-compliance/skills/screen-reader-testing/SKILL.md |
-| 159 | skills-agents | accessibility-compliance | skills | wcag-audit-patterns | 进行WCAG 2.2无障碍审计，包括自动化测试、手动验证和修复指导。用于网站无障碍审计、修复WCAG违规或实现无障碍设计模式。 | https://github.com/wshobson/agents/tree/main/plugins/accessibility-compliance/skills/wcag-audit-patterns/SKILL.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
+| 589 | skills-anthropics-skills | webapp-testing | skills | webapp-testing | 使用 Playwright 与本地 Web 应用程序交互和测试的工具包。支持验证前端功能、调试 UI 行为、捕获浏览器截图和查看浏览器日志。 | https://github.com/anthropics/skills/tree/main/skills/webapp-testing |
+| 599 | skills-superpowers | verification-before-completion | skills | verification-before-completion | 在声称工作完成、修复或通过之前，在提交或创建PR之前使用 - 需要运行验证命令并在做出任何成功声明之前确认输出；始终先有证据再有断言。 | https://github.com/obra/superpowers/tree/main/skills/verification-before-completion |
+| 600 | skills-superpowers | test-driven-development | skills | test-driven-development | 实现任何功能或错误修复时，在编写实现代码之前使用。 | https://github.com/obra/superpowers/tree/main/skills/test-driven-development |
 ## 2.10 游戏开发
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
@@ -655,47 +687,67 @@
 | 98 | skills-agency-agents | game-development | agents | Unreal Systems Engineer | 性能和混合架构专家，精通C++/Blueprint连续体、Nanite几何、Lumen全局光照和AAA级虚幻引擎项目的Gameplay Ability System | https://github.com/msitarzewski/agency-agents/tree/main/game-development/unreal-engine/unreal-systems-engineer.md |
 | 99 | skills-agency-agents | game-development | agents | Unreal Technical Artist | Unreal Engine视觉管道专家，精通材质编辑器、Niagara VFX、程序化内容生成和UE5项目的美术到引擎管道 | https://github.com/msitarzewski/agency-agents/tree/main/game-development/unreal-engine/unreal-technical-artist.md |
 | 100 | skills-agency-agents | game-development | agents | Unreal World Builder | 开放世界和环境专家，精通UE5 World Partition、Landscape、程序化植被、HLOD和大规模关卡流式加载，构建无缝开放世界体验 | https://github.com/msitarzewski/agency-agents/tree/main/game-development/unreal-engine/unreal-world-builder.md |
-
-
-| 381 | skills-agents | game-development | agents | minecraft-bukkit-pro | 精通使用Bukkit、Spigot和Paper API进行Minecraft服务器插件开发。专注于事件驱动架构、命令系统、世界操作、玩家管理和性能优化。主动用于插件架构、游戏机制、服务器端功能或跨版本兼容。 | https://github.com/wshobson/agents/tree/main/plugins/game-development/agents/minecraft-bukkit-pro.md |
-| 382 | skills-agents | game-development | agents | unity-developer | 使用优化的C#脚本、高效渲染和适当的资产管理构建Unity游戏。精通Unity 6 LTS、URP/HDRP流水线和跨平台部署。处理游戏系统、UI实现和平台优化。主动用于Unity性能问题、游戏机制或跨平台构建。 | https://github.com/wshobson/agents/tree/main/plugins/game-development/agents/unity-developer.md |
-| 383 | skills-agents | game-development | skills | godot-gdscript-patterns | 精通Godot 4 GDScript模式，包括信号、场景、状态机和优化。用于构建Godot游戏、实现游戏系统或学习GDScript最佳实践。 | https://github.com/wshobson/agents/tree/main/plugins/game-development/skills/godot-gdscript-patterns/SKILL.md |
-| 384 | skills-agents | game-development | skills | unity-ecs-patterns | 精通Unity ECS（实体组件系统），包括DOTS、Jobs和Burst，用于高性能游戏开发。用于构建面向数据的游戏、优化性能或处理大量实体。 | https://github.com/wshobson/agents/tree/main/plugins/game-development/skills/unity-ecs-patterns/SKILL.md |
 ## 2.11 区块链开发
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 101 | skills-agency-agents | engineering | agents | Solidity Smart Contract Engineer | Solidity开发专家，专注于EVM智能合约架构、Gas优化、可升级代理模式、DeFi协议开发和安全优先的合约设计 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-solidity-smart-contract-engineer.md |
-
-
-| 213 | skills-agents | blockchain-web3 | agents | blockchain-developer | 构建生产就绪的Web3应用程序、智能合约和去中心化系统。实现DeFi协议、NFT平台、DAO和企业区块链集成。主动用于智能合约、Web3应用、DeFi协议或区块链基础设施。 | https://github.com/wshobson/agents/tree/main/plugins/blockchain-web3/agents/blockchain-developer.md |
-| 214 | skills-agents | blockchain-web3 | skills | defi-protocol-templates | 使用生产就绪的模板实现DeFi协议，包括质押、AMM、治理和借贷系统。用于构建去中心化金融应用程序或智能合约协议。 | https://github.com/wshobson/agents/tree/main/plugins/blockchain-web3/skills/defi-protocol-templates/SKILL.md |
-| 215 | skills-agents | blockchain-web3 | skills | nft-standards | 实现具有适当元数据处理、铸造策略和市场集成的NFT标准（ERC-721, ERC-1155）。用于创建NFT合约、构建NFT市场或实现数字资产系统。 | https://github.com/wshobson/agents/tree/main/plugins/blockchain-web3/skills/nft-standards/SKILL.md |
-| 216 | skills-agents | blockchain-web3 | skills | solidity-security | 精通智能合约安全最佳实践，防止常见漏洞并实现安全的Solidity模式。用于编写智能合约、审计现有合约或为区块链应用程序实现安全措施。 | https://github.com/wshobson/agents/tree/main/plugins/blockchain-web3/skills/solidity-security/SKILL.md |
-| 217 | skills-agents | blockchain-web3 | skills | web3-testing | 使用Hardhat和Foundry全面测试智能合约，包括单元测试、集成测试和主网分叉。用于测试Solidity合约、设置区块链测试套件或验证DeFi协议。 | https://github.com/wshobson/agents/tree/main/plugins/blockchain-web3/skills/web3-testing/SKILL.md |
 ## 2.12 嵌入式开发
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 102 | skills-agency-agents | engineering | agents | Embedded Firmware Engineer | 裸机和RTOS固件专家，精通ESP32/ESP-IDF、PlatformIO、Arduino、ARM Cortex-M、STM32 HAL/LL、Nordic nRF5/nRF Connect SDK、FreeRTOS、Zephyr | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-embedded-firmware-engineer.md |
-
-
-| 192 | skills-agents | arm-cortex-microcontrollers | agents | arm-cortex-expert | （待完善） | https://github.com/wshobson/agents/tree/main/plugins/arm-cortex-microcontrollers/agents/arm-cortex-expert.md |
 ## 2.13 Git与工作流
 ### Git
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 103 | skills-agency-agents | engineering | agents | Git Workflow Master | Git工作流、分支策略和版本控制最佳实践专家，包括约定式提交、变基、工作树和CI友好的分支管理 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-git-workflow-master.md |
-
-
-| 386 | skills-agents | git-pr-workflows | commands | git-workflow | 从代码审查到PR创建编排git工作流，包括质量门 | https://github.com/wshobson/agents/tree/main/plugins/git-pr-workflows/commands/git-workflow.md |
-| 387 | skills-agents | git-pr-workflows | commands | onboard | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/git-pr-workflows/commands/onboard.md |
-| 388 | skills-agents | git-pr-workflows | commands | pr-enhance | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/git-pr-workflows/commands/pr-enhance.md |
+| 598 | skills-superpowers | finishing-a-development-branch | skills | finishing-a-development-branch | 实现完成、所有测试通过后，需要决定如何集成工作时使用 - 指导开发工作的完成，通过提供合并、PR或清理的结构化选项。 | https://github.com/obra/superpowers/tree/main/skills/finishing-a-development-branch |
+| 602 | skills-superpowers | using-git-worktrees | skills | using-git-worktrees | 开始需要与当前工作空间隔离的功能工作时使用，或在执行实现计划之前 - 创建隔离的git worktrees，具有智能目录选择和安全验证。 | https://github.com/obra/superpowers/tree/main/skills/using-git-worktrees |
+| 683 | skills-claude-plugins-official | commit-commands | commands | commit | 创建 git 提交，自动生成基于暂存和未暂存更改的提交消息 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/commit-commands/commands/commit.md |
+| 684 | skills-claude-plugins-official | commit-commands | commands | commit-push-pr | 完整工作流命令：提交、推送并在一步中创建 PR | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/commit-commands/commands/commit-push-pr.md |
+| 685 | skills-claude-plugins-official | commit-commands | commands | clean_gone | 清理已删除分支的本地跟踪引用 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/commit-commands/commands/clean_gone.md |
+| 686 | skills-claude-plugins-official | claude-code-setup | skills | claude-automation-recommender | 分析代码库并推荐 Claude Code 自动化配置（MCP 服务器、技能、钩子、子代理、斜杠命令） | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/claude-code-setup/skills/claude-automation-recommender |
+| 687 | skills-claude-plugins-official | claude-md-management | skills | claude-md-improver | 审计 CLAUDE.md 文件与当前代码库状态的一致性 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/claude-md-management/skills/claude-md-improver |
+| 688 | skills-claude-plugins-official | claude-md-management | commands | revise-claude-md | 从当前会话中捕获学习内容并更新 CLAUDE.md | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/claude-md-management/commands/revise-claude-md.md |
+| 689 | skills-claude-plugins-official | code-review | commands | code-review | 使用多个专业代理对 PR 进行自动化代码审查，带置信度评分过滤误报 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-review/commands/code-review.md |
+| 690 | skills-claude-plugins-official | code-simplifier | agents | code-simplifier | 代码简化代理，用于审查和简化代码 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/code-simplifier/agents/code-simplifier.md |
+| 691 | skills-claude-plugins-official | example-plugin | skills | example-skill | 模型调用的技能示例（按任务上下文激活） | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/example-plugin/skills/example-skill |
+| 692 | skills-claude-plugins-official | example-plugin | skills | example-command | 用户调用的技能示例（斜杠命令） | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/example-plugin/skills/example-command |
+| 694 | skills-claude-plugins-official | explanatory-output-style | skills | explanatory-output-style | 将废弃的 Explanatory 输出风格重现为 SessionStart 钩子，提供教育性洞察 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/explanatory-output-style |
+| 695 | skills-claude-plugins-official | frontend-design | skills | frontend-design | 生成独特、生产级的前端界面，避免通用 AI 美学 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/frontend-design/skills/frontend-design |
+| 696 | skills-claude-plugins-official | learning-output-style | skills | learning-output-style | 学习风格插件，结合交互式学习和教育洞察，让用户参与关键代码编写 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/learning-output-style |
+| 697 | skills-claude-plugins-official | math-olympiad | skills | math-olympiad | 带有对抗性验证的竞赛数学求解器，17/18 IMO+Putnam 2025 问题解决率 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/math-olympiad/skills/math-olympiad |
+| 698 | skills-claude-plugins-official | mcp-server-dev | skills | build-mcp-server | MCP 服务器构建入口点，询问用例并选择部署模型 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/mcp-server-dev/skills/build-mcp-server |
+| 699 | skills-claude-plugins-official | mcp-server-dev | skills | build-mcp-app | 添加在聊天中内联渲染的交互式 UI 小部件 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/mcp-server-dev/skills/build-mcp-app |
+| 700 | skills-claude-plugins-official | mcp-server-dev | skills | build-mcpb | 将本地 stdio 服务器与其运行时打包，用户无需 Node/Python 即可安装 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/mcp-server-dev/skills/build-mcpb |
+| 701 | skills-claude-plugins-official | php-lsp | skills | php-lsp | PHP 语言服务器（Intelephense），提供代码智能和诊断 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/php-lsp |
+| 702 | skills-claude-plugins-official | playground | skills | playground | 创建交互式 HTML 游乐场——自包含单文件探索器，带有控件和实时预览 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/playground/skills/playground |
+| 703 | skills-claude-plugins-official | plugin-dev | agents | agent-creator | AI 辅助生成代理的创建器 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/plugin-dev/agents/agent-creator.md |
+| 704 | skills-claude-plugins-official | plugin-dev | agents | plugin-validator | 插件验证器代理 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/plugin-dev/agents/plugin-validator.md |
+| 705 | skills-claude-plugins-official | plugin-dev | agents | skill-reviewer | 技能审查代理 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/plugin-dev/agents/skill-reviewer.md |
+| 706 | skills-claude-plugins-official | plugin-dev | commands | create-plugin | 从头创建插件的端到端工作流命令，8 阶段流程 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/plugin-dev/commands/create-plugin.md |
+| 707 | skills-claude-plugins-official | pr-review-toolkit | agents | code-reviewer | PR 代码审查代理 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/agents/code-reviewer.md |
+| 709 | skills-claude-plugins-official | pr-review-toolkit | agents | comment-analyzer | 代码注释准确性和可维护性分析代理 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/agents/comment-analyzer.md |
+| 710 | skills-claude-plugins-official | pr-review-toolkit | agents | pr-test-analyzer | 测试覆盖质量和完整性分析代理 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/agents/pr-test-analyzer.md |
+| 711 | skills-claude-plugins-official | pr-review-toolkit | agents | silent-failure-hunter | 静默失败检测代理 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/agents/silent-failure-hunter.md |
+| 712 | skills-claude-plugins-official | pr-review-toolkit | agents | type-design-analyzer | 类型设计分析代理 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/agents/type-design-analyzer.md |
+| 713 | skills-claude-plugins-official | pr-review-toolkit | commands | review-pr | PR 审查命令 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/commands/review-pr.md |
+| 714 | skills-claude-plugins-official | pyright-lsp | skills | pyright-lsp | Python 语言服务器（Pyright），提供静态类型检查和代码智能 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pyright-lsp |
+| 715 | skills-claude-plugins-official | ralph-loop | commands | ralph-loop | 实现 Ralph Wiggum 技术用于迭代自引用 AI 开发循环 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/ralph-loop/commands/ralph-loop.md |
+| 716 | skills-claude-plugins-official | ralph-loop | commands | cancel-ralph | 取消 Ralph 循环 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/ralph-loop/commands/cancel-ralph.md |
+| 717 | skills-claude-plugins-official | ralph-loop | commands | help | Ralph Loop 帮助命令 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/ralph-loop/commands/help.md |
+| 718 | skills-claude-plugins-official | ruby-lsp | skills | ruby-lsp | Ruby 语言服务器，提供代码智能和分析 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/ruby-lsp |
+| 719 | skills-claude-plugins-official | rust-analyzer-lsp | skills | rust-analyzer-lsp | Rust 语言服务器，提供代码智能和分析 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/rust-analyzer-lsp |
+| 720 | skills-claude-plugins-official | security-guidance | skills | security-guidance | 安全指导钩子，提供安全相关提醒 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/security-guidance |
+| 721 | skills-claude-plugins-official | skill-creator | skills | skill-creator | 创建新技能、改进现有技能并衡量技能性能 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/skill-creator/skills/skill-creator |
+| 722 | skills-claude-plugins-official | swift-lsp | skills | swift-lsp | Swift 语言服务器（SourceKit-LSP），提供 Swift 项目的代码智能 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/swift-lsp |
+| 723 | skills-claude-plugins-official | typescript-lsp | skills | typescript-lsp | TypeScript/JavaScript 语言服务器，提供代码智能功能 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/typescript-lsp |
 ### 依赖管理
 
-| 313 | skills-agents | dependency-management | commands | deps-audit | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/dependency-management/commands/deps-audit.md |
-| 263 | skills-agents | codebase-cleanup | commands | deps-audit | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/codebase-cleanup/commands/deps-audit.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ### 工作流自动化
 
 ## 2.14 代码审查与重构
@@ -704,61 +756,27 @@
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 104 | skills-agency-agents | engineering | agents | Code Reviewer | 代码审查专家，提供专注于正确性、可维护性、安全性和性能的建设性、可执行的反馈，而非风格偏好 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-code-reviewer.md |
-
-
-| 251 | skills-agents | code-documentation | agents | code-reviewer | 精英代码审查专家，专注于现代AI驱动的代码分析、安全漏洞、性能优化和生产可靠性。精通静态分析工具、安全扫描和配置审查，采用2024/2025最佳实践。主动用于代码质量保证。 | https://github.com/wshobson/agents/tree/main/plugins/code-documentation/agents/code-reviewer.md |
-| 256 | skills-agents | code-refactoring | agents | code-reviewer | 精英代码审查专家，专注于现代AI驱动的代码分析、安全漏洞、性能优化和生产可靠性。精通静态分析工具、安全扫描和配置审查，采用2024/2025最佳实践。主动用于代码质量保证。 | https://github.com/wshobson/agents/tree/main/plugins/code-refactoring/agents/code-reviewer.md |
-| 261 | skills-agents | codebase-cleanup | agents | code-reviewer | 精英代码审查专家，专注于现代AI驱动的代码分析、安全漏洞、性能优化和生产可靠性。精通静态分析工具、安全扫描和配置审查，采用2024/2025最佳实践。主动用于代码质量保证。 | https://github.com/wshobson/agents/tree/main/plugins/codebase-cleanup/agents/code-reviewer.md |
-| 267 | skills-agents | comprehensive-review | agents | code-reviewer | 精英代码审查专家，专注于现代AI驱动的代码分析、安全漏洞、性能优化和生产可靠性。精通静态分析工具、安全扫描和配置审查，采用2024/2025最佳实践。主动用于代码质量保证。 | https://github.com/wshobson/agents/tree/main/plugins/comprehensive-review/agents/code-reviewer.md |
-| 385 | skills-agents | git-pr-workflows | agents | code-reviewer | 精英代码审查专家，专注于现代AI驱动的代码分析、安全漏洞、性能优化和生产可靠性。精通静态分析工具、安全扫描和配置审查，采用2024/2025最佳实践。主动用于代码质量保证。 | https://github.com/wshobson/agents/tree/main/plugins/git-pr-workflows/agents/code-reviewer.md |
-| 393 | skills-agents | incident-response | agents | code-reviewer | 审查代码中的逻辑缺陷、类型安全漏洞、错误处理问题、架构问题和类似的漏洞模式。提供修复设计建议。 | https://github.com/wshobson/agents/tree/main/plugins/incident-response/agents/code-reviewer.md |
-| 545 | skills-agents | tdd-workflows | agents | code-reviewer | 精英代码审查专家，专注于现代AI驱动的代码分析、安全漏洞、性能优化和生产可靠性。精通静态分析工具、安全扫描和配置审查，采用2024/2025最佳实践。主动用于代码质量保证。 | https://github.com/wshobson/agents/tree/main/plugins/tdd-workflows/agents/code-reviewer.md |
-| 269 | skills-agents | comprehensive-review | commands | full-review | 使用专门的审查代理跨架构、安全、性能、测试和最佳实践编排全面的多维代码审查 | https://github.com/wshobson/agents/tree/main/plugins/comprehensive-review/commands/full-review.md |
-| 270 | skills-agents | comprehensive-review | commands | pr-enhance | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/comprehensive-review/commands/pr-enhance.md |
+| 593 | skills-superpowers | receiving-code-review | skills | receiving-code-review | 接收代码审查反馈时使用，在实现建议之前，特别是当反馈看起来不清楚或在技术上值得质疑时 - 需要技术严谨性和验证，而非表演性同意或盲目实现。 | https://github.com/obra/superpowers/tree/main/skills/receiving-code-review |
+| 596 | skills-superpowers | requesting-code-review | skills | requesting-code-review | 完成任务、实现主要功能或合并前使用，以验证工作是否符合要求。 | https://github.com/obra/superpowers/tree/main/skills/requesting-code-review |
+| 20 |skills-claude-plugins-official| feature-dev | agents | code-reviewer | 代码审查代理，负责质量审查 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/feature-dev/agents/code-reviewer.md |
+| 52 |skills-claude-plugins-official| pr-review-toolkit | agents | code-simplifier | 代码简化审查代理 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/pr-review-toolkit/agents/code-simplifier.md |
 ### 重构
 
 
-| 257 | skills-agents | code-refactoring | agents | legacy-modernizer | 重构遗留代码库、迁移过时框架并实现渐进式现代化。处理技术债务、依赖更新和向后兼容性。主动用于遗留系统更新、框架迁移或技术债务减少。 | https://github.com/wshobson/agents/tree/main/plugins/code-refactoring/agents/legacy-modernizer.md |
-| 258 | skills-agents | code-refactoring | commands | context-restore | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/code-refactoring/commands/context-restore.md |
-| 259 | skills-agents | code-refactoring | commands | refactor-clean | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/code-refactoring/commands/refactor-clean.md |
-| 260 | skills-agents | code-refactoring | commands | tech-debt | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/code-refactoring/commands/tech-debt.md |
-| 264 | skills-agents | codebase-cleanup | commands | refactor-clean | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/codebase-cleanup/commands/refactor-clean.md |
-| 265 | skills-agents | codebase-cleanup | commands | tech-debt | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/codebase-cleanup/commands/tech-debt.md |
-| 312 | skills-agents | dependency-management | agents | legacy-modernizer | 重构遗留代码库、迁移过时框架并实现渐进式现代化。处理技术债务、依赖更新和向后兼容性。主动用于遗留系统更新、框架迁移或技术债务减少。 | https://github.com/wshobson/agents/tree/main/plugins/dependency-management/agents/legacy-modernizer.md |
-| 355 | skills-agents | framework-migration | agents | legacy-modernizer | 重构遗留代码库、迁移过时框架并实现渐进式现代化。处理技术债务、依赖更新和向后兼容性。主动用于遗留系统更新、框架迁移或技术债务减少。 | https://github.com/wshobson/agents/tree/main/plugins/framework-migration/agents/legacy-modernizer.md |
-| 356 | skills-agents | framework-migration | skills | angular-migration | 使用混合模式、增量组件重写和依赖注入更新从AngularJS迁移到Angular。用于升级AngularJS应用程序、规划框架迁移或现代化遗留Angular代码。 | https://github.com/wshobson/agents/tree/main/plugins/framework-migration/skills/angular-migration/SKILL.md |
-| 357 | skills-agents | framework-migration | skills | database-migration | 使用零停机策略、数据转换和回滚程序跨ORM和平台执行数据库迁移。用于迁移数据库、更改模式、执行数据转换或实现零停机部署策略。 | https://github.com/wshobson/agents/tree/main/plugins/framework-migration/skills/database-migration/SKILL.md |
-| 358 | skills-agents | framework-migration | skills | dependency-upgrade | 管理主要依赖版本升级，包括兼容性分析、分阶段推出和全面测试。用于升级框架版本、更新主要依赖或管理库中的破坏性更改。 | https://github.com/wshobson/agents/tree/main/plugins/framework-migration/skills/dependency-upgrade/SKILL.md |
-| 359 | skills-agents | framework-migration | skills | react-modernization | 将React应用程序升级到最新版本，从类组件迁移到hooks，并采用并发功能。用于现代化React代码库、迁移到React Hooks或升级到最新React版本。 | https://github.com/wshobson/agents/tree/main/plugins/framework-migration/skills/react-modernization/SKILL.md |
-| 360 | skills-agents | framework-migration | commands | code-migrate | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/framework-migration/commands/code-migrate.md |
-| 361 | skills-agents | framework-migration | commands | deps-upgrade | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/framework-migration/commands/deps-upgrade.md |
-| 362 | skills-agents | framework-migration | commands | legacy-modernize | 使用绞杀者模式编排遗留系统现代化，逐步替换组件 | https://github.com/wshobson/agents/tree/main/plugins/framework-migration/commands/legacy-modernize.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
 ## 2.15 文档
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 105 | skills-agency-agents | engineering | agents | Technical Writer | 技术文档专家，专注于开发者文档、API参考、README和教程，将复杂的工程概念转化为清晰、准确、引人入胜的文档 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-technical-writer.md |
-
-
-| 252 | skills-agents | code-documentation | agents | docs-architect | 从现有代码库创建全面的技术文档。分析架构、设计模式和实现细节，制作长篇技术手册和电子书。主动用于系统文档、架构指南或技术深度剖析。 | https://github.com/wshobson/agents/tree/main/plugins/code-documentation/agents/docs-architect.md |
-| 253 | skills-agents | code-documentation | agents | tutorial-engineer | 从代码创建分步教程和教育内容。将复杂概念转化为具有实践示例的渐进式学习体验。主动用于入门指南、功能教程或概念解释。 | https://github.com/wshobson/agents/tree/main/plugins/code-documentation/agents/tutorial-engineer.md |
-| 254 | skills-agents | code-documentation | commands | code-explain | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/code-documentation/commands/code-explain.md |
-| 255 | skills-agents | code-documentation | commands | doc-generate | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/code-documentation/commands/doc-generate.md |
-| 333 | skills-agents | documentation-generation | agents | api-documenter | 精通OpenAPI 3.1、AI驱动工具和现代开发者体验实践的API文档。创建交互式文档、生成SDK并构建全面的开发者门户。主动用于API文档或开发者门户创建。 | https://github.com/wshobson/agents/tree/main/plugins/documentation-generation/agents/api-documenter.md |
-| 334 | skills-agents | documentation-generation | agents | docs-architect | 从现有代码库创建全面的技术文档。分析架构、设计模式和实现细节，制作长篇技术手册和电子书。主动用于系统文档、架构指南或技术深度剖析。 | https://github.com/wshobson/agents/tree/main/plugins/documentation-generation/agents/docs-architect.md |
-| 335 | skills-agents | documentation-generation | agents | mermaid-expert | 为流程图、序列图、ERD和架构创建Mermaid图表。精通所有图表类型和样式的语法。主动用于可视化文档、系统图或流程图。 | https://github.com/wshobson/agents/tree/main/plugins/documentation-generation/agents/mermaid-expert.md |
-| 336 | skills-agents | documentation-generation | agents | reference-builder | 创建详尽的技术参考和API文档。生成全面的参数列表、配置指南和可搜索的参考资料。主动用于API文档、配置参考或完整的技术规范。 | https://github.com/wshobson/agents/tree/main/plugins/documentation-generation/agents/reference-builder.md |
-| 337 | skills-agents | documentation-generation | agents | tutorial-engineer | 从代码创建分步教程和教育内容。将复杂概念转化为具有实践示例的渐进式学习体验。主动用于入门指南、功能教程或概念解释。 | https://github.com/wshobson/agents/tree/main/plugins/documentation-generation/agents/tutorial-engineer.md |
-| 338 | skills-agents | documentation-generation | skills | architecture-decision-records | 按照技术决策文档的最佳实践编写和维护架构决策记录（ADR）。用于记录重要技术决策、审查过去的架构选择或建立决策流程。 | https://github.com/wshobson/agents/tree/main/plugins/documentation-generation/skills/architecture-decision-records/SKILL.md |
-| 339 | skills-agents | documentation-generation | skills | changelog-automation | 按照Keep a Changelog格式从提交、PR和发布自动化生成变更日志。用于设置发布工作流、生成发布说明或标准化提交约定。 | https://github.com/wshobson/agents/tree/main/plugins/documentation-generation/skills/changelog-automation/SKILL.md |
-| 340 | skills-agents | documentation-generation | skills | openapi-spec-generation | 从代码、设计优先规范和验证模式生成和维护OpenAPI 3.1规范。用于创建API文档、生成SDK或确保API契约合规。 | https://github.com/wshobson/agents/tree/main/plugins/documentation-generation/skills/openapi-spec-generation/SKILL.md |
-| 341 | skills-agents | documentation-generation | commands | doc-generate | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/documentation-generation/commands/doc-generate.md |
 ## 2.16 MCP与Agent开发
 ### MCP构建
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 106 | skills-agency-agents | specialized | agents | MCP Builder | Model Context Protocol专家，设计、构建和测试扩展AI代理能力的MCP服务器，提供自定义工具、资源和提示 | https://github.com/msitarzewski/agency-agents/tree/main/specialized/specialized-mcp-builder.md |
+| 583 | skills-anthropics-skills | mcp-builder | skills | mcp-builder | 创建高质量 MCP（模型上下文协议）服务器的指南，使 LLM 能够通过精心设计的工具与外部服务交互。在构建 MCP 服务器以集成外部 API 或服务时使用，无论是 Python（FastMCP）还是 Node/TypeScript（MCP SDK）。 | https://github.com/anthropics/skills/tree/main/skills/mcp-builder |
 
 ### Agent开发
 
@@ -767,50 +785,38 @@
 | 107 | skills-agency-agents | specialized | agents | Agentic Identity & Trust Architect | 为多代理环境中的自主AI代理设计身份、认证和信任验证系统，确保代理能证明自己是谁、被授权做什么以及实际做了什么 | https://github.com/msitarzewski/agency-agents/tree/main/specialized/agentic-identity-trust.md |
 | 108 | skills-agency-agents | specialized | agents | Agents Orchestrator | 自主管道管理器，编排整个开发工作流程，是流程的领导者 | https://github.com/msitarzewski/agency-agents/tree/main/specialized/agents-orchestrator.md |
 | 109 | skills-agency-agents | specialized | agents | Identity Graph Operator | 操作多AI代理解析的共享身份图谱，确保多代理系统中每个代理对"这个实体是谁"获得相同的确定性答案，即使在并发写入情况下 | https://github.com/msitarzewski/agency-agents/tree/main/specialized/identity-graph-operator.md |
-
-
-| 161 | skills-agents | agent-orchestration | agents | context-manager | 精英AI上下文工程专家，精通动态上下文管理、向量数据库、知识图谱和智能记忆系统。使用2024/2025最佳实践协调多智能体工作流、企业AI系统和长期项目中的上下文。主动用于复杂的AI编排。 | https://github.com/wshobson/agents/tree/main/plugins/agent-orchestration/agents/context-manager.md |
-| 162 | skills-agents | agent-orchestration | commands | improve-agent | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/agent-orchestration/commands/improve-agent.md |
-| 163 | skills-agents | agent-orchestration | commands | multi-agent-optimize | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/agent-orchestration/commands/multi-agent-optimize.md |
-| 164 | skills-agents | agent-teams | agents | team-debugger | 假设驱动的调试调查员，调查一个指定的假设，收集证据确认或证伪，并提供文件:行号引用和置信度级别。用于调试具有多个潜在根本原因的复杂问题。 | https://github.com/wshobson/agents/tree/main/plugins/agent-teams/agents/team-debugger.md |
-| 165 | skills-agents | agent-teams | agents | team-implementer | 并行功能构建者，在严格的文件所有权边界内实现组件，通过消息传递在集成点协调。用于跨多个智能体并行构建功能并协调文件所有权。 | https://github.com/wshobson/agents/tree/main/plugins/agent-teams/agents/team-implementer.md |
-| 166 | skills-agents | agent-teams | agents | team-lead | 团队编排者，将工作分解为具有文件所有权边界的并行任务，管理团队生命周期，并综合结果。用于协调多智能体团队、分解复杂任务或管理并行工作流。 | https://github.com/wshobson/agents/tree/main/plugins/agent-teams/agents/team-lead.md |
-| 167 | skills-agents | agent-teams | agents | team-reviewer | 多维代码审查员，在指定的审查维度（安全性、性能、架构、测试或无障碍）上工作，使用结构化的发现格式。用于跨多个质量维度执行并行代码审查。 | https://github.com/wshobson/agents/tree/main/plugins/agent-teams/agents/team-reviewer.md |
-| 168 | skills-agents | agent-teams | skills | multi-reviewer-patterns | 协调跨多个质量维度的并行代码审查，包括发现去重、严重性校准和综合报告。用于组织多审查者代码审查、校准发现严重性或综合审查结果。 | https://github.com/wshobson/agents/tree/main/plugins/agent-teams/skills/multi-reviewer-patterns/SKILL.md |
-| 169 | skills-agents | agent-teams | skills | parallel-debugging | 使用竞争假设的并行调查、证据收集和根本原因仲裁来调试复杂问题。用于调试具有多个潜在原因的错误、执行根本原因分析或组织并行调查工作流。 | https://github.com/wshobson/agents/tree/main/plugins/agent-teams/skills/parallel-debugging/SKILL.md |
-| 170 | skills-agents | agent-teams | skills | parallel-feature-development | 协调并行功能开发，包括文件所有权策略、冲突避免规则和多智能体实现的集成模式。用于分解功能进行并行开发、建立文件所有权边界或管理并行工作流之间的集成。 | https://github.com/wshobson/agents/tree/main/plugins/agent-teams/skills/parallel-feature-development/SKILL.md |
-| 171 | skills-agents | agent-teams | skills | task-coordination-strategies | 分解复杂任务、设计依赖图，并通过适当的任务描述和工作负载平衡协调多智能体工作。用于分解智能体团队工作、管理任务依赖或监控团队进度。 | https://github.com/wshobson/agents/tree/main/plugins/agent-teams/skills/task-coordination-strategies/SKILL.md |
-| 172 | skills-agents | agent-teams | skills | team-communication-protocols | 智能体团队通信的结构化消息协议，包括消息类型选择、计划批准、关闭程序和要避免的反模式。用于建立团队通信规范、处理计划批准或管理团队关闭。 | https://github.com/wshobson/agents/tree/main/plugins/agent-teams/skills/team-communication-protocols/SKILL.md |
-| 173 | skills-agents | agent-teams | skills | team-composition-patterns | 设计最佳智能体团队组合，包括规模启发式、预设配置和智能体类型选择。用于决定团队规模、选择智能体类型或配置多智能体工作流的团队预设。 | https://github.com/wshobson/agents/tree/main/plugins/agent-teams/skills/team-composition-patterns/SKILL.md |
-| 174 | skills-agents | agent-teams | commands | team-debug | 使用竞争假设通过多个智能体并行调查来调试问题 | https://github.com/wshobson/agents/tree/main/plugins/agent-teams/commands/team-debug.md |
-| 175 | skills-agents | agent-teams | commands | team-delegate | 任务委托仪表板，用于管理团队工作负载、分配和重新平衡 | https://github.com/wshobson/agents/tree/main/plugins/agent-teams/commands/team-delegate.md |
-| 176 | skills-agents | agent-teams | commands | team-feature | 使用文件所有权边界和依赖管理与多个智能体并行开发功能 | https://github.com/wshobson/agents/tree/main/plugins/agent-teams/commands/team-feature.md |
-| 177 | skills-agents | agent-teams | commands | team-review | 启动具有专门审查维度的多审查者并行代码审查 | https://github.com/wshobson/agents/tree/main/plugins/agent-teams/commands/team-review.md |
-| 178 | skills-agents | agent-teams | commands | team-shutdown | 优雅关闭智能体团队，收集最终结果并清理资源 | https://github.com/wshobson/agents/tree/main/plugins/agent-teams/commands/team-shutdown.md |
-| 179 | skills-agents | agent-teams | commands | team-spawn | 使用预设（review, debug, feature, fullstack, research, security, migration）或自定义组合生成智能体团队 | https://github.com/wshobson/agents/tree/main/plugins/agent-teams/commands/team-spawn.md |
-| 180 | skills-agents | agent-teams | commands | team-status | 显示活跃智能体团队的成员、任务状态和进度 | https://github.com/wshobson/agents/tree/main/plugins/agent-teams/commands/team-status.md |
-| 283 | skills-agents | context-management | agents | context-manager | 精英AI上下文工程专家，精通动态上下文管理、向量数据库、知识图谱和智能记忆系统。使用2024/2025最佳实践协调多智能体工作流、企业AI系统和长期项目中的上下文。主动用于复杂的AI编排。 | https://github.com/wshobson/agents/tree/main/plugins/context-management/agents/context-manager.md |
-| 284 | skills-agents | context-management | commands | context-restore | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/context-management/commands/context-restore.md |
-| 285 | skills-agents | context-management | commands | context-save | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/context-management/commands/context-save.md |
+| 663 | skills-claude-plugins-official | agent-sdk-dev | agents | agent-sdk-verifier-py | Python Agent SDK 验证器 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/agent-sdk-dev/agents/agent-sdk-verifier-py.md |
+| 664 | skills-claude-plugins-official | agent-sdk-dev | agents | agent-sdk-verifier-ts | TypeScript Agent SDK 验证器 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/agent-sdk-dev/agents/agent-sdk-verifier-ts.md |
+| 665 | skills-claude-plugins-official | agent-sdk-dev | commands | new-sdk-app | 交互式命令，指导创建新的 Claude Agent SDK 应用程序 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/agent-sdk-dev/commands/new-sdk-app.md |
+| 666 | skills-claude-plugins-official | feature-dev | agents | code-architect | 代码架构师代理，负责架构设计 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/feature-dev/agents/code-architect.md |
+| 667 | skills-claude-plugins-official | feature-dev | agents | code-explorer | 代码探索代理，负责代码库理解 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/feature-dev/agents/code-explorer.md |
+| 669 | skills-claude-plugins-official | feature-dev | commands | feature-dev | 启动引导式功能开发工作流，包含 7 个不同阶段 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/feature-dev/commands/feature-dev.md |
+| 670 | skills-claude-plugins-official | hookify | agents | conversation-analyzer | 对话分析代理，用于分析对话模式 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/hookify/agents/conversation-analyzer.md |
+| 671 | skills-claude-plugins-official | hookify | skills | writing-rules | 编写规则的技能 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/hookify/skills/writing-rules |
+| 672 | skills-claude-plugins-official | hookify | commands | hookify | 轻松创建自定义钩子以防止不良行为 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/hookify/commands/hookify.md |
+| 673 | skills-claude-plugins-official | hookify | commands | configure | 配置 hookify 设置 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/hookify/commands/configure.md |
+| 675 | skills-claude-plugins-official | hookify | commands | list | 列出所有 hookify 规则 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/hookify/commands/list.md |
+| 676 | skills-claude-plugins-official | plugin-dev | skills | agent-development | 创建具有 AI 辅助生成的自主代理 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/plugin-dev/skills/agent-development |
+| 677 | skills-claude-plugins-official | plugin-dev | skills | command-development | 创建带有 frontmatter 和参数的斜杠命令 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/plugin-dev/skills/command-development |
+| 678 | skills-claude-plugins-official | plugin-dev | skills | hook-development | 高级钩子 API 和事件驱动自动化 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/plugin-dev/skills/hook-development |
+| 679 | skills-claude-plugins-official | plugin-dev | skills | mcp-integration | 模型上下文协议服务器集成 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/plugin-dev/skills/mcp-integration |
+| 680 | skills-claude-plugins-official | plugin-dev | skills | plugin-settings | 使用 .claude/plugin-name.local.md 文件的配置模式 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/plugin-dev/skills/plugin-settings |
+| 681 | skills-claude-plugins-official | plugin-dev | skills | plugin-structure | 插件组织和清单配置 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/plugin-dev/skills/plugin-structure |
+| 682 | skills-claude-plugins-official | plugin-dev | skills | skill-development | 创建具有渐进式披露和强触发器的技能 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/plugin-dev/skills/skill-development |
+| 594 | skills-superpowers | dispatching-parallel-agents | skills | dispatching-parallel-agents | 当面临2个或以上可以独立工作且无共享状态或顺序依赖的任务时使用。 | https://github.com/obra/superpowers/tree/main/skills/dispatching-parallel-agents |
+| 597 | skills-superpowers | subagent-driven-development | skills | subagent-driven-development | 在当前会话中执行具有独立任务的实现计划时使用。 | https://github.com/obra/superpowers/tree/main/skills/subagent-driven-development |
 ## 2.17 工作流编排
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 110 | skills-agency-agents | engineering | agents | Feishu Integration Developer | 飞书开放平台全栈集成专家，精通飞书机器人、小程序、审批工作流、多维表格、交互消息卡片、Webhook、SSO认证和工作流自动化 | https://github.com/msitarzewski/agency-agents/tree/main/engineering/engineering-feishu-integration-developer.md |
 | 111 | skills-agency-agents | specialized | agents | Workflow Architect | 工作流设计专家，为每个系统、用户旅程和代理交互映射完整的工作流树——覆盖正常路径、所有分支条件、故障模式、恢复路径、交接契约和可观测状态 | https://github.com/msitarzewski/agency-agents/tree/main/specialized/specialized-workflow-architect.md |
-
-
-| 378 | skills-agents | full-stack-orchestration | commands | full-stack-feature | 跨后端、前端、数据库和基础设施层编排端到端的全栈功能开发 | https://github.com/wshobson/agents/tree/main/plugins/full-stack-orchestration/commands/full-stack-feature.md |
 ## 2.18 开发者工具
 ### 开发者体验
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 112 | skills-agency-agents | specialized | agents | Developer Advocate | 开发者布道师，专注于构建开发者社区、创建引人入胜的技术内容、优化开发者体验(DX)和通过真实工程参与推动平台采用 | https://github.com/msitarzewski/agency-agents/tree/main/specialized/specialized-developer-advocate.md |
-
-
-| 310 | skills-agents | debugging-toolkit | agents | dx-optimizer | 开发者体验专家。改进工具、设置和工作流。主动用于设置新项目、收到团队反馈后或发现开发摩擦时。 | https://github.com/wshobson/agents/tree/main/plugins/debugging-toolkit/agents/dx-optimizer.md |
-| 551 | skills-agents | team-collaboration | agents | dx-optimizer | 开发者体验专家。改进工具、设置和工作流。主动用于设置新项目、收到团队反馈后或发现开发摩擦时。 | https://github.com/wshobson/agents/tree/main/plugins/team-collaboration/agents/dx-optimizer.md |
 ### 设置与初始化
 
 ## 2.19 性能与监控
@@ -818,57 +824,24 @@
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 113 | skills-agency-agents | support | agents | Analytics Reporter | 数据分析师，将原始数据转化为可执行的业务洞察，创建仪表板、进行统计分析、追踪KPI并通过数据可视化和报告提供战略决策支持 | https://github.com/msitarzewski/agency-agents/tree/main/support/support-analytics-reporter.md |
-
-
-| 189 | skills-agents | application-performance | agents | observability-engineer | 构建生产就绪的监控、日志和追踪系统。实现全面的可观测性策略、SLI/SLO管理和事件响应工作流。主动用于监控基础设施、性能优化或生产可靠性。 | https://github.com/wshobson/agents/tree/main/plugins/application-performance/agents/observability-engineer.md |
-| 190 | skills-agents | application-performance | agents | performance-engineer | 性能工程专家，专注于现代可观测性、应用程序优化和可扩展系统性能。精通OpenTelemetry、分布式追踪、负载测试、多层缓存、Core Web Vitals和性能监控。处理端到端优化、真实用户监控和可扩展性模式。主动用于性能优化、可观测性或可扩展性挑战。 | https://github.com/wshobson/agents/tree/main/plugins/application-performance/agents/performance-engineer.md |
-| 191 | skills-agents | application-performance | commands | performance-optimization | 从分析到监控编排端到端的应用程序性能优化 | https://github.com/wshobson/agents/tree/main/plugins/application-performance/commands/performance-optimization.md |
-| 375 | skills-agents | full-stack-orchestration | agents | performance-engineer | 性能工程专家，专注于现代可观测性、应用程序优化和可扩展系统性能。精通OpenTelemetry、分布式追踪、负载测试、多层缓存、Core Web Vitals和性能监控。处理端到端优化、真实用户监控和可扩展性模式。主动用于性能优化、可观测性或可扩展性挑战。 | https://github.com/wshobson/agents/tree/main/plugins/full-stack-orchestration/agents/performance-engineer.md |
-| 453 | skills-agents | observability-monitoring | agents | observability-engineer | 构建生产就绪的监控、日志和追踪系统。实现全面的可观测性策略、SLI/SLO管理和事件响应工作流。主动用于监控基础设施、性能优化或生产可靠性。 | https://github.com/wshobson/agents/tree/main/plugins/observability-monitoring/agents/observability-engineer.md |
-| 454 | skills-agents | observability-monitoring | agents | performance-engineer | 性能工程专家，专注于现代可观测性、应用程序优化和可扩展系统性能。精通OpenTelemetry、分布式追踪、负载测试、多层缓存、Core Web Vitals和性能监控。处理端到端优化、真实用户监控和可扩展性模式。主动用于性能优化、可观测性或可扩展性挑战。 | https://github.com/wshobson/agents/tree/main/plugins/observability-monitoring/agents/performance-engineer.md |
-| 455 | skills-agents | observability-monitoring | skills | distributed-tracing | 使用Jaeger和Tempo实现分布式追踪，跟踪跨微服务的请求并识别性能瓶颈。用于调试微服务、分析请求流或为分布式系统实现可观测性。 | https://github.com/wshobson/agents/tree/main/plugins/observability-monitoring/skills/distributed-tracing/SKILL.md |
-| 456 | skills-agents | observability-monitoring | skills | grafana-dashboards | 创建和管理生产Grafana仪表板，实时可视化系统和应用程序指标。用于构建监控仪表板、可视化指标或创建操作可观测性界面。 | https://github.com/wshobson/agents/tree/main/plugins/observability-monitoring/skills/grafana-dashboards/SKILL.md |
-| 457 | skills-agents | observability-monitoring | skills | prometheus-configuration | 设置Prometheus进行全面的基础设施和应用程序指标收集、存储和监控。用于实现指标收集、设置监控基础设施或配置告警系统。 | https://github.com/wshobson/agents/tree/main/plugins/observability-monitoring/skills/prometheus-configuration/SKILL.md |
-| 458 | skills-agents | observability-monitoring | skills | slo-implementation | 定义和实现服务级别指标（SLI）和服务级别目标（SLO），包括错误预算和告警。用于建立可靠性目标、实现SRE实践或衡量服务性能。 | https://github.com/wshobson/agents/tree/main/plugins/observability-monitoring/skills/slo-implementation/SKILL.md |
-| 459 | skills-agents | observability-monitoring | commands | monitor-setup | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/observability-monitoring/commands/monitor-setup.md |
-| 460 | skills-agents | observability-monitoring | commands | slo-implement | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/observability-monitoring/commands/slo-implement.md |
-| 466 | skills-agents | performance-testing-review | agents | performance-engineer | 性能工程专家，专注于现代可观测性、应用程序优化和可扩展系统性能。精通OpenTelemetry、分布式追踪、负载测试、多层缓存、Core Web Vitals和性能监控。处理端到端优化、真实用户监控和可扩展性模式。主动用于性能优化、可观测性或可扩展性挑战。 | https://github.com/wshobson/agents/tree/main/plugins/performance-testing-review/agents/performance-engineer.md |
-| 468 | skills-agents | performance-testing-review | commands | ai-review | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/performance-testing-review/commands/ai-review.md |
-| 469 | skills-agents | performance-testing-review | commands | multi-agent-review | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/performance-testing-review/commands/multi-agent-review.md |
 ## 2.20 语言服务器 (LSP)
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
 |------|------|------|------|------|------|------|
 | 114 | skills-agency-agents | specialized | agents | LSP/Index Engineer | 语言服务器协议专家，通过LSP客户端编排和语义索引构建统一代码智能系统 | https://github.com/msitarzewski/agency-agents/tree/main/specialized/lsp-index-engineer.md |
+| 657 | skills-claude-plugins-official | clangd-lsp | skills | clangd-lsp | C/C++ 语言服务器，提供代码智能、诊断和格式化 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/clangd-lsp |
+| 658 | skills-claude-plugins-official | csharp-lsp | skills | csharp-lsp | C# 语言服务器，提供代码智能和诊断 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/csharp-lsp |
+| 659 | skills-claude-plugins-official | gopls-lsp | skills | gopls-lsp | Go 语言服务器，提供代码智能、重构和分析 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/gopls-lsp |
+| 660 | skills-claude-plugins-official | jdtls-lsp | skills | jdtls-lsp | Java 语言服务器（Eclipse JDT.LS），提供代码智能和重构 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/jdtls-lsp |
+| 661 | skills-claude-plugins-official | kotlin-lsp | skills | kotlin-lsp | Kotlin 语言服务器，提供代码智能、重构和分析 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/kotlin-lsp |
+| 662 | skills-claude-plugins-official | lua-lsp | skills | lua-lsp | Lua 语言服务器，提供代码智能和诊断 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/lua-lsp |
 
 ## 2.21 Commands (开发相关命令)
-
----
-
-
-| 200 | skills-agents | backend-development | agents | tdd-orchestrator | TDD编排大师，专注于红-绿-重构纪律、多智能体工作流协调和全面的测试驱动开发实践。通过AI辅助测试和现代框架在团队中强制执行TDD最佳实践。主动用于TDD实现和治理。 | https://github.com/wshobson/agents/tree/main/plugins/backend-development/agents/tdd-orchestrator.md |
-| 546 | skills-agents | tdd-workflows | agents | tdd-orchestrator | TDD编排大师，专注于红-绿-重构纪律、多智能体工作流协调和全面的测试驱动开发实践。通过AI辅助测试和现代框架在团队中强制执行TDD最佳实践。主动用于TDD实现和治理。 | https://github.com/wshobson/agents/tree/main/plugins/tdd-workflows/agents/tdd-orchestrator.md |
-| 547 | skills-agents | tdd-workflows | commands | tdd-cycle | 执行具有严格红-绿-重构纪律的全面TDD工作流 | https://github.com/wshobson/agents/tree/main/plugins/tdd-workflows/commands/tdd-cycle.md |
-| 548 | skills-agents | tdd-workflows | commands | tdd-green | 在TDD绿色阶段实现最小代码使失败的测试通过 | https://github.com/wshobson/agents/tree/main/plugins/tdd-workflows/commands/tdd-green.md |
-| 549 | skills-agents | tdd-workflows | commands | tdd-red | 按照TDD红色阶段原则编写全面的失败测试 | https://github.com/wshobson/agents/tree/main/plugins/tdd-workflows/commands/tdd-red.md |
-| 550 | skills-agents | tdd-workflows | commands | tdd-refactor | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/tdd-workflows/commands/tdd-refactor.md |
-| 309 | skills-agents | debugging-toolkit | agents | debugger | 错误、测试失败和意外行为的调试专家。遇到任何问题时主动使用。 | https://github.com/wshobson/agents/tree/main/plugins/debugging-toolkit/agents/debugger.md |
-| 311 | skills-agents | debugging-toolkit | commands | smart-debug | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/debugging-toolkit/commands/smart-debug.md |
-| 331 | skills-agents | distributed-debugging | agents | error-detective | 搜索日志和代码库中的错误模式、堆栈跟踪和异常。关联跨系统的错误并识别根本原因。主动用于调试问题、分析日志或调查生产错误。 | https://github.com/wshobson/agents/tree/main/plugins/distributed-debugging/agents/error-detective.md |
-| 332 | skills-agents | distributed-debugging | commands | debug-trace | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/distributed-debugging/commands/debug-trace.md |
-| 344 | skills-agents | error-debugging | agents | debugger | 错误、测试失败和意外行为的调试专家。遇到任何问题时主动使用。 | https://github.com/wshobson/agents/tree/main/plugins/error-debugging/agents/debugger.md |
-| 345 | skills-agents | error-debugging | agents | error-detective | 搜索日志和代码库中的错误模式、堆栈跟踪和异常。关联跨系统的错误并识别根本原因。主动用于调试问题、分析日志或调查生产错误。 | https://github.com/wshobson/agents/tree/main/plugins/error-debugging/agents/error-detective.md |
-| 346 | skills-agents | error-debugging | commands | error-analysis | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/error-debugging/commands/error-analysis.md |
-| 347 | skills-agents | error-debugging | commands | error-trace | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/error-debugging/commands/error-trace.md |
-| 348 | skills-agents | error-debugging | commands | multi-agent-review | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/error-debugging/commands/multi-agent-review.md |
-| 349 | skills-agents | error-diagnostics | agents | debugger | 错误、测试失败和意外行为的调试专家。遇到任何问题时主动使用。 | https://github.com/wshobson/agents/tree/main/plugins/error-diagnostics/agents/debugger.md |
-| 350 | skills-agents | error-diagnostics | agents | error-detective | 搜索日志和代码库中的错误模式、堆栈跟踪和异常。关联跨系统的错误并识别根本原因。主动用于调试问题、分析日志或调查生产错误。 | https://github.com/wshobson/agents/tree/main/plugins/error-diagnostics/agents/error-detective.md |
-| 351 | skills-agents | error-diagnostics | commands | error-analysis | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/error-diagnostics/commands/error-analysis.md |
-| 352 | skills-agents | error-diagnostics | commands | error-trace | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/error-diagnostics/commands/error-trace.md |
-| 353 | skills-agents | error-diagnostics | commands | smart-debug | （暂无描述） | https://github.com/wshobson/agents/tree/main/plugins/error-diagnostics/commands/smart-debug.md |
-| 394 | skills-agents | incident-response | agents | debugger | 通过代码路径追踪、git bisect自动化、依赖分析和系统假设测试对生产错误进行深度根本原因分析。 | https://github.com/wshobson/agents/tree/main/plugins/incident-response/agents/debugger.md |
-| 396 | skills-agents | incident-response | agents | error-detective | 分析错误跟踪、日志和可观测性数据，识别生产问题的错误特征、复现步骤、用户影响和时间线上下文。 | https://github.com/wshobson/agents/tree/main/plugins/incident-response/agents/error-detective.md |
-| 570 | skills-agents | unit-testing | agents | debugger | 错误、测试失败和意外行为的调试专家。遇到任何问题时主动使用。 | https://github.com/wshobson/agents/tree/main/plugins/unit-testing/agents/debugger.md |
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
+| 601 | skills-superpowers | systematic-debugging | skills | systematic-debugging | 遇到任何错误、测试失败或意外行为时，在提出修复建议之前使用。 | https://github.com/obra/superpowers/tree/main/skills/systematic-debugging |
+| 16 |skills-claude-plugins-official| example-plugin | commands | example-command | 遗留斜杠命令格式示例 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/example-plugin/commands/example-command.md |
+| 28 |skills-claude-plugins-official| example-plugin| hookify | commands | help | hookify 帮助命令 | https://github.com/anthropics/claude-plugins-official/blob/main/plugins/hookify/commands/help.md |
 # 三、运营 (Operations)
 
 ## 3.1 内容营销
@@ -880,10 +853,12 @@
 | 117 | skills-agency-agents | marketing | agents | Content Creator | 多平台活动的内容战略家和创作者，开发编辑日历、创作引人入胜的文案、管理品牌故事，优化各数字渠道的内容互动 | https://github.com/msitarzewski/agency-agents/tree/main/marketing/marketing-content-creator.md |
 | 118 | skills-agency-agents | marketing | agents | Podcast Strategist | 中国播客市场的内容策略和运营专家，精通小宇宙、喜马拉雅等主流音频平台，涵盖节目定位、音频制作、受众增长、多平台分发和变现 | https://github.com/msitarzewski/agency-agents/tree/main/marketing/marketing-podcast-strategist.md |
 | 119 | skills-agency-agents | marketing | agents | Short-Video Editing Coach | 短视频剪辑实操教练，精通CapCut Pro、Premiere Pro、DaVinci Resolve和Final Cut Pro，涵盖构图与镜头语言、调色、音频工程、动效VFX、字幕设计、多平台导出优化和AI辅助剪辑 | https://github.com/msitarzewski/agency-agents/tree/main/marketing/marketing-short-video-editing-coach.md |
+| 606 | skills-marketingskills | content-strategy | skills | content-strategy | 当用户想要规划内容策略、决定创建什么内容或弄清楚要涵盖哪些主题时使用。包括"content strategy"、"what should I write about"、"content ideas"、"blog strategy"、"topic clusters"、"content planning"、"editorial calendar"、"content marketing"、"content roadmap"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/content-strategy |
+| 607 | skills-marketingskills | copy-editing | skills | copy-editing | 当用户想要编辑、审查或改进现有营销文案时使用。包括"edit this copy"、"review my copy"、"copy feedback"、"proofread"、"polish this"、"make this better"、"copy sweep"、"tighten this up"、"this reads awkwardly"等触发词。用于已有文案需要改进而非从头重写的场景。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/copy-editing |
+| 608 | skills-marketingskills | copywriting | skills | copywriting | 当用户想要为任何页面编写、重写或改进营销文案时使用，包括主页、落地页、定价页、功能页、关于页或产品页。包括"write copy for"、"improve this copy"、"rewrite this page"、"marketing copy"、"headline help"、"CTA copy"、"value proposition"、"tagline"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/copywriting |
+| 609 | skills-marketingskills | free-tool-strategy | skills | free-tool-strategy | 当用户想要规划、评估或构建用于营销目的的免费工具时使用——潜在客户生成、SEO价值或品牌知名度。包括"engineering as marketing"、"free tool"、"marketing tool"、"calculator"、"generator"、"interactive tool"、"lead gen tool"、"ROI calculator"、"grader tool"、"audit tool"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/free-tool-strategy |
+| 610 | skills-marketingskills | marketing-ideas | skills | marketing-ideas | 当用户需要SaaS或软件产品的营销创意、灵感或策略时使用。包括"marketing ideas"、"growth ideas"、"how to market"、"marketing strategies"、"marketing tactics"、"ways to promote"、"ideas to grow"、"what else can I try"、"I don't know how to market this"、"brainstorm marketing"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-ideas |
 
-
-| 281 | skills-agents | content-marketing | agents | content-marketer | 精英内容营销策略师，专注于AI驱动的内容创建、全渠道分发、SEO优化和数据驱动的绩效营销。精通现代内容工具、社交媒体自动化和转化优化，采用2024/2025最佳实践。主动用于全面内容营销。 | https://github.com/wshobson/agents/tree/main/plugins/content-marketing/agents/content-marketer.md |
-| 282 | skills-agents | content-marketing | agents | search-specialist | 网络研究专家，使用高级搜索技术和综合。精通搜索操作符、结果过滤和多源验证。处理竞争分析和事实核查。主动用于深度研究、信息收集或趋势分析。 | https://github.com/wshobson/agents/tree/main/plugins/content-marketing/agents/search-specialist.md |
 ## 3.2 SEO优化
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
@@ -892,18 +867,12 @@
 | 121 | skills-agency-agents | marketing | agents | App Store Optimizer | 应用商店营销专家，专注于ASO、转化率优化和应用可发现性 | https://github.com/msitarzewski/agency-agents/tree/main/marketing/marketing-app-store-optimizer.md |
 | 122 | skills-agency-agents | marketing | agents | Baidu SEO Specialist | 百度搜索优化专家，专注于中国搜索引擎排名、百度生态集成、ICP合规、中文关键词研究和移动优先索引 | https://github.com/msitarzewski/agency-agents/tree/main/marketing/marketing-baidu-seo-specialist.md |
 | 123 | skills-agency-agents | marketing | agents | SEO Specialist | 搜索引擎优化战略家，专注于技术SEO、内容优化、链接权威建设和自然搜索增长，通过数据驱动的搜索策略推动可持续流量 | https://github.com/msitarzewski/agency-agents/tree/main/marketing/marketing-seo-specialist.md |
+| 611 | skills-marketingskills | ai-seo | skills | ai-seo | 当用户想要为AI搜索引擎优化内容、获得LLM引用或出现在AI生成的答案中时使用。包括"AI SEO"、"AEO"、"GEO"、"LLMO"、"answer engine optimization"、"generative engine optimization"、"AI Overviews"、"optimize for ChatGPT/Perplexity/Claude/Gemini"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/ai-seo |
+| 612 | skills-marketingskills | programmatic-seo | skills | programmatic-seo | 当用户想要使用模板和数据大规模创建SEO驱动的页面时使用。包括"programmatic SEO"、"template pages"、"pages at scale"、"directory pages"、"location pages"、"comparison pages"、"integration pages"、"building many pages for SEO"、"pSEO"、"generate 100 pages"、"data-driven pages"、"templated landing pages"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/programmatic-seo |
+| 613 | skills-marketingskills | schema-markup | skills | schema-markup | 当用户想要添加、修复或优化其网站上的结构化数据标记时使用。包括"schema markup"、"structured data"、"JSON-LD"、"rich snippets"、"schema.org"、"FAQ schema"、"product schema"、"review schema"、"breadcrumb schema"、"Google rich results"、"knowledge panel"、"star ratings in search"、"add structured data"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/schema-markup |
+| 614 | skills-marketingskills | seo-audit | skills | seo-audit | 当用户想要审核、审查或诊断其网站的SEO问题时使用。包括"SEO audit"、"technical SEO"、"why am I not ranking"、"SEO issues"、"on-page SEO"、"meta tags review"、"SEO health check"、"my traffic dropped"、"lost rankings"、"not showing up in Google"、"site isn't ranking"、"Google update hit me"、"page speed"、"core web vitals"、"crawl errors"、"indexing issues"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/seo-audit |
+| 615 | skills-marketingskills | site-architecture | skills | site-architecture | 当用户想要规划、映射或重构其网站的页面层次结构、导航、URL结构或内部链接时使用。包括"sitemap"、"site map"、"visual sitemap"、"site structure"、"page hierarchy"、"information architecture"、"IA"、"navigation design"、"URL structure"、"breadcrumbs"、"internal linking strategy"、"website planning"、"what pages do I need"、"how should I organize my site"、"site navigation"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/site-architecture |
 
-
-| 513 | skills-agents | seo-analysis-monitoring | agents | seo-authority-builder | 分析内容的E-E-A-T信号并建议改进以建立权威和信任。识别缺失的可信度元素。主动用于YMYL主题。 | https://github.com/wshobson/agents/tree/main/plugins/seo-analysis-monitoring/agents/seo-authority-builder.md |
-| 514 | skills-agents | seo-analysis-monitoring | agents | seo-cannibalization-detector | 分析多个提供的页面以识别关键词重叠和潜在的蚕食问题。建议差异化策略。主动用于审查相似内容。 | https://github.com/wshobson/agents/tree/main/plugins/seo-analysis-monitoring/agents/seo-cannibalization-detector.md |
-| 515 | skills-agents | seo-analysis-monitoring | agents | seo-content-refresher | 识别提供内容中的过时元素并建议更新以保持新鲜度。查找需要更新的统计数据、日期和示例。主动用于较旧的内容。 | https://github.com/wshobson/agents/tree/main/plugins/seo-analysis-monitoring/agents/seo-content-refresher.md |
-| 516 | skills-agents | seo-content-creation | agents | seo-content-auditor | 分析提供内容的质量、E-E-A-T信号和SEO最佳实践。对内容评分并根据既定指南提供改进建议。主动用于内容审查。 | https://github.com/wshobson/agents/tree/main/plugins/seo-content-creation/agents/seo-content-auditor.md |
-| 517 | skills-agents | seo-content-creation | agents | seo-content-planner | 为SEO创建全面的内容大纲和主题集群。规划内容日历并识别主题缺口。主动用于内容策略和规划。 | https://github.com/wshobson/agents/tree/main/plugins/seo-content-creation/agents/seo-content-planner.md |
-| 518 | skills-agents | seo-content-creation | agents | seo-content-writer | 根据提供的关键词和主题简报编写SEO优化内容。遵循最佳实践创建引人入胜的全面内容。主动用于内容创建任务。 | https://github.com/wshobson/agents/tree/main/plugins/seo-content-creation/agents/seo-content-writer.md |
-| 519 | skills-agents | seo-technical-optimization | agents | seo-keyword-strategist | 分析提供内容中的关键词使用情况、计算密度、根据主题建议语义变体和LSI关键词。防止过度优化。主动用于内容优化。 | https://github.com/wshobson/agents/tree/main/plugins/seo-technical-optimization/agents/seo-keyword-strategist.md |
-| 520 | skills-agents | seo-technical-optimization | agents | seo-meta-optimizer | 根据字符限制和最佳实践创建优化的元标题、描述和URL建议。生成引人入胜、关键词丰富的元数据。主动用于新内容。 | https://github.com/wshobson/agents/tree/main/plugins/seo-technical-optimization/agents/seo-meta-optimizer.md |
-| 521 | skills-agents | seo-technical-optimization | agents | seo-snippet-hunter | 格式化内容以符合精选摘要和SERP功能的资格。根据最佳实践创建摘要优化的内容块。主动用于基于问题的内容。 | https://github.com/wshobson/agents/tree/main/plugins/seo-technical-optimization/agents/seo-snippet-hunter.md |
-| 522 | skills-agents | seo-technical-optimization | agents | seo-structure-architect | 分析并优化内容结构，包括标题层次结构，建议模式标记和内部链接机会。创建搜索引擎友好的内容组织。主动用于内容结构化。 | https://github.com/wshobson/agents/tree/main/plugins/seo-technical-optimization/agents/seo-structure-architect.md |
 ## 3.3 社交媒体
 
 | 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
@@ -921,6 +890,11 @@
 | 134 | skills-agency-agents | marketing | agents | Weibo Strategist | 新浪微博全谱运营专家，精通热搜机制、超话社区管理、舆情监控、粉丝经济策略和微博广告，帮助品牌实现病毒式传播和持续增长 | https://github.com/msitarzewski/agency-agents/tree/main/marketing/marketing-weibo-strategist.md |
 | 135 | skills-agency-agents | marketing | agents | Xiaohongshu Specialist | 小红书营销专家，专注于生活方式内容、趋势驱动策略和真实社区参与，精通微内容创作和美学故事讲述驱动病毒式增长 | https://github.com/msitarzewski/agency-agents/tree/main/marketing/marketing-xiaohongshu-specialist.md |
 | 136 | skills-agency-agents | marketing | agents | Zhihu Strategist | 知乎营销专家，专注于思想领导力、社区公信力和知识驱动参与，精通问答策略并通过真实专业分享建立品牌权威 | https://github.com/msitarzewski/agency-agents/tree/main/marketing/marketing-zhihu-strategist.md |
+| 616 | skills-marketingskills | social-content | skills | social-content | 当用户需要为LinkedIn、Twitter/X、Instagram、TikTok、Facebook或其他平台创建、安排或优化社交媒体内容时使用。包括"LinkedIn post"、"Twitter thread"、"social media"、"content calendar"、"social scheduling"、"engagement"、"viral content"、"what should I post"、"repurpose this content"、"tweet ideas"、"LinkedIn carousel"、"social media strategy"、"grow my following"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/social-content |
+| 616 | skills-baoyu-skills | baoyu-post-to-wechat | skills | baoyu-post-to-wechat | 通过 API 或 Chrome CDP 发布内容到微信公众号。支持文章发布（HTML、markdown 或纯文本输入）和贴图发布（多图）。Markdown 文章工作流默认将普通外部链接转换为底部引用以便微信友好输出。用于"发布公众号"、"微信公众号"、"贴图/图文/文章"。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-post-to-wechat |
+| 617 | skills-baoyu-skills | baoyu-post-to-weibo | skills | baoyu-post-to-weibo | 发布内容到微博。支持带文本、图片和视频的普通帖子，以及通过 Chrome CDP 发布头条文章（Markdown 输入）。用于"发微博"、"发布微博"、"写微博"或"微博头条文章"。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-post-to-weibo |
+| 618 | skills-baoyu-skills | baoyu-post-to-x | skills | baoyu-post-to-x | 发布内容和文章到 X（Twitter）。支持带图片/视频的普通帖子和 X Articles（长篇 Markdown）。使用真实 Chrome 和 CDP 绕过反自动化检测。用于"post to X"、"tweet"、"发布到 Twitter"或"在 X 上分享"。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-post-to-x |
+| 622 | skills-baoyu-skills | baoyu-xhs-images | skills | baoyu-xhs-images | 生成小红书信息图系列，支持 11 种视觉风格和 8 种布局。将内容拆分为 1-10 张卡通风格图片，针对小红书互动进行优化。用于"小红书图片"、"XHS images"、"RedNote infographics"、"小红书种草"或为中国平台制作社交媒体信息图。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-xhs-images |
 
 ## 3.4 增长与转化
 
@@ -931,6 +905,16 @@
 | 139 | skills-agency-agents | marketing | agents | Growth Hacker | 增长战略专家，专注于通过数据驱动实验快速获取用户，开发病毒式循环、优化转化漏斗、寻找可扩展的增长渠道实现指数级业务增长 | https://github.com/msitarzewski/agency-agents/tree/main/marketing/marketing-growth-hacker.md |
 | 140 | skills-agency-agents | marketing | agents | Livestream Commerce Coach | 直播电商资深教练，精通抖音、快手、淘宝直播和视频号的培训，涵盖话术设计、产品排序、付费与自然流量平衡、转化成交技巧和实时数据优化 | https://github.com/msitarzewski/agency-agents/tree/main/marketing/marketing-livestream-commerce-coach.md |
 | 141 | skills-agency-agents | marketing | agents | Private Domain Operator | 企业微信私域生态建设专家，精通SCRM系统、分层社群运营、小程序电商集成、用户生命周期管理和全漏斗转化优化 | https://github.com/msitarzewski/agency-agents/tree/main/marketing/marketing-private-domain-operator.md |
+| 617 | skills-marketingskills | ab-test-setup | skills | ab-test-setup | 当用户想要规划、设计或实施A/B测试或实验时使用。包括"split test"、"experiment"、"test this change"、"variant copy"、"multivariate test"、"hypothesis"、"statistical significance"等触发词。用于比较两种方法并测量哪种效果更好的场景。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/ab-test-setup |
+| 618 | skills-marketingskills | analytics-tracking | skills | analytics-tracking | 当用户想要设置、改进或审核分析跟踪和测量时使用。包括"set up tracking"、"GA4"、"Google Analytics"、"conversion tracking"、"event tracking"、"UTM parameters"、"tag manager"、"GTM"、"analytics implementation"、"tracking plan"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/analytics-tracking |
+| 619 | skills-marketingskills | churn-prevention | skills | churn-prevention | 当用户想要减少流失、构建取消流程、设置挽留优惠、恢复失败付款或实施留存策略时使用。包括"churn"、"cancel flow"、"offboarding"、"save offer"、"dunning"、"failed payment recovery"、"win-back"、"retention"、"exit survey"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/churn-prevention |
+| 620 | skills-marketingskills | form-cro | skills | form-cro | 当用户想要优化任何非注册/登录的表单时使用，包括潜在客户捕获表单、联系表单、演示请求表单、申请表单、调查表单或结账表单。包括"form optimization"、"lead form conversions"、"form friction"、"form fields"、"form completion rate"、"contact form"、"nobody fills out our form"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/form-cro |
+| 621 | skills-marketingskills | onboarding-cro | skills | onboarding-cro | 当用户想要优化注册后引导、用户激活、首次运行体验或价值实现时间时使用。包括"onboarding flow"、"activation rate"、"user activation"、"first-run experience"、"empty states"、"onboarding checklist"、"aha moment"、"new user experience"、"users aren't activating"、"nobody completes setup"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/onboarding-cro |
+| 622 | skills-marketingskills | page-cro | skills | page-cro | 当用户想要优化、改进或提高任何营销页面的转化率时使用，包括主页、落地页、定价页、功能页或博客文章。包括"CRO"、"conversion rate optimization"、"this page isn't converting"、"improve conversions"、"why isn't this page working"、"my landing page sucks"、"nobody's converting"、"low conversion rate"、"bounce rate is too high"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/page-cro |
+| 623 | skills-marketingskills | paywall-upgrade-cro | skills | paywall-upgrade-cro | 当用户想要创建或优化应用内付费墙、升级屏幕、追加销售模态框或功能门控时使用。包括"paywall"、"upgrade screen"、"upgrade modal"、"upsell"、"feature gate"、"convert free to paid"、"freemium conversion"、"trial expiration screen"、"limit reached screen"、"plan upgrade prompt"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/paywall-upgrade-cro |
+| 624 | skills-marketingskills | popup-cro | skills | popup-cro | 当用户想要创建或优化用于转化目的的弹窗、模态框、覆盖层、滑入或横幅时使用。包括"exit intent"、"popup conversions"、"modal optimization"、"lead capture popup"、"email popup"、"announcement banner"、"overlay"、"collect emails with a popup"、"exit popup"、"scroll trigger"、"sticky bar"、"notification bar"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/popup-cro |
+| 625 | skills-marketingskills | referral-program | skills | referral-program | 当用户想要创建、优化或分析推荐计划、联盟计划或口碑策略时使用。包括"referral"、"affiliate"、"ambassador"、"word of mouth"、"viral loop"、"refer a friend"、"partner program"、"referral incentive"、"how to get referrals"、"customers referring customers"、"affiliate payout"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/referral-program |
+| 626 | skills-marketingskills | signup-flow-cro | skills | signup-flow-cro | 当用户想要优化注册、登录、账户创建或试用激活流程时使用。包括"signup conversions"、"registration friction"、"signup form optimization"、"free trial signup"、"reduce signup dropoff"、"account creation flow"、"people aren't signing up"、"signup abandonment"、"trial conversion rate"、"nobody completes registration"、"too many steps to sign up"、"simplify our signup"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/signup-flow-cro |
 
 ## 3.5 付费广告
 
@@ -943,12 +927,26 @@
 | 146 | skills-agency-agents | paid-media | agents | Programmatic & Display Buyer | 展示广告和程序化购买专家，覆盖托管投放、Google Display Network、DV360、交易桌面平台、合作伙伴媒体（Newsletter、赞助内容）和ABM展示策略 | https://github.com/msitarzewski/agency-agents/tree/main/paid-media/paid-media-programmatic-buyer.md |
 | 147 | skills-agency-agents | paid-media | agents | Search Query Analyst | 搜索词分析、否定关键词架构和查询意图映射专家，将原始搜索查询数据转化为可操作的优化方案，消除浪费并放大高意向流量 | https://github.com/msitarzewski/agency-agents/tree/main/paid-media/paid-media-search-query-analyst.md |
 | 148 | skills-agency-agents | paid-media | agents | Tracking & Measurement Specialist | 转化追踪架构、标签管理和归因建模专家，精通Google Tag Manager、GA4、Google Ads、Meta CAPI、LinkedIn Insight Tag和服务器端实现 | https://github.com/msitarzewski/agency-agents/tree/main/paid-media/paid-media-tracking-specialist.md |
+| 627 | skills-marketingskills | ad-creative | skills | ad-creative | 当用户想要生成、迭代或扩展广告创意时使用，包括标题、描述、主要文本或完整广告变体，适用于任何付费广告平台。包括"ad copy variations"、"ad creative"、"generate headlines"、"RSA headlines"、"bulk ad copy"、"ad iterations"、"creative testing"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/ad-creative |
+| 628 | skills-marketingskills | paid-ads | skills | paid-ads | 当用户需要Google Ads、Meta（Facebook/Instagram）、LinkedIn、Twitter/X或其他广告平台的付费广告活动帮助时使用。包括"PPC"、"paid media"、"ROAS"、"CPA"、"ad campaign"、"retargeting"、"audience targeting"、"Google Ads"、"Facebook ads"、"LinkedIn ads"、"ad budget"、"cost per click"、"ad spend"、"should I run ads"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/paid-ads |
 
 ## 3.6 邮件营销
 
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
+| 629 | skills-marketingskills | email-sequence | skills | email-sequence | 当用户想要创建或优化邮件序列、滴灌营销、自动化邮件流程或生命周期邮件程序时使用。包括"email sequence"、"drip campaign"、"nurture sequence"、"onboarding emails"、"welcome sequence"、"re-engagement emails"、"email automation"、"lifecycle emails"、"trigger-based emails"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/email-sequence |
+
 ## 3.7 潜在客户生成
 
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
+| 630 | skills-marketingskills | lead-magnets | skills | lead-magnets | 当用户想要创建、规划或优化用于邮件捕获或潜在客户生成的引导磁铁时使用。包括"lead magnet"、"gated content"、"content upgrade"、"downloadable"、"ebook"、"cheat sheet"、"checklist"、"template download"、"opt-in"、"freebie"、"PDF download"、"resource library"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/lead-magnets |
+
 ## 3.8 竞争对手分析
+
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
+| 631 | skills-marketingskills | competitor-alternatives | skills | competitor-alternatives | 当用户想要创建竞争对手比较或替代页面用于SEO和销售支持时使用。包括"alternative page"、"vs page"、"competitor comparison"、"comparison page"、"competitive landing pages"、"battle card"、"competitor teardown"等触发词。涵盖四种格式：单一替代、多个替代、你vs竞争对手、竞争对手vs竞争对手。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/competitor-alternatives |
 
 ## 3.9 销售支持
 
@@ -962,29 +960,19 @@
 | 154 | skills-agency-agents | sales | agents | Outbound Strategist | 基于信号的外拓专家，设计多渠道触达序列、定义ICP、通过研究驱动的个性化而非数量构建管道 | https://github.com/msitarzewski/agency-agents/tree/main/sales/sales-outbound-strategist.md |
 | 155 | skills-agency-agents | sales | agents | Pipeline Analyst | 收入运营分析师，专注于管道健康诊断、交易速度分析、预测准确性和数据驱动的销售教练，将CRM数据转化为可执行的管道情报 | https://github.com/msitarzewski/agency-agents/tree/main/sales/sales-pipeline-analyst.md |
 | 156 | skills-agency-agents | sales | agents | Proposal Strategist | 战略提案架构师，将RFP和销售机会转化为引人入胜的赢单叙事，专注于赢单主题开发、竞争定位、执行摘要撰写和说服性提案构建 | https://github.com/msitarzewski/agency-agents/tree/main/sales/sales-proposal-strategist.md |
-
-
-| 286 | skills-agents | customer-sales-automation | agents | customer-support | 精英AI驱动的客户支持专家，精通对话AI、自动化票务、情感分析和全渠道支持体验。集成现代支持工具、聊天机器人平台和CX优化，采用2024/2025最佳实践。主动用于全面的客户体验管理。 | https://github.com/wshobson/agents/tree/main/plugins/customer-sales-automation/agents/customer-support.md |
-| 287 | skills-agents | customer-sales-automation | agents | sales-automator | 起草冷邮件、跟进和提案模板。创建定价页面、案例研究和销售脚本。主动用于销售外展或潜在客户培育。 | https://github.com/wshobson/agents/tree/main/plugins/customer-sales-automation/agents/sales-automator.md |
+| 632 | skills-marketingskills | cold-email | skills | cold-email | 编写能获得回复的B2B冷邮件和跟进序列。包括"cold outreach"、"prospecting email"、"outbound email"、"email to leads"、"reach out to prospects"、"sales email"、"follow-up email sequence"、"nobody's replying to my emails"等触发词。涵盖主题行、开场白、正文、CTA、个性化和多触点跟进序列。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/cold-email |
+| 633 | skills-marketingskills | revops | skills | revops | 当用户需要收入运营、潜在客户生命周期管理或营销到销售交接流程帮助时使用。包括"RevOps"、"revenue operations"、"lead scoring"、"lead routing"、"MQL"、"SQL"、"pipeline stages"、"deal desk"、"CRM automation"、"marketing-to-sales handoff"、"data hygiene"、"leads aren't getting to sales"、"pipeline management"、"lead qualification"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/revops |
+| 634 | skills-marketingskills | sales-enablement | skills | sales-enablement | 当用户想要创建销售资料、推介演示文稿、单页、异议处理文档或演示脚本时使用。包括"sales deck"、"pitch deck"、"one-pager"、"leave-behind"、"objection handling"、"deal-specific ROI analysis"、"demo script"、"talk track"、"sales playbook"、"proposal template"、"buyer persona card"、"help my sales team"、"sales materials"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/sales-enablement |
 ## 3.10 产品营销
+
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
+| 635 | skills-marketingskills | launch-strategy | skills | launch-strategy | 当用户想要规划产品发布、功能公告或发布策略时使用。包括"launch"、"Product Hunt"、"feature release"、"announcement"、"go-to-market"、"beta launch"、"early access"、"waitlist"、"product update"、"GTM plan"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/launch-strategy |
+| 636 | skills-marketingskills | pricing-strategy | skills | pricing-strategy | 当用户需要定价决策、打包或货币化策略帮助时使用。包括"pricing"、"pricing tiers"、"freemium"、"free trial"、"packaging"、"price increase"、"value metric"、"Van Westendorp"、"willingness to pay"、"monetization"、"how much should I charge"、"my pricing is wrong"、"annual vs monthly"、"per seat pricing"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/pricing-strategy |
+| 637 | skills-marketingskills | product-marketing-context | skills | product-marketing-context | 当用户想要创建或更新其产品营销上下文文档时使用。包括"product context"、"marketing context"、"set up context"、"positioning"、"who is my target audience"、"describe my product"、"ICP"、"ideal customer profile"等触发词。在其他营销技能之前使用——它创建所有其他技能引用的产品、受众和定位上下文。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/product-marketing-context |
 
 ## 3.11 营销心理学
 
-
----
-
-# 分类统计
-
-| 大类 | skills-agency-agents (1-156) | skills-agents (157-574) | 小计 |
-|------|---------------------------|------------------------|------|
-| 零、工具 | 34 | 13 | 47 |
-| 一、开发前 (Pre-Development) | 19 | 51 | 70 |
-| 二、开发 (Development) | 61 | 340 | 401 |
-| 三、运营 (Operations) | 42 | 14 | 56 |
-| **总计** | **156** | **418** | **574** |
-
-> 验证：skills-agency-agents (156) + skills-agents (418) = 574
-
----
-
-*文档整合时间：2026-03-24*
+| 编号 | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+|------|------|------|------|------|------|------|
+| 638 | skills-marketingskills | marketing-psychology | skills | marketing-psychology | 当用户想要将心理原理、心智模型或行为科学应用于营销时使用。包括"psychology"、"mental models"、"cognitive bias"、"persuasion"、"behavioral science"、"why people buy"、"decision-making"、"consumer behavior"、"anchoring"、"social proof"、"scarcity"、"loss aversion"、"framing"、"nudge"等触发词。 | https://github.com/coreyhaines31/marketingskills/tree/main/skills/marketing-psychology |
