@@ -1,22 +1,3 @@
-
-* 🤍 [msitarzewski/agency-agents，56.2K⭐](https://github.com/msitarzewski/agency-agents)
-* 🤍 [anthropics/skills：官方skills，98.3K⭐](https://github.com/anthropics/skills)
-* 🤍 [antigravity-awesome-skills，26.1K⭐](https://github.com/sickn33/antigravity-awesome-skills)
-* 🤍 [github/awesome-copilot，26.2K⭐](https://github.com/github/awesome-copilot)
-* 🤍 [JimLiu/baoyu-skills，10.9K⭐](https://github.com/JimLiu/baoyu-skills)
-* 🤍 [anthropics/claude-plugins-official，13.3K⭐](https://github.com/anthropics/claude-plugins-official)
-* 🤍 [skills-everything-claude-code，89.5K⭐](https://github.com/affaan-m/everything-claude-code)
-* 🤍 [coreyhaines31/marketingskills：marketing相关](https://github.com/coreyhaines31/marketingskills)
-* 🤍 [pm-skills：生成项目计划](https://github.com/phuryn/pm-skills)
-* 🤍 [VoltAgent/awesome-claude-code-subagents，14.5K⭐](https://github.com/VoltAgent/awesome-claude-code-subagents)
-	| 编号 | 功能 | 类型 | 名称 | 描述 | 链接 |
-* 🤍 [obra/superpowers，101K⭐](https://github.com/obra/superpowers)
-	| 编号 | 功能 | 类型 | 名称 | 描述 | 链接 |
-* 🤍 [wshobson/agents，31.8K⭐](https://github.com/wshobson/agents)
-	| 编号 | 功能 | 类型 | 名称 | 描述 | 路径 |
-
-
-
 # Marketplace
 * https://skillsmp.com
 * https://lobehub.com/zh
@@ -34,6 +15,9 @@
 * ⚪ 21st.dev Magic AI Agent：利用 AI 构建和增强 UI 组件的工具集，创建 UI 组件，搜索 Logo，用现有组件激发灵感，优化 UI 设计
 * 🟢 pencil：前端设计工具，自带设计规范，直接 vscode 装插件
 * ⚪ paper：前端设计工具
+* ⚪ Firecrawl：网络信息爬取，也有搜索相关技能，**收费**
+* ⚪ Brave Search：提供全面的搜索功能，包括网页搜索、本地商家搜索、图片搜索、视频搜索、新闻搜索以及基于 AI 的摘要功能，**收费**
+* ⚪ Tavily MCP：用于高级网页搜索的 Tavily MCP 服务器，提供搜索、提取、映射和爬取工具，支持实时网页搜索和智能数据提取功能，**收费**
 
 # 工具
 * 🟨 [CLI-Anything](https://github.com/HKUDS/CLI-Anything)：把任何有源码的项目封装成mcp
@@ -42,8 +26,18 @@
 	* MCP，Skills 可视化管理
 * 🟩 [AionUi](https://github.com/iOfficeAI/AionUi):操作客户端
 * 🟨 [vibe-kanban](https://github.com/BloopAI/vibe-kanban)：一个用于管理 AI 编码代理的可视化看板。任务按阶段流转——待办 → 进行中 → 审核 → 完成——AI 代理会自动分配并执行任务。
-# 工作流
+* 🟨 [MiroFish](https://github.com/666ghj/MiroFish)：一个简单通用的群体智能引擎，预测任何事情
+
+# 一人公司
 * 🤍 [paperclip，30.3K⭐](https://github.com/paperclipai/paperclip)：如果 OpenClaw 是员工，那么 Paperclip 就是公司。Paperclip 是一个基于 Node.js 服务器和 React 用户界面的框架，用于协调 AI 代理团队来运营业务。您可以自带代理，分配目标，并通过一个控制面板跟踪代理的工作和成本。
+* 🤍 [opc-methodology](https://github.com/easychen/opc-methodology)：一人企业方法论
+* 🤍 [one-person-businesses-methodology](https://github.com/easychen/one-person-businesses-methodology)：一人公司方法论
+* 🤍 [slavingia/skills](https://github.com/slavingia/skills)：Claude Code 的技能基于Sahil Lavingia 的《极简主义企业家》 
+* 🤍 [chinese-independent-developer](https://github.com/1c7/chinese-independent-developer)：这个开源项目收录了上千个中国独立开发者的产品，每日更新，保持内容新鲜度。内容涵盖 AI、工具、小程序、App 等多个领域。
+* 🤍 [1000UserGuide](https://github.com/naxiaoduo/1000UserGuide)：这个开源项目系统性地整理了 300 多个适合产品推广的渠道，帮助开发者解决从 0 到 1 用户获取的难题。
+
+
+# 工作流
 * 💚 [openspec，32.6K⭐](https://github.com/Fission-AI/OpenSpec)：
 * 💚 [oh-my-openagent，41.8K⭐](https://github.com/code-yeongyu/oh-my-openagent)：多agent协作完整的工作流，很牛，但很费token，only for opencode
 * 🤍 [oh-my-claudecode，10.6K⭐](https://github.com/Yeachan-Heo/oh-my-claudecode):claude code超级编排
@@ -63,61 +57,70 @@
 # 零、工具
 
 ## 0.1 学术与研究
-* ☑️[autoresearch](https://github.com/karpathy/autoresearch)：自动跑ai算法训练流程
+| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
+|  | ☑️ |  |  | repo | autoresearch | 自动跑ai算法训练流程 | https://github.com/karpathy/autoresearch |
 ## 0.2 视频与媒体
-* ✅ [emotion-dev/skills/remotion-best-practice](https://skills.sh/remotion-dev/skills/remotion-best-practices)：一句话做3d动画
-* ☑️ [inferen-sh/skills](https://github.com/inference-sh/skills)：多媒体，一个工具生成图片，视频，声音...，**收费**
+| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
+|  | ✅ |  |  | skills | remotion-best-practice | 一句话做3d动画 | https://skills.sh/remotion-dev/skills/remotion-best-practices |
+|  | ☑️ |  |  | repo | inferen-sh/skills | 一句话做3d动多媒体，一个工具生成图片，视频，声音...，**收费** | https://github.com/inference-sh/skills |
 ## 0.3 文档处理
+| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
+|  | ✅ | skills-baoyu-skills | baoyu-format-markdown | skills | baoyu-format-markdown | 对纯文本或 markdown 文件进行格式化，包括前置信息、标题、摘要、标题、粗体、列表和代码块。用于"格式化 markdown"、"美化文章"、"添加格式"或改进文章布局。输出到 {filename}-formatted.md。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-format-markdown |
+|  | ✅ | skills-baoyu-skills | baoyu-markdown-to-html | skills | baoyu-markdown-to-html | 将 Markdown 转换为带样式的 HTML，支持微信兼容主题。支持代码高亮、数学公式、PlantUML、脚注、提示框、信息图以及外部链接的底部引用功能。用于"markdown 转 html"、"md转html"、"微信外链转底部引用"或需要从 markdown 输出带样式的 HTML。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-markdown-to-html |
+|  | ✅ | skills-baoyu-skills | baoyu-url-to-markdown | skills | baoyu-url-to-markdown | 使用 Chrome CDP 获取任意 URL 并转换为 markdown。保存渲染的 HTML 快照和 markdown，使用升级的 Defuddle 流程处理 web 组件和 YouTube 字幕提取，在需要时自动回退到预 Defuddle HTML 转 Markdown 流程。如果本地浏览器捕获完全失败，可以回退到托管的 defuddle.md API。支持自动捕获和等待用户信号两种模式（适用于需要登录的页面）。用于用户想要将网页保存为 markdown。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-url-to-markdown |
+|  | ✅ | skills-antigravity-awesome-skills | defuddle | skills | defuddle | 使用 Defuddle CLI 从网页中提取干净的 Markdown 内容，消除混乱和导航以节省令牌。当用户提供要阅读或分析的 URL 来获取在线文档、文章、博客文章或任何标准网页时，请使用而不是 WebFetch。 | https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/defuddle |
+
 ## 0.4 文本处理
-* ☑️ [baoyu-skills](https://github.com/JimLiu/baoyu-skills)([skills列表](skills_collections/skills-baoyu-skills.md))
-	* ✅ baoyu-format-markdown:格式化纯文本或 Markdown 文件，添加前置内容、标题、摘要、标题、加粗、列表和代码块。用于"格式化 markdown"、"美化文章"、"添加格式"或改进文章布局。输出到 {filename}-formatted.md
-	* ✅ baoyu-markdown-to-html：将 Markdown 转换为带样式的 HTML，支持微信兼容主题（default、grace、simple、modern）。支持代码高亮、数学公式、PlantUML、脚注、提示框、信息图，以及可选的外链底部引用。用于"markdown 转 html"、"转换 md 为 html"、"md转html"、"微信外链转底部引用"或需要从 Markdown 输出带样式的 HTML。
-	* ✅ baoyu-translate：在语言间翻译文章和文档，提供三种模式——快速（直接翻译）、普通（分析后翻译）、精细（分析、翻译、审查、润色）。通过 EXTEND.md 支持自定义术语表和术语一致性。用于"translate"、"翻译"、"精翻"、"translate article"、"translate to Chinese/English"、"改成中文"、"改成英文"或任何文档翻译需求。
-	* ✅ baoyu-url-to-markdown：通过 Chrome CDP 获取任意 URL 并转换为 Markdown。保存渲染后的 HTML 快照和 Markdown，使用升级版 Defuddle 流程（更好的 Web 组件处理和 YouTube 字幕提取），必要时自动回退到旧版 HTML-to-Markdown 流程。支持自动捕获和等待用户信号两种模式。用于将网页保存为 Markdown。
-* ✅ [summarize](https://skills.sh/steipete/clawdis/summarize)：总结
-* ✅ [Humanizer-zh](https://skills.sh/op7418/humanizer-zh/humanizer-zh)：去除文本中人工智能生成的痕迹
+| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
+|  | ✅ | skills-baoyu-skills | baoyu-translate | skills | baoyu-translate | 支持快速（直接）、普通（先分析后翻译）和精细（分析、翻译、审查、润色）三种模式在语言间翻译文章和文档。支持通过 EXTEND.md 自定义术语表和术语一致性。用于翻译、本地化或需要文档翻译。 | https://github.com/JimLiu/baoyu-skills/tree/main/skills/baoyu-translate |
+|  | ✅ |  |  | skills | summarize | 总结 | https://skills.sh/steipete/clawdis/summarize |
+|  | ✅ |  |  | skills | Humanizer-zh | 去除文本中人工智能生成的痕迹 | https://skills.sh/op7418/humanizer-zh/humanizer-zh |
 
 ## 0.5 信息收集记录
-* ☑️ Firecrawl：网络信息爬取，也有搜索相关技能，**收费**
-* ☑️ Brave Search：提供全面的搜索功能，包括网页搜索、本地商家搜索、图片搜索、视频搜索、新闻搜索以及基于 AI 的摘要功能，**收费**
-* ☑️ Tavily MCP：用于高级网页搜索的 Tavily MCP 服务器，提供搜索、提取、映射和爬取工具，支持实时网页搜索和智能数据提取功能，**收费**
-	* ☑️ search：搜索
-	* ☑️ research：深度研究
-	* ☑️ extract：提取页面信息
-	* ☑️ crawl：爬虫
-* ✅ [vercel-labs/agent-browser](https://github.com/vercel-labs/agent-browser):agent操作浏览器
-* ☑️ [lightpanda](https://github.com/lightpanda-io/browser)：轻量化无头浏览器
-* ✅ [multi-search-engine](https://skills.sh/aaaaqwq/claude-code-skills/multi-search-engine)：多引擎搜索
-* ✅ [markdown-converter](https://clawhub.ai/steipete/markdown-converter)：使用 markitdown 将文档和文件转换为 Markdown 格式。适用于将 PDF、Word (.docx)、PowerPoint (.pptx)、Excel (.xlsx、.xls)、HTML、CSV、JSON、XML、图像（带 EXIF/OCR）、音频（带转录）、ZIP 压缩包、YouTube URL 或 EPub 文件转换为 Markdown 格式，以便进行 LLM 处理或文本分析
-* [kepano/obsidian-skills：笔记](https://github.com/kepano/obsidian-skills)
-	* ✅ obsidian-bases：笔记基础
-	* ✅ obsidian-markdown：支持 markdown
-	* ✅ obsidian-cli：可通过命令行交互笔记
-	* ✅ json-canvas：生成知识图谱
-	* ✅ defuddle：从网页中提取信息，生成 md，比 webfetch 好
-* ☑️ [OrbitOS：obsidian的插件](https://github.com/MarsWang42/OrbitOS)
+| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
+|  | ✅ | vercel-labs |  | skills | agent-browser | agent操作浏览器 | https://github.com/vercel-labs/agent-browser |
+|  | ☑️ |  |  | skills | lightpanda | 轻量化无头浏览器 | https://github.com/lightpanda-io/browser |
+|  | ✅ |  |  | skills | multi-search-engine | 多引擎搜索 | https://skills.sh/aaaaqwq/claude-code-skills/multi-search-engine |
+|  | ✅ |  |  | skills | markdown-converter | 使用 markitdown 将文档和文件转换为 Markdown 格式。适用于将 PDF、Word (.docx)、PowerPoint (.pptx)、Excel (.xlsx、.xls)、HTML、CSV、JSON、XML、图像（带 EXIF/OCR）、音频（带转录）、ZIP 压缩包、YouTube URL 或 EPub 文件转换为 Markdown 格式，以便进行 LLM 处理或文本分析 | https://clawhub.ai/steipete/markdown-converter |
+|  | ✅ | skills-antigravity-awesome-skills | obsidian-bases | skills | obsidian-bases | 使用视图、过滤器、公式和摘要创建和编辑 Obsidian Bases（.base 文件）。在处理 .base 文件、创建类似数据库的笔记视图或用户在 Obsidian 中提及 Bases、表视图、卡片视图、过滤器或公式时使用。 | https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/obsidian-bases |
+|  | ✅ | skills-antigravity-awesome-skills | obsidian-cli | skills | obsidian-cli | 使用 Obsidian CLI 读取、创建、搜索和管理保管库内容，或从命令行开发和调试 Obsidian 插件和主题。 | https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/obsidian-cli |
+|  | ✅ | skills-antigravity-awesome-skills | obsidian-markdown | skills | obsidian-markdown | 使用维基链接、嵌入、标注、属性和其他黑曜石特定语法创建和编辑黑曜石风格的 Markdown。在 Obsidian 中处理 .md 文件时，或者当用户提及 wiki 链接、标注、frontmatter、标签、嵌入或 Obsidian 注释时使用。 | https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/obsidian-markdown |
+|  | ✅ | skills-antigravity-awesome-skills | json-canvas | skills | json-canvas | 创建和编辑包含节点、边、组和连接的 JSON Canvas 文件 (.canvas)。在处理 .canvas 文件、创建视觉画布、思维导图、流程图或用户在 Obsidian 中提及 Canvas 文件时使用。 | https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/json-canvas |
+|  | ☑️ |  |  |  | OrbitOS | obsidian的插件 | https://github.com/MarsWang42/OrbitOS |
+
 
 ## 0.6 被动技能
-* ☑️ [claude-mem：claude 长期记忆](https://github.com/thedotmack/claude-mem)
-* ☑️ [Elite Longterm Memory](https://skills.sh/nextfrontierbuilds/elite-longterm-memory/elite-longterm-memory)：适用于 Cursor、Claude、ChatGPT 和 Copilot 的终极 AI 代理记忆系统。支持 WAL 协议、向量搜索、git 笔记和云备份。从此告别上下文丢失。支持 Vibe 编码。
-* ✅ [skill-vetter](https://skills.sh/useai-pro/openclaw-skills-security/skill-vetter)：安全审查
-* ✅ [self-improving-agent](https://skills.sh/charon-fan/agent-playbook/self-improving-agent)：自动进化
-* ✅ [proactive-agent](https://skills.sh/halthelobster/proactive-agent/proactive-agent)：主动执行任务
+| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
+|  | ☑️ |  |  |  | claude-mem | claude 长期记忆 | https://github.com/thedotmack/claude-mem |
+|  | ☑️ |  |  |  | Elite Longterm Memory | 适用于 Cursor、Claude、ChatGPT 和 Copilot 的终极 AI 代理记忆系统。支持 WAL 协议、向量搜索、git 笔记和云备份。从此告别上下文丢失。支持 Vibe 编码 | https://skills.sh/nextfrontierbuilds/elite-longterm-memory/elite-longterm-memory |
+|  | ✅ |  |  |  | skill-vetter | 在用cli新增技能前会进行安全审查 | https://skills.sh/useai-pro/openclaw-skills-security/skill-vetter |
+|  | ✅ |  |  |  | self-improving-agent | 自动进化 | https://skills.sh/charon-fan/agent-playbook/self-improving-agent |
+|  | ✅ |  |  |  | proactive-agent | 主动执行任务 | https://skills.sh/halthelobster/proactive-agent/proactive-agent |
 * 
 ## 0.7 主动技能
-* ✅ [skill-from-masters](https://github.com/gbsoss/skill-from-masters)：新建 skills，网络搜索领域专家的方法论
-* ✅ skill-creator：创建新技能、修改和改进现有技能，以及测量技能性能。当用户想要从零创建技能、更新或优化现有技能、运行评估测试技能、进行技能性能基准测试（带方差分析），或优化技能描述以提高触发准确性时使用
-* ✅ [find_skills](https://skills.sh/vercel-labs/skills/find-skills)：在整个生态系统中，找到你需要的 skills
-* ☑️ [ralph-wiggum](https://skills.sh/fstandhartinger/ralph-wiggum/ralph-wiggum)：循环 vibe coding，oh-my-opencode 自带，claude code 可以装上
-* 
+| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
+|  | ✅ |  |  |  | skill-from-masters | 新建 skills，网络搜索领域专家的方法论 | https://github.com/gbsoss/skill-from-masters |
+|  | ✅ | skills-anthropics-skills | skill-creator | skills | skill-creator | 创建新技能、修改和改进现有技能，并测量技能性能。当用户想要从头创建技能、编辑或优化现有技能、运行评估测试技能、使用方差分析进行技能性能基准测试，或优化技能描述以提高触发准确性时使用。 | https://github.com/anthropics/skills/tree/main/skills/skill-creator |
+|  | ✅ |  |  |  | find_skills | 在整个生态系统中，找到你需要的 skills |  https://skills.sh/vercel-labs/skills/find-skills|
+|  | ☑️ |  |  |  | ralph-wiggum | 循环 vibe coding，oh-my-opencode 自带，claude code 可以装上 | https://skills.sh/fstandhartinger/ralph-wiggum/ralph-wiggum |
+
+
 ## 0.8 私有技能
-* ✅ mi-get-jira-manifest：从jira获取issue对应的版本信息
-* ✅ mi-manifest-download：从jenkins下载manifest.txt，用于下载repo
-* ✅ skill-duplicate-scanner：检测skills安装目录下是否存在功能重复的skill，并给出调整建议
-* 
+| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
+|  | ✅ | 私有 |  |  | mi-get-jira-manifest | 从jira获取issue对应的版本信息 |  |
+|  | ✅ | 私有 |  |  | mi-manifest-download | 从jenkins下载manifest.txt，用于下载repo |  |
+|  | ✅ | 私有 |  |  | skill-duplicate-scanner | 检测skills安装目录下是否存在功能重复的skill，并给出调整建议 |  |
+
 ## 0.9 投资
-* ☑️ [stock-analysis](https://skills.sh/gracefullight/stock-checker/stock-analysis)：利用雅虎财经数据分析股票和加密货币。支持投资组合管理、带提醒的自选股列表、股息分析、八维股票评分、热门趋势检测（热点扫描器）以及传闻/早期信号检测。可用于股票分析、投资组合跟踪、财报反应分析、加密货币监控、热门股票追踪，或在传闻成为主流之前发现它们
-* ☑️ [china-stock-analysis](https://skills.sh/sugarforever/01coder-agent-skills/china-stock-analysis)：基于价值投资理论的中国 A 股分析工具，面向低频交易的普通投资者。
+
 ## 0.10 法律专业
 
 ## 0.11 名人模拟
@@ -133,36 +136,37 @@
 # 一、开发前 (Pre-Development)
 
 ## 1.1 产品管理
-
 ### 产品经理/战略
-* ☑️ [pm-skills：生成项目计划](https://github.com/phuryn/pm-skills)([skills列表](skills_collections/skills-pm-skills.md))
 ### 需求文档 (PRD)
 ### 目标与指标
 ### 功能规划
-
+| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
+|  | ✅ | skills-superpowers | brainstorming | skills | brainstorming | 在任何创建性工作之前必须使用 - 创建功能、构建组件、添加功能或修改行为。在实现之前探索用户意图、需求和设计。 | https://github.com/obra/superpowers/tree/main/skills/brainstorming |
 ## 1.2 项目管理
 
 ## 1.3 用户研究
 
 ## 1.4 市场与竞争研究
-* ☑️ [coreyhaines31/marketingskills：marketing相关](https://github.com/coreyhaines31/marketingskills)([skills列表](vibe_coding/skills_collections/skills-marketingskills.md))
 ## 1.5 UI/UX 设计
 
+
 ### UI设计
-* ☑️ [google-labs-code/stitch-skills：UI设计](https://github.com/google-labs-code/stitch-skills)
-* ☑️ [Impeccable：UI 优化套件](https://github.com/pbakaus/impeccable)
-* ✅ [ui-ux-pro-max-skill：UI 资源](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill)
-* ☑️ [hig-doctor：苹果 ui 设计](https://github.com/raintree-technology/hig-doctor)
-* ☑️ [ui-skills：解决一些特定细节问题](https://github.com/ibelick/ui-skills)
-* ☑️ [taste-skill：提升ui品位](https://github.com/Leonxlnx/taste-skill)
-* ☑️ [better-icons：更好的图标](https://github.com/better-auth/better-icons)
-* ☑️ [ui-design-brain：60 多个界面组件的最佳实践、布局模式和设计系统约定](https://github.com/carmahhawwari/ui-design-brain)
+| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
+|  | ✅ |  |  |  | ui-ux-pro-max-skill | UI 资源 | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill|
+|  | ☑️ |  |  |  | stitch-skills | stitch UI设计 | https://github.com/google-labs-code/stitch-skills |
+|  | ☑️ |  |  |  | Impeccable | UI 优化套件 |  https://github.com/pbakaus/impeccable|
+|  | ☑️ |  |  |  | hig-doctor|苹果 ui 设计|https://github.com/raintree-technology/hig-doctor|
+|  | ☑️ |  |  |  | ui-skills|解决一些特定细节问题|https://github.com/ibelick/ui-skills|
+|  | ☑️ |  |  |  | taste-skill|提升ui品位|https://github.com/Leonxlnx/taste-skill|
+|  | ☑️ |  |  |  | better-icons|更好的图标|https://github.com/better-auth/better-icons|
+|  | ☑️ |  |  |  | ui-design-brain|60 多个界面组件的最佳实践、布局模式和设计系统约定|https://github.com/carmahhawwari/ui-design-brain|
 ### UX设计
 ### 品牌与视觉
 ### 设计工具
 
 ## 1.6 其他开发前技能
-* ✅ brainstorming: **必须在任何创作工作之前使用**——创建功能、构建组件、添加功能或修改行为。在实施前探索用户意图、需求和设计
 ---
 
 # 二、开发 (Development)
@@ -173,24 +177,29 @@
 ### React
 ### Vue
 开发小程序必须用他，后端可以用 NUXT，但是功能比 next.js 或者 FastAPI 要弱一点
-* ☑️ [antfu/skills：Vue/Vite/Nuxt 全家桶](https://github.com/antfu/skills)
-* ☑️ [uni-helper/skills@uni-app ](https://github.com/uni-helper/skills)
+| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
+|  | ✅ | antfu |  |  |skills|Vue/Vite/Nuxt 全家桶|https://github.com/antfu/skills|
+|  | ☑️ | uni-helper |  |  |skills@uni-app| uni-appa开发 |https://github.com/uni-helper/skills|
 ### Angular
 ### Next.js / Nuxt
 前后端一体，适合开发 web 和 app
-* ☑️ [vercel-labs/agent-skills：前端相关](https://github.com/vercel-labs/agent-skills)
-	* ☑️ vercel-react-best-practices：前端最佳实践
-	* ☑️ vercel-composition-patterns：和 vercel-react-best-practices 配套，避免组件臃肿
-	* ☑️ web-design-guidelines:前端设计规范
-	* ☑️ verel-react-native-mobile：前端移动端开发
-* ☑️ [vercel-labs/next-skills：后端相关](https://github.com/vercel-labs/next-skills)
-	* ☑️ next-best-practices：next.js 最佳实现，全栈项目最佳搭档
+| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
+|  | ☑️ | vercel-labs/agent-skills | |  |  vercel-react-best-practices|前端最佳实践|https://github.com/vercel-labs/agent-skills|
+|  | ☑️ | vercel-labs/agent-skills | |  |  vercel-composition-patterns|和 vercel-react-best-practices 配套，避免组件臃肿|https://github.com/vercel-labs/agent-skills|
+|  | ☑️ | vercel-labs/agent-skills | |  |  web-design-guidelines|前端设计规范|https://github.com/vercel-labs/agent-skills|
+|  | ☑️ | vercel-labs/agent-skills | |  |  verel-react-native-mobile|前端移动端开发|https://github.com/vercel-labs/agent-skills|
+|  | ☑️ | vercel-labs/next-skills | |  |  next-best-practices|next.js 最佳实现，全栈项目最佳搭档|https://github.com/vercel-labs/next-skills|
+
 ### 移动端开发
-* 微信云开发只需要开发前端，用 VUE 即可，后端和数据库微信都包了
-	* ☑️ [tencentcloudbase/skills：微信云开发](https://github.com/TencentCloudBase/skills)
-	* ☑️ [CloudBase-MCP](https://github.com/TencentCloudBase/CloudBase-MCP)
-	* ☑️ [cloudbase-skills](https://github.com/TencentCloudBase/cloudbase-skills)
-	* ☑️ [awesome-cloudbase-examples](https://github.com/TencentCloudBase/awesome-cloudbase-examples)
+微信云开发只需要开发前端，用 VUE 即可，后端和数据库微信都包了
+| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
+|  | ☑️ |  |  |  |tencentcloudbase/skills|微信云开发|https://github.com/TencentCloudBase/skills|
+|  | ☑️ |  |  |  |CloudBase-MCP|云开发mcp|https://github.com/TencentCloudBase/CloudBase-MCP|
+|  | ☑️ |  |  |  |cloudbase-skills|云开发skill|https://github.com/TencentCloudBase/cloudbase-skills|
+|  | ☑️ |  |  |  |awesome-cloudbase-examples|云开发案例|https://github.com/TencentCloudBase/awesome-cloudbase-examples|
 
 ## 2.2 后端开发
 
@@ -203,23 +212,30 @@
 
 ### TypeScript/JavaScript
 ### Python
-|skills-everything-claude-code|skill|python-patterns|Pythonic惯用法、PEP 8标准、类型提示，以及构建健壮Python应用的最佳实践|
+| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
+|  |  ☑️ | skills-everything-claude-code | python-patterns | skills | python-patterns | 用于构建健壮、高效和可维护Python应用的Pythonic惯用语、PEP 8标准、类型提示和最佳实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/python-patterns |
 ### Go
 ### Rust
 ### Java
 ### C#/.NET
 ### C/C++
-|skills-everything-claude-code|skill|cpp-coding-standards|基于C++ Core Guidelines的C++编码标准|
+| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
+|  | ☑️ | skills-everything-claude-code | cpp-coding-standards | skills | cpp-coding-standards | 基于C++核心指南（isocpp.github.io）的C++编码标准。在编写、审查或重构C++代码时使用，强制执行现代、安全和惯用的实践 | https://github.com/affaan-m/everything-claude-code/tree/main/skills/cpp-coding-standards |
 ### PHP
 ### Ruby
 ### 其他语言
 ### 通用编码规范
-|skills-antigravity-awesome-skills|skill|bash-scripting|创建生产级shell脚本的Bash脚本工作流，包含防御性模式、错误处理和测试|
+| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
+|  |  ☑️ | skills-antigravity-awesome-skills | bash-scripting | skills | bash-scripting | Bash 脚本工作流程，用于创建具有防御模式、错误处理和测试的生产就绪 shell 脚本。 | https://github.com/sickn33/antigravity-awesome-skills/tree/main/skills/bash-scripting |
 
 ## 2.4 数据库
-* ☑️ [supabase/agent-skills：后端数据库](https://github.com/supabase/agent-skills)
-	* ☑️ supabase-postgres-best-practices：后端数据库开发
-* ☑️ [MongoDB：uni-cloud用的这个](https://clawhub.ai/ivangdavila/mongodb)
+| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
+| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
+|  | ☑️ | supabase/agent-skills | | | supabase-postgres-best-practices |后端数据库开发|https://github.com/supabase/agent-skills|
+|  | ☑️ | supabase/agent-skills | | | MongoDB |后端数据库开发，uni-cloud用的这个|https://clawhub.ai/ivangdavila/mongodb|
 ## 2.5 数据工程
 
 ## 2.6 AI/ML 开发
