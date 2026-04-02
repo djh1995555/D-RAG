@@ -4,18 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "f6bbc1c8b27becba",
+        "id": "9d2d13ab59552c85",
         "type": "tabs",
         "children": [
           {
-            "id": "8132d0e83c7b80e2",
+            "id": "728d85ef26559d7a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vibe_coding/skills_collections/skill-all.md",
+                "file": "vibe_coding/workflow对比.md",
                 "mode": "source",
-                "source": true,
+                "source": false,
                 "backlinks": true,
                 "backlinkOpts": {
                   "collapseAll": false,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "skill-all"
+              "title": "workflow对比"
             }
           }
         ]
@@ -166,13 +166,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vibe_coding/skills_collections/skill-all.md",
+                "file": "vibe_coding/workflow对比.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "skill-all 的大纲"
+              "title": "workflow对比 的大纲"
             }
           },
           {
@@ -200,7 +200,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 354.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,11 +217,15 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "a196b499c6828033",
+  "active": "728d85ef26559d7a",
   "lastOpenFiles": [
-    "vibe_coding/skills_collections/skill-all 1.md",
-    "vibe_coding/skills_collections/skill-all.md",
+    "未命名.md",
+    "vibe_coding/workflow对比.md",
+    "vibe_coding/skills_collections/skills-superpowers.md",
     "vibe_coding/skills_collections.md",
+    "vibe_coding/skills_collections/skills-claude-plugins-official.md",
+    "vibe_coding/skills_collections/skill-all.md",
+    "vibe_coding/skills_collections/skill-all 1.md",
     "vibe_coding/skills_collections/skill-all-topic.md",
     "vibe_coding/skills_collections/skill-all3.md",
     "vibe_coding/skills_collections/skill-all.md.bak",
@@ -234,7 +239,6 @@
     "vibe_coding/skills_collections/sedk9EC63",
     "vibe_coding/skills_collections/sedpj4Sh9",
     "vibe_coding/comparison.md",
-    "未命名.md",
     "vibe_coding/Workflow对比.md",
     "vibe_coding/skills_collections/skill-all-with-category.md",
     "vibe_coding/skills_collections/skill-classification-mapping.md",
@@ -250,8 +254,6 @@
     "vibe_coding/skills_collections/skills-target.md",
     "vibe_coding/skills_collections/skills-skills-template.md",
     "vibe_coding/skills_collections/skills-antigravity-awesome-skills.md",
-    "vibe_coding/skills_collections/skills-awesome-copilot.md",
-    "vibe_coding/skills_collections/skills-claude-plugins-official.md",
-    "vibe_coding/skills_collections/skills-anthropics.md"
+    "vibe_coding/skills_collections/skills-awesome-copilot.md"
   ]
 }
