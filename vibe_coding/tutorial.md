@@ -105,6 +105,7 @@ tools: Read, Glob, Grep
 model: sonnet
 ---
 ```
+
 | Field | Required | Description |
 |-------|----------|-------------|
 | name | Yes | 使用小写字母和连字符的唯一标识符 |
@@ -120,6 +121,7 @@ model: sonnet
 | memory | No | Persistent memory scope：user、project 或 local。启用跨会话学习 |
 | background | No | 设置为 true 以始终将此 subagent 作为 background task 运行。默认值：false |
 | isolation | No | 设置为 worktree 以在临时 git worktree 中运行 subagent，为其提供存储库的隔离副本。如果 subagent 不进行任何更改，worktree 会自动清理 |
+
 - agents功能，和Frontmatter里的description差不多
 - agents设定
 - 具体任务
@@ -165,24 +167,7 @@ model: sonnet
 ## 资源
 ### 图标
 - lucide
-### 组件库
-- [ui：成熟ui库](https://github.com/shadcn-ui/ui)
-- [tailwindcss：成熟ui库](https://github.com/tailwindlabs/tailwindcss)
-- tweakcn：可视化调色板
-- MagicUI：动画组件
-- AceternityUI：特效专家
-- 21 st.dev：shadcn兼容组件库（有mcp）
-### 参考网站
-- [dribbble：都有](https://dribbble.com/shots/popular/mobile)
-- [layers：都有](https://layers.to/explore)
-- [awwwards：都有](https://www.awwwards.com/)
-- [refero：wab和app都有](https://refero.design/apps)
-- [mobbin：移动端](https://mobbin.com/)
-- [ui pocket：移动端](https://www.ui-pocket.com/mobile)
-- [60fps：移动端动效](https://60fps.design/)
-- [landing.love：网页动画](https://www.landing.love/)
-- [godly.website：网页端](https://godly.website/)
-- [即时设计](https://js.design/community?category=explore)
+
 ## 关键点
 ### 布局和结构
 - 网格布局

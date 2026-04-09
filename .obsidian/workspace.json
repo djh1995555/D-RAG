@@ -181,8 +181,8 @@
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "bot",
-              "title": "Claudian"
+              "icon": "lucide-ghost",
+              "title": "claudian-view"
             }
           },
           {
@@ -196,12 +196,11 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
-    "width": 354.5,
-    "collapsed": true
+    "width": 319.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -219,12 +218,20 @@
   },
   "active": "728d85ef26559d7a",
   "lastOpenFiles": [
-    "未命名.md",
-    "vibe_coding/workflow对比.md",
-    "vibe_coding/skills_collections/skills-superpowers.md",
     "vibe_coding/skills_collections.md",
-    "vibe_coding/skills_collections/skills-claude-plugins-official.md",
+    "vibe_coding/workflow对比.md",
+    "vibe_coding/token监控方法.md",
+    "vibe_coding/模型对比.md",
+    "vibe_coding/tutorial.md",
+    "vibe_coding/note.md",
+    "未命名.md",
     "vibe_coding/skills_collections/skill-all.md",
+    "未命名.base",
+    "未命名 1.base",
+    "未命名.canvas",
+    "vibe_coding/project_analysis/city-hunter-game-plan/city-hunter-game-zh.md",
+    "vibe_coding/skills_collections/skills-superpowers.md",
+    "vibe_coding/skills_collections/skills-claude-plugins-official.md",
     "vibe_coding/skills_collections/skill-all 1.md",
     "vibe_coding/skills_collections/skill-all-topic.md",
     "vibe_coding/skills_collections/skill-all3.md",
@@ -236,8 +243,6 @@
     "vibe_coding/skills_collections/sed07tyXe",
     "vibe_coding/skills_collections/sedYGF2wj",
     "vibe_coding/skills_collections/sed7FT2P4",
-    "vibe_coding/skills_collections/sedk9EC63",
-    "vibe_coding/skills_collections/sedpj4Sh9",
     "vibe_coding/comparison.md",
     "vibe_coding/Workflow对比.md",
     "vibe_coding/skills_collections/skill-all-with-category.md",
@@ -246,14 +251,9 @@
     "note/API KEY.md",
     "rack_tool/prd/2026-03-24-rack-tool-refactor-design.md",
     "vibe_coding/reference/technical_stack.md",
-    "vibe_coding/模型对比.md",
     "vibe_coding/skills_collection.md",
     "vibe_coding/skills_collections/skills-template.md",
     "vibe_coding/skills_collections/skills-subagents-catalog.md",
-    "vibe_coding/skills_collections/skills-agency-agents.md",
-    "vibe_coding/skills_collections/skills-target.md",
-    "vibe_coding/skills_collections/skills-skills-template.md",
-    "vibe_coding/skills_collections/skills-antigravity-awesome-skills.md",
-    "vibe_coding/skills_collections/skills-awesome-copilot.md"
+    "vibe_coding/skills_collections/skills-agency-agents.md"
   ]
 }

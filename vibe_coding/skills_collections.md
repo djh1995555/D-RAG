@@ -49,19 +49,6 @@
 ### openclaw 工具
 * ⬜ [OpenClaw-bot-review](https://github.com/xmanrui/OpenClaw-bot-review)：openclaw可视化界面
 
-# 工作流
-* 💚 [oh-my-openagent，41.8K⭐](https://github.com/code-yeongyu/oh-my-openagent)：多agent协作完整的工作流，很牛，但很费token，only for opencode
-* 💚 [openspec，32.6K⭐](https://github.com/Fission-AI/OpenSpec)：通用
-* 🤍 [obra/superpowers，101K⭐](https://github.com/obra/superpowers)([skills列表](skills_collections/skills-superpowers.md))：无协作工作流，只有跟工作流相关的skill，比如只有测试驱动开发skill，但是没有专门前端开发skill
-* 🤍 [gstack，30.8K⭐](https://github.com/garrytan/gstack)：一套多agent协作完整的工作流，for claude code
-* 🤍 [get-shit-done](https://github.com/gsd-build/get-shit-done)
-* 🤍 [oh-my-claudecode，10.6K⭐](https://github.com/Yeachan-Heo/oh-my-claudecode):claude code超级编排
-* 🤍 [SuperClaude_Framework](https://github.com/SuperClaude-Org/SuperClaude_Framework)
-* 🤍 [Claude-Code-Game-Studios](https://github.com/Donchitos/Claude-Code-Game-Studios)
-* 🤍 [compound-engineering-plugin](https://github.com/EveryInc/compound-engineering-plugin)
-* 🤍 [BMAD-METHOD](https://github.com/bmad-code-org/BMAD-METHOD)
-* 🤍 [humanlayer](https://github.com/humanlayer/humanlayer)
-
 
 # 导航库
 * 🤍 [claude-code-templates](https://github.com/davila7/claude-code-templates)
@@ -80,6 +67,24 @@
 * 🤍 [awesome-claude-skills](https://github.com/ComposioHQ/awesome-claude-skills)
 * 🤍 [awesome-openclaw-skills](https://github.com/VoltAgent/awesome-openclaw-skills)
 
+### 组件库
+- [ui：成熟ui库](https://github.com/shadcn-ui/ui)
+- [tailwindcss：成熟ui库](https://github.com/tailwindlabs/tailwindcss)
+- tweakcn：可视化调色板
+- MagicUI：动画组件
+- AceternityUI：特效专家
+- 21 st.dev：shadcn兼容组件库（有mcp）
+### 参考网站
+- [dribbble：都有](https://dribbble.com/shots/popular/mobile)
+- [layers：都有](https://layers.to/explore)
+- [awwwards：都有](https://www.awwwards.com/)
+- [refero：wab和app都有](https://refero.design/apps)
+- [mobbin：移动端](https://mobbin.com/)
+- [ui pocket：移动端](https://www.ui-pocket.com/mobile)
+- [60fps：移动端动效](https://60fps.design/)
+- [landing.love：网页动画](https://www.landing.love/)
+- [godly.website：网页端](https://godly.website/)
+- [即时设计](https://js.design/community?category=explore)
 
 # 零、工具
 ## 0.1 学术与研究
@@ -161,16 +166,17 @@
 |  | ✅ | skills-superpowers | brainstorming | skills | brainstorming | 在任何创建性工作之前必须使用 - 创建功能、构建组件、添加功能或修改行为。在实现之前探索用户意图、需求和设计。 | https://github.com/obra/superpowers/tree/main/skills/brainstorming |
 
 ### 1.3.2 UI / UX 视觉交互设计
-| 编号 | installed | 来源 | 功能 | 类型 | 名称 | 描述 | 路径 |
-| ------ | --- | ------ | ------ | ------ | ------ | ------ | ------ |
-|  | ✅ |  |  |  | ui-ux-pro-max-skill | UI 资源 | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill|
-|  |  |  |  |  | stitch-skills | stitch UI设计 | https://github.com/google-labs-code/stitch-skills |
-|  |  |  |  |  | Impeccable | UI 优化套件 |  https://github.com/pbakaus/impeccable|
-|  |  |  |  |  | hig-doctor|苹果 ui 设计|https://github.com/raintree-technology/hig-doctor|
-|  |  |  |  |  | ui-skills|解决一些特定细节问题|https://github.com/ibelick/ui-skills|
-|  |  |  |  |  | taste-skill|提升ui品位|https://github.com/Leonxlnx/taste-skill|
-|  |  |  |  |  | better-icons|更好的图标|https://github.com/better-auth/better-icons|
-|  |  |  |  |  | ui-design-brain|60 多个界面组件的最佳实践、布局模式和设计系统约定|https://github.com/carmahhawwari/ui-design-brain|
+| 编号  | installed | 来源  | 功能  | 类型  | 名称                  | 描述                         | 路径                                                      |
+| --- | --------- | --- | --- | --- | ------------------- | -------------------------- | ------------------------------------------------------- |
+|     | ✅         |     |     |     | ui-ux-pro-max-skill | UI 资源                      | https://github.com/nextlevelbuilder/ui-ux-pro-max-skill |
+|     |           |     |     |     | stitch-skills       | stitch UI设计                | https://github.com/google-labs-code/stitch-skills       |
+|     |           |     |     |     | Impeccable          | UI 优化套件                    | https://github.com/pbakaus/impeccable                   |
+|     |           |     |     |     | hig-doctor          | 苹果 ui 设计                   | https://github.com/raintree-technology/hig-doctor       |
+|     |           |     |     |     | ui-skills           | 解决一些特定细节问题                 | https://github.com/ibelick/ui-skills                    |
+|     |           |     |     |     | taste-skill         | 提升ui品位                     | https://github.com/Leonxlnx/taste-skill                 |
+|     |           |     |     |     | better-icons        | 更好的图标                      | https://github.com/better-auth/better-icons             |
+|     |           |     |     |     | ui-design-brain     | 60 多个界面组件的最佳实践、布局模式和设计系统约定 | https://github.com/carmahhawwari/ui-design-brain        |
+|     |           |     |     |     | awesome-design-md   | 精选的 DESIGN.md 文件集          | https://github.com/VoltAgent/awesome-design-md          |
 ### 1.3.3 PRD需求文档撰写
 ## 1.4 项目迭代与落地管理
 ### 1.4.1 需求评审与排期
