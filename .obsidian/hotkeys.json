@@ -14,5 +14,13 @@
       ],
       "key": "T"
     }
+  ],
+  "editor:toggle-source": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "O"
+    }
   ]
 }

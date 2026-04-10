@@ -1,5 +1,6 @@
 {
   "readableLineLength": false,
-  "livePreview": true,
-  "promptDelete": false
+  "livePreview": false,
+  "promptDelete": false,
+  "alwaysUpdateLinks": true
 }

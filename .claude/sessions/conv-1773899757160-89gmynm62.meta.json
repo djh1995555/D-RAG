@@ -3,17 +3,17 @@
   "title": "你是谁",
   "titleGenerationStatus": "failed",
   "createdAt": 1773899757162,
-  "updatedAt": 1773899936479,
-  "lastResponseAt": 1773899784444,
+  "updatedAt": 1775713864658,
+  "lastResponseAt": 1775713864657,
   "sessionId": "d59c508f-d4d8-4b5e-9e64-9c08a86dc3c1",
   "sdkSessionId": "d59c508f-d4d8-4b5e-9e64-9c08a86dc3c1",
   "usage": {
     "model": "opus",
-    "inputTokens": 5344,
+    "inputTokens": 0,
     "cacheCreationInputTokens": 0,
     "cacheReadInputTokens": 0,
     "contextWindow": 200000,
-    "contextTokens": 5344,
-    "percentage": 3
+    "contextTokens": 0,
+    "percentage": 0
   }
 }

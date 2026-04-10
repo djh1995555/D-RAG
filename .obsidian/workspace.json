@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "9d2d13ab59552c85",
+        "id": "e466c00c640a737e",
         "type": "tabs",
         "children": [
           {
-            "id": "728d85ef26559d7a",
+            "id": "71eeb8e0f342c71f",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,6 +29,30 @@
               },
               "icon": "lucide-file",
               "title": "workflow对比"
+            }
+          },
+          {
+            "id": "9d7b2821f375d854",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "robot/note.md",
+                "mode": "source",
+                "source": true,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "note"
             }
           }
         ]
@@ -181,8 +205,8 @@
             "state": {
               "type": "claudian-view",
               "state": {},
-              "icon": "lucide-ghost",
-              "title": "claudian-view"
+              "icon": "bot",
+              "title": "Claudian"
             }
           },
           {
@@ -196,11 +220,12 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 319.5
+    "width": 263.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -216,16 +241,37 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "728d85ef26559d7a",
+  "active": "71eeb8e0f342c71f",
   "lastOpenFiles": [
-    "vibe_coding/skills_collections.md",
-    "vibe_coding/workflow对比.md",
     "vibe_coding/token监控方法.md",
-    "vibe_coding/模型对比.md",
+    "vibe_coding/workflow对比.md",
+    "note/API KEY.md",
+    "robot/note.md",
+    "vibe_coding/skills_collections/skill-all.md",
+    "robot/pic/骨架结构.png",
+    "robot/pic/Unconfirmed 738164.crdownload",
+    "robot/pic/运动链.png",
+    "robot/pic/Unconfirmed 972454.crdownload",
+    "robot/pic/连杆参数.png",
+    "robot/pic/Unconfirmed 324565.crdownload",
+    "robot/pic/绕任意轴的旋转.png",
+    "robot/pic",
+    "robot/pic/旋转矩阵.png",
     "vibe_coding/tutorial.md",
+    "vibe_coding/模型对比.md",
+    "vibe_coding/skills_collections.md",
+    "README.md",
+    "robot/note1/Note.md",
+    "robot/note1/picture/image-2.png",
+    "robot/note1",
+    "robot/note1/picture/image.png",
+    "robot/note1/picture/model_classification.jpg",
+    "robot/note1/picture/qpOASES.png",
+    "robot/note1/picture",
+    "robot/note1/picture/image-50.png",
+    "robot",
     "vibe_coding/note.md",
     "未命名.md",
-    "vibe_coding/skills_collections/skill-all.md",
     "未命名.base",
     "未命名 1.base",
     "未命名.canvas",
@@ -236,24 +282,11 @@
     "vibe_coding/skills_collections/skill-all-topic.md",
     "vibe_coding/skills_collections/skill-all3.md",
     "vibe_coding/skills_collections/skill-all.md.bak",
-    "vibe_coding/skills_collections/sed1iUWxP",
-    "vibe_coding/skills_collections/sed3WGZ71",
-    "vibe_coding/skills_collections/sedRq1fzx",
-    "vibe_coding/skills_collections/sedAKQy0d",
-    "vibe_coding/skills_collections/sed07tyXe",
-    "vibe_coding/skills_collections/sedYGF2wj",
-    "vibe_coding/skills_collections/sed7FT2P4",
     "vibe_coding/comparison.md",
     "vibe_coding/Workflow对比.md",
     "vibe_coding/skills_collections/skill-all-with-category.md",
     "vibe_coding/skills_collections/skill-classification-mapping.md",
     "conflict-files-obsidian-git.md",
-    "note/API KEY.md",
-    "rack_tool/prd/2026-03-24-rack-tool-refactor-design.md",
-    "vibe_coding/reference/technical_stack.md",
-    "vibe_coding/skills_collection.md",
-    "vibe_coding/skills_collections/skills-template.md",
-    "vibe_coding/skills_collections/skills-subagents-catalog.md",
-    "vibe_coding/skills_collections/skills-agency-agents.md"
+    "rack_tool/prd/2026-03-24-rack-tool-refactor-design.md"
   ]
 }
