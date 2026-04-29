@@ -1,0 +1,19 @@
+{
+  "id": "conv-1776051867786-b56g4346s",
+  "title": "帮我分析2",
+  "titleGenerationStatus": "failed",
+  "createdAt": 1776051867787,
+  "updatedAt": 1776057854282,
+  "sessionId": "044597bd-7789-4937-8064-ffb2ea7f6970",
+  "sdkSessionId": "044597bd-7789-4937-8064-ffb2ea7f6970",
+  "currentNote": "robot/note.md",
+  "usage": {
+    "model": "opus",
+    "inputTokens": 6987,
+    "cacheCreationInputTokens": 0,
+    "cacheReadInputTokens": 0,
+    "contextWindow": 200000,
+    "contextTokens": 6987,
+    "percentage": 3
+  }
+}
