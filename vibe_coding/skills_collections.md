@@ -49,6 +49,27 @@
 ### openclaw 工具
 * ⬜ [OpenClaw-bot-review](https://github.com/xmanrui/OpenClaw-bot-review)：openclaw可视化界面
 
+# Agent
+- [微信小程序开发人员工程师](https://github.com/msitarzewski/agency-agents/blob/main/engineering/engineering-wechat-mini-program-developer.md)
+- [人工智能工程师](https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/ai-engineer.md)
+- [强化学习工程师](https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/reinforcement-learning-engineer.md)
+- [PyTorch 开发模式](https://github.com/affaan-m/everything-claude-code/blob/main/skills/pytorch-patterns/SKILL.md)
+
+- [人工智能工程师](https://github.com/msitarzewski/agency-agents/blob/main/engineering/engineering-ai-engineer.md)
+- [机器学习工程师](https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/machine-learning-engineer.md)
+- [机器学习工程师](https://github.com/VoltAgent/awesome-claude-code-subagents/blob/main/categories/05-data-ai/ml-engineer.md)
+- [模型质量保证专家](https://github.com/msitarzewski/agency-agents/blob/main/specialized/specialized-model-qa.md)
+- [PyTorch 构建/运行时错误解析器](https://github.com/affaan-m/everything-claude-code/blob/main/agents/pytorch-build-resolver.md)
+# [scientific-agent-skills](https://github.com/K-Dense-AI/scientific-agent-skills)
+- [科学头脑风暴](https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/scientific-skills/scientific-brainstorming/SKILL.md)
+- [论文查找](https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/scientific-skills/paper-lookup/SKILL.md)
+- [bgpt-论文搜索](https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/scientific-skills/bgpt-paper-search/SKILL.md)
+- [PyTorch Lightning](https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/scientific-skills/pytorch-lightning/SKILL.md)
+- [使用 NVIDIA 显卡进行 Python GPU 优化](https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/scientific-skills/optimize-for-gpu/SKILL.md)
+- [研究查询](https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/scientific-skills/research-lookup/SKILL.md)
+- [平行网络搜索](https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/scientific-skills/parallel-web/SKILL.md)
+- [timesfm 预测](https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/scientific-skills/timesfm-forecasting/SKILL.md)
+- [aeon时间序列即机器学习](https://github.com/K-Dense-AI/scientific-agent-skills/blob/main/scientific-skills/aeon/SKILL.md)
 
 # 导航库
 * 🤍 [claude-code-templates](https://github.com/davila7/claude-code-templates)
