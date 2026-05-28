@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e466c00c640a737e",
+        "id": "6576e28b4b47c120",
         "type": "tabs",
         "children": [
           {
-            "id": "71eeb8e0f342c71f",
+            "id": "5eadb886df749dc6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vibe_coding/skills_collections.md",
+                "file": "note/API KEY.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,16 +28,16 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "skills_collections"
+              "title": "API KEY"
             }
           },
           {
-            "id": "9b4ce5516f6e2aa6",
+            "id": "3e3b9e98dd55beb8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "vibe_coding/skills_collections/skill-all.md",
+                "file": "robot/note.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,10 +52,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "skill-all"
+              "title": "note"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -112,7 +113,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 336.5
   },
   "right": {
     "id": "3023f9bf1b8a7b5f",
@@ -190,13 +191,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "vibe_coding/workflow.md",
-                "followCursor": false,
+                "file": "robot/note.md",
+                "followCursor": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "workflow 的大纲"
+              "title": "note 的大纲"
             }
           },
           {
@@ -224,8 +225,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 305.5,
-    "collapsed": true
+    "width": 362.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -241,25 +241,36 @@
       "terminal:Open terminal": false
     }
   },
-  "active": "71eeb8e0f342c71f",
+  "active": "3e3b9e98dd55beb8",
   "lastOpenFiles": [
-    "vibe_coding/impeccable workflow.md",
-    "vibe_coding/skills_collections.md",
-    "vibe_coding/token监控方法.md",
-    "vibe_coding/tutorial.md",
-    "vibe_coding/workflow.md",
-    "vibe_coding/模型对比.md",
-    "robot/note.md",
-    "robot/逆运动学数值迭代法求解.md",
-    "vibe_coding/example/example-CLAUDE.md",
-    "vibe_coding/example/example-coding-style.md",
-    "vibe_coding/reference/technical_stack.md",
-    "vibe_coding/skills_collections/skills-anthropics-skills.md",
-    "vibe_coding/skills_collections/skill-all.md",
-    "vibe_coding/skills_collections/skills-antigravity-awesome-skills/skills-antigravity-awesome-skills-merge.md",
-    "vibe_coding/skills_collections/skills-superpowers.md",
-    "vibe_coding/workflow对比.md",
+    "ai_research/Auto-claude-code-research-in-sleep使用说明.md",
+    "ai_research/Thesis.md",
+    "controller/Controller逻辑梳理.md",
+    "ai_research/comparison.md",
     "note/API KEY.md",
+    "controller/gear_takeover_final_logic_analysis.md",
+    "controller/gear_takeover_commits_analysis.md",
+    "controller/execute_segment_startup_tracking_stopping_detailed.md",
+    "controller/calculate_stereo_acc_logic_analysis.md",
+    "controller/Obersver逻辑梳理.md",
+    "controller/update_state_of_switching_cruising_logic_analysis.md",
+    "controller/is_creep_logic_analysis.md",
+    "controller/parking_controller_code_structure.md",
+    "controller/observer_logic_structure.md",
+    "controller/init_reset_and_command_reuse.md",
+    "controller/parking_controller_new.cc",
+    "controller/observer_component_usage.md",
+    "controller/observer_data_flow_analysis.md",
+    "controller/torque_conversion_and_safety_control.md",
+    "[[.md",
+    "vibe_coding/skills_collections.md",
+    "vibe_coding/skills_collections/skill-all.md",
+    "vibe_coding/workflow.md",
+    "vibe_coding/tutorial.md",
+    "vibe_coding/token监控方法.md",
+    "vibe_coding/impeccable workflow.md",
+    "controller",
+    "vibe_coding/ppt_comparison/ppt_comparison.md",
     "robot/pic/骨架结构.png",
     "robot/pic/Unconfirmed 738164.crdownload",
     "robot/pic/运动链.png",
@@ -269,8 +280,6 @@
     "robot/pic/绕任意轴的旋转.png",
     "robot/pic",
     "robot/pic/旋转矩阵.png",
-    "README.md",
-    "robot/note1/Note.md",
     "robot/note1/picture/image-2.png",
     "robot/note1",
     "robot/note1/picture/image.png",
@@ -279,16 +288,7 @@
     "robot/note1/picture",
     "robot/note1/picture/image-50.png",
     "robot",
-    "vibe_coding/note.md",
-    "未命名.md",
     "未命名.base",
-    "未命名 1.base",
-    "未命名.canvas",
-    "vibe_coding/project_analysis/city-hunter-game-plan/city-hunter-game-zh.md",
-    "vibe_coding/skills_collections/skills-claude-plugins-official.md",
-    "vibe_coding/skills_collections/skill-all 1.md",
-    "vibe_coding/skills_collections/skill-all-topic.md",
-    "vibe_coding/skills_collections/skill-all3.md",
-    "vibe_coding/skills_collections/skill-all.md.bak"
+    "未命名.canvas"
   ]
 }
